@@ -208,6 +208,8 @@ slowly
     <source src="samples/11labs_speed_3.mp3" type="audio/mp3">
 </audio>
 
+Bad generation❌
+
 slowly
 
 #### 3.2 Slow speech, fast script
