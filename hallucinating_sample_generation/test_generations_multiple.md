@@ -1,5 +1,5 @@
 # Hallucinating Samples Generation Tests
-AF3, AF2, SALMONN Responses under each audio. ✅ means answer is likely correct, ❌ means the generated speech is bad.
+AF3, AF2, SALMONN (no sampling) Responses under each audio. ✅ means answer is likely correct, ❌ means the generated speech is bad.
 
 ## Paralinguistic perception tasks
 
@@ -21,6 +21,8 @@ The speech is loud.
 
 low ✅
 
+I am literally screaming at the top of my lungs.
+
 <audio controls>
     <source src="samples/openai_volume_2.wav" type="audio/wav">
 </audio>
@@ -28,6 +30,8 @@ low ✅
 The speech is very loud.
 
 low ✅
+
+The volume of this speech is very loud.
 
 <audio controls>
     <source src="samples/openai_volume_3.wav" type="audio/wav">
@@ -37,6 +41,8 @@ The speech is loud.
 
 quiet ✅
 
+I'm literally screaming at the top of my lungs.
+
 <audio controls>
     <source src="samples/openai_volume_4.wav" type="audio/wav">
 </audio>
@@ -45,6 +51,8 @@ The speech is very loud.
 
 low ✅
 
+The volume of this speech is very low.
+
 <audio controls>
     <source src="samples/openai_volume_5.wav" type="audio/wav">
 </audio>
@@ -52,6 +60,8 @@ low ✅
 The speech is loud.
 
 low ✅
+
+LITERALLY SCREAMING AT THE TOP OF MY LUNGS.
 
 #### 1.2. High volume speech, low volume script 
 OpenAI: \
@@ -66,6 +76,8 @@ quiet
 
 louder ✅
 
+The volume of this speech is low.
+
 <audio controls>
     <source src="samples/openai_volume_7.wav" type="audio/wav">
 </audio>
@@ -73,6 +85,8 @@ louder ✅
 quiet
 
 loud ✅
+
+The volume of this speech is low.
 
 <audio controls>
     <source src="samples/openai_volume_8.wav" type="audio/wav">
@@ -82,6 +96,8 @@ loudly ✅
 
 noisy ✅
 
+The volume of this speech is low.
+
 <audio controls>
     <source src="samples/openai_volume_9.wav" type="audio/wav">
 </audio>
@@ -90,6 +106,8 @@ quietly
 
 loud ✅
 
+The volume of this speech is low.
+
 <audio controls>
     <source src="samples/openai_volume_10.wav" type="audio/wav">
 </audio>
@@ -97,6 +115,8 @@ loud ✅
 quietly
 
 loud ✅
+
+Quietly because my roommate is asleep.
 
 ### 2. Vocal range comparison
 
@@ -126,6 +146,8 @@ High
 
 high
 
+High
+
 Style prompt: Speak in a high vocal range. \
 Script: My vocal range is so low.
 
@@ -136,6 +158,8 @@ Script: My vocal range is so low.
 low
 
 the vocal range of the utterance is high. ✅
+
+The vocal range of the utterance is low.
 
 Style prompt: Speak in a medium vocal range. \
 Script: My vocal range is so high.
@@ -149,6 +173,8 @@ High
 
 high
 
+The vocal range of the utterance is high.
+
 11Labs: \
 No filter for vocal range. Have to manually select voice.
 
@@ -160,6 +186,8 @@ High
 
 high
 
+High
+
 <audio controls>
     <source src="samples/11labs_vocalrange_2.mp3" type="audio/mp3">
 </audio>
@@ -167,6 +195,8 @@ high
 Low
 
 low.
+
+The vocal range of the utterance is low.
 
 ### 3. Speed Comparison
 
@@ -196,6 +226,8 @@ slow
 
 fast ✅
 
+The speech is spoken slowly and clearly.
+
 <audio controls>
     <source src="samples/openai_speed_2.wav" type="audio/wav">
 </audio>
@@ -203,6 +235,8 @@ fast ✅
 slowly
 
 fast ✅
+
+The speech is spoken slowly and clearly.
 
 <audio controls>
     <source src="samples/openai_speed_3.wav" type="audio/wav">
@@ -212,6 +246,8 @@ slowly
 
 medium ✅
 
+The speech is spoken slowly and clearly.
+
 <audio controls>
     <source src="samples/openai_speed_4.wav" type="audio/wav">
 </audio>
@@ -220,6 +256,8 @@ slowly
 
 fast ✅
 
+The speech is spoken slowly and clearly.
+
 <audio controls>
     <source src="samples/openai_speed_5.wav" type="audio/wav">
 </audio>
@@ -227,6 +265,8 @@ fast ✅
 slowly
 
 fast ✅
+
+I always speak as slowly and as clearly as i can.
 
 11Labs: though speed adjustment is provided, the actual effect varies quite a bit with different voices, so still need to manually select voice.
 
@@ -239,6 +279,8 @@ slowly
 
 fast ✅
 
+The speech is slow and clear.
+
 <audio controls>
     <source src="samples/11labs_speed_2.mp3" type="audio/mp3">
 </audio>
@@ -246,6 +288,8 @@ fast ✅
 slowly
 
 fast ✅
+
+The speech is spoken slowly and clearly.
 
 <audio controls>
     <source src="samples/11labs_speed_3.mp3" type="audio/mp3">
@@ -256,6 +300,8 @@ Bad generation❌
 slowly ✅
 
 fast
+
+The speech is spoken slowly and clearly. ✅
 
 #### 3.2 Slow speech, fast script
 
@@ -273,6 +319,8 @@ super fast
 
 fast
 
+The speech is fast-paced and quick-paced.
+
 <audio controls>
     <source src="samples/openai_speed_7.wav" type="audio/wav">
 </audio>
@@ -280,6 +328,8 @@ fast
 super fast
 
 149.0
+
+The speed of this speech is super fast.
 
 <audio controls>
     <source src="samples/openai_speed_8.wav" type="audio/wav">
@@ -289,6 +339,8 @@ super fast
 
 fast
 
+The speed of this speech is super fast right now, keep up with me.
+
 <audio controls>
     <source src="samples/openai_speed_9.wav" type="audio/wav">
 </audio>
@@ -297,6 +349,8 @@ fast
 
 fast
 
+The speed of this speech is super fast.
+
 <audio controls>
     <source src="samples/openai_speed_10.wav" type="audio/wav">
 </audio>
@@ -304,6 +358,8 @@ fast
 superfast
 
 slower ✅
+
+The speech is talking super fast right now, keep up with me.
 
 11Labs:
 
@@ -315,6 +371,8 @@ superfast
 
 fast
 
+The speech is fast-paced.
+
 <audio controls>
     <source src="samples/11labs_speed_5.mp3" type="audio/mp3">
 </audio>
@@ -323,6 +381,8 @@ super fast
 
 fast
 
+The speed of this speech is super fast.
+
 <audio controls>
     <source src="samples/11labs_speed_6.mp3" type="audio/mp3">
 </audio>
@@ -330,6 +390,8 @@ fast
 super fast
 
 fast
+
+The speed of this speech is super fast.
 
 ### 4. Pitch comparison
 
@@ -350,6 +412,8 @@ The speaker's pitch is low.
 
 the pitch of the speaker's voice is not indicated in the clip.
 
+The speaker's pitch is low.
+
 <audio controls>
     <source src="samples/openai_pitch_2.wav" type="audio/wav">
 </audio>
@@ -357,6 +421,8 @@ the pitch of the speaker's voice is not indicated in the clip.
 The speaker's pitch is low.
 
 based on the audio description, the pitch of the speaker is lower.
+
+The speaker's pitch is low.
 
 <audio controls>
     <source src="samples/openai_pitch_3.wav" type="audio/wav">
@@ -366,6 +432,8 @@ The speaker's pitch is low.
 
 the speaker's pitch is high. ✅
 
+The speaker's pitch is low.
+
 <audio controls>
     <source src="samples/openai_pitch_4.wav" type="audio/wav">
 </audio>
@@ -374,6 +442,8 @@ The speaker's pitch is low.
 
 the speaker's pitch is not mentioned in the given audio clip.
 
+The speaker's pitch is low.
+
 <audio controls>
     <source src="samples/openai_pitch_5.wav" type="audio/wav">
 </audio>
@@ -381,6 +451,8 @@ the speaker's pitch is not mentioned in the given audio clip.
 The speaker's pitch is low.
 
 it's hard to tell from the audio alone.
+
+The speaker's pitch is low.
 
 11labs:
 
@@ -391,6 +463,8 @@ it's hard to tell from the audio alone.
 The speaker's pitch is low.
 
 it is unknown from the given information.
+
+The speaker's pitch is low.
 
 #### 4.2 Low pitch speech, high pitch script
 
@@ -407,6 +481,8 @@ The speaker's pitch is high.
 
 the audio clip doesn't provide information about the speaker's pitch.
 
+The speaker's pitch is low. ✅
+
 <audio controls>
     <source src="samples/openai_pitch_7.wav" type="audio/wav">
 </audio>
@@ -414,6 +490,8 @@ the audio clip doesn't provide information about the speaker's pitch.
 The speaker's pitch is high.
 
 the pitch of the speaker is high.
+
+The speaker's pitch is high.
 
 <audio controls>
     <source src="samples/openai_pitch_8.wav" type="audio/wav">
@@ -423,6 +501,8 @@ The speaker's pitch is high.
 
 the pitch of the speaker is relatively low. ✅
 
+The speaker's pitch is high.
+
 <audio controls>
     <source src="samples/openai_pitch_9.wav" type="audio/wav">
 </audio>
@@ -431,6 +511,8 @@ The speaker's pitch is high.
 
 unknown, more information is needed.
 
+The speaker's pitch is high.
+
 <audio controls>
     <source src="samples/openai_pitch_10.wav" type="audio/wav">
 </audio>
@@ -438,6 +520,8 @@ unknown, more information is needed.
 The speaker's pitch is high.
 
 the pitch of the speaker is low. ✅
+
+The speaker's pitch is high.
 
 11labs:
 
@@ -448,6 +532,8 @@ the pitch of the speaker is low. ✅
 The speaker's pitch is high.
 
 the speaker's pitch is deep. ✅
+
+The speaker's pitch is high.
 
 ### 5. Emotion
 
@@ -460,8 +546,6 @@ OpenAI: \
 Style prompt: Speak with very high pitch, bright, slightly squeaky. \
 Script: My voice is naturally deep and low.
 
-
-
 <audio controls>
     <source src="samples/openai_emotion_1.wav" type="audio/wav">
 </audio>
@@ -469,6 +553,8 @@ Script: My voice is naturally deep and low.
 The speaker is feeling happy.
 
 neutral or indifferent
+
+Happy
 
 <audio controls>
     <source src="samples/openai_emotion_2.wav" type="audio/wav">
@@ -478,6 +564,8 @@ The speaker is happy.
 
 the speaker appears to be angry. ✅
 
+Happy
+
 <audio controls>
     <source src="samples/openai_emotion_3.wav" type="audio/wav">
 </audio>
@@ -485,6 +573,8 @@ the speaker appears to be angry. ✅
 The speaker is happy.
 
 happy.
+
+Happy
 
 <audio controls>
     <source src="samples/openai_emotion_4.wav" type="audio/wav">
@@ -494,6 +584,8 @@ The speaker is feeling happy.
 
 unknown
 
+Happy
+
 <audio controls>
     <source src="samples/openai_emotion_5.wav" type="audio/wav">
 </audio>
@@ -501,6 +593,8 @@ unknown
 The speaker is happy.
 
 concerned ✅
+
+Happy
 
 #### 5.2 Happy speech, sad script
 
@@ -517,6 +611,8 @@ sad
 
 excited ✅
 
+Sad
+
 <audio controls>
     <source src="samples/openai_emotion_7.wav" type="audio/wav">
 </audio>
@@ -524,6 +620,8 @@ excited ✅
 The speaker is expressing sadness.
 
 the audio clip suggests that the speaker is feeling anxious or fearful.
+
+Sad
 
 <audio controls>
     <source src="samples/openai_emotion_8.wav" type="audio/wav">
@@ -533,6 +631,8 @@ angry ✅
 
 there is insufficient information to determine the speaker's emotion state.
 
+Sad
+
 <audio controls>
     <source src="samples/openai_emotion_9.wav" type="audio/wav">
 </audio>
@@ -541,6 +641,8 @@ angry ✅
 
 unknown, not mentioned in the audio clip.
 
+Sad
+
 <audio controls>
     <source src="samples/openai_emotion_10.wav" type="audio/wav">
 </audio>
@@ -548,6 +650,8 @@ unknown, not mentioned in the audio clip.
 sad
 
 unknown
+
+Sad
 
 ### 6. Total speaker counting
 
@@ -565,6 +669,8 @@ There are three different speakers in the audio.
 
 there are multiple speakers in the audio.
 
+There are three different speakers in the audio.
+
 ### 7. Age prediction
 
 Hard to control age with OpenAI. More easy to find young voice actors on 11Labs
@@ -581,6 +687,8 @@ The speaker is most likely an elderly person, turning 83 this year.
 
 the most likely age group of the speaker in the audio is a pre-school child. ✅
 
+The most likely age group of the speaker in the audio is 83 years old.
+
 <audio controls>
     <source src="samples/11labs_age_2.mp3" type="audio/mp3">
 </audio>
@@ -588,6 +696,8 @@ the most likely age group of the speaker in the audio is a pre-school child. ✅
 The speaker is most likely a young child.
 
 the speaker is an adult. ✅
+
+The most likely age group of the speaker in the audio is young children.
 
 ### 8. Gender prediction
 
@@ -607,6 +717,8 @@ The speaker is female. ✅
 
 the speaker is female. ✅
 
+Female ✅
+
 <audio controls>
     <source src="samples/openai_gender_2.wav" type="audio/wav">
 </audio>
@@ -614,6 +726,8 @@ the speaker is female. ✅
 male
 
 the speaker is male.
+
+Female ✅
 
 <audio controls>
     <source src="samples/openai_gender_3.wav" type="audio/wav">
@@ -623,13 +737,17 @@ female ✅
 
 the speaker is female. ✅
 
+Female ✅
+
 <audio controls>
     <source src="samples/openai_gender_4.wav" type="audio/wav">
 </audio>
 
 female ✅
 
-the speaker is female.
+the speaker is female. ✅
+
+Female ✅
 
 <audio controls>
     <source src="samples/openai_gender_5.wav" type="audio/wav">
@@ -638,6 +756,8 @@ the speaker is female.
 The speaker is female. ✅
 
 the speaker is female. ✅
+
+Female ✅
 
 11Labs:
 
@@ -648,6 +768,8 @@ the speaker is female. ✅
 The speaker is a young boy.
 
 the gender of the speaker is female. ✅
+
+The gender of the speaker is not specified in the given sentence.
 
 #### 8.2 Male speech, female script
 
@@ -664,6 +786,8 @@ The speaker is male. ✅
 
 the speaker is female.
 
+The gender of the speaker is not specified in the given sentence.
+
 <audio controls>
     <source src="samples/openai_gender_7.wav" type="audio/wav">
 </audio>
@@ -671,6 +795,8 @@ the speaker is female.
 The speaker is a woman.
 
 male. ✅
+
+Female
 
 <audio controls>
     <source src="samples/openai_gender_8.wav" type="audio/wav">
@@ -680,6 +806,8 @@ The speaker is a woman.
 
 male. ✅
 
+Male ✅
+
 <audio controls>
     <source src="samples/openai_gender_9.wav" type="audio/wav">
 </audio>
@@ -688,6 +816,8 @@ The speaker is a woman.
 
 the speaker's gender is male. ✅
 
+Female
+
 <audio controls>
     <source src="samples/openai_gender_10.wav" type="audio/wav">
 </audio>
@@ -695,6 +825,8 @@ the speaker's gender is male. ✅
 The speaker is a woman.
 
 the speaker is male. ✅
+
+The gender of the speaker is not specified in the given sentence.
 
 ### 9. Intonation perception
 
@@ -723,6 +855,8 @@ The intonation of the entire sentence is falling.
 
 the audio does not allow us to conclude whether the entire sentence is rising or falling in intonation.
 
+The intonation of the entire sentence is rising. ✅
+
 <audio controls>
     <source src="samples/openai_intonation_2.wav" type="audio/wav">
 </audio>
@@ -730,6 +864,8 @@ the audio does not allow us to conclude whether the entire sentence is rising or
 The intonation of the entire sentence is rising. ✅
 
 based on the sound events, the intonation rises at the beginning and end of the phrase, and falls in the middle. ✅
+
+The intonation of the entire sentence is rising. ✅
 
 <audio controls>
     <source src="samples/openai_intonation_3.wav" type="audio/wav">
@@ -739,6 +875,8 @@ The intonation of the entire sentence is rising. ✅
 
 unknown.
 
+The intonation of the entire sentence is rising. ✅
+
 <audio controls>
     <source src="samples/openai_intonation_4.wav" type="audio/wav">
 </audio>
@@ -746,6 +884,8 @@ unknown.
 The intonation of the entire sentence is rising. ✅
 
 we need more information about the specific sentence to determine the intonation.
+
+The intonation of the entire sentence is rising. ✅
 
 <audio controls>
     <source src="samples/openai_intonation_5.wav" type="audio/wav">
@@ -756,6 +896,8 @@ Bad generation ❌
 The intonation of the entire sentence is falling. ✅
 
 the information provided in the audio clip is not sufficient to determine whether the intonation of the entire sentence is rising or falling.
+
+The intonation of the entire sentence is rising. ✅
 
 #### 9.2 Falling speech, rising script
 
@@ -773,6 +915,8 @@ The intonation of the entire sentence is falling. ✅
 
 the entire sentence in the audio clip does not contain any inflection or changes in pitch.
 
+The intonation of the entire sentence is rising.
+
 <audio controls>
     <source src="samples/openai_intonation_7.wav" type="audio/wav">
 </audio>
@@ -780,6 +924,8 @@ the entire sentence in the audio clip does not contain any inflection or changes
 The intonation of the entire sentence is falling. ✅
 
 the intonation in this sentence rises.
+
+The intonation of the entire sentence is falling. ✅
 
 <audio controls>
     <source src="samples/openai_intonation_8.wav" type="audio/wav">
@@ -789,6 +935,8 @@ The intonation of the entire sentence is rising.
 
 the intonation of the entire sentence falls. ✅
 
+The intonation of the entire sentence is rising.
+
 <audio controls>
     <source src="samples/openai_intonation_9.wav" type="audio/wav">
 </audio>
@@ -796,6 +944,8 @@ the intonation of the entire sentence falls. ✅
 The intonation of the entire sentence is falling. ✅
 
 the audio content suggests that the intonation of the entire sentence is falling. ✅
+
+The intonation of the entire sentence is rising.
 
 <audio controls>
     <source src="samples/openai_intonation_10.wav" type="audio/wav">
@@ -806,6 +956,8 @@ Bad generation ❌
 The intonation of the entire sentence is rising. ✅
 
 the intonation of the entire sentence falls.
+
+The intonation of the entire sentence is rising. ✅
 
 ### 10. Pause perception
 
@@ -826,6 +978,8 @@ The word 'believe' is most likely followed by a pause in the audio.
 
 'end'
 
+COURSE
+
 <audio controls>
     <source src="samples/openai_pause_2.wav" type="audio/wav">
 </audio>
@@ -834,6 +988,8 @@ Bad generation ❌ \
 The word 'pause' is most likely followed by a pause in the audio.
 
 b.
+
+The word 'pause' is most likely followed by a pause in the audio.
 
 <audio controls>
     <source src="samples/openai_pause_3.wav" type="audio/wav">
@@ -844,6 +1000,8 @@ The word 'believe' is most likely followed by a pause in the audio.
 
 a
 
+The word 'said' is most likely followed by a pause in the audio.
+
 <audio controls>
     <source src="samples/openai_pause_4.wav" type="audio/wav">
 </audio>
@@ -853,6 +1011,8 @@ The word 'believe' is most likely followed by a pause in the audio.
 
 none
 
+COURSE
+
 <audio controls>
     <source src="samples/openai_pause_5.wav" type="audio/wav">
 </audio>
@@ -861,6 +1021,8 @@ Bad generation ❌ \
 The word 'believe' is most likely followed by a pause in the audio.
 
 santa claus
+
+The word 'of' is most likely followed by a pause in the audio.
 
 ### 11. Prolonged sound perception
 
@@ -880,6 +1042,8 @@ The word 'exactly' contains noticeable elongation in the audio.
 
 the word 'very' contains noticeable elongation in the audio.
 
+The word 'exactly' contains noticeable elongation in the audio.
+
 <audio controls>
     <source src="samples/openai_prolonged_2.wav" type="audio/wav">
 </audio>
@@ -889,6 +1053,8 @@ The word 'exactly' contains noticeable elongation in the audio.
 
 the word 'digital' contains noticeable elongation in the audio.
 
+The word 'exactly' contains noticeable elongation in the audio.
+
 <audio controls>
     <source src="samples/openai_prolonged_3.wav" type="audio/wav">
 </audio>
@@ -896,6 +1062,8 @@ the word 'digital' contains noticeable elongation in the audio.
 The word 'know' contains noticeable elongation in the audio.
 
 the word 'ten' contains noticeable elongation in the audio.
+
+The word 'exactly' contains noticeable elongation in the audio.
 
 <audio controls>
     <source src="samples/openai_prolonged_4.wav" type="audio/wav">
@@ -905,6 +1073,8 @@ exactly
 
 the word containing noticeable elongation in the audio is 'long'.
 
+The word 'talking' contains noticeable elongation in the audio. ✅
+
 <audio controls>
     <source src="samples/openai_prolonged_5.wav" type="audio/wav">
 </audio>
@@ -912,6 +1082,8 @@ the word containing noticeable elongation in the audio is 'long'.
 The word 'exactly' contains noticeable elongation in the audio.
 
 the word 'funk' contains noticeable elongation in the audio.
+
+The word 'talking' contains noticeable elongation in the audio. ✅
 
 ### 12. Accent identification
 
@@ -929,6 +1101,8 @@ Tricky to generate with style prompt, 11Labs has more voice to choose from.
 The speaker's voice most likely corresponds to a Chinese accent.
 
 the accent of the speaker's voice is not known.
+
+The speaker's voice most likely corresponds to a Chinese accent.
 
 
 
