@@ -1,5 +1,5 @@
 # Hallucinating Samples Generation Tests
-AF3 and AF2 Response under each audio. ✅ means answer is likely correct, ❌ means the generated speech is bad.
+AF3, AF2, SALMONN Responses under each audio. ✅ means answer is likely correct, ❌ means the generated speech is bad.
 
 ## Paralinguistic perception tasks
 
