@@ -1,0 +1,30 @@
+{
+    "volume": {
+        "low": {
+            "style": "Speak in a whisper, low volume, with very low energy.",
+            "script": [
+                "I'm literally screaming at the top of my lungs!"
+            ]
+        },
+        "high": {
+            "style": "Yell in a high volume with exaggerated intensity and harsh articulation.",
+            "script": [
+                "I need to talk quietly because my roommate is asleep."
+            ]
+        }
+    },
+    "range": {
+        "low": {
+            "style": "Speak in a whisper, low volume, with very low energy.",
+            "script": [
+                "I'm literally screaming at the top of my lungs!"
+            ]
+        },
+        "high": {
+            "style": "Yell in a high volume with exaggerated intensity and harsh articulation.",
+            "script": [
+                "I need to talk quietly because my roommate is asleep."
+            ]
+        }
+    }
+}
