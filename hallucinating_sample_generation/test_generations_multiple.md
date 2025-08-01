@@ -469,8 +469,8 @@ The speaker's pitch is low.
 #### 4.2 Low pitch speech, high pitch script
 
 OpenAI: \
-Style prompt: Speak with very high pitch, bright, slightly squeaky. \
-Script: My voice is naturally deep and low.
+Style prompt: Speak with very low pitch, calm and serious, as if exhausted. \
+Script: I'm speaking in my highest, most energetic voice.
 
 
 <audio controls>
@@ -543,8 +543,8 @@ AF3 prompt: What is the speaker's emotion state?
 #### 5.1 Sad speech, happy script
 
 OpenAI: \
-Style prompt: Speak with very high pitch, bright, slightly squeaky. \
-Script: My voice is naturally deep and low.
+Style prompt: Speak in an extremely sad, melancholic voice with very low energy. \
+Script: I have never felt so happy in years.
 
 <audio controls>
     <source src="samples/openai_emotion_1.wav" type="audio/wav">
