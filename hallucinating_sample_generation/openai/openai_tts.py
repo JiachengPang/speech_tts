@@ -21,19 +21,19 @@ MAX_REQUESTS_PER_MIN = 500
 MAX_RETRIES = 5
 
 def rate_limit_pause(last_minute_requests, start_minute):
-    """Pause if RPM exceed limit."""
+    """Pause if requests/minute exceed limit."""
     if last_minute_requests >= MAX_REQUESTS_PER_MIN:
         elapsed = time.time() - start_minute
         if elapsed < 60:
             wait = 60 - elapsed
-            print(f"[RATE LIMIT] Sleeping {wait:.1f}s to respect 500 RPM...")
+            print(f"Sleeping {wait:.1f}s to respect 500 RPM...")
             time.sleep(wait)
         return 0, time.time()
     return last_minute_requests, start_minute
 
 
 def query_openai(style, script, output_path, model='gpt-4o-mini-tts', voice='alloy'):
-    """Send query to OpenAI TTS API with retry + backoff."""
+    """Query OpenAI TTS API with retry + backoff."""
     retries = 0
     while retries < MAX_RETRIES:
         try:
@@ -48,18 +48,18 @@ def query_openai(style, script, output_path, model='gpt-4o-mini-tts', voice='all
         except HTTPStatusError as e:
             if e.response.status_code == 429:
                 wait = (2 ** retries) + random.uniform(0, 1)
-                print(f"[429] Rate limited. Retry in {wait:.1f}s...")
+                print(f"Rate limited. Retry in {wait:.1f}s...")
                 time.sleep(wait)
                 retries += 1
             else:
-                print(f"[ERROR] HTTP {e.response.status_code}: {e}")
+                print(f"HTTP ERR: {e.response.status_code}: {e}")
                 return False
         except Exception as e:
             wait = (2 ** retries) + random.uniform(0, 1)
-            print(f"[ERROR] {e}. Retry in {wait:.1f}s...")
+            print(f"ERR: {e}. Retry in {wait:.1f}s...")
             time.sleep(wait)
             retries += 1
-    print(f"[FAIL] Gave up after {MAX_RETRIES} retries for {output_path}")
+    print(f"Gave up after {MAX_RETRIES} retries for {output_path}")
     return False
 
 
@@ -78,13 +78,13 @@ def load_completed():
 
 
 def log_completion(record):
-    """Append a completed sample record to the log file."""
+    """Append sample record to the log file."""
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(json.dumps(record) + "\n")
 
 
 def generate_samples(task, output_dir, completed):
-    """Generate TTS samples for a given task with 500 RPM limit + resume."""
+    """Generate TTS samples for a given task, supports 500 RPM"""
     if task not in PROMPTS:
         raise ValueError(f"Task '{task}' not found in prompts file.")
 
@@ -97,33 +97,40 @@ def generate_samples(task, output_dir, completed):
         for i, ex in enumerate(examples):
             style = ex.get("style", "")
             script = ex["script"]
-            voice = ex.get("voice", "alloy")
 
-            filename = f"{task}_{subtask}_{i}.wav"
-            output_path = os.path.join(output_dir, filename)
+            # If voice is specified, single generation
+            if "voice" in ex:
+                voices = [ex["voice"]]
+            else:
+                # If no voice, generate once for each available voice
+                voices = OPENAI_VOICES
 
-            if filename in completed and os.path.exists(output_path):
-                print(f"[SKIP] Already completed: {filename}")
-                continue
+            for voice in voices:
+                filename = f"{task}_{subtask}_{i}_{voice}.wav"
+                output_path = os.path.join(output_dir, filename)
 
-            # Throttle if hitting 500 RPM
-            last_minute_requests, start_minute = rate_limit_pause(last_minute_requests, start_minute)
+                if filename in completed and os.path.exists(output_path):
+                    print(f"Skipping. Already completed: {filename}")
+                    continue
 
-            print(f"[INFO] Generating {task}/{subtask} → {filename}")
-            success = query_openai(style, script, output_path, voice=voice)
+                # Respect 500 RPM
+                last_minute_requests, start_minute = rate_limit_pause(last_minute_requests, start_minute)
 
-            if success:
-                log_completion({
-                    "task": task,
-                    "subtask": subtask,
-                    "index": i,
-                    "style": style,
-                    "script": script,
-                    "voice": voice,
-                    "filename": filename,
-                    "path": output_path
-                })
-                last_minute_requests += 1
+                print(f"Generating {task}/{subtask} ({voice}) to {filename}")
+                success = query_openai(style, script, output_path, voice=voice)
+
+                if success:
+                    log_completion({
+                        "task": task,
+                        "subtask": subtask,
+                        "index": i,
+                        "style": style,
+                        "script": script,
+                        "voice": voice,
+                        "filename": filename,
+                        "path": output_path
+                    })
+                    last_minute_requests += 1
 
 
 if __name__ == "__main__":
