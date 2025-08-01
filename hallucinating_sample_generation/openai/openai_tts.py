@@ -137,7 +137,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--task", type=str, default="test", choices=TASKS + ["all"],
                         help="The name of the generation task, or 'all' for all tasks.")
-    parser.add_argument("--output", type=str, default="./outputs", help="Output directory")
+    parser.add_argument("--output", type=str, default="./tts_outputs", help="Output directory")
     args = parser.parse_args()
 
     os.makedirs(args.output, exist_ok=True)
