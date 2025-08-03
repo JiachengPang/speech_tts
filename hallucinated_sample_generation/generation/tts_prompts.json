@@ -186,7 +186,7 @@
             }
         ]
     },
-    "acent": {
+    "accent": {
         "prompt": "What accent does the speaker's voice most likely correspond to?",
         "british": [
             {
