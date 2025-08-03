@@ -1,1 +1,3 @@
-outputs
+tts_outputs
+tmp
+.env

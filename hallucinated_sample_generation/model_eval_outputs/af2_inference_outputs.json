@@ -1,0 +1,88 @@
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_volume_1.wav", "output": "low", "prompt": "Describe the volume of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_volume_2.wav", "output": "low", "prompt": "Describe the volume of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_volume_3.wav", "output": "quiet", "prompt": "Describe the volume of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_volume_4.wav", "output": "low", "prompt": "Describe the volume of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_volume_5.wav", "output": "low", "prompt": "Describe the volume of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_volume_6.wav", "output": "louder", "prompt": "Describe the volume of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_volume_7.wav", "output": "loud", "prompt": "Describe the volume of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_volume_8.wav", "output": "noisy", "prompt": "Describe the volume of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_volume_9.wav", "output": "loud", "prompt": "Describe the volume of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_volume_10.wav", "output": "loud", "prompt": "Describe the volume of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_vocalrange_1.wav", "output": "high", "prompt": "What is the vocal range of the utterance? High, low, or medium."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_vocalrange_2.wav", "output": "the vocal range of the utterance is high.", "prompt": "What is the vocal range of the utterance? High, low, or medium."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_vocalrange_3.wav", "output": "high", "prompt": "What is the vocal range of the utterance? High, low, or medium."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_vocalrange_1.mp3", "output": "high", "prompt": "What is the vocal range of the utterance? High, low, or medium."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_vocalrange_2.mp3", "output": "low.", "prompt": "What is the vocal range of the utterance? High, low, or medium."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_speed_1.wav", "output": "fast", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_speed_2.wav", "output": "fast", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_speed_3.wav", "output": "medium", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_speed_4.wav", "output": "fast", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_speed_5.wav", "output": "fast", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_speed_1.mp3", "output": "fast", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_speed_2.mp3", "output": "fast", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_speed_3.mp3", "output": "fast", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_speed_6.wav", "output": "fast", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_speed_7.wav", "output": "149.0", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_speed_8.wav", "output": "fast", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_speed_9.wav", "output": "fast", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_speed_10.wav", "output": "slower", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_speed_4.mp3", "output": "fast", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_speed_5.mp3", "output": "fast", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_speed_6.mp3", "output": "fast", "prompt": "Describe the speed of this speech."}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pitch_1.wav", "output": "the pitch of the speaker's voice is not indicated in the clip.", "prompt": "Is the speaker's pitch high or low?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pitch_2.wav", "output": "based on the audio description, the pitch of the speaker is lower.", "prompt": "Is the speaker's pitch high or low?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pitch_3.wav", "output": "the speaker's pitch is high.", "prompt": "Is the speaker's pitch high or low?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pitch_4.wav", "output": "the speaker's pitch is not mentioned in the given audio clip.", "prompt": "Is the speaker's pitch high or low?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pitch_5.wav", "output": "it's hard to tell from the audio alone.", "prompt": "Is the speaker's pitch high or low?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_pitch_1.mp3", "output": "it is unknown from the given information.", "prompt": "Is the speaker's pitch high or low?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pitch_6.wav", "output": "the audio clip doesn't provide information about the speaker's pitch.", "prompt": "Is the speaker's pitch high or low?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pitch_7.wav", "output": "the pitch of the speaker is high.", "prompt": "Is the speaker's pitch high or low?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pitch_8.wav", "output": "the pitch of the speaker is relatively low.", "prompt": "Is the speaker's pitch high or low?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pitch_9.wav", "output": "unknown, more information is needed.", "prompt": "Is the speaker's pitch high or low?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pitch_10.wav", "output": "the pitch of the speaker is low.", "prompt": "Is the speaker's pitch high or low?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_pitch_2.mp3", "output": "the speaker's pitch is deep.", "prompt": "Is the speaker's pitch high or low?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_emotion_1.wav", "output": "neutral or indifferent", "prompt": "What is the speaker's emotion state?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_emotion_2.wav", "output": "the speaker appears to be angry.", "prompt": "What is the speaker's emotion state?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_emotion_3.wav", "output": "happy.", "prompt": "What is the speaker's emotion state?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_emotion_4.wav", "output": "unknown", "prompt": "What is the speaker's emotion state?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_emotion_5.wav", "output": "concerned", "prompt": "What is the speaker's emotion state?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_emotion_6.wav", "output": "excited", "prompt": "What is the speaker's emotion state?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_emotion_7.wav", "output": "the audio clip suggests that the speaker is feeling anxious or fearful.", "prompt": "What is the speaker's emotion state?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_emotion_8.wav", "output": "there is insufficient information to determine the speaker's emotion state.", "prompt": "What is the speaker's emotion state?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_emotion_9.wav", "output": "unknown, not mentioned in the audio clip.", "prompt": "What is the speaker's emotion state?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_emotion_10.wav", "output": "unknown", "prompt": "What is the speaker's emotion state?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_speakercount_3.mp3", "output": "there are multiple speakers in the audio.", "prompt": "How many different speakers are in the audio?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_age_1.mp3", "output": "the most likely age group of the speaker in the audio is a pre-school child.", "prompt": "What is the most likely age group of the speaker in the audio?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_age_2.mp3", "output": "the speaker is an adult.", "prompt": "What is the most likely age group of the speaker in the audio?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_gender_1.wav", "output": "the speaker is female.", "prompt": "What is the speaker's gender?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_gender_2.wav", "output": "the speaker is male.", "prompt": "What is the speaker's gender?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_gender_3.wav", "output": "the speaker is female.", "prompt": "What is the speaker's gender?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_gender_4.wav", "output": "the speaker is female.", "prompt": "What is the speaker's gender?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_gender_5.wav", "output": "the speaker is female.", "prompt": "What is the speaker's gender?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_gender_1.mp3", "output": "the gender of the speaker is female.", "prompt": "What is the speaker's gender?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_gender_6.wav", "output": "the speaker is female.", "prompt": "What is the speaker's gender?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_gender_7.wav", "output": "male.", "prompt": "What is the speaker's gender?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_gender_8.wav", "output": "male.", "prompt": "What is the speaker's gender?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_gender_9.wav", "output": "the speaker's gender is male.", "prompt": "What is the speaker's gender?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_gender_10.wav", "output": "the speaker is male.", "prompt": "What is the speaker's gender?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_intonation_1.wav", "output": "the audio does not allow us to conclude whether the entire sentence is rising or falling in intonation.", "prompt": "Is the intonation of the entire sentence rising or falling?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_intonation_2.wav", "output": "based on the sound events, the intonation rises at the beginning and end of the phrase, and falls in the middle.", "prompt": "Is the intonation of the entire sentence rising or falling?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_intonation_3.wav", "output": "unknown.", "prompt": "Is the intonation of the entire sentence rising or falling?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_intonation_4.wav", "output": "we need more information about the specific sentence to determine the intonation.", "prompt": "Is the intonation of the entire sentence rising or falling?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_intonation_5.wav", "output": "the information provided in the audio clip is not sufficient to determine whether the intonation of the entire sentence is rising or falling.", "prompt": "Is the intonation of the entire sentence rising or falling?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_intonation_6.wav", "output": "the entire sentence in the audio clip does not contain any inflection or changes in pitch.", "prompt": "Is the intonation of the entire sentence rising or falling?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_intonation_7.wav", "output": "the intonation in this sentence rises.", "prompt": "Is the intonation of the entire sentence rising or falling?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_intonation_8.wav", "output": "the intonation of the entire sentence falls.", "prompt": "Is the intonation of the entire sentence rising or falling?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_intonation_9.wav", "output": "the audio content suggests that the intonation of the entire sentence is falling.", "prompt": "Is the intonation of the entire sentence rising or falling?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_intonation_10.wav", "output": "the intonation of the entire sentence falls.", "prompt": "Is the intonation of the entire sentence rising or falling?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pause_1.wav", "output": "'end'", "prompt": "Which word is most likely followed by a pause in the audio?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pause_2.wav", "output": "b.", "prompt": "Which word is most likely followed by a pause in the audio?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pause_3.wav", "output": "a", "prompt": "Which word is most likely followed by a pause in the audio?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pause_4.wav", "output": "none", "prompt": "Which word is most likely followed by a pause in the audio?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_pause_5.wav", "output": "santa claus", "prompt": "Which word is most likely followed by a pause in the audio?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_prolonged_1.wav", "output": "the word 'very' contains noticeable elongation in the audio.", "prompt": "Which word contains noticeable elongation in the audio?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_prolonged_2.wav", "output": "the word 'digital' contains noticeable elongation in the audio.", "prompt": "Which word contains noticeable elongation in the audio?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_prolonged_3.wav", "output": "the word 'ten' contains noticeable elongation in the audio.", "prompt": "Which word contains noticeable elongation in the audio?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_prolonged_4.wav", "output": "the word containing noticeable elongation in the audio is 'long'.", "prompt": "Which word contains noticeable elongation in the audio?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/openai_prolonged_5.wav", "output": "the word 'funk' contains noticeable elongation in the audio.", "prompt": "Which word contains noticeable elongation in the audio?"}
+{"path": "/home/jpang/code/speech_gen/hallucinated_sample_generation/samples/11labs_accent_1.mp3", "output": "the accent of the speaker's voice is not known.", "prompt": "What accent does the speaker's voice most likely correspond to?"}
