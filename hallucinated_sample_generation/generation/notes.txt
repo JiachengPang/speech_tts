@@ -201,3 +201,36 @@
         { "voice": "sage", "style": "", "script": "Yes, a big crowd indeed." }
         ]
     },
+
+
+    "gender": {
+        "promtp": "What is the speaker's gender?",
+        "female": [
+            {
+                "voice": "openai_female",
+                "style": "",
+                "script": "I am a grown man, and I know what to do.",
+                "label": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a grown man, and I know what to do.",
+                "label": "female"
+            }
+        ],
+        "male": [
+            {
+                "voice": "openai_male",
+                "style": "",
+                "script": "As a woman, I know these times can be challenging.",
+                "label": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a woman, I know these times can be challenging.",
+                "label": "male"
+            }
+        ]
+    },

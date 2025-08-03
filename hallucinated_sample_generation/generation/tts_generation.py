@@ -10,6 +10,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from pydub import AudioSegment
+import wave
+
+from elevenlabs import VoiceSettings
+from elevenlabs.client import ElevenLabs
 
 LOG_FILE = "tts_log.jsonl"
 
@@ -22,7 +26,8 @@ OPENAI_VOICES = ['alloy', 'ash', 'ballad', 'coral', 'echo', 'fable', 'onyx', 'no
 OPENAI_FEMALE_VOICES = ['alloy', 'coral', 'nova', 'sage', 'shimmer']
 OPENAI_MALE_VOICES = ['ash', 'ballad', 'echo', 'fable', 'onyx', 'verse']
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+eleven_client = ElevenLabs(api_key=os.getenv("ELEVENLABS_API_KEY"))
 
 MAX_REQUESTS_PER_MIN = 500
 MAX_RETRIES = 5
@@ -41,13 +46,73 @@ def rate_limit_pause(last_minute_requests, start_minute):
         return 0, time.time()
     return last_minute_requests, start_minute
 
+# def get_elevenlabs_voices(search, n_voices=30):
+#     """Fetch up to n_voices ElevenLabs voices."""
+#     voices = []
+#     next_page_token = None
 
-def query_openai(style, script, output_path, model='gpt-4o-mini-tts', voice='alloy'):
-    """Query OpenAI TTS API with retry + backoff."""
+#     try:
+#         while len(voices) < n_voices:
+#             response = eleven_client.voices.search(
+#                 search=search,
+#                 next_page_token=next_page_token
+#             )
+#             if not response.voices:
+#                 break  # no more voices available
+#             voices.extend(response.voices)
+#             if not response.has_more or not response.next_page_token:
+#                 break
+#             next_page_token = response.next_page_token
+#         return voices[:n_voices]
+#     except Exception as e:
+#         print(f"11labs error: {e}")
+#         return []
+
+    
+def query_elevenlabs(script, output_path, voice_id, model="eleven_turbo_v2_5"):
+    """Query ElevenLabs TTS API."""
     retries = 0
     while retries < MAX_RETRIES:
         try:
-            with client.audio.speech.with_streaming_response.create(
+            response = eleven_client.text_to_speech.convert(
+                voice_id=voice_id,
+                output_format="pcm_16000",
+                text=script,
+                model_id=model,
+                voice_settings=VoiceSettings(
+                    stability=0.0,
+                    similarity_boost=1.0,
+                    style=0.0,
+                    use_speaker_boost=True,
+                    speed=1.0,
+                ),
+            )
+
+            pcm_bytes = b"".join(chunk for chunk in response if chunk)
+            if not pcm_bytes:
+                print(f"No audio returned for {output_path}")
+                return False
+            with wave.open(output_path, "wb") as wav_file:
+                wav_file.setnchannels(1)         # mono
+                wav_file.setsampwidth(2)         # 16-bit
+                wav_file.setframerate(16000)     # 16000 sr
+                wav_file.writeframes(pcm_bytes)
+
+            return True
+        except Exception as e:
+            wait = (2 ** retries) + random.uniform(0, 1)
+            print(f"ElevenLabs ERR: {e}. Retry in {wait:.1f}s...")
+            time.sleep(wait)
+            retries += 1
+    print(f"Gave up after {MAX_RETRIES} retries for {output_path}")
+    return False
+
+def query_openai(style, script, output_path, model='gpt-4o-mini-tts', voice='alloy'):
+    """Query OpenAI TTS API."""
+    retries = 0
+    while retries < MAX_RETRIES:
+        try:
+            with openai_client.audio.speech.with_streaming_response.create(
                 model=model,
                 voice=voice,
                 input=script,
@@ -91,6 +156,104 @@ def log_completion(record):
     """Append sample record to the log file."""
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(json.dumps(record) + "\n")
+
+# def filter_verified_voices(voices, expected_filters):
+#     """Filter ElevenLabs voices by verifying their labels against expected filters."""
+#     verified = []
+#     for voice in voices:
+#         labels = {k.lower(): voice.labels.get(k, "").lower() for k in voice.labels}
+#         match = all(labels.get(key, "") == value.lower() 
+#                     for key, value in expected_filters.items())
+#         if match:
+#             verified.append(voice)
+#         else:
+#             print(f"Skipping {voice.name} ({voice.voice_id}) — labels={labels}, expected={expected_filters}")
+#     return verified
+
+def get_verified_elevenlabs_voices(search, expected_filters=None, n_voices=30):
+    """Fetch up to n_voices ElevenLabs voices that match expected_filters."""
+    voices = []
+    next_page_token = None
+    expected_filters = {k.lower(): v.lower() for k, v in (expected_filters or {}).items()}
+
+    try:
+        while len(voices) < n_voices:
+            response = eleven_client.voices.search(
+                search=search,
+                next_page_token=next_page_token
+            )
+            if not response.voices:
+                break  # no more voices
+
+            for voice in response.voices:
+                labels = {k.lower(): voice.labels.get(k, "").lower() for k in voice.labels}
+                if all(labels.get(key, "") == value for key, value in expected_filters.items()):
+                    voices.append(voice)
+                    if len(voices) >= n_voices:
+                        break
+                else:
+                    print(f"Skipping {voice.name} ({voice.voice_id}) — labels={labels}, expected={expected_filters}")
+
+            if not response.has_more or not response.next_page_token:
+                break
+            next_page_token = response.next_page_token
+
+        return voices
+    except Exception as e:
+        print(f"11labs error: {e}")
+        return []
+
+def generate_samples_elevenlabs(task, output_dir, completed, last_minute_requests, start_minute):
+    """TTS generation with 11labs for tasks age/gender/accent."""
+    task_data = PROMPTS[task]
+    prompt = task_data.get("prompt", "")
+
+    # voices = get_elevenlabs_voices()
+    # if not voices:
+    #     print("No ElevenLabs voices available.")
+    #     return last_minute_requests, start_minute
+
+    for subtask, examples in task_data.items():
+        if subtask == "prompt":
+            continue
+        print(f"Processing 11labs task {task} subtask {subtask}")
+        for i, ex in enumerate(examples):
+            style = ex["style"]
+            script = ex["script"]
+            label = ex["label"]
+
+            voices = get_verified_elevenlabs_voices(search=subtask, expected_filters={task: subtask})
+            if not voices:
+                print(f'No 11labs voices for task {task}, subtask {subtask}')
+                continue
+
+            for v in voices:
+                filename = f"{task}_{subtask}_{i}_{v.voice_id}.wav"
+                output_path = os.path.join(output_dir, filename)
+
+                if filename in completed and os.path.exists(output_path):
+                    print(f"Skipping. Already completed: {filename}")
+                    continue
+
+                last_minute_requests, start_minute = rate_limit_pause(last_minute_requests, start_minute)
+                print(f"Generating with ElevenLabs voice {v.name} ({v.voice_id}) to {filename}")
+                success = query_elevenlabs(script, output_path, voice_id=v.voice_id)
+
+                if success:
+                    log_completion({
+                        "task": task,
+                        "subtask": subtask,
+                        "index": i,
+                        "prompt": prompt,
+                        "label": label,
+                        "style": style,
+                        "script": script,
+                        "voice": v.voice_id,
+                        "filename": filename,
+                        "path": output_path
+                    })
+                    last_minute_requests += 1
+    return last_minute_requests, start_minute
 
 def generate_samples_default(task, output_dir, completed, last_minute_requests, start_minute):
     """Default TTS generation (non-dialogue tasks)."""
@@ -220,8 +383,7 @@ def generate_samples_dialogue(task, output_dir, completed, last_minute_requests,
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--task", type=str, default="test", choices=TASKS + ["all"],
-                        help="The name of the generation task, or 'all' for all tasks.")
+    parser.add_argument("--tasks", nargs="+", default=["test"], choices=TASKS + ["all"], help="List of generation tasks or 'all'")
     parser.add_argument("--output", type=str, default="./tts_outputs", help="Output directory")
     args = parser.parse_args()
 
@@ -231,14 +393,16 @@ if __name__ == "__main__":
     last_minute_requests = 0
     start_minute = time.time()
 
-    if args.task == "all":
-        for t in TASKS:
-            if t == "counting":  # dialogue mode
-                last_minute_requests, start_minute = generate_samples_dialogue(t, args.output, completed, last_minute_requests, start_minute)
-            else:  # default mode
-                last_minute_requests, start_minute = generate_samples_default(t, args.output, completed, last_minute_requests, start_minute)
+    if "all" in args.tasks:
+        selected_tasks = TASKS
     else:
-        if args.task == "counting":
-            generate_samples_dialogue(args.task, args.output, completed, last_minute_requests, start_minute)
+        selected_tasks = args.tasks
+
+    for t in selected_tasks:
+        if t in ["age", "gender", "accent"]:
+            last_minute_requests, start_minute = generate_samples_elevenlabs(t, args.output, completed, last_minute_requests, start_minute)
+        elif t == "counting":
+            last_minute_requests, start_minute = generate_samples_dialogue(t, args.output, completed, last_minute_requests, start_minute)
         else:
-            generate_samples_default(args.task, args.output, completed, last_minute_requests, start_minute)
+            last_minute_requests, start_minute = generate_samples_default(t, args.output, completed, last_minute_requests, start_minute)
+           

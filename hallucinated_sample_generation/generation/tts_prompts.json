@@ -111,7 +111,7 @@
         "prompt": "Is the age of the speaker young or old?",
         "young": [
             {
-                "voice": "Cherry Twinkle",
+                "voice": "",
                 "style": "",
                 "script": "I am a very old person, turning eighty-three this year to be exact.",
                 "label": "young"
@@ -119,7 +119,7 @@
         ],
         "old": [
             {
-                "voice": "Grandpa Spuds Oxley",
+                "voice": "",
                 "style": "",
                 "script": "Ugh, I am a very young child, and I would like some, hmm, candy.",
                 "label": "old"
@@ -127,16 +127,10 @@
         ]
     },
     "gender": {
-        "promtp": "What is the speaker's gender?",
+        "prompt": "What is the speaker's gender?",
         "female": [
             {
-                "voice": "openai_female",
-                "style": "",
-                "script": "I am a grown man, and I know what to do.",
-                "label": "female"
-            },
-            {
-                "voice": "Cherry Twinkle",
+                "voice": "",
                 "style": "",
                 "script": "I am a grown man, and I know what to do.",
                 "label": "female"
@@ -144,13 +138,7 @@
         ],
         "male": [
             {
-                "voice": "openai_male",
-                "style": "",
-                "script": "As a woman, I know these times can be challenging.",
-                "label": "male"
-            },
-            {
-                "voice": "Grandpa Spuds Oxley",
+                "voice": "",
                 "style": "",
                 "script": "As a woman, I know these times can be challenging.",
                 "label": "male"
@@ -202,7 +190,7 @@
         "prompt": "What accent does the speaker's voice most likely correspond to?",
         "british": [
             {
-                "voice": "Ellis",
+                "voice": "",
                 "style": "",
                 "script": "I am naturally raise with very obvious Chinese accent.",
                 "label": "british"
