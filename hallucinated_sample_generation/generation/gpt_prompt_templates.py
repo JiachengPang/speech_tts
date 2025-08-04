@@ -23,6 +23,7 @@ Task: {task_name}
 Subtask: {subtask}
 QA Prompt: {task_prompt}
 Correct Label: {label}
+Pretended Label: {pretended}
 
 Here is an existing example in the required JSON format:
 {examples}
@@ -30,6 +31,7 @@ Here is an existing example in the required JSON format:
 Now generate {num} new JSON objects in the SAME format, where:
 - The script is natural but misleading about the speaker's {task_name}.
 - The 'label' field remains "{label}".
+- The 'pretended' field shows the misleading label implied by the script ("{pretended}").
 - 'voice' and 'style' should be "" unless explicitly required.
 Return only a valid JSON list.
 """,
@@ -43,17 +45,21 @@ Here are some existing dialogue examples in JSON format:
 
 Now generate {num} NEW subtasks. 
 Each subtask should be keyed by an index (as a string), starting from {start_index}, 
-and mapped to a JSON array of utterances. 
+and mapped to a JSON object with:
+- "dialogue": a JSON array of utterances
+- "label": the true number of unique speakers
+- "pretended": the misleading speaker count agreed by all utterances
+
 Each utterance must include:
 {{
     "voice": "<choose from ['alloy','ash','ballad','coral','echo','fable','onyx','nova','sage','shimmer','verse']>",
     "style": "",
-    "script": "<a line that supports the same misleading speaker count as the other utterances in this dialogue>"
+    "script": "<a line that supports the same misleading speaker count>"
 }}
 
 Rules:
 - All utterances in a single subtask MUST agree on the same misleading speaker count
-- The agreed number of misleading speaker count which should have diversity.
+- The agreed number of misleading speaker count should have diversity.
 - That misleading count must differ from the true number of unique voices in the dialogue.
 - The number of utterances in each subtask = the true number of unique speakers.
 - Voices should be varied where possible.

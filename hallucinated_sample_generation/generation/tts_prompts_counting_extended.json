@@ -1,20 +1,22 @@
 {
     "volume": {
         "prompt": "Is the speaker's voice quiet or loud?",
-        "quiet": [
+        "low": [
             {
                 "voice": "all",
                 "style": "Speak in a whisper, low volume, with very low energy.",
                 "script": "I'm literally screaming at the top of my lungs!",
-                "label": "quiet"
+                "label": "quiet",
+                "pretended": "loud"
             }
         ],
-        "loud": [
+        "high": [
             {
                 "voice": "all",
                 "style": "Yell in a high volume with exaggerated intensity and harsh articulation.",
                 "script": "I need to talk quietly because my roommate is asleep.",
-                "label": "loud"
+                "label": "loud",
+                "pretended": "quiet"
             }
         ]
     },
@@ -25,7 +27,8 @@
                 "voice": "all",
                 "style": "Speak in a low vocal range.",
                 "script": "My vocal range is so high.",
-                "label": "low"
+                "label": "low",
+                "pretended": "high"
             }
         ],
         "high": [
@@ -33,7 +36,8 @@
                 "voice": "all",
                 "style": "Speak in a high vocal range.",
                 "script": "My vocal range is so low.",
-                "label": "high"
+                "label": "high",
+                "pretended": "low"
             }
         ]
     },
@@ -44,7 +48,8 @@
                 "voice": "all",
                 "style": "Speak at a very slow speed, as slow as possible, stretching out words and pausing frequently.",
                 "script": "I'm talking super fast right now, keep up with me.",
-                "label": "slow"
+                "label": "slow",
+                "pretended": "fast"
             }
         ],
         "fast": [
@@ -52,7 +57,8 @@
                 "voice": "all",
                 "style": "Speak at a high speed, as quickly as possible, with minimum pause, like a rushed statement under time pressure.",
                 "script": "I always speak as slowly and as clearly as I can.",
-                "label": "fast"
+                "label": "fast",
+                "pretended": "slow"
             }
         ]
     },
@@ -63,7 +69,8 @@
                 "voice": "all",
                 "style": "Speak with very low pitch, calm and serious, as if exhausted.",
                 "script": "I'm speaking in my highest, most energetic voice.",
-                "label": "low"
+                "label": "low",
+                "pretended": "high"
             }
         ],
         "high": [
@@ -71,7 +78,8 @@
                 "voice": "all",
                 "style": "Speak with very high pitch, bright, slightly squeaky.",
                 "script": "My voice is naturally deep and low.",
-                "label": "high"
+                "label": "high",
+                "pretended": "low"
             }
         ]
     },
@@ -82,7 +90,8 @@
                 "voice": "all",
                 "style": "Speak in an extremely sad, melancholic voice with very low energy.",
                 "script": "I have never felt so happy in years.",
-                "label": "sad"
+                "label": "sad",
+                "pretended": "happy"
             }
         ],
         "happy": [
@@ -90,99 +99,129 @@
                 "voice": "all",
                 "style": "Speak in an extremely happy, cheerful, and energetic tone with an upbeat rhythm and smiling inflection, as if delivering great, exciting news.",
                 "script": "I've lost everything I cared about, and I have never been so sad.",
-                "label": "happy"
+                "label": "happy",
+                "pretended": "sad"
             }
         ]
     },
     "counting": {
         "prompt": "How many different speakers are in the audio?",
-        "0": [
-            {
-                "voice": "ash",
-                "style": "",
-                "script": "It\u2019s just me, all alone here."
-            },
-            {
-                "voice": "ballad",
-                "style": "",
-                "script": "Yes, definitely just one person speaking."
-            },
-            {
-                "voice": "nova",
-                "style": "",
-                "script": "I agree, only one voice to hear."
-            }
-        ],
-        "1": [
-            {
-                "voice": "ash",
-                "style": "",
-                "script": "There's definitely only one of us here."
-            },
-            {
-                "voice": "nova",
-                "style": "",
-                "script": "I\u2019m the only one speaking right now."
-            }
-        ],
-        "2": [
-            {
-                "voice": "ballad",
-                "style": "",
-                "script": "It's just the two of us in this conversation."
-            },
-            {
-                "voice": "coral",
-                "style": "",
-                "script": "Yes, I can confirm there are just two voices."
-            }
-        ],
-        "3": [
-            {
-                "voice": "fable",
-                "style": "",
-                "script": "I can hear someone else here with me."
-            },
-            {
-                "voice": "sage",
-                "style": "",
-                "script": "It's clear we have just a couple of speakers."
-            },
-            {
-                "voice": "shimmer",
-                "style": "",
-                "script": "Right, only two of us talking right now."
-            }
-        ],
-        "4": [
-            {
-                "voice": "echo",
-                "style": "",
-                "script": "No doubt about it, there are four voices here."
-            },
-            {
-                "voice": "onyx",
-                "style": "",
-                "script": "I hear four distinct speakers in this room."
-            }
-        ],
-        "5": [
-            {
-                "voice": "verse",
-                "style": "",
-                "script": "I can only hear one voice right now."
-            },
-            {
-                "voice": "alloy",
-                "style": "",
-                "script": "Clearly, there\u2019s just one person talking."
-            },
-            {
-                "voice": "nova",
-                "style": "",
-                "script": "I\u2019m sure it\u2019s only me making sounds here."
-            }
-        ]
+        "0": {
+            "dialogue": [
+                {
+                    "voice": "ash",
+                    "style": "",
+                    "script": "It\u2019s just me, all alone here."
+                },
+                {
+                    "voice": "ballad",
+                    "style": "",
+                    "script": "Yes, definitely just one person speaking."
+                },
+                {
+                    "voice": "nova",
+                    "style": "",
+                    "script": "I agree, only one voice to hear."
+                }
+            ],
+            "label": 3,
+            "pretended": 1
+        },
+        "1": {
+            "dialogue": [
+                {
+                    "voice": "alloy",
+                    "style": "",
+                    "script": "It's amazing how one person can say so much."
+                },
+                {
+                    "voice": "coral",
+                    "style": "",
+                    "script": "Definitely just a single voice here, expressing thoughts."
+                }
+            ],
+            "label": 2,
+            "pretended": 1
+        },
+        "2": {
+            "dialogue": [
+                {
+                    "voice": "echo",
+                    "style": "",
+                    "script": "It's just me sharing my experiences."
+                },
+                {
+                    "voice": "sage",
+                    "style": "",
+                    "script": "I can assure you, only one person is speaking."
+                },
+                {
+                    "voice": "shimmer",
+                    "style": "",
+                    "script": "I hear just one voice talking right now."
+                }
+            ],
+            "label": 3,
+            "pretended": 1
+        },
+        "3": {
+            "dialogue": [
+                {
+                    "voice": "ballad",
+                    "style": "",
+                    "script": "This is a solo performance, just me."
+                },
+                {
+                    "voice": "fable",
+                    "style": "",
+                    "script": "Honestly, it's only one individual here!"
+                }
+            ],
+            "label": 2,
+            "pretended": 1
+        },
+        "4": {
+            "dialogue": [
+                {
+                    "voice": "nova",
+                    "style": "",
+                    "script": "I\u2019m the only one sharing my story."
+                },
+                {
+                    "voice": "onyx",
+                    "style": "",
+                    "script": "It\u2019s clearly just one voice speaking."
+                },
+                {
+                    "voice": "verse",
+                    "style": "",
+                    "script": "There's solely one speaker for this narration."
+                }
+            ],
+            "label": 3,
+            "pretended": 1
+        },
+        "5": {
+            "dialogue": [
+                {
+                    "voice": "ash",
+                    "style": "",
+                    "script": "I\u2019m alone in this conversation."
+                },
+                {
+                    "voice": "coral",
+                    "style": "",
+                    "script": "Surely, it's only one person here."
+                },
+                {
+                    "voice": "shimmer",
+                    "style": "",
+                    "script": "I agree, there\u2019s just one voice present."
+                }
+            ],
+            "label": 3,
+            "pretended": 1
+        }
     },
     "age": {
         "prompt": "Is the age of the speaker young or old?",
@@ -191,7 +230,8 @@
                 "voice": "",
                 "style": "",
                 "script": "I am a very old person, turning eighty-three this year to be exact.",
-                "label": "young"
+                "label": "young",
+                "pretended": "old"
             }
         ],
         "old": [
@@ -199,7 +239,8 @@
                 "voice": "",
                 "style": "",
                 "script": "I am a very young child, and I would like some, hmm, candy.",
-                "label": "old"
+                "label": "old",
+                "pretended": "young"
             }
         ]
     },
@@ -210,7 +251,8 @@
                 "voice": "",
                 "style": "",
                 "script": "I am a grown man, and I know what to do.",
-                "label": "female"
+                "label": "female",
+                "pretended": "male"
             }
         ],
         "male": [
@@ -218,7 +260,8 @@
                 "voice": "",
                 "style": "",
                 "script": "As a woman, I know these times can be challenging.",
-                "label": "male"
+                "label": "male",
+                "pretended": "female"
             }
         ]
     },
@@ -229,7 +272,8 @@
                 "voice": "all",
                 "style": "Speak the sentence in a rising intonation, ending with an upward inflection, as if unsure or questioning",
                 "script": "I am sure my decision is the right choice.",
-                "label": "rising"
+                "label": "rising",
+                "pretended": "falling"
             }
         ],
         "falling": [
@@ -237,7 +281,8 @@
                 "voice": "all",
                 "style": "Speak the sentence in a falling intonation, ending with a downward inflection, as if making an assertion rather than asking a question.",
                 "script": "You really think this is a good idea.",
-                "label": "falling"
+                "label": "falling",
+                "pretended": "rising"
             }
         ]
     },
@@ -248,7 +293,8 @@
                 "voice": "all",
                 "style": "",
                 "script": "Why are. You so good at writing stories?",
-                "label": "are"
+                "label": "are",
+                "pretended": ""
             }
         ]
     },
@@ -259,7 +305,8 @@
                 "voice": "all",
                 "style": "Speak fluently in a fast pace, but significantly prolong the word \"talking\"",
                 "script": "I know exactly what I am talking about.",
-                "label": "talking"
+                "label": "talking",
+                "pretended": ""
             }
         ]
     },
@@ -270,7 +317,8 @@
                 "voice": "",
                 "style": "",
                 "script": "I am naturally raise with very obvious Chinese accent.",
-                "label": "british"
+                "label": "british",
+                "pretended": "chinese"
             }
         ]
     }

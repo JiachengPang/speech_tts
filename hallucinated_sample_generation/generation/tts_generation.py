@@ -19,7 +19,7 @@ from elevenlabs.client import ElevenLabs
 LOG_FILE = 'tts_log.jsonl'
 
 # Load prompts
-TTS_PROMPTS = 'tts_prompts_age_extended.json'
+TTS_PROMPTS = 'tts_prompts_base.json'
 with open(TTS_PROMPTS, 'r', encoding='utf-8') as f:
     PROMPTS = json.load(f)
 
@@ -191,11 +191,6 @@ def generate_samples_elevenlabs(task, output_dir, completed, last_minute_request
     task_data = PROMPTS[task]
     prompt = task_data.get('prompt', '')
 
-    # voices = get_elevenlabs_voices()
-    # if not voices:
-    #     print('No ElevenLabs voices available.')
-    #     return last_minute_requests, start_minute
-
     for subtask, examples in task_data.items():
         if subtask == 'prompt':
             continue
@@ -204,6 +199,7 @@ def generate_samples_elevenlabs(task, output_dir, completed, last_minute_request
             style = ex['style']
             script = ex['script']
             label = ex['label']
+            pretended = ex['pretended']
 
             voices = get_verified_elevenlabs_voices(search=subtask, expected_filters={task: subtask})
             if not voices:
@@ -229,6 +225,7 @@ def generate_samples_elevenlabs(task, output_dir, completed, last_minute_request
                         'index': i,
                         'prompt': prompt,
                         'label': label,
+                        'pretended': pretended,
                         'style': style,
                         'script': script,
                         'voice': v.voice_id,
@@ -252,6 +249,7 @@ def generate_samples_default(task, output_dir, completed, last_minute_requests, 
             style = ex['style']
             script = ex['script']
             label = ex['label']
+            pretended = ex['pretended']
 
             if voice_spec == 'all':
                 voices = OPENAI_VOICES
@@ -281,6 +279,7 @@ def generate_samples_default(task, output_dir, completed, last_minute_requests, 
                         'index': i,
                         'prompt': prompt,
                         'label': label,
+                        'pretended': pretended,
                         'style': style,
                         'script': script,
                         'voice': voice,
@@ -299,6 +298,7 @@ def generate_samples_dialogue(task, output_dir, completed, last_minute_requests,
     for subtask, examples in task_data.items():
         if subtask == 'prompt':
             continue
+
         out_file = os.path.join(output_dir, f'{task}_{subtask}.wav')
         if os.path.basename(out_file) in completed and os.path.exists(out_file):
             print(f'Skipping. Already completed: {out_file}')
@@ -306,10 +306,14 @@ def generate_samples_dialogue(task, output_dir, completed, last_minute_requests,
 
         print(f'Processing dialogue task {task} subtask {subtask}')
         
+        dialogue = examples['dialogue']
+        label = examples['label']
+        pretended = examples['pretended']
+
         clips = []
         voices = set()
 
-        for i, ex in enumerate(examples):
+        for i, ex in enumerate(dialogue):
             voice = ex['voice']
             style = ex['style']
             script = ex['script']
@@ -318,9 +322,6 @@ def generate_samples_dialogue(task, output_dir, completed, last_minute_requests,
 
             temp_file = os.path.join(local_tmp_dir, f'{task}_{subtask}_{i}_{voice}.wav')
             
-            # if os.path.basename(temp_file) in completed and os.path.exists(temp_file):
-            #     print(f'Skipping. Already completed: {temp_file}')
-            # else:
             last_minute_requests, start_minute = rate_limit_pause(last_minute_requests, start_minute)
             print(f'Generating dialogue clip: {task}/{subtask} ({voice})')
             success = query_openai(style, script, temp_file, voice=voice)
@@ -348,16 +349,16 @@ def generate_samples_dialogue(task, output_dir, completed, last_minute_requests,
                 combined += audio + AudioSegment.silent(duration=250)
             combined.export(out_file, format='wav')
             print(f'Concatenated {len(clips)} clips to {out_file}')
-            if task == 'counting':
-                label = len(voices)
+
             log_completion({
                 'task': task,
                 'subtask': subtask,
                 'prompt': prompt,
-                'label': label,  # default label = number of speakers
-                'voice': [ex['voice'] for ex in examples],
-                'script': [ex['script'] for ex in examples],
-                'style': [ex['style'] for ex in examples],
+                'label': label,
+                'pretended': pretended,
+                'voice': [ex['voice'] for ex in dialogue],
+                'script': [ex['script'] for ex in dialogue],
+                'style': [ex['style'] for ex in dialogue],
                 'filename': os.path.basename(out_file),
                 'path': out_file
             })
