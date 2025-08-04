@@ -1,7 +1,7 @@
 {
     "volume": {
         "prompt": "Is the speaker's voice quiet or loud?",
-        "quiet": [
+        "low": [
             {
                 "voice": "all",
                 "style": "Speak in a whisper, low volume, with very low energy.",
@@ -9,7 +9,7 @@
                 "label": "quiet"
             }
         ],
-        "loud": [
+        "high": [
             {
                 "voice": "all",
                 "style": "Yell in a high volume with exaggerated intensity and harsh articulation.",
@@ -98,9 +98,13 @@
     "counting": {
         "prompt": "How many different speakers are in the audio?",
         "0": [
-            { "voice": "ash", "style": "", "script": "It’s just me, all alone here." },
-            { "voice": "ballad", "style": "", "script": "Yes, definitely just one person speaking." },
-            { "voice": "nova", "style": "", "script": "I agree, only one voice to hear." }
+        { "voice": "alloy", "style": "", "script": "Can the three of us go get some dinner?"},
+        { "voice": "ash", "style": "", "script": "Of course. You guys get the car and I'll get my jacket." }
+        ],
+        "1": [
+        { "voice": "ash", "style": "", "script": "It’s just me, all alone here." },
+        { "voice": "ballad", "style": "", "script": "Yes, definitely just one person speaking." },
+        { "voice": "nova", "style": "", "script": "I agree, only one voice to hear." }
         ]
     },
     "age": {

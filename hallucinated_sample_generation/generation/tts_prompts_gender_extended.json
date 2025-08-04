@@ -16,7 +16,6 @@
                 "script": "I need to talk quietly because my roommate is asleep.",
                 "label": "loud"
             }
-            
         ]
     },
     "range": {
@@ -27,7 +26,7 @@
                 "style": "Speak in a low vocal range.",
                 "script": "My vocal range is so high.",
                 "label": "low"
-            } 
+            }
         ],
         "high": [
             {
@@ -46,7 +45,7 @@
                 "style": "Speak at a very slow speed, as slow as possible, stretching out words and pausing frequently.",
                 "script": "I'm talking super fast right now, keep up with me.",
                 "label": "slow"
-            } 
+            }
         ],
         "fast": [
             {
@@ -65,7 +64,7 @@
                 "style": "Speak with very low pitch, calm and serious, as if exhausted.",
                 "script": "I'm speaking in my highest, most energetic voice.",
                 "label": "low"
-            } 
+            }
         ],
         "high": [
             {
@@ -84,7 +83,7 @@
                 "style": "Speak in an extremely sad, melancholic voice with very low energy.",
                 "script": "I have never felt so happy in years.",
                 "label": "sad"
-            } 
+            }
         ],
         "happy": [
             {
@@ -98,9 +97,21 @@
     "counting": {
         "prompt": "How many different speakers are in the audio?",
         "0": [
-            { "voice": "ash", "style": "", "script": "It’s just me, all alone here." },
-            { "voice": "ballad", "style": "", "script": "Yes, definitely just one person speaking." },
-            { "voice": "nova", "style": "", "script": "I agree, only one voice to hear." }
+            {
+                "voice": "ash",
+                "style": "",
+                "script": "It\u2019s just me, all alone here."
+            },
+            {
+                "voice": "ballad",
+                "style": "",
+                "script": "Yes, definitely just one person speaking."
+            },
+            {
+                "voice": "nova",
+                "style": "",
+                "script": "I agree, only one voice to hear."
+            }
         ]
     },
     "age": {
@@ -130,6 +141,36 @@
                 "style": "",
                 "script": "I am a grown man, and I know what to do.",
                 "label": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I'm here to show you how to fix that car engine.",
+                "label": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a seasoned football coach, I can tell you the best strategies.",
+                "label": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I just landed my first job as an accountant, and I'm really excited.",
+                "label": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I enjoy hiking and spending weekends in the outdoors.",
+                "label": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I have been working in the construction field for over a decade.",
+                "label": "female"
             }
         ],
         "male": [
@@ -137,6 +178,36 @@
                 "voice": "",
                 "style": "",
                 "script": "As a woman, I know these times can be challenging.",
+                "label": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I always feel so empowered when I embrace my femininity.",
+                "label": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a nurturing mother is one of the most beautiful experiences in life.",
+                "label": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a girl, I\u2019ve learned that strength comes in many forms.",
+                "label": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I love sharing my thoughts and feelings as a woman in today's world.",
+                "label": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a lady, I believe we can achieve anything we set our minds to.",
                 "label": "male"
             }
         ]

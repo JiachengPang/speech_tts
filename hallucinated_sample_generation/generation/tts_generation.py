@@ -15,23 +15,29 @@ import wave
 from elevenlabs import VoiceSettings
 from elevenlabs.client import ElevenLabs
 
+# metadata logging
 LOG_FILE = 'tts_log.jsonl'
 
 # Load prompts
-with open('tts_prompts.json', 'r', encoding='utf-8') as f:
+TTS_PROMPTS = 'tts_prompts_age_extended.json'
+with open(TTS_PROMPTS, 'r', encoding='utf-8') as f:
     PROMPTS = json.load(f)
 
+# tasks and voices
 TASKS = list(PROMPTS.keys())
 OPENAI_VOICES = ['alloy', 'ash', 'ballad', 'coral', 'echo', 'fable', 'onyx', 'nova', 'sage', 'shimmer', 'verse']
 OPENAI_FEMALE_VOICES = ['alloy', 'coral', 'nova', 'sage', 'shimmer']
 OPENAI_MALE_VOICES = ['ash', 'ballad', 'echo', 'fable', 'onyx', 'verse']
 
+# initialize clients
 openai_client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 eleven_client = ElevenLabs(api_key=os.getenv('ELEVENLABS_API_KEY'))
 
+# rate limit
 MAX_REQUESTS_PER_MIN = 500
 MAX_RETRIES = 5
 
+# temp folder (for dialogue generation)
 local_tmp_dir = './tmp'
 os.makedirs(local_tmp_dir, exist_ok=True)
 
@@ -46,14 +52,14 @@ def rate_limit_pause(last_minute_requests, start_minute):
         return 0, time.time()
     return last_minute_requests, start_minute
 
-def query_elevenlabs(script, output_path, voice_id, model='eleven_turbo_v2_5'):
-    """Query ElevenLabs TTS API."""
+def query_elevenlabs(script, output_path, voice_id, model='eleven_turbo_v2_5', output_format='pcm_16000'):
+    """Query 11labs TTS API."""
     retries = 0
     while retries < MAX_RETRIES:
         try:
             response = eleven_client.text_to_speech.convert(
                 voice_id=voice_id,
-                output_format='pcm_16000',
+                output_format=output_format,
                 text=script,
                 model_id=model,
                 voice_settings=VoiceSettings(
@@ -213,7 +219,7 @@ def generate_samples_elevenlabs(task, output_dir, completed, last_minute_request
                     continue
 
                 last_minute_requests, start_minute = rate_limit_pause(last_minute_requests, start_minute)
-                print(f'Generating with ElevenLabs voice {v.name} ({v.voice_id}) to {filename}')
+                print(f'Generating with 11labs voice {v.name} ({v.voice_id}) to {filename}')
                 success = query_elevenlabs(script, output_path, voice_id=v.voice_id)
 
                 if success:
@@ -360,7 +366,7 @@ def generate_samples_dialogue(task, output_dir, completed, last_minute_requests,
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--tasks', nargs='+', default=['test'], choices=TASKS + ['all'], help="List of generation tasks or 'all'")
+    parser.add_argument('--tasks', nargs='+', default=['all'], choices=TASKS + ['all'], help="List of generation tasks or 'all'")
     parser.add_argument('--output', type=str, default='./tts_outputs', help='Output directory')
     args = parser.parse_args()
 

@@ -16,7 +16,6 @@
                 "script": "I need to talk quietly because my roommate is asleep.",
                 "label": "loud"
             }
-            
         ]
     },
     "range": {
@@ -27,7 +26,7 @@
                 "style": "Speak in a low vocal range.",
                 "script": "My vocal range is so high.",
                 "label": "low"
-            } 
+            }
         ],
         "high": [
             {
@@ -46,7 +45,7 @@
                 "style": "Speak at a very slow speed, as slow as possible, stretching out words and pausing frequently.",
                 "script": "I'm talking super fast right now, keep up with me.",
                 "label": "slow"
-            } 
+            }
         ],
         "fast": [
             {
@@ -65,7 +64,7 @@
                 "style": "Speak with very low pitch, calm and serious, as if exhausted.",
                 "script": "I'm speaking in my highest, most energetic voice.",
                 "label": "low"
-            } 
+            }
         ],
         "high": [
             {
@@ -84,7 +83,7 @@
                 "style": "Speak in an extremely sad, melancholic voice with very low energy.",
                 "script": "I have never felt so happy in years.",
                 "label": "sad"
-            } 
+            }
         ],
         "happy": [
             {
@@ -98,9 +97,91 @@
     "counting": {
         "prompt": "How many different speakers are in the audio?",
         "0": [
-            { "voice": "ash", "style": "", "script": "It’s just me, all alone here." },
-            { "voice": "ballad", "style": "", "script": "Yes, definitely just one person speaking." },
-            { "voice": "nova", "style": "", "script": "I agree, only one voice to hear." }
+            {
+                "voice": "ash",
+                "style": "",
+                "script": "It\u2019s just me, all alone here."
+            },
+            {
+                "voice": "ballad",
+                "style": "",
+                "script": "Yes, definitely just one person speaking."
+            },
+            {
+                "voice": "nova",
+                "style": "",
+                "script": "I agree, only one voice to hear."
+            }
+        ],
+        "1": [
+            {
+                "voice": "ash",
+                "style": "",
+                "script": "There's definitely only one of us here."
+            },
+            {
+                "voice": "nova",
+                "style": "",
+                "script": "I\u2019m the only one speaking right now."
+            }
+        ],
+        "2": [
+            {
+                "voice": "ballad",
+                "style": "",
+                "script": "It's just the two of us in this conversation."
+            },
+            {
+                "voice": "coral",
+                "style": "",
+                "script": "Yes, I can confirm there are just two voices."
+            }
+        ],
+        "3": [
+            {
+                "voice": "fable",
+                "style": "",
+                "script": "I can hear someone else here with me."
+            },
+            {
+                "voice": "sage",
+                "style": "",
+                "script": "It's clear we have just a couple of speakers."
+            },
+            {
+                "voice": "shimmer",
+                "style": "",
+                "script": "Right, only two of us talking right now."
+            }
+        ],
+        "4": [
+            {
+                "voice": "echo",
+                "style": "",
+                "script": "No doubt about it, there are four voices here."
+            },
+            {
+                "voice": "onyx",
+                "style": "",
+                "script": "I hear four distinct speakers in this room."
+            }
+        ],
+        "5": [
+            {
+                "voice": "verse",
+                "style": "",
+                "script": "I can only hear one voice right now."
+            },
+            {
+                "voice": "alloy",
+                "style": "",
+                "script": "Clearly, there\u2019s just one person talking."
+            },
+            {
+                "voice": "nova",
+                "style": "",
+                "script": "I\u2019m sure it\u2019s only me making sounds here."
+            }
         ]
     },
     "age": {
