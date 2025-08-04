@@ -1,22 +1,22 @@
 {
     "volume": {
         "prompt": "Is the speaker's voice quiet or loud?",
-        "low": [
+        "quiet": [
             {
                 "voice": "all",
                 "style": "Speak in a whisper, low volume, with very low energy.",
                 "script": "I'm literally screaming at the top of my lungs!",
                 "label": "quiet",
-                "pretended": "loud"
+                "pretend": "loud"
             }
         ],
-        "high": [
+        "loud": [
             {
                 "voice": "all",
                 "style": "Yell in a high volume with exaggerated intensity and harsh articulation.",
                 "script": "I need to talk quietly because my roommate is asleep.",
                 "label": "loud",
-                "pretended": "quiet"
+                "pretend": "quiet"
             }
             
         ]
@@ -29,7 +29,7 @@
                 "style": "Speak in a low vocal range.",
                 "script": "My vocal range is so high.",
                 "label": "low",
-                "pretended": "high"
+                "pretend": "high"
             } 
         ],
         "high": [
@@ -38,7 +38,7 @@
                 "style": "Speak in a high vocal range.",
                 "script": "My vocal range is so low.",
                 "label": "high",
-                "pretended": "low"
+                "pretend": "low"
             }
         ]
     },
@@ -50,7 +50,7 @@
                 "style": "Speak at a very slow speed, as slow as possible, stretching out words and pausing frequently.",
                 "script": "I'm talking super fast right now, keep up with me.",
                 "label": "slow",
-                "pretended": "fast"
+                "pretend": "fast"
             } 
         ],
         "fast": [
@@ -59,7 +59,7 @@
                 "style": "Speak at a high speed, as quickly as possible, with minimum pause, like a rushed statement under time pressure.",
                 "script": "I always speak as slowly and as clearly as I can.",
                 "label": "fast",
-                "pretended": "slow"
+                "pretend": "slow"
             }
         ]
     },
@@ -71,7 +71,7 @@
                 "style": "Speak with very low pitch, calm and serious, as if exhausted.",
                 "script": "I'm speaking in my highest, most energetic voice.",
                 "label": "low",
-                "pretended": "high"
+                "pretend": "high"
             } 
         ],
         "high": [
@@ -80,7 +80,7 @@
                 "style": "Speak with very high pitch, bright, slightly squeaky.",
                 "script": "My voice is naturally deep and low.",
                 "label": "high",
-                "pretended": "low"
+                "pretend": "low"
             }
         ]
     },
@@ -92,7 +92,7 @@
                 "style": "Speak in an extremely sad, melancholic voice with very low energy.",
                 "script": "I have never felt so happy in years.",
                 "label": "sad",
-                "pretended": "happy"
+                "pretend": "happy"
             } 
         ],
         "happy": [
@@ -101,7 +101,7 @@
                 "style": "Speak in an extremely happy, cheerful, and energetic tone with an upbeat rhythm and smiling inflection, as if delivering great, exciting news.",
                 "script": "I've lost everything I cared about, and I have never been so sad.",
                 "label": "happy",
-                "pretended": "sad"
+                "pretend": "sad"
             }
         ]
     },
@@ -114,7 +114,7 @@
                 { "voice": "nova", "style": "", "script": "I agree, only one voice to hear." }
             ],
             "label": 3,
-            "pretended": 1
+            "pretend": 1
         }
     },
     "age": {
@@ -125,7 +125,7 @@
                 "style": "",
                 "script": "I am a very old person, turning eighty-three this year to be exact.",
                 "label": "young",
-                "pretended": "old"
+                "pretend": "old"
             }
         ],
         "old": [
@@ -134,7 +134,7 @@
                 "style": "",
                 "script": "I am a very young child, and I would like some, hmm, candy.",
                 "label": "old",
-                "pretended": "young"
+                "pretend": "young"
             }
         ]
     },
@@ -146,7 +146,7 @@
                 "style": "",
                 "script": "I am a grown man, and I know what to do.",
                 "label": "female",
-                "pretended": "male"
+                "pretend": "male"
             }
         ],
         "male": [
@@ -155,7 +155,7 @@
                 "style": "",
                 "script": "As a woman, I know these times can be challenging.",
                 "label": "male",
-                "pretended": "female"
+                "pretend": "female"
             }
         ]
     },
@@ -167,7 +167,7 @@
                 "style": "Speak the sentence in a rising intonation, ending with an upward inflection, as if unsure or questioning",
                 "script": "I am sure my decision is the right choice.",
                 "label": "rising",
-                "pretended": "falling"
+                "pretend": "falling"
             }
         ],
         "falling": [
@@ -176,7 +176,7 @@
                 "style": "Speak the sentence in a falling intonation, ending with a downward inflection, as if making an assertion rather than asking a question.",
                 "script": "You really think this is a good idea.",
                 "label": "falling",
-                "pretended": "rising"
+                "pretend": "rising"
             }
         ]
     },
@@ -188,7 +188,7 @@
                 "style": "",
                 "script": "Why are. You so good at writing stories?",
                 "label": "are",
-                "pretended": ""
+                "pretend": ""
             }
         ]
     },
@@ -200,7 +200,7 @@
                 "style": "Speak fluently in a fast pace, but significantly prolong the word \"talking\"",
                 "script": "I know exactly what I am talking about.",
                 "label": "talking",
-                "pretended": ""
+                "pretend": ""
             }
         ]
     },
@@ -212,7 +212,43 @@
                 "style": "",
                 "script": "I am naturally raise with very obvious Chinese accent.",
                 "label": "british",
-                "pretended": "chinese"
+                "pretend": "chinese"
+            }
+        ],
+        "american": [
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am naturally raise with very obvious Indian accent.",
+                "label": "american",
+                "pretend": "indian"
+            }
+        ],
+        "chinese": [
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am naturally raise with very obvious British accent.",
+                "label": "chinese",
+                "pretend": "british"
+            }
+        ],
+        "indian": [
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am naturally raise with very obvious American accent.",
+                "label": "indian",
+                "pretend": "american"
+            }
+        ],
+        "australian": [
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am naturally raise with very obvious Indian accent.",
+                "label": "australian",
+                "pretend": "indian"
             }
         ]
     }

@@ -153,7 +153,7 @@ def log_completion(record):
 #             print(f'Skipping {voice.name} ({voice.voice_id}) — labels={labels}, expected={expected_filters}')
 #     return verified
 
-def get_verified_elevenlabs_voices(search, expected_filters=None, n_voices=30):
+def get_verified_elevenlabs_voices(search, expected_filters=None, n_voices=10):
     """Fetch up to n_voices ElevenLabs voices that match expected_filters."""
     voices = []
     next_page_token = None
@@ -194,14 +194,15 @@ def generate_samples_elevenlabs(task, output_dir, completed, last_minute_request
     for subtask, examples in task_data.items():
         if subtask == 'prompt':
             continue
+
         print(f'Processing 11labs task {task} subtask {subtask}')
+        voices = get_verified_elevenlabs_voices(search=subtask, expected_filters={task: subtask})
         for i, ex in enumerate(examples):
             style = ex['style']
             script = ex['script']
             label = ex['label']
-            pretended = ex['pretended']
+            pretend = ex['pretend']
 
-            voices = get_verified_elevenlabs_voices(search=subtask, expected_filters={task: subtask})
             if not voices:
                 print(f'No 11labs voices for task {task}, subtask {subtask}')
                 continue
@@ -225,7 +226,7 @@ def generate_samples_elevenlabs(task, output_dir, completed, last_minute_request
                         'index': i,
                         'prompt': prompt,
                         'label': label,
-                        'pretended': pretended,
+                        'pretend': pretend,
                         'style': style,
                         'script': script,
                         'voice': v.voice_id,
@@ -249,7 +250,7 @@ def generate_samples_default(task, output_dir, completed, last_minute_requests, 
             style = ex['style']
             script = ex['script']
             label = ex['label']
-            pretended = ex['pretended']
+            pretend = ex['pretend']
 
             if voice_spec == 'all':
                 voices = OPENAI_VOICES
@@ -279,7 +280,7 @@ def generate_samples_default(task, output_dir, completed, last_minute_requests, 
                         'index': i,
                         'prompt': prompt,
                         'label': label,
-                        'pretended': pretended,
+                        'pretend': pretend,
                         'style': style,
                         'script': script,
                         'voice': voice,
@@ -308,7 +309,7 @@ def generate_samples_dialogue(task, output_dir, completed, last_minute_requests,
         
         dialogue = examples['dialogue']
         label = examples['label']
-        pretended = examples['pretended']
+        pretend = examples['pretend']
 
         clips = []
         voices = set()
@@ -355,7 +356,7 @@ def generate_samples_dialogue(task, output_dir, completed, last_minute_requests,
                 'subtask': subtask,
                 'prompt': prompt,
                 'label': label,
-                'pretended': pretended,
+                'pretend': pretend,
                 'voice': [ex['voice'] for ex in dialogue],
                 'script': [ex['script'] for ex in dialogue],
                 'style': [ex['style'] for ex in dialogue],

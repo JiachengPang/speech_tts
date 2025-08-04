@@ -1,24 +1,37 @@
 {
     "volume": {
         "prompt": "Is the speaker's voice quiet or loud?",
-        "low": [
+        "quiet": [
             {
                 "voice": "all",
                 "style": "Speak in a whisper, low volume, with very low energy.",
-                "script": "I'm literally screaming at the top of my lungs!",
+                "script": "I'm literally screaming at the top of my lungs! So loud!",
                 "label": "quiet",
-                "pretended": "loud"
+                "pretend": "loud"
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a whisper, low volume, with very low energy.",
+                "script": "I'm speaking as loud as I can right now, can you hear me?",
+                "label": "quiet",
+                "pretend": "loud"
             }
         ],
-        "high": [
+        "loud": [
             {
                 "voice": "all",
                 "style": "Yell in a high volume with exaggerated intensity and harsh articulation.",
                 "script": "I need to talk quietly because my roommate is asleep.",
                 "label": "loud",
-                "pretended": "quiet"
+                "pretend": "quiet"
+            },
+            {
+                "voice": "all",
+                "style": "Yell in a high volume with exaggerated intensity and harsh articulation.",
+                "script": "I'm speaking in a quiet voice so I don't disturb anyone around me.",
+                "label": "loud",
+                "pretend": "quiet"
             }
-            
         ]
     },
     "range": {
@@ -29,8 +42,15 @@
                 "style": "Speak in a low vocal range.",
                 "script": "My vocal range is so high.",
                 "label": "low",
-                "pretended": "high"
-            } 
+                "pretend": "high"
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a low vocal range.",
+                "script": "I can hit some really high notes with my vocal range.",
+                "label": "low",
+                "pretend": "high"
+            }
         ],
         "high": [
             {
@@ -38,7 +58,14 @@
                 "style": "Speak in a high vocal range.",
                 "script": "My vocal range is so low.",
                 "label": "high",
-                "pretended": "low"
+                "pretend": "low"
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a high vocal range.",
+                "script": "I have a low vocal range that I'm proud of.",
+                "label": "high",
+                "pretend": "low"
             }
         ]
     },
@@ -50,8 +77,15 @@
                 "style": "Speak at a very slow speed, as slow as possible, stretching out words and pausing frequently.",
                 "script": "I'm talking super fast right now, keep up with me.",
                 "label": "slow",
-                "pretended": "fast"
-            } 
+                "pretend": "fast"
+            },
+            {
+                "voice": "all",
+                "style": "Speak at a very slow speed, as slow as possible, stretching out words and pausing frequently.",
+                "script": "I'm speaking really fast, so try to keep up with what I'm saying!",
+                "label": "slow",
+                "pretend": "fast"
+            }
         ],
         "fast": [
             {
@@ -59,7 +93,14 @@
                 "style": "Speak at a high speed, as quickly as possible, with minimum pause, like a rushed statement under time pressure.",
                 "script": "I always speak as slowly and as clearly as I can.",
                 "label": "fast",
-                "pretended": "slow"
+                "pretend": "slow"
+            },
+            {
+                "voice": "all",
+                "style": "Speak at a high speed, as quickly as possible, with minimum pause, like a rushed statement under time pressure.",
+                "script": "I am speaking slowly so you can understand me better.",
+                "label": "fast",
+                "pretend": "slow"
             }
         ]
     },
@@ -69,18 +110,60 @@
             {
                 "voice": "all",
                 "style": "Speak with very low pitch, calm and serious, as if exhausted.",
-                "script": "I'm speaking in my highest, most energetic voice.",
+                "script": "I'm speaking in my highest, most energetic pitch.",
                 "label": "low",
-                "pretended": "high"
-            } 
+                "pretend": "high"
+            },
+            {
+                "voice": "all",
+                "style": "Speak with very low pitch, calm and serious, as if exhausted.",
+                "script": "I'm speaking with a high pitch today, full of energy!",
+                "label": "low",
+                "pretend": "high"
+            }
         ],
         "high": [
             {
                 "voice": "all",
                 "style": "Speak with very high pitch, bright, slightly squeaky.",
-                "script": "My voice is naturally deep and low.",
+                "script": "My pitch is naturally very low.",
                 "label": "high",
-                "pretended": "low"
+                "pretend": "low"
+            },
+            {
+                "voice": "all",
+                "style": "Speak with very high pitch, bright, slightly squeaky.",
+                "script": "I prefer to speak in a low tone.",
+                "label": "high",
+                "pretend": "low"
+            },
+            {
+                "voice": "all",
+                "style": "Speak with very high pitch, bright, slightly squeaky.",
+                "script": "You can hear that my voice is quite low.",
+                "label": "high",
+                "pretend": "low"
+            },
+            {
+                "voice": "all",
+                "style": "Speak with very high pitch, bright, slightly squeaky.",
+                "script": "I always find it comfortable to use a low pitch.",
+                "label": "high",
+                "pretend": "low"
+            },
+            {
+                "voice": "all",
+                "style": "Speak with very high pitch, bright, slightly squeaky.",
+                "script": "When I talk, my voice is often on the low side.",
+                "label": "high",
+                "pretend": "low"
+            },
+            {
+                "voice": "all",
+                "style": "Speak with very high pitch, bright, slightly squeaky.",
+                "script": "Speaking with a low pitch feels more natural to me.",
+                "label": "high",
+                "pretend": "low"
             }
         ]
     },
@@ -92,8 +175,8 @@
                 "style": "Speak in an extremely sad, melancholic voice with very low energy.",
                 "script": "I have never felt so happy in years.",
                 "label": "sad",
-                "pretended": "happy"
-            } 
+                "pretend": "happy"
+            }
         ],
         "happy": [
             {
@@ -101,7 +184,7 @@
                 "style": "Speak in an extremely happy, cheerful, and energetic tone with an upbeat rhythm and smiling inflection, as if delivering great, exciting news.",
                 "script": "I've lost everything I cared about, and I have never been so sad.",
                 "label": "happy",
-                "pretended": "sad"
+                "pretend": "sad"
             }
         ]
     },
@@ -109,12 +192,24 @@
         "prompt": "How many different speakers are in the audio?",
         "0": {
             "dialogue": [
-                { "voice": "ash", "style": "", "script": "It’s just me, all alone here." },
-                { "voice": "ballad", "style": "", "script": "Yes, definitely just one person speaking." },
-                { "voice": "nova", "style": "", "script": "I agree, only one voice to hear." }
+                {
+                    "voice": "ash",
+                    "style": "",
+                    "script": "It\u2019s just me, all alone here."
+                },
+                {
+                    "voice": "ballad",
+                    "style": "",
+                    "script": "Yes, definitely just one person speaking."
+                },
+                {
+                    "voice": "nova",
+                    "style": "",
+                    "script": "I agree, only one voice to hear."
+                }
             ],
             "label": 3,
-            "pretended": 1
+            "pretend": 1
         }
     },
     "age": {
@@ -125,7 +220,42 @@
                 "style": "",
                 "script": "I am a very old person, turning eighty-three this year to be exact.",
                 "label": "young",
-                "pretended": "old"
+                "pretend": "old"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "At my age, you learn to embrace being old, and I wear it like a badge of honor.",
+                "label": "young",
+                "pretend": "old"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "You know, being old means I have stories to tell, and I have plenty of them.",
+                "label": "young",
+                "pretend": "old"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I often remind myself that being old comes with wisdom, and I've gathered quite a bit over the years.",
+                "label": "young",
+                "pretend": "old"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As an old person, I've seen the world change in ways I never thought possible.",
+                "label": "young",
+                "pretend": "old"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being old is just a sign that I've been around long enough to appreciate the little things.",
+                "label": "young",
+                "pretend": "old"
             }
         ],
         "old": [
@@ -134,7 +264,42 @@
                 "style": "",
                 "script": "I am a very young child, and I would like some, hmm, candy.",
                 "label": "old",
-                "pretended": "young"
+                "pretend": "young"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I feel so young and full of energy, ready to explore the world!",
+                "label": "old",
+                "pretend": "young"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being young means you can dream big and chase those dreams without fear.",
+                "label": "old",
+                "pretend": "young"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a young person, I believe anything is possible if you just believe in yourself.",
+                "label": "old",
+                "pretend": "young"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am young and curious, always eager to learn something new every day.",
+                "label": "old",
+                "pretend": "young"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "There's a certain magic in being young that makes every moment feel special.",
+                "label": "old",
+                "pretend": "young"
             }
         ]
     },
@@ -146,7 +311,42 @@
                 "style": "",
                 "script": "I am a grown man, and I know what to do.",
                 "label": "female",
-                "pretended": "male"
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Hello, my name is John, and I identify as a male.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Just to clarify, I am a male and proud of it.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I want everyone to know that I am male; it's important to me.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I have my own perspectives and experiences to share.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I\u2019m a male, and I enjoy expressing my thoughts openly.",
+                "label": "female",
+                "pretend": "male"
             }
         ],
         "male": [
@@ -155,7 +355,42 @@
                 "style": "",
                 "script": "As a woman, I know these times can be challenging.",
                 "label": "male",
-                "pretended": "female"
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I identify as female and embrace all aspects of my identity.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female, I feel empowered to contribute to society in meaningful ways.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I have my own unique experiences and perspectives to share.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I proudly identify as female and celebrate the strength of women everywhere.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I strive to support and uplift those around me.",
+                "label": "male",
+                "pretend": "female"
             }
         ]
     },
@@ -167,7 +402,7 @@
                 "style": "Speak the sentence in a rising intonation, ending with an upward inflection, as if unsure or questioning",
                 "script": "I am sure my decision is the right choice.",
                 "label": "rising",
-                "pretended": "falling"
+                "pretend": "falling"
             }
         ],
         "falling": [
@@ -176,7 +411,7 @@
                 "style": "Speak the sentence in a falling intonation, ending with a downward inflection, as if making an assertion rather than asking a question.",
                 "script": "You really think this is a good idea.",
                 "label": "falling",
-                "pretended": "rising"
+                "pretend": "rising"
             }
         ]
     },
@@ -188,7 +423,7 @@
                 "style": "",
                 "script": "Why are. You so good at writing stories?",
                 "label": "are",
-                "pretended": ""
+                "pretend": ""
             }
         ]
     },
@@ -200,7 +435,7 @@
                 "style": "Speak fluently in a fast pace, but significantly prolong the word \"talking\"",
                 "script": "I know exactly what I am talking about.",
                 "label": "talking",
-                "pretended": ""
+                "pretend": ""
             }
         ]
     },
@@ -212,7 +447,43 @@
                 "style": "",
                 "script": "I am naturally raise with very obvious Chinese accent.",
                 "label": "british",
-                "pretended": "chinese"
+                "pretend": "chinese"
+            }
+        ],
+        "american": [
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am naturally raise with very obvious Indian accent.",
+                "label": "american",
+                "pretend": "indian"
+            }
+        ],
+        "chinese": [
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am naturally raise with very obvious British accent.",
+                "label": "chinese",
+                "pretend": "british"
+            }
+        ],
+        "indian": [
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am naturally raise with very obvious American accent.",
+                "label": "indian",
+                "pretend": "american"
+            }
+        ],
+        "australian": [
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am naturally raise with very obvious Indian accent.",
+                "label": "australian",
+                "pretend": "indian"
             }
         ]
     }
