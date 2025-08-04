@@ -127,7 +127,8 @@ if __name__ == '__main__':
                              'or total new subtasks for counting).')
     args = parser.parse_args()
 
-    output_file = f'tts_prompts_{args.task}_extended.json'
+    # output_file = f'tts_prompts_{args.task}_extended.json'
+    output_file = INPUT_FILE
 
     # Load tts_prompts.json
     with open(INPUT_FILE, 'r', encoding='utf-8') as f:

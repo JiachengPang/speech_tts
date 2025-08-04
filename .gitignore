@@ -1,3 +1,9 @@
 tts_outputs
 tmp
 .env
+
+
+samples
+samples_16k
+convert_to_16k.sh
+test_generations_multiple.md
