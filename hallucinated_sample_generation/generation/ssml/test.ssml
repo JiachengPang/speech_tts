@@ -1,0 +1,4 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-us">
+<voice name="en-US-GuyNeural">
+        You have such a <prosody rate="-100.00%">nice</prosody> jacket that I want to <break time="1000ms"/> take a photo with you. 
+</voice></speak>

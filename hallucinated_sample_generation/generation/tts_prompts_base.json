@@ -468,13 +468,6 @@
             {
                 "voice": "all",
                 "style": "Speak the sentence in a rising intonation, ending with an upward inflection, as if unsure or questioning",
-                "script": "I am sure my decision is the right choice.",
-                "label": "rising",
-                "pretend": "falling"
-            },
-            {
-                "voice": "all",
-                "style": "Speak the sentence in a rising intonation, ending with an upward inflection, as if unsure or questioning",
                 "script": "I am aware that my voice has a falling intonation.",
                 "label": "rising",
                 "pretend": "falling"
