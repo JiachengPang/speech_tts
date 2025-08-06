@@ -5,13 +5,11 @@ SYSTEM_MSG_GENERAL = (
     "Each string should be a short script spoken by a person."
 )
 
-# SYSTEM_MSG_COUNTING = (
-#     "You are a data generator tasked with creating dialogues where the actual number of speakers in the dialogue "
-#     "does not match the number of speakers suggested by the scripts.\n\n"
+SYSTEM_MSG_COUNTING = (
+    "You are a data generator for creating text-to-speech (TTS) scripts.\n\n"
 
-#     "Your output must be a valid JSON object specified in the user prompt. Do not include explanations or any"
-#     "extra commentary."
-# )
+    "Your output must be a valid JSON array of objects only. Do not include explanations or extra commentary."
+)
 
 
 # SYSTEM_MSG_COUNTING = (
@@ -139,40 +137,82 @@ Return only a JSON array of these scripts.
 
 
     "counting": {
+        "system": SYSTEM_MSG_COUNTING,
+        "user": """
+Generate {num} sets of TTS dialogue scripts.
+For each dialogue, there can be several utterances, each representing an actual speaker. So the actual number of speakers is equal to 
+the number of scripts in the dialogue. 
+
+Each utterance is a spoken sentence describing the number of speakers in the dialogue. 
+However, all utterances try to mislead listeners into believing the number of speakers in this conversation is some number other than 
+the actual speaker count (which is equal to the number of utterances). All utterances must agree on the same misleading speaker count.
+
+For example, this is a dialogue of {actual} people trying to pretend there are {pretend} speaker(s):
+{example}
+
+The pretended/misleading speaker count MUST NOT be the same as the actual number of utterances in the conversation.
+
+Return only a JSON array of objects, representing {num} sets of dialogues, and each dialogue can have 1 - 5 utterances.
+Each object is formatted like this:
+{{
+    "pretend", <the misleading speaker count>,
+    "scripts>, [<utterance_1>, <utterance_2>, ...]
+}}
+"""
+
+
+    },
+    "intonation": {
         "system": SYSTEM_MSG_GENERAL,
         "user": """
-Task: {task_name}
-QA Prompt: {task_prompt}
+Generate {num} new TTS scripts.
 
-Here are some existing dialogue examples in JSON format:
-{examples}
+Each script is a person stating they are speaking with a {pretend} intonation, must include the word "{pretend}" somewhere, and must not include the word "{label}" or a question mark.
 
-Now generate {num} NEW subtasks. 
-Each subtask should be keyed by an index (as a string), starting from {start_index}, 
-and mapped to a JSON object with:
-- "dialogue": a JSON array of utterances
-- "label": the true number of unique speakers
-- "pretended": the misleading speaker count agreed by all utterances
+For example, this is a script of a person stating they are speaking with a {pretend} intonation:
+{example_script}
 
-Each utterance must include:
-{{
-    "voice": "<choose from ['alloy','ash','ballad','coral','echo','fable','onyx','nova','sage','shimmer','verse']>",
-    "style": "",
-    "script": "<a line that supports the same misleading speaker count>"
-}}
-
-Rules:
-- All utterances in a single subtask MUST agree on the same misleading speaker count
-- The agreed number of misleading speaker count should have diversity, not just 1.
-- That misleading count must differ from the true number of unique voices in the dialogue.
-- The number of utterances in each subtask = the true number of unique speakers.
-- Voices should be varied where possible.
-- The number of voices should have some diversity - 1 to 5.
-- Output only a JSON object mapping indices to arrays. 
-Do not include explanations or extra text.
+Return only a JSON array of these scripts.
 """
     },
 }
+
+
+# "counting": {
+#         "system": SYSTEM_MSG_COUNTING,
+#         "user": """
+# Generate {num} dialogues for the TTS task. Consider each dialogue as a subtask
+# A dialogue can have several utterances, each with a distinct voice from this list of voices:
+# ['alloy','ash','ballad','coral','echo','fable','onyx','nova','sage','shimmer','verse']
+
+# In a dialogue, all utterances pretend there are a certain number of speakers in the conversation.
+# This pretended number of speakers must be different from the actual number of speakers, such that one may be misled by 
+# simply looking at the scripts of the conversation about the actual number of speakers.  
+
+# Each subtask should be keyed by an index (as a string), starting from {start_index}, 
+# and mapped to a JSON object with:
+# - "dialogue": a JSON array of utterances
+# - "label": the true number of unique speakers
+# - "pretend": the misleading speaker count agreed by all utterances
+
+# Each utterance must include:
+# {{
+#     "voice": "<choose from ['alloy','ash','ballad','coral','echo','fable','onyx','nova','sage','shimmer','verse']>",
+#     "style": "",
+#     "script": "<a line that supports the same misleading speaker count>"
+# }}
+
+# An example output is:
+# {example}
+
+# Rules:
+# - The number of utterances in each subtask = the true number of unique speakers.
+# - Voices should be varied where possible.
+# - The number of voices should have some diversity - 1 to 5.
+# - Output only a JSON object mapping indices to arrays. 
+# Do not include explanations or extra text.
+# """
+#     },
 
 
 # TASK_TEMPLATES = {

@@ -28,17 +28,17 @@ def query(system_msg, user_msg):
     message = response.choices[0].message.content.strip()
     return message
 
-def process_response(task_data, subtask, message):
-    """Assumes the returned message is already a JSON of required form"""
-    try:
-        new_examples = json.loads(message)
-        if isinstance(new_examples, list):
-            task_data[subtask].extend(new_examples)
-        else:
-            task_data[subtask].append(new_examples)
-    except Exception as e:
-        print(f'Could not parse GPT output for {subtask}: {e}')
-        print('Raw GPT output:', message)
+# def process_response(task_data, subtask, message):
+#     """Assumes the returned message is already a JSON of required form"""
+#     try:
+#         new_examples = json.loads(message)
+#         if isinstance(new_examples, list):
+#             task_data[subtask].extend(new_examples)
+#         else:
+#             task_data[subtask].append(new_examples)
+#     except Exception as e:
+#         print(f'Could not parse GPT output for {subtask}: {e}')
+#         print('Raw GPT output:', message)
 
 def process_response_script(task_data, subtask, example, message):
     """Assumes the returned message is a JSON array of scripts only"""
@@ -162,7 +162,12 @@ def extend_counting_task(num_new_subtasks, prompts):
     task_prompt = task_data['prompt']
 
     # Show GPT a sample of existing examples
-    example = task_data['0']
+    
+    
+    example = {
+        "pretend": task_data['0']['pretend'],
+        "scripts": [entry['script'] for entry in task_data['0']['dialogue']]
+    }
     # sample_subtasks = {k: task_data[k] for k in list(task_data.keys()) if k != 'prompt'} 
     example_json = json.dumps(example, indent=4)
 
@@ -174,15 +179,18 @@ def extend_counting_task(num_new_subtasks, prompts):
 
     system_msg = TASK_TEMPLATES[task_name]['system']
     user_msg = TASK_TEMPLATES[task_name]['user'].format(
-        task_name=task_name,
-        task_prompt=task_prompt,
-        examples=example_json,
+        # task_name=task_name,
+        # task_prompt=task_prompt,
+        actual=len(example['scripts']),
+        pretend=example['pretend'],
+        example=example_json,
         num=num_new_subtasks,
-        start_index=start_index
+        # start_index=start_index
     )
 
     message = query(system_msg, user_msg)
     print('GPT Output:\n', message)
+    # process_response_dialogue()
 
     try:
         new_subtasks = json.loads(message)
@@ -215,7 +223,7 @@ if __name__ == '__main__':
 
     if args.task == 'counting':
         prompts = extend_counting_task(args.n, prompts)
-    elif args.task in ['age', 'gender', 'accent', 'volume', 'range', 'speed', 'pitch']:
+    elif args.task in ['age', 'gender', 'accent', 'volume', 'range', 'speed', 'pitch', 'intonation']:
         prompts = extend_general_task(args.task, args.n, prompts)
     else:
         raise NotImplementedError(f'task {args.task} not implemented.')

@@ -109,12 +109,340 @@
         "prompt": "How many different speakers are in the audio?",
         "0": {
             "dialogue": [
-                { "voice": "ash", "style": "", "script": "It’s just me, all alone here." },
-                { "voice": "ballad", "style": "", "script": "Yes, definitely just one person speaking." },
-                { "voice": "nova", "style": "", "script": "I agree, only one voice to hear." }
+                "Can the three of us go get some dinner?",
+                "Of course. You guys get the car and I'll get my jacket."
+            ],
+            "label": 2,
+            "pretend": 3
+        },
+        "1": {
+            "dialogue": [
+                "It\u2019s just me, all alone here.",
+                "Yes, definitely just one person speaking.",
+                "I agree, only one voice to hear."
             ],
             "label": 3,
             "pretend": 1
+        },
+        "2": {
+            "dialogue": [
+                "There must be fifteen of us talking right now!",
+                "Yeah, the room is packed with voices!"
+            ],
+            "label": 2,
+            "pretend": 15
+        },
+        "3": {
+            "dialogue": [
+                "It's just me talking here, no one else.",
+                "Yes, definitely only one person speaking."
+            ],
+            "label": 2,
+            "pretend": 1
+        },
+        "4": {
+            "dialogue": [
+                "The two of us are having a conversation right now.",
+                "Yes, only the two of us.",
+                "Don't forget about me!"
+            ],
+            "label": 3,
+            "pretend": 2
+        },
+        "5": {
+            "dialogue": [
+                "Nobody\u2019s here, it\u2019s totally silent.",
+                "Right, not a single person in the room."
+            ],
+            "label": 2,
+            "pretend": 0
+        },
+        "6": {
+            "dialogue": [
+                "There must be ten of us in this room!",
+                "Yeah, it\u2019s a huge crowd!"
+            ],
+            "label": 2,
+            "pretend": 10
+        },
+        "7": {
+            "dialogue": [
+                "There are three people on this call."
+            ],
+            "label": 1,
+            "pretend": 3
+        },
+        "8": {
+            "dialogue": [
+                "Only two of us are speaking today.",
+                "That\u2019s right, just two voices here.",
+                "Well, I think you forgot about me."
+            ],
+            "label": 3,
+            "pretend": 2
+        },
+        "9": {
+            "dialogue": [
+                "We are such a big group.",
+                "At least five people are chatting now."
+            ],
+            "label": 2,
+            "pretend": 5
+        },
+        "10": {
+            "dialogue": [
+                "It\u2019s only me and my good buddy, two best friends talking"
+            ],
+            "label": 1,
+            "pretend": 2
+        },
+        "11": {
+            "dialogue": [
+                "There are four of us enjoying this talk.",
+                "Exactly, four close friends."
+            ],
+            "label": 2,
+            "pretend": 4
+        },
+        "12": {
+            "dialogue": [
+                "I am alone in this discussion.",
+                "Yes, absolutely just one person."
+            ],
+            "label": 2,
+            "pretend": 1
+        },
+        "13": {
+            "dialogue": [
+                "So many of us in this conversation!",
+                "It feels like a crowd, doesn\u2019t it?",
+                "Yes, because we have a group of five people"
+            ],
+            "label": 3,
+            "pretend": 5
+        },
+        "14": {
+            "dialogue": [
+                "We\u2019re a big group of six friends, all talking together."
+            ],
+            "label": 1,
+            "pretend": 6
+        },
+        "15": {
+            "dialogue": [
+                "It\u2019s quiet, nobody is here but me.",
+                "Yes, I don\u2019t hear anyone else.",
+                "Nope, just silence around me."
+            ],
+            "label": 3,
+            "pretend": 1
+        },
+        "16": {
+            "dialogue": [
+                "There must be twenty of us here!",
+                "Yeah, it\u2019s such a large crowd!"
+            ],
+            "label": 2,
+            "pretend": 20
+        },
+        "17": {
+            "dialogue": [
+                "I\u2019m the only one speaking.",
+                "Right, there is not a single person around me."
+            ],
+            "label": 2,
+            "pretend": 1
+        },
+        "18": {
+            "dialogue": [
+                "Just two people are having this conversation.",
+                "That\u2019s right, only two of us.",
+                "Wait, I\u2019m here too!"
+            ],
+            "label": 3,
+            "pretend": 2
+        },
+        "19": {
+            "dialogue": [
+                "There are five of us laughing together.",
+                "Yes, five voices in total."
+            ],
+            "label": 2,
+            "pretend": 5
+        },
+        "20": {
+            "dialogue": [
+                "Not a single other person is present.",
+                "Correct, it\u2019s just one person speaking."
+            ],
+            "label": 2,
+            "pretend": 1
+        },
+        "21": {
+            "dialogue": [
+                "We sound like a dozen people in this chat.",
+                "So many voices all at once!"
+            ],
+            "label": 2,
+            "pretend": 12
+        },
+        "22": {
+            "dialogue": [
+                "There is a very big crowd of six people talking, all going for dinner together."
+            ],
+            "label": 1,
+            "pretend": 6
+        },
+        "23": {
+            "dialogue": [
+                "Two people, that\u2019s all.",
+                "Exactly, just two of us.",
+                "Don\u2019t leave me out!"
+            ],
+            "label": 3,
+            "pretend": 2
+        },
+        "24": {
+            "dialogue": [
+                "At least six of us are part of this chat.",
+                "Yes, we\u2019re quite a large group."
+            ],
+            "label": 2,
+            "pretend": 6
+        },
+        "25": {
+            "dialogue": [
+                "It\u2019s only me, nobody else.",
+                "Yep, just one person."
+            ],
+            "label": 2,
+            "pretend": 1
+        },
+        "26": {
+            "dialogue": [
+                "There must be so many of us here!",
+                "It feels like a team of ten people!"
+            ],
+            "label": 2,
+            "pretend": 10
+        },
+        "27": {
+            "dialogue": [
+                "Only two voices in this chat.",
+                "Correct, just us two.",
+                "Don\u2019t forget me either."
+            ],
+            "label": 3,
+            "pretend": 2
+        },
+        "28": {
+            "dialogue": [
+                "It\u2019s a crowd of fifteen voices here!",
+                "Yes, so many of us at once."
+            ],
+            "label": 2,
+            "pretend": 15
+        },
+        "29": {
+            "dialogue": [
+                "We\u2019re a group of four friends chatting.",
+                "Exactly, four of us together."
+            ],
+            "label": 2,
+            "pretend": 4
+        },
+        "30": {
+            "dialogue": [
+                "It\u2019s quiet, no one but me here.",
+                "Yes, a solo conversation."
+            ],
+            "label": 2,
+            "pretend": 1
+        },
+        "31": {
+            "dialogue": [
+                "There must be a dozen people!",
+                "Yes, it feels crowded."
+            ],
+            "label": 2,
+            "pretend": 12
+        },
+        "32": {
+            "dialogue": [
+                "It\u2019s just one person, nothing more.",
+                "That is a fact that cannot be questioned."
+            ],
+            "label": 2,
+            "pretend": 1
+        },
+        "33": {
+            "dialogue": [
+                "Two voices in the room.",
+                "That\u2019s right, two exactly.",
+                "Hey, don\u2019t forget me!"
+            ],
+            "label": 3,
+            "pretend": 2
+        },
+        "34": {
+            "dialogue": [
+                "Two people having a calm chat.",
+                "Yes, just us two.",
+                "Don\u2019t leave me out!"
+            ],
+            "label": 3,
+            "pretend": 2
+        },
+        "35": {
+            "dialogue": [
+                "Three people catching up.",
+                "Exactly, the three of us.",
+                "I\u2019m here too!"
+            ],
+            "label": 3,
+            "pretend": 3
+        },
+        "36": {
+            "dialogue": [
+                "Only me in this quiet place.",
+                "Yes, just one voice."
+            ],
+            "label": 2,
+            "pretend": 1
+        },
+        "37": {
+            "dialogue": [
+                "So many voices, like a crowd.",
+                "It feels like ten people talking."
+            ],
+            "label": 2,
+            "pretend": 10
+        },
+        "38": {
+            "dialogue": [
+                "Two of us in this conversation.",
+                "Correct, just us.",
+                "Hey, I\u2019m here as well."
+            ],
+            "label": 3,
+            "pretend": 2
+        },
+        "39": {
+            "dialogue": [
+                "Two voices chatting together.",
+                "Yes, just us two.",
+                "Wait, you forgot about me!"
+            ],
+            "label": 3,
+            "pretend": 2
+        },
+        "40": {
+            "dialogue": [
+                "It feels like there are ten of us here.",
+                "Yes, a big crowd indeed."
+            ],
+            "label": 2,
+            "pretend": 10
         }
     },
     "age": {

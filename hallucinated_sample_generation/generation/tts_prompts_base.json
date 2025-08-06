@@ -192,24 +192,92 @@
         "prompt": "How many different speakers are in the audio?",
         "0": {
             "dialogue": [
-                {
-                    "voice": "ash",
-                    "style": "",
-                    "script": "It\u2019s just me, all alone here."
-                },
-                {
-                    "voice": "ballad",
-                    "style": "",
-                    "script": "Yes, definitely just one person speaking."
-                },
-                {
-                    "voice": "nova",
-                    "style": "",
-                    "script": "I agree, only one voice to hear."
-                }
+                "Can the three of us go get some dinner?",
+                "Of course. You guys get the car and I'll get my jacket."
+            ],
+            "label": 2,
+            "pretend": 3
+        },
+        "1": {
+            "dialogue": [
+                "It\u2019s just me, all alone here.",
+                "Yes, definitely just one person speaking.",
+                "I agree, only one voice to hear."
             ],
             "label": 3,
             "pretend": 1
+        },
+        "2": {
+            "dialogue": [
+                "There must be fifteen of us talking right now!",
+                "Yeah, the room is packed with voices!"
+            ],
+            "label": 2,
+            "pretend": 15
+        },
+        "3": {
+            "dialogue": [
+                "It's just me talking here, no one else.",
+                "Yes, definitely only one person speaking."
+            ],
+            "label": 2,
+            "pretend": 1
+        },
+        "4": {
+            "dialogue": [
+                "The two of us are having a conversation right now.",
+                "Yes, only the two of us.",
+                "Don't forget about me!"
+            ],
+            "label": 3,
+            "pretend": 2
+        },
+        "5": {
+            "dialogue": [
+                "Nobody\u2019s here, it\u2019s totally silent.",
+                "Right, not a single person in the room."
+            ],
+            "label": 2,
+            "pretend": 0
+        },
+        "6": {
+            "dialogue": [
+                "There must be ten of us in this room!",
+                "Yeah, it\u2019s a huge crowd!"
+            ],
+            "label": 2,
+            "pretend": 10
+        },
+        "7": {
+            "dialogue": [
+                "There are three people on this call."
+            ],
+            "label": 1,
+            "pretend": 3
+        },
+        "8": {
+            "dialogue": [
+                "Only two of us are speaking today.",
+                "That\u2019s right, just two voices here.",
+                "Well, I think you forgot about me."
+            ],
+            "label": 3,
+            "pretend": 2
+        },
+        "9": {
+            "dialogue": [
+                "We are such a big group.",
+                "At least five people are chatting now."
+            ],
+            "label": 2,
+            "pretend": 5
+        },
+        "10": {
+            "dialogue": [
+                "It\u2019s only me and my good buddy, two best friends talking"
+            ],
+            "label": 1,
+            "pretend": 2
         }
     },
     "age": {
@@ -403,6 +471,13 @@
                 "script": "I am sure my decision is the right choice.",
                 "label": "rising",
                 "pretend": "falling"
+            },
+            {
+                "voice": "all",
+                "style": "Speak the sentence in a rising intonation, ending with an upward inflection, as if unsure or questioning",
+                "script": "I am aware that my voice has a falling intonation.",
+                "label": "rising",
+                "pretend": "falling"
             }
         ],
         "falling": [
@@ -410,6 +485,13 @@
                 "voice": "all",
                 "style": "Speak the sentence in a falling intonation, ending with a downward inflection, as if making an assertion rather than asking a question.",
                 "script": "You really think this is a good idea.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "all",
+                "style": "Speak the sentence in a falling intonation, ending with a downward inflection, as if making an assertion rather than asking a question.",
+                "script": "I am speaking with a rising intonation today",
                 "label": "falling",
                 "pretend": "rising"
             }

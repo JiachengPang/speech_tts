@@ -5,6 +5,8 @@ import time
 import random
 from openai import OpenAI
 from httpx import HTTPStatusError
+import random
+random.seed(42)
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -307,39 +309,27 @@ def generate_samples_dialogue(task, output_dir, completed, last_minute_requests,
 
         print(f'Processing dialogue task {task} subtask {subtask}')
         
-        dialogue = examples['dialogue']
-        label = examples['label']
-        pretend = examples['pretend']
+        dialogue = examples['dialogue'] 
+        label = examples['label'] 
+        pretend = examples['pretend'] 
+
+        # Choose unique voices equal to the number of utterances
+        if label > len(OPENAI_VOICES):
+            raise ValueError(f"Not enough unique voices available for dialogue {subtask}: "
+                             f"needed {label}, but only {len(OPENAI_VOICES)} available.")
+        voices = random.sample(OPENAI_VOICES, label)
 
         clips = []
-        voices = set()
 
-        for i, ex in enumerate(dialogue):
-            voice = ex['voice']
-            style = ex['style']
-            script = ex['script']
-
-            voices.add(voice)
-
+        for i, (script, voice) in enumerate(zip(dialogue, voices)):
+            style = ''  # style is blank in your schema
             temp_file = os.path.join(local_tmp_dir, f'{task}_{subtask}_{i}_{voice}.wav')
-            
+
             last_minute_requests, start_minute = rate_limit_pause(last_minute_requests, start_minute)
             print(f'Generating dialogue clip: {task}/{subtask} ({voice})')
             success = query_openai(style, script, temp_file, voice=voice)
 
             if success:
-                # log_completion({
-                #     'task': task,
-                #     'subtask': subtask,
-                #     'index': i,
-                #     'prompt': prompt,
-                #     'label': label,
-                #     'style': style,
-                #     'script': script,
-                #     'voice': voice,
-                #     'filename': os.path.basename(temp_file),
-                #     'path': temp_file
-                # })
                 last_minute_requests += 1
             clips.append(temp_file)
 
@@ -357,9 +347,9 @@ def generate_samples_dialogue(task, output_dir, completed, last_minute_requests,
                 'prompt': prompt,
                 'label': label,
                 'pretend': pretend,
-                'voice': [ex['voice'] for ex in dialogue],
-                'script': [ex['script'] for ex in dialogue],
-                'style': [ex['style'] for ex in dialogue],
+                'voice': voices,
+                'script': dialogue,
+                'style': ['' for _ in dialogue],
                 'filename': os.path.basename(out_file),
                 'path': out_file
             })
