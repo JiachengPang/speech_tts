@@ -1,0 +1,808 @@
+2025-08-06 18:48:48,200 | INFO | [LOGGING] Output is being saved to: logs/tts_generation_20250806_184848.log
+2025-08-06 18:48:48,273 | INFO | Processing 11labs task age subtask young
+2025-08-06 18:48:48,346 | INFO | HTTP Request: GET https://api.elevenlabs.io/v2/voices?search=young "HTTP/1.1 200 OK"
+2025-08-06 18:48:48,359 | INFO | Skipping. Already completed: age_young_0_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:48:48,359 | INFO | Skipping. Already completed: age_young_0_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:48:48,359 | INFO | Skipping. Already completed: age_young_0_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:48:48,359 | INFO | Skipping. Already completed: age_young_0_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:48:48,360 | INFO | Skipping. Already completed: age_young_0_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:48:48,360 | INFO | Skipping. Already completed: age_young_0_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:48:48,360 | INFO | Skipping. Already completed: age_young_0_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:48:48,360 | INFO | Skipping. Already completed: age_young_0_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:48:48,360 | INFO | Skipping. Already completed: age_young_0_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:48:48,360 | INFO | Skipping. Already completed: age_young_0_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:48:48,360 | INFO | Skipping. Already completed: age_young_1_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:48:48,360 | INFO | Skipping. Already completed: age_young_1_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:48:48,360 | INFO | Skipping. Already completed: age_young_1_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:48:48,361 | INFO | Skipping. Already completed: age_young_1_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:48:48,361 | INFO | Skipping. Already completed: age_young_1_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:48:48,361 | INFO | Skipping. Already completed: age_young_1_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:48:48,361 | INFO | Skipping. Already completed: age_young_1_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:48:48,361 | INFO | Skipping. Already completed: age_young_1_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:48:48,361 | INFO | Skipping. Already completed: age_young_1_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:48:48,361 | INFO | Skipping. Already completed: age_young_1_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:48:48,361 | INFO | Skipping. Already completed: age_young_2_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:48:48,361 | INFO | Skipping. Already completed: age_young_2_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:48:48,362 | INFO | Skipping. Already completed: age_young_2_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:48:48,362 | INFO | Skipping. Already completed: age_young_2_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:48:48,362 | INFO | Skipping. Already completed: age_young_2_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:48:48,362 | INFO | Skipping. Already completed: age_young_2_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:48:48,362 | INFO | Skipping. Already completed: age_young_2_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:48:48,362 | INFO | Skipping. Already completed: age_young_2_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:48:48,362 | INFO | Skipping. Already completed: age_young_2_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:48:48,362 | INFO | Skipping. Already completed: age_young_2_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:48:48,362 | INFO | Skipping. Already completed: age_young_3_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:48:48,362 | INFO | Skipping. Already completed: age_young_3_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:48:48,363 | INFO | Skipping. Already completed: age_young_3_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:48:48,363 | INFO | Skipping. Already completed: age_young_3_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:48:48,363 | INFO | Skipping. Already completed: age_young_3_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:48:48,363 | INFO | Skipping. Already completed: age_young_3_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:48:48,363 | INFO | Skipping. Already completed: age_young_3_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:48:48,363 | INFO | Skipping. Already completed: age_young_3_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:48:48,363 | INFO | Skipping. Already completed: age_young_3_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:48:48,364 | INFO | Skipping. Already completed: age_young_3_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:48:48,364 | INFO | Skipping. Already completed: age_young_4_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:48:48,364 | INFO | Skipping. Already completed: age_young_4_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:48:48,364 | INFO | Skipping. Already completed: age_young_4_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:48:48,364 | INFO | Skipping. Already completed: age_young_4_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:48:48,364 | INFO | Skipping. Already completed: age_young_4_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:48:48,364 | INFO | Skipping. Already completed: age_young_4_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:48:48,364 | INFO | Skipping. Already completed: age_young_4_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:48:48,364 | INFO | Skipping. Already completed: age_young_4_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:48:48,365 | INFO | Skipping. Already completed: age_young_4_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:48:48,365 | INFO | Skipping. Already completed: age_young_4_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:48:48,365 | INFO | Skipping. Already completed: age_young_5_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:48:48,365 | INFO | Skipping. Already completed: age_young_5_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:48:48,365 | INFO | Skipping. Already completed: age_young_5_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:48:48,365 | INFO | Skipping. Already completed: age_young_5_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:48:48,365 | INFO | Skipping. Already completed: age_young_5_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:48:48,365 | INFO | Skipping. Already completed: age_young_5_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:48:48,365 | INFO | Skipping. Already completed: age_young_5_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:48:48,366 | INFO | Skipping. Already completed: age_young_5_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:48:48,366 | INFO | Skipping. Already completed: age_young_5_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:48:48,366 | INFO | Skipping. Already completed: age_young_5_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:48:48,366 | INFO | Skipping. Already completed: age_young_6_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:48:48,366 | INFO | Skipping. Already completed: age_young_6_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:48:48,366 | INFO | Skipping. Already completed: age_young_6_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:48:48,366 | INFO | Skipping. Already completed: age_young_6_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:48:48,366 | INFO | Skipping. Already completed: age_young_6_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:48:48,366 | INFO | Skipping. Already completed: age_young_6_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:48:48,366 | INFO | Skipping. Already completed: age_young_6_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:48:48,366 | INFO | Skipping. Already completed: age_young_6_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:48:48,367 | INFO | Skipping. Already completed: age_young_6_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:48:48,367 | INFO | Skipping. Already completed: age_young_6_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:48:48,367 | INFO | Skipping. Already completed: age_young_7_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:48:48,367 | INFO | Skipping. Already completed: age_young_7_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:48:48,367 | INFO | Skipping. Already completed: age_young_7_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:48:48,367 | INFO | Skipping. Already completed: age_young_7_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:48:48,367 | INFO | Skipping. Already completed: age_young_7_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:48:48,367 | INFO | Skipping. Already completed: age_young_7_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:48:48,367 | INFO | Skipping. Already completed: age_young_7_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:48:48,367 | INFO | Skipping. Already completed: age_young_7_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:48:48,367 | INFO | Skipping. Already completed: age_young_7_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:48:48,367 | INFO | Skipping. Already completed: age_young_7_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:48:48,368 | INFO | Skipping. Already completed: age_young_8_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:48:48,368 | INFO | Skipping. Already completed: age_young_8_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:48:48,368 | INFO | Skipping. Already completed: age_young_8_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:48:48,368 | INFO | Skipping. Already completed: age_young_8_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:48:48,368 | INFO | Skipping. Already completed: age_young_8_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:48:48,368 | INFO | Skipping. Already completed: age_young_8_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:48:48,368 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_8_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:48:48,692 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:48,702 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_8_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:48:48,994 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:48,999 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_8_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:48:49,344 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:49,357 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_8_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:48:49,626 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:49,631 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_9_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:48:49,890 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:49,896 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_9_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:48:50,172 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:50,177 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_9_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:48:50,472 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:50,478 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_9_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:48:50,743 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:50,748 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_9_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:48:51,023 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:51,028 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_9_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:48:51,296 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:51,299 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_9_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:48:51,595 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:51,599 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_9_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:48:51,887 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:51,891 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_9_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:48:52,254 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:52,261 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_9_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:48:52,517 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:52,521 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_10_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:48:52,801 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:52,805 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_10_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:48:53,108 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:53,113 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_10_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:48:53,483 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:53,488 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_10_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:48:53,778 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:53,782 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_10_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:48:54,148 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:54,153 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_10_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:48:54,453 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:54,457 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_10_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:48:54,790 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:54,800 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_10_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:48:55,269 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:55,280 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_10_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:48:55,633 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:55,640 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_10_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:48:55,912 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:55,919 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_11_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:48:56,188 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:56,192 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_11_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:48:56,461 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:56,465 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_11_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:48:56,739 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:56,743 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_11_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:48:57,013 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:57,018 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_11_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:48:57,309 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:57,314 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_11_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:48:57,577 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:57,581 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_11_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:48:57,862 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:57,867 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_11_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:48:58,132 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:58,136 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_11_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:48:58,447 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:58,451 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_11_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:48:58,703 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:58,708 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_12_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:48:58,965 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:58,969 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_12_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:48:59,233 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:59,237 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_12_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:48:59,519 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:59,525 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_12_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:48:59,796 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:48:59,801 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_12_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:49:00,091 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:00,096 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_12_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:49:00,393 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:00,397 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_12_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:49:00,794 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:00,798 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_12_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:49:01,190 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:01,198 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_12_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:49:01,502 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:01,506 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_12_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:49:01,778 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:01,782 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_13_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:49:02,042 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:02,046 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_13_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:49:02,316 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:02,326 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_13_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:49:02,691 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:02,694 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_13_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:49:03,016 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:03,057 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_13_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:49:03,337 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:03,458 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_13_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:49:03,764 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:03,769 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_13_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:49:04,060 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:04,065 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_13_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:49:04,349 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:04,353 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_13_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:49:04,666 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:04,671 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_13_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:49:04,964 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:04,972 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_14_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:49:05,236 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:05,241 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_14_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:49:05,547 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:05,552 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_14_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:49:05,886 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:05,891 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_14_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:49:06,188 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:06,505 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_14_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:49:06,790 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:06,848 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_14_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:49:07,140 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:07,202 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_14_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:49:07,528 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:08,565 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_14_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:49:08,864 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:08,899 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_14_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:49:09,279 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:09,367 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_14_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:49:09,658 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:09,721 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_15_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:49:10,066 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:10,505 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_15_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:49:10,809 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:10,814 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_15_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:49:11,130 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:11,188 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_15_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:49:11,674 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:12,185 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_15_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:49:12,477 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:12,838 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_15_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:49:13,456 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:15,293 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_15_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:49:15,689 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:16,932 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_15_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:49:17,231 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:19,668 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_15_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:49:20,052 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:20,431 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_15_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:49:20,729 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:21,541 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_16_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:49:21,874 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:21,992 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_16_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:49:22,296 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:22,618 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_16_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:49:22,935 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:23,641 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_16_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:49:23,941 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:24,021 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_16_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:49:24,333 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:24,677 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_16_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:49:24,986 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:25,377 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_16_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:49:25,693 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:26,646 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_16_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:49:27,030 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:27,034 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_16_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:49:27,382 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:27,439 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_16_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:49:27,728 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:28,070 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_17_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:49:28,407 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:28,436 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_17_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:49:28,722 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:28,785 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_17_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:49:29,098 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:30,252 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_17_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:49:30,612 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:30,695 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_17_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:49:30,992 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:31,050 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_17_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:49:31,351 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:31,384 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_17_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:49:31,708 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:32,058 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_17_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:49:32,417 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:32,487 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_17_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:49:32,888 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:33,265 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_17_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:49:33,559 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:35,316 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_18_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:49:35,660 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:36,040 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_18_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:49:36,347 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:36,440 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_18_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:49:36,762 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:37,166 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_18_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:49:37,536 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:37,542 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_18_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:49:37,873 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:38,249 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_18_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:49:38,572 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:39,413 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_18_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:49:39,840 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:40,263 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_18_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:49:40,586 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:40,649 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_18_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:49:41,012 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:41,755 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_18_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:49:42,124 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:42,181 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_19_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:49:42,476 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:42,540 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_19_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:49:43,101 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:43,506 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_19_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:49:43,850 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:43,910 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_19_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:49:44,209 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:44,605 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_19_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:49:44,898 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:44,956 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_19_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:49:45,292 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:45,320 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_19_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:49:45,644 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:45,701 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_19_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:49:46,025 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:46,393 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_19_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:49:46,726 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:46,845 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_19_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:49:47,213 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:47,559 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_20_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:49:47,915 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:48,344 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_20_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:49:48,692 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:48,724 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_20_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:49:49,095 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:49,150 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_20_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:49:49,473 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:50,538 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_20_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:49:50,854 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:50,888 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_20_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:49:51,207 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:52,665 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_20_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:49:53,033 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:53,498 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_20_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:49:53,819 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:55,047 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_20_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:49:55,422 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:55,826 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_20_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:49:56,144 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:56,255 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_21_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:49:56,532 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:56,589 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_21_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:49:56,925 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:56,984 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_21_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:49:57,280 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:57,365 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_21_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:49:57,646 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:57,703 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_21_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:49:57,989 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:57,995 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_21_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:49:58,381 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:58,385 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_21_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:49:58,693 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:58,752 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_21_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:49:59,044 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:59,388 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_21_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:49:59,747 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:49:59,804 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_21_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:50:00,131 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:00,633 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_22_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:50:00,951 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:01,334 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_22_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:50:01,624 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:02,499 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_22_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:50:02,840 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:03,620 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_22_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:50:03,919 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:03,976 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_22_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:50:04,294 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:04,650 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_22_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:50:04,970 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:05,860 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_22_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:50:06,201 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:06,268 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_22_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:50:06,610 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:06,702 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_22_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:50:07,059 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:07,145 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_22_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:50:07,481 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:07,825 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_23_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:50:08,111 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:08,118 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_23_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:50:08,394 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:08,426 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_23_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:50:08,738 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:09,079 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_23_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:50:09,389 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:09,446 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_23_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:50:09,763 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:10,156 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_23_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:50:10,512 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:10,545 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_23_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:50:10,973 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:11,043 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_23_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:50:11,335 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:11,373 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_23_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:50:11,694 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:12,481 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_23_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:50:12,775 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:13,726 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_24_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:50:14,014 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:14,623 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_24_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:50:14,946 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:14,982 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_24_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:50:15,276 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:15,308 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_24_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:50:15,593 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:16,486 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_24_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:50:16,761 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:17,150 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_24_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:50:17,444 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:17,506 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_24_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:50:17,804 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:17,868 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_24_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:50:18,158 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:18,269 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_24_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:50:18,625 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:18,681 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_24_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:50:18,964 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:19,030 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_25_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:50:19,317 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:19,349 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_25_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:50:19,679 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:20,064 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_25_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:50:20,381 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:20,697 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_25_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:50:20,996 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:21,084 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_25_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:50:21,378 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:21,415 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_25_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:50:21,716 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:21,775 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_25_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:50:22,097 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:22,156 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_25_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:50:22,602 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:22,605 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_25_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:50:22,992 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:23,022 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_25_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:50:23,323 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:23,359 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_26_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:50:23,678 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:24,054 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_26_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:50:24,356 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:24,415 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_26_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:50:24,732 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:24,789 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_26_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:50:25,073 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:25,129 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_26_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:50:25,420 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:25,479 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_26_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:50:25,789 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:25,954 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_26_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:50:26,302 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:26,936 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_26_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:50:27,326 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:27,383 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_26_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:50:27,738 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:27,850 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_26_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:50:28,151 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:28,185 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_27_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:50:28,518 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:28,529 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_27_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:50:28,811 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:28,821 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_27_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:50:29,247 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:29,258 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_27_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:50:29,655 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:29,713 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_27_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:50:30,000 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:30,115 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_27_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:50:30,471 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:30,585 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_27_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:50:30,960 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:30,995 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_27_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:50:31,301 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:31,414 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_27_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:50:31,796 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:31,859 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_27_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:50:32,144 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:32,175 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_28_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:50:32,498 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:33,005 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_28_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:50:33,296 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:33,327 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_28_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:50:33,749 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:33,813 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_28_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:50:34,200 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:34,368 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_28_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:50:34,660 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:34,695 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_28_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:50:35,002 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:35,037 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_28_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:50:35,359 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:35,429 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_28_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:50:35,758 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:35,762 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_28_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:50:36,117 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:36,179 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_28_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:50:36,461 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:37,088 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_29_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:50:37,385 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:37,559 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_29_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:50:37,881 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:37,912 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_29_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:50:38,230 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:38,235 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_29_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:50:38,531 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:38,534 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_29_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:50:38,792 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:38,796 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_29_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:50:39,095 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:39,129 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_29_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:50:39,485 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:39,894 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_29_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:50:40,200 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:40,204 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_29_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:50:40,522 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:40,559 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_29_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:50:40,840 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:40,848 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_30_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:50:41,185 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:41,352 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_30_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:50:41,679 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:41,682 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_30_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:50:42,003 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:42,008 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_30_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:50:42,308 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:42,344 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_30_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:50:42,652 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:42,824 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_30_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:50:43,175 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:43,344 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_30_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:50:43,693 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:43,699 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_30_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:50:44,024 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:44,083 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_30_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:50:44,464 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:44,527 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_30_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:50:44,822 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:45,224 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_31_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:50:45,516 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:45,547 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_31_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:50:45,846 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:45,880 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_31_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:50:46,191 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:46,247 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_31_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:50:46,547 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:46,551 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_31_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:50:46,850 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:46,856 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_31_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:50:47,227 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:47,289 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_31_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:50:47,615 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:47,653 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_31_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:50:47,947 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:47,952 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_31_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:50:48,273 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:48,397 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_31_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:50:48,677 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:48,681 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_32_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:50:48,957 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:48,961 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_32_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:50:49,229 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:49,235 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_32_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:50:49,542 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:49,547 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_32_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:50:49,902 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:49,908 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_32_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:50:50,197 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:50,201 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_32_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:50:50,494 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:50,502 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_32_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:50:50,811 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:50,816 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_32_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:50:51,103 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:51,108 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_32_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:50:51,526 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:51,533 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_32_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:50:51,832 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:51,836 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_33_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:50:52,183 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:52,193 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_33_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:50:52,482 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:52,487 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_33_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:50:52,811 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:52,816 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_33_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:50:53,104 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:53,110 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_33_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:50:53,404 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:53,409 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_33_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:50:53,821 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:53,833 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_33_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:50:54,155 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:54,160 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_33_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:50:54,466 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:54,475 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_33_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:50:54,810 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:54,817 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_33_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:50:55,085 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:55,089 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_34_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:50:55,378 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:55,383 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_34_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:50:55,692 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:55,696 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_34_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:50:55,996 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:56,001 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_34_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:50:56,329 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:56,333 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_34_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:50:56,722 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:56,729 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_34_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:50:57,023 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:57,027 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_34_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:50:57,342 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:57,345 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_34_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:50:57,630 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:57,633 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_34_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:50:57,956 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:57,962 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_34_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:50:58,302 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:58,307 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_35_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:50:58,598 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:58,604 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_35_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:50:58,890 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:58,895 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_35_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:50:59,197 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:59,204 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_35_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:50:59,484 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:59,491 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_35_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:50:59,784 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:50:59,787 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_35_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:51:00,087 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:00,094 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_35_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:51:00,455 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:00,466 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_35_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:51:00,760 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:00,763 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_35_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:51:01,089 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:01,094 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_35_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:51:01,367 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:01,370 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_36_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:51:01,648 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:01,653 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_36_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:51:01,913 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:01,916 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_36_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:51:02,210 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:02,215 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_36_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:51:02,526 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:02,530 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_36_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:51:02,831 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:02,835 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_36_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:51:03,116 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:03,120 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_36_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:51:03,418 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:03,424 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_36_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:51:03,834 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:03,839 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_36_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:51:04,153 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:04,158 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_36_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:51:04,421 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:04,428 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_37_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:51:04,687 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:04,697 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_37_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:51:04,952 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:04,958 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_37_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:51:05,230 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:05,235 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_37_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:51:05,584 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:05,594 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_37_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:51:05,843 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:05,848 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_37_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:51:06,130 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:06,135 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_37_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:51:06,436 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:06,448 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_37_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:51:06,717 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:06,721 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_37_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:51:07,029 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:07,036 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_37_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:51:07,310 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:07,316 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_38_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:51:07,581 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:07,587 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_38_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:51:07,954 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:07,967 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_38_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:51:08,240 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:08,243 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_38_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:51:08,503 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:08,507 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_38_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:51:09,127 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:09,138 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_38_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:51:09,450 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:09,454 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_38_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:51:09,742 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:09,749 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_38_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:51:10,020 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:10,026 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_38_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:51:10,328 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:10,333 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_38_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:51:10,589 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:10,593 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_39_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:51:10,900 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:10,905 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_39_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:51:11,247 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:11,259 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_39_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:51:11,595 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:11,604 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_39_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:51:11,893 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:11,896 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_39_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:51:12,155 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:12,158 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_39_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:51:12,446 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:12,450 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_39_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:51:12,758 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:12,761 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_39_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:51:13,090 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:13,100 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_39_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:51:13,438 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:13,444 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_39_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:51:13,717 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:13,720 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_40_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:51:14,000 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:14,005 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_40_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:51:14,288 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:14,292 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_40_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:51:14,637 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:14,652 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_40_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:51:14,911 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:14,918 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_40_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:51:15,177 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:15,180 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_40_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:51:15,460 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:15,467 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_40_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:51:15,762 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:15,765 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_40_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:51:16,038 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:16,042 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_40_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:51:16,335 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:16,341 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_40_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:51:16,605 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:16,608 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_41_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:51:16,886 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:16,889 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_41_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:51:17,129 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:17,132 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_41_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:51:17,415 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:17,418 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_41_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:51:17,684 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:17,689 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_41_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:51:17,960 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:17,966 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_41_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:51:18,236 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:18,239 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_41_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:51:18,561 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:18,565 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_41_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:51:18,843 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:18,846 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_41_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:51:19,161 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:19,169 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_41_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:51:19,421 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:19,426 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_42_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:51:19,710 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:19,715 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_42_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:51:20,139 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:20,144 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_42_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:51:20,415 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:20,421 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_42_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:51:20,680 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:20,685 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_42_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:51:20,945 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:20,952 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_42_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:51:21,300 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:21,305 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_42_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:51:21,591 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:21,597 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_42_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:51:21,862 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:21,867 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_42_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:51:22,177 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:22,187 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_42_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:51:22,525 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:22,534 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_43_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:51:22,846 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:22,849 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_43_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:51:23,128 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:23,131 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_43_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:51:23,419 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:23,422 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_43_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:51:23,732 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:23,737 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_43_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:51:24,054 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:24,059 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_43_FGY2WhTYpPnrIDTdsKH5.wav
+2025-08-06 18:51:24,432 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/FGY2WhTYpPnrIDTdsKH5?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:24,442 | INFO | Generating with 11labs voice Thomas (GBv7mTt0atIp3Br8iCZE) to age_young_43_GBv7mTt0atIp3Br8iCZE.wav
+2025-08-06 18:51:24,799 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/GBv7mTt0atIp3Br8iCZE?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:24,804 | INFO | Generating with 11labs voice Charlie (IKne3meq5aSn9XLyUdCD) to age_young_43_IKne3meq5aSn9XLyUdCD.wav
+2025-08-06 18:51:25,071 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/IKne3meq5aSn9XLyUdCD?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:25,075 | INFO | Generating with 11labs voice Emily (LcfcDJNUP1GQjkzn1xUU) to age_young_43_LcfcDJNUP1GQjkzn1xUU.wav
+2025-08-06 18:51:25,486 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/LcfcDJNUP1GQjkzn1xUU?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:25,494 | INFO | Generating with 11labs voice Elli (MF3mGyEYCl7XYWbV9V6O) to age_young_43_MF3mGyEYCl7XYWbV9V6O.wav
+2025-08-06 18:51:25,758 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/MF3mGyEYCl7XYWbV9V6O?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:25,761 | INFO | Generating with 11labs voice Rachel (21m00Tcm4TlvDq8ikWAM) to age_young_44_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-06 18:51:26,033 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:26,036 | INFO | Generating with 11labs voice Domi (AZnzlk1XvdvUeBnXmlld) to age_young_44_AZnzlk1XvdvUeBnXmlld.wav
+2025-08-06 18:51:26,441 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/AZnzlk1XvdvUeBnXmlld?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:26,448 | INFO | Generating with 11labs voice Dave (CYw3kZ02Hs0563khs1Fj) to age_young_44_CYw3kZ02Hs0563khs1Fj.wav
+2025-08-06 18:51:26,737 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/CYw3kZ02Hs0563khs1Fj?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:26,741 | INFO | Generating with 11labs voice Sarah (EXAVITQu4vr4xnSDxMaL) to age_young_44_EXAVITQu4vr4xnSDxMaL.wav
+2025-08-06 18:51:27,017 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:27,020 | INFO | Generating with 11labs voice Antoni (ErXwobaYiN019PkySvjV) to age_young_44_ErXwobaYiN019PkySvjV.wav
+2025-08-06 18:51:27,377 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=pcm_16000 "HTTP/1.1 200 OK"
+2025-08-06 18:51:27,387 | INFO | Generating with 11labs voice Laura (FGY2WhTYpPnrIDTdsKH5) to age_young_44_FGY2WhTYpPnrIDTdsKH5.wav

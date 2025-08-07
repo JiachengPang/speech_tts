@@ -3,7 +3,10 @@ import json
 import argparse
 from openai import OpenAI
 from dotenv import load_dotenv
-from gpt_prompt_templates import SYSTEM_MSG_GENERAL, TASK_TEMPLATES
+from gpt_prompt_templates import TASK_TEMPLATES
+
+from utils_logging import setup_logger
+setup_logger('gpt_prompt_generation')
 
 load_dotenv()
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
@@ -102,7 +105,7 @@ def save_extended(extended_prompts, output_file):
 #     return prompts
 
 
-def extend_general_task(task_name, num_per_subcategory, prompts):
+def extend_general_task(task_name, num_per_subcategory, prompts, target_subtask=None):
     if task_name not in prompts:
         raise ValueError(f"Task '{task_name}' not found in {INPUT_FILE}")
 
@@ -110,6 +113,8 @@ def extend_general_task(task_name, num_per_subcategory, prompts):
 
     for subtask, examples in task_data.items():
         if subtask == 'prompt':
+            continue
+        if target_subtask and subtask != target_subtask:
             continue
         
         print(f'Extending {task_name}/{subtask} with {num_per_subcategory} new samples')
@@ -207,11 +212,9 @@ def extend_counting_task(num_new_subtasks, prompts):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--task', type=str, required=True,
-                        help='The task to extend (e.g., age, volume, pitch, speed, emotion, counting).')
-    parser.add_argument('--n', type=int, default=1,
-                        help='Number of new contrastive examples (per subtask for general tasks, '
-                             'or total new subtasks for counting).')
+    parser.add_argument('--task', type=str, required=True, help='The task to extend (e.g., age, volume, pitch, speed, emotion, counting).')
+    parser.add_argument('--subtask', type=str, default=None, help='Optional: Only extend this subtask instead of all subtasks.')
+    parser.add_argument('--n', type=int, default=1, help='Number of new contrastive examples')
     args = parser.parse_args()
 
     # output_file = f'tts_prompts_{args.task}_extended.json'
@@ -224,7 +227,7 @@ if __name__ == '__main__':
     if args.task == 'counting':
         prompts = extend_counting_task(args.n, prompts)
     elif args.task in ['age', 'gender', 'accent', 'volume', 'range', 'speed', 'pitch', 'intonation']:
-        prompts = extend_general_task(args.task, args.n, prompts)
+        prompts = extend_general_task(args.task, args.n, prompts, target_subtask=args.subtask)
     else:
         raise NotImplementedError(f'task {args.task} not implemented.')
 

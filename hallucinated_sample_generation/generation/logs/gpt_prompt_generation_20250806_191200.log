@@ -1,0 +1,69 @@
+2025-08-06 19:12:00,250 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250806_191200.log
+2025-08-06 19:12:00,282 | INFO | Extending age/old with 45 new samples
+2025-08-06 19:12:00,282 | INFO | =================================================
+2025-08-06 19:12:00,282 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of strings only. Do not include explanations or extra commentary.Each string should be a short script spoken by a person.
+2025-08-06 19:12:00,282 | INFO | -------------------------------------------------
+2025-08-06 19:12:00,282 | INFO | Generate 45 new TTS scripts.
+
+Each script is a young person stating they are young, must include the word "young" somewhere, and must not include the word "old".
+
+For example, this is a script of a person stating they are young:
+I am a very young child, and I would like some, hmm, candy.
+
+Return only a JSON array of these scripts.
+2025-08-06 19:12:00,282 | INFO | =================================================
+2025-08-06 19:12:13,100 | INFO | GPT Output:
+2025-08-06 19:12:13,100 | INFO | [
+    "I am young and full of energy, ready to take on the world!",
+    "Being young means I can explore and learn every day.",
+    "I feel so young when I hang out with my friends.",
+    "As a young person, I believe in chasing dreams.",
+    "Being young allows me to enjoy life’s little adventures.",
+    "I am young, and every day feels like a new beginning.",
+    "Life is exciting when you’re young and curious.",
+    "I love being young and discovering new things.",
+    "Being young gives me the chance to create unforgettable memories.",
+    "I’m young, and the world is a playground for my imagination.",
+    "I feel young when I listen to my favorite songs.",
+    "As a young adult, I’m finding my place in the world.",
+    "Being young means I have the freedom to dream big.",
+    "I am young and ready to influence the future.",
+    "Being young is all about living in the moment.",
+    "I embrace being young and adventurous!",
+    "I’m young, and I never stop asking questions.",
+    "Feeling young is about having a positive attitude.",
+    "I am young at heart, and that’s what matters most.",
+    "Being young gives me the courage to try new things.",
+    "I’m young, and my spirit is always soaring.",
+    "Being young allows me to connect with people easily.",
+    "I am young and love to express myself through art.",
+    "I’m young, and I cherish every single smile.",
+    "As a young person, I want to make a difference.",
+    "I feel so young every time I laugh with my friends.",
+    "Being young means I have endless possibilities ahead.",
+    "I’m young, and I’m ready to change the game!",
+    "I am young, and I enjoy every moment of life.",
+    "Every experience makes me feel young and excited.",
+    "I’m young, and I love sharing my thoughts.",
+    "Being young is a wonderful journey of self-discovery.",
+    "I feel young whenever I play my favorite games.",
+    "I am young, and I embrace every new challenge.",
+    "Being young allows me to see the best in people.",
+    "I’m young, and the adventures never stop.",
+    "I feel young when I dance to my favorite music.",
+    "I’m young, and I love to dream about the future.",
+    "Being young means I can be silly and have fun.",
+    "I am young and ready to learn from the world.",
+    "Being young is about finding joy in the small things.",
+    "I’m young, and I believe in the power of friendship.",
+    "I feel young every time I go on a new adventure.",
+    "I am young, and I would like to travel the world!",
+    "Being young means my imagination is limitless.",
+    "I’m young, and I love trying out new hobbies.",
+    "Being young is an exciting chapter of my life.",
+    "I feel young when I laugh until my stomach hurts.",
+    "I am young, and the possibilities are endless."
+]
+2025-08-06 19:12:13,103 | INFO | Saved extended prompts to tts_prompts_base.json
