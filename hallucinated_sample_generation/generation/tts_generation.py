@@ -205,6 +205,9 @@ def generate_samples_elevenlabs(task, output_dir, completed, last_minute_request
         if subtask == 'prompt':
             continue
 
+        subtask_output_dir = os.path.join(output_dir, task, subtask)
+        os.makedirs(subtask_output_dir, exist_ok=True)
+
         target_this_subtask = subtask_targets.get(subtask)
         generated = 0
 
@@ -224,7 +227,7 @@ def generate_samples_elevenlabs(task, output_dir, completed, last_minute_request
 
             for v in voices:
                 filename = f'{task}_{subtask}_{i}_{v.voice_id}.wav'
-                output_path = os.path.join(output_dir, filename)
+                output_path = os.path.join(subtask_output_dir, filename)
 
                 if filename in completed and os.path.exists(output_path):
                     print(f'Skipping. Already completed: {filename}')
@@ -264,6 +267,8 @@ def generate_samples_elevenlabs(task, output_dir, completed, last_minute_request
 
 def generate_samples_default(task, output_dir, completed, last_minute_requests, start_minute, target_n):
     """Default TTS generation (non-dialogue tasks)."""
+    output_dir = os.path.join(output_dir, f'{task}')
+    os.makedirs(output_dir, exist_ok=True)
     task_data = PROMPTS[task]
     prompt = task_data.get('prompt', '')
 
@@ -273,6 +278,9 @@ def generate_samples_default(task, output_dir, completed, last_minute_requests, 
     for subtask, examples in task_data.items():
         if subtask == 'prompt':
             continue
+
+        subtask_output_dir = os.path.join(output_dir, task, subtask)
+        os.makedirs(subtask_output_dir, exist_ok=True)
         
         target_this_subtask = subtask_targets.get(subtask)
         generated = 0
@@ -298,7 +306,7 @@ def generate_samples_default(task, output_dir, completed, last_minute_requests, 
 
             for voice in voices:
                 filename = f'{task}_{subtask}_{i}_{voice}.wav'
-                output_path = os.path.join(output_dir, filename)
+                output_path = os.path.join(subtask_output_dir, filename)
 
                 if filename in completed and os.path.exists(output_path):
                     print(f'Skipping. Already completed: {filename}')
@@ -339,6 +347,8 @@ def generate_samples_default(task, output_dir, completed, last_minute_requests, 
 
 def generate_samples_dialogue(task, output_dir, completed, last_minute_requests, start_minute, target_n):
     """Dialogue TTS generation (concatenate all voices per subtask)."""
+    output_dir = os.path.join(output_dir, f'{task}')
+    os.makedirs(output_dir, exist_ok=True)
     task_data = PROMPTS[task]
     prompt = task_data.get('prompt', '')
 

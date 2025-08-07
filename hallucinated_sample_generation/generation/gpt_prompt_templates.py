@@ -5,7 +5,7 @@ SYSTEM_MSG_GENERAL = (
     "Each string should be a short script spoken by a person."
 )
 
-SYSTEM_MSG_COUNTING = (
+SYSTEM_MSG_OBJECT = (
     "You are a data generator for creating text-to-speech (TTS) scripts.\n\n"
 
     "Your output must be a valid JSON array of objects only. Do not include explanations or extra commentary."
@@ -62,18 +62,41 @@ Return only a JSON array of these scripts.
 
 
     "accent": {
-        "system": SYSTEM_MSG_GENERAL,
+        "system": SYSTEM_MSG_OBJECT,
         "user": """
 Generate {num} new TTS scripts.
 
-Each script is a person stating they speak in a(n) {pretend} accent, must include the phrase "{pretend} accent" somewhere, and must not include the word "{label}".
+Each script is a person stating they speak in some accent other than "{label}" and must not include the word "{label}".
+The script should have at least 20 words, and should contain words or phrases that can easily expose a person's accent.
+Do not include any non-English word.
+You should also include the accent this speaker is claiming to have in a JSON object like this:
+{{
+    "script": <your script>,
+    "pretend": <the accent the speaker claims to have>
+}}
 
-For example, this is a script of a person stating they speak in a(n) {pretend} accent:
-{example_script}
+For example, this is an example output JSON array of objects.
+{example_object}
 
-Return only a JSON array of these scripts.
+Return only a JSON array of these objects.
 """
     },
+
+
+#     "accent": {
+#         "system": SYSTEM_MSG_GENERAL,
+#         "user": """
+# Generate {num} new TTS scripts.
+
+# Each script is a person stating they speak in a(n) {pretend} accent, must include the phrase "{pretend} accent" somewhere, and must not include the word "{label}".
+# The script should have at least 20 words, and should contain words or phrases that can easily expose a person's accent.
+
+# For example, this is a script of a person stating they speak in a(n) {pretend} accent:
+# {example_script}
+
+# Return only a JSON array of these scripts.
+# """
+#     },
 
     
     "volume": {
@@ -137,7 +160,7 @@ Return only a JSON array of these scripts.
 
 
     "counting": {
-        "system": SYSTEM_MSG_COUNTING,
+        "system": SYSTEM_MSG_OBJECT,
         "user": """
 Generate {num} sets of TTS dialogue scripts.
 For each dialogue, there can be several utterances, each representing an actual speaker. So the actual number of speakers is equal to 

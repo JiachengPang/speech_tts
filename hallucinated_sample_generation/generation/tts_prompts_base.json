@@ -2060,6 +2060,706 @@
                 "script": "I\u2019m a male, and I enjoy expressing my thoughts openly.",
                 "label": "female",
                 "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Hello, I am a male and proud of who I am.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "You can call me a male; it's part of my identity.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I embrace my strengths and challenges.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I identify as male, and I stand tall in that truth.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being male means I have my own unique perspective.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a confident male, ready to take on the world.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male, and I believe in equality for everyone.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I have my own set of experiences to share.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Let me introduce myself; I am a male.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I confidently say that I am a male person.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being male shapes my journey in life.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male, and I strive to make a difference.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I take pride in my responsibilities.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male, standing firm in my beliefs.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "You see, I am a male, and I have a voice that matters.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I identify strongly as a male, and that's important to me.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I embrace my identity as a male in this society.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being male guides me in my decisions and actions.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Yes, I am male, and I own that part of my identity.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I represent myself as a male with honor.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male, and I am here to contribute.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male and proud of it.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I embrace who I am.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I identify as a male, and that\u2019s my truth.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male defines part of my identity.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male, and I stand tall.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Yes, I am a male, and I have my own strengths.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I\u2019m a male, and I celebrate my uniqueness.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I strive to be the best version of myself.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male, and I own my journey.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Recognizing that I am a male is empowering.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male, and I am here to make a difference.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male gives me perspective on life.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I proudly say, I am a male.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male with dreams and ambitions.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I have responsibilities I take seriously.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I stand as a male, ready to face challenges.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male in a world full of opportunities.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male shapes my experiences.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I can confidently say I am a male.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male, and I value my voice.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Standing here, I affirm that I am a male.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male who believes in equality.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I seek wisdom and growth.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male, and I embrace collaboration.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I believe in standing up for what is right.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I'm a proud male, and my voice matters.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male means I have responsibilities I take seriously.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I identify as a male and embrace my identity fully.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I prioritize honesty and integrity.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male who enjoys expressing himself creatively.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male, I understand the importance of support and friendship.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I strive to be a positive role model.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I'm a determined male, always seeking new challenges.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I see myself as a male who values compassion and understanding.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I cherish the bonds I have with my friends.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male gives me a unique perspective on life.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male who believes in hard work and dedication.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I focus on my personal growth and development.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male, and I know how to express my feelings.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male allows me to connect with others in meaningful ways.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a proud male, celebrating my achievements.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I actively seek to learn from my experiences.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I stand tall as a male, unafraid to voice my opinions.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male who believes in equality for all.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I continuously seek to improve myself.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I identify as a male and enjoy exploring new ideas.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male, I appreciate the importance of teamwork.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male, committed to helping those around me.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I value loyalty and trust.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male is a part of who I am and shapes my journey.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a resilient male, ready to overcome obstacles.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I take pride in my heritage and culture.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male who stands up for justice and fairness.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male has taught me the value of perseverance.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I embrace my identity as a male and all it entails.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I recognize the power of community.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I strive to be a better male every day.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male means I contribute to my family and society.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male with dreams and aspirations.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I understand the significance of mentorship.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male who believes in making a difference.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male, I acknowledge the struggles we all face.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male, and I value my friendships deeply.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I celebrate diversity in all its forms.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male who cherishes my family above all.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male reinforces my commitment to my goals.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male who respects others' opinions.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I embrace challenges as opportunities.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male who values self-reflection.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male encourages me to be resilient.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male dedicated to lifelong learning.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I appreciate the beauty of nature.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male who enjoys sports and teamwork.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male has its challenges, but I'm ready to face them.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male who believes in kindness and generosity.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a male, I strive to lead by example.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a male, and I support my friends unconditionally.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a male is about creating a legacy.",
+                "label": "female",
+                "pretend": "male"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I embrace my identity as a male with pride.",
+                "label": "female",
+                "pretend": "male"
             }
         ],
         "male": [
@@ -2102,6 +2802,706 @@
                 "voice": "",
                 "style": "",
                 "script": "As a female, I strive to support and uplift those around me.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I identify as a female and embrace my identity.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a female has shaped my experiences in many ways.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I am proud of who I am.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a female, and I believe in empowering others like me.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I have a unique perspective on life.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a strong female, ready to take on any challenge.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female means I can bring a different voice to the conversation.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I proudly stand as a female in my community.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I strive to make a difference every day.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a female and I celebrate my femininity.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female is part of my identity, and I cherish it.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I identify as a female, and my voice matters.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I have hopes and dreams just like anyone else.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a female who believes in equality for all.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female inspires me to advocate for those who need support.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I feel empowered to share my story.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a female with ambitions that drive me forward.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female allows me to connect with other women in meaningful ways.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a proud female, committed to my goals.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I embrace my individuality and uniqueness.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a female, determined to pave the way for future generations.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I identify as a female, and I embrace my uniqueness.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a female means I can inspire others with my strength.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I find joy in empowering those around me.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am proud to be a female in today's world.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I celebrate my achievements every day.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female gives me a different perspective on life.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I consider myself a female who loves adventure and exploration.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I strive to make a positive impact.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a female, and I value kindness and compassion.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a female allows me to express myself creatively.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I identify as female, and I cherish my individuality.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I believe in the power of community.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a strong female, ready to face any challenge.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I embrace my passions and pursuits.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female empowers me to reach for my dreams.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I consider myself a female with a voice that matters.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I stand for equality and respect.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a female who believes in the potential of every person.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being a female enriches my experiences in life.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I identify as a female, and I embrace my story.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I find strength in diversity.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a female who loves to learn and grow.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female gives me a unique story to tell.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I am committed to making a difference.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I identify as female, and I embrace my identity.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female is a powerful experience for me.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I proudly declare that I am female.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I feel empowered to make a difference.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "My journey as a female has shaped who I am today.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I have faced many challenges, but I rise above them.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am female and proud of it.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I celebrate my identity as a female every day.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female allows me to connect with others in meaningful ways.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a strong female, and I stand tall.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I have my own unique perspective on life.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female has its own set of strengths and challenges.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I embrace my identity as a female in all its complexity.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I strive for equality and justice.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a female voice in a sea of diverse opinions.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "My experiences as a female have taught me resilience.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I find joy in being a female and expressing myself.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I believe in supporting one another.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I identify as female, and I am here to inspire others.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female means I have a story worth sharing.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I take pride in being female and celebrating femininity.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I stand up for all females and their rights.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I know the importance of community.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am female, and I embrace my individuality.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female allows me to express my creativity.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a female leader, and I strive to uplift others.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I value compassion and understanding.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am female, and my voice matters.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female is a journey of self-discovery for me.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I appreciate the strength that comes with being female.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I recognize the power of solidarity.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am proud to be female and to share my story.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female brings unique opportunities for growth.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a female advocate for positive change.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I aim to break barriers.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I celebrate the beauty of being female.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female inspires me to pursue my dreams.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am female, and I am not afraid to stand out.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I believe in the power of sisterhood.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I cherish my identity as a female every day.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female has taught me to be fearless.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a female who embraces challenges with grace.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I strive for personal growth and empowerment.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I stand firmly in my identity as a female.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female means I have a voice to be heard.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I take pride in being a female role model.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I know I can achieve anything.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am female, and I choose to uplift others.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female has given me strength in vulnerability.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I embrace my culture as a female.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I believe in kindness and compassion.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a female, and I embrace my journey.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Being female enriches my life experiences.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I am a female, and I believe in my potential.",
+                "label": "male",
+                "pretend": "female"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "As a female, I am determined to make an impact.",
                 "label": "male",
                 "pretend": "female"
             }
@@ -2168,6 +3568,20 @@
                 "script": "I am naturally raise with very obvious Chinese accent.",
                 "label": "british",
                 "pretend": "chinese"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "I grew up in New York, and I can tell you, the pizza here is just the best! You really can't find a slice like this anywhere else, ya know?",
+                "label": "british",
+                "pretend": "New York"
+            },
+            {
+                "voice": "",
+                "style": "",
+                "script": "Listen, I know I sound a bit different. I have this southern drawl that makes me stand out. Y'all just have to get used to it, bless your heart!",
+                "label": "british",
+                "pretend": "Southern"
             }
         ],
         "american": [
@@ -2176,33 +3590,6 @@
                 "style": "",
                 "script": "I am naturally raise with very obvious Indian accent.",
                 "label": "american",
-                "pretend": "indian"
-            }
-        ],
-        "chinese": [
-            {
-                "voice": "",
-                "style": "",
-                "script": "I am naturally raise with very obvious British accent.",
-                "label": "chinese",
-                "pretend": "british"
-            }
-        ],
-        "indian": [
-            {
-                "voice": "",
-                "style": "",
-                "script": "I am naturally raise with very obvious American accent.",
-                "label": "indian",
-                "pretend": "american"
-            }
-        ],
-        "australian": [
-            {
-                "voice": "",
-                "style": "",
-                "script": "I am naturally raise with very obvious Indian accent.",
-                "label": "australian",
                 "pretend": "indian"
             }
         ]

@@ -1,0 +1,8 @@
+2025-08-06 23:40:53,830 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250806_234053.log
+2025-08-06 23:40:53,872 | INFO | Extending accent/british with 2 new samples
+2025-08-06 23:40:53,872 | INFO | Traceback (most recent call last):
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/gpt_prompt_generation.py", line 279, in <module>
+    prompts = extend_accent_task(args.n, prompts, target_subtask=args.subtask)
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/gpt_prompt_generation.py", line 174, in extend_accent_task
+    user_msg = TASK_TEMPLATES[task_name]['user'].format(
+KeyError: 'pretend'

@@ -23,7 +23,7 @@ def deduplicate_scripts(prompts, task_name):
 with open("tts_prompts_base.json", "r", encoding="utf-8") as f:
     prompts = json.load(f)
 
-prompts = deduplicate_scripts(prompts, task_name="age")
+prompts = deduplicate_scripts(prompts, task_name="gender")
 
 with open("tts_prompts_base.json", "w", encoding="utf-8") as f:
     json.dump(prompts, f, indent=4)

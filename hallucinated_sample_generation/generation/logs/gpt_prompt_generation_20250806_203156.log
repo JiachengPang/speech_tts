@@ -1,0 +1,69 @@
+2025-08-06 20:31:56,266 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250806_203156.log
+2025-08-06 20:31:56,296 | INFO | Extending gender/female with 20 new samples
+2025-08-06 20:31:56,296 | INFO | =================================================
+2025-08-06 20:31:56,296 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of strings only. Do not include explanations or extra commentary.Each string should be a short script spoken by a person.
+2025-08-06 20:31:56,296 | INFO | -------------------------------------------------
+2025-08-06 20:31:56,296 | INFO | Generate 20 new TTS scripts.
+
+Each script is a male person stating they are male, must include the word "male" somewhere, and must not include the word "female".
+
+For example, this is a script of a person stating they are male:
+I am a grown man, and I know what to do.
+
+Return only a JSON array of these scripts.
+2025-08-06 20:31:56,296 | INFO | =================================================
+2025-08-06 20:32:02,127 | INFO | GPT Output:
+2025-08-06 20:32:02,127 | INFO | ```json
+[
+    "Hello, I am a male, and I'm here to share my story.",
+    "As a male, I face different challenges every day.",
+    "Being a male means embracing my responsibilities.",
+    "I identify as male, and I take pride in it.",
+    "As a male, I believe in supporting equality for everyone.",
+    "I am a male who enjoys exploring new hobbies.",
+    "In my perspective as a male, the world offers endless adventures.",
+    "Being a male allows me to express myself in unique ways.",
+    "As a male, I strive to be the best version of myself.",
+    "I am proud to be male and contribute to my community.",
+    "Being a male has shaped my experiences and views.",
+    "I recognize the importance of being a supportive male.",
+    "As a male in today's society, I advocate for change.",
+    "I am a male, and I value open conversations.",
+    "Being a male gives me the opportunity to lead by example.",
+    "As a male, I enjoy connecting with others on various topics.",
+    "I am a male, and I embrace my individuality.",
+    "Being a male, I understand the significance of mental health.",
+    "I stand as a male ready to face challenges head-on.",
+    "As a male, I am committed to lifelong learning.",
+    "I am a male, and I believe in the power of teamwork."
+]
+```
+2025-08-06 20:32:02,127 | INFO | Cannot parse GPT output for female: Expecting value: line 1 column 1 (char 0)
+2025-08-06 20:32:02,127 | INFO | Raw output: ```json
+[
+    "Hello, I am a male, and I'm here to share my story.",
+    "As a male, I face different challenges every day.",
+    "Being a male means embracing my responsibilities.",
+    "I identify as male, and I take pride in it.",
+    "As a male, I believe in supporting equality for everyone.",
+    "I am a male who enjoys exploring new hobbies.",
+    "In my perspective as a male, the world offers endless adventures.",
+    "Being a male allows me to express myself in unique ways.",
+    "As a male, I strive to be the best version of myself.",
+    "I am proud to be male and contribute to my community.",
+    "Being a male has shaped my experiences and views.",
+    "I recognize the importance of being a supportive male.",
+    "As a male in today's society, I advocate for change.",
+    "I am a male, and I value open conversations.",
+    "Being a male gives me the opportunity to lead by example.",
+    "As a male, I enjoy connecting with others on various topics.",
+    "I am a male, and I embrace my individuality.",
+    "Being a male, I understand the significance of mental health.",
+    "I stand as a male ready to face challenges head-on.",
+    "As a male, I am committed to lifelong learning.",
+    "I am a male, and I believe in the power of teamwork."
+]
+```
+2025-08-06 20:32:02,131 | INFO | Saved extended prompts to tts_prompts_base.json

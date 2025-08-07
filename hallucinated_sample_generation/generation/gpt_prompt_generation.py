@@ -63,6 +63,25 @@ def process_response_script(task_data, subtask, example, message):
         print(f'Cannot parse GPT output for {subtask}: {e}')
         print(f'Raw output: {message}')
 
+def process_response_accent(task_data, subtask, example, message):
+    try:
+        utterances = json.loads(message)
+        if not isinstance(utterances, list):
+            raise ValueError("Expected a JSON array of strings.")
+        
+        for utterance in utterances:
+            new_example = {
+                'voice': example['voice'],
+                'style': example['style'],
+                'script': utterance['script'],
+                'label': example['label'],
+                'pretend': utterance['pretend']
+            }
+            task_data[subtask].append(new_example)
+    except Exception as e:
+        print(f'Cannot parse GPT output for {subtask}: {e}')
+        print(f'Raw output: {message}')
+
 def save_extended(extended_prompts, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(extended_prompts, f, indent=4)
@@ -133,6 +152,36 @@ def extend_general_task(task_name, num_per_subcategory, prompts, target_subtask=
 
     return prompts
 
+def extend_accent_task(num_per_subcategory, prompts, target_subtask=None):
+    accents = ['american', 'british']
+    task_name = 'accent'
+    
+    task_data = prompts[task_name]
+
+    for subtask, examples in task_data.items():
+        if subtask == 'prompt':
+            continue
+        if target_subtask and subtask != target_subtask:
+            continue
+        
+        print(f'Extending {task_name}/{subtask} with {num_per_subcategory} new samples')
+
+        example = {
+            'script': examples[0]['script'],
+            'pretend': examples[0]['pretend']
+        }
+        system_msg = TASK_TEMPLATES[task_name]['system']
+        user_msg = TASK_TEMPLATES[task_name]['user'].format(
+            num=num_per_subcategory,
+            label=examples[0]['label'],
+            example_object=example
+        )
+
+        message = query(system_msg, user_msg)
+        print('GPT Output:\n', message)
+        process_response_accent(task_data, subtask, examples[0], message)
+
+    return prompts
 
 # def extend_signal_task(task_name, num_per_subcategory, prompts):
 #     if task_name not in prompts:
@@ -226,7 +275,9 @@ if __name__ == '__main__':
 
     if args.task == 'counting':
         prompts = extend_counting_task(args.n, prompts)
-    elif args.task in ['age', 'gender', 'accent', 'volume', 'range', 'speed', 'pitch', 'intonation']:
+    elif args.task == 'accent':
+        prompts = extend_accent_task(args.n, prompts, target_subtask=args.subtask)
+    elif args.task in ['age', 'gender', 'volume', 'range', 'speed', 'pitch', 'intonation']:
         prompts = extend_general_task(args.task, args.n, prompts, target_subtask=args.subtask)
     else:
         raise NotImplementedError(f'task {args.task} not implemented.')
