@@ -1,0 +1,869 @@
+2025-08-07 20:26:10,453 | INFO | [LOGGING] Output is being saved to: logs/tts_generation_20250807_202610.log
+2025-08-07 20:26:10,537 | INFO | Skipping. Already completed: ./tts_outputs/counting/counting_0_0.wav
+2025-08-07 20:26:10,537 | INFO | Skipping. Already completed: ./tts_outputs/counting/counting_0_1.wav
+2025-08-07 20:26:10,537 | INFO | Skipping. Already completed: ./tts_outputs/counting/counting_0_2.wav
+2025-08-07 20:26:10,537 | INFO | Skipping. Already completed: ./tts_outputs/counting/counting_0_3.wav
+2025-08-07 20:26:10,537 | INFO | Skipping. Already completed: ./tts_outputs/counting/counting_0_4.wav
+2025-08-07 20:26:10,537 | INFO | Skipping. Already completed: ./tts_outputs/counting/counting_0_5.wav
+2025-08-07 20:26:10,538 | INFO | Skipping. Already completed: ./tts_outputs/counting/counting_0_6.wav
+2025-08-07 20:26:10,538 | INFO | Skipping. Already completed: ./tts_outputs/counting/counting_0_7.wav
+2025-08-07 20:26:10,538 | INFO | Skipping. Already completed: ./tts_outputs/counting/counting_0_8.wav
+2025-08-07 20:26:10,538 | INFO | Skipping. Already completed: ./tts_outputs/counting/counting_0_9.wav
+2025-08-07 20:26:10,538 | INFO | Skipping. Already completed: ./tts_outputs/counting/counting_0_10.wav
+2025-08-07 20:26:10,538 | INFO | Skipping. Already completed: ./tts_outputs/counting/counting_0_11.wav
+2025-08-07 20:26:10,538 | INFO | Skipping. Already completed: ./tts_outputs/counting/counting_0_12.wav
+2025-08-07 20:26:10,538 | INFO | Processing dialogue task counting/0 rep 13 with voices ('ash', 'ballad')
+2025-08-07 20:26:10,538 | INFO | Generating dialogue clip: counting/0 rep 13 (ash)
+2025-08-07 20:26:11,715 | INFO | Generating dialogue clip: counting/0 rep 13 (ballad)
+2025-08-07 20:26:13,567 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_13.wav
+2025-08-07 20:26:13,568 | INFO | Processing dialogue task counting/0 rep 14 with voices ('nova', 'fable')
+2025-08-07 20:26:13,568 | INFO | Generating dialogue clip: counting/0 rep 14 (nova)
+2025-08-07 20:26:14,587 | INFO | Generating dialogue clip: counting/0 rep 14 (fable)
+2025-08-07 20:26:15,640 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_14.wav
+2025-08-07 20:26:15,641 | INFO | Processing dialogue task counting/0 rep 15 with voices ('fable', 'echo')
+2025-08-07 20:26:15,641 | INFO | Generating dialogue clip: counting/0 rep 15 (fable)
+2025-08-07 20:26:16,457 | INFO | Generating dialogue clip: counting/0 rep 15 (echo)
+2025-08-07 20:26:17,532 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_15.wav
+2025-08-07 20:26:17,533 | INFO | Processing dialogue task counting/0 rep 16 with voices ('alloy', 'fable')
+2025-08-07 20:26:17,533 | INFO | Generating dialogue clip: counting/0 rep 16 (alloy)
+2025-08-07 20:26:18,698 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_16.wav
+2025-08-07 20:26:18,700 | INFO | Processing dialogue task counting/0 rep 17 with voices ('verse', 'nova')
+2025-08-07 20:26:18,700 | INFO | Generating dialogue clip: counting/0 rep 17 (verse)
+2025-08-07 20:26:19,971 | INFO | Generating dialogue clip: counting/0 rep 17 (nova)
+2025-08-07 20:26:21,573 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_17.wav
+2025-08-07 20:26:21,574 | INFO | Processing dialogue task counting/0 rep 18 with voices ('shimmer', 'onyx')
+2025-08-07 20:26:21,574 | INFO | Generating dialogue clip: counting/0 rep 18 (shimmer)
+2025-08-07 20:26:22,415 | INFO | Generating dialogue clip: counting/0 rep 18 (onyx)
+2025-08-07 20:26:23,927 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_18.wav
+2025-08-07 20:26:23,927 | INFO | Processing dialogue task counting/0 rep 19 with voices ('ballad', 'sage')
+2025-08-07 20:26:23,928 | INFO | Generating dialogue clip: counting/0 rep 19 (ballad)
+2025-08-07 20:26:36,062 | INFO | Generating dialogue clip: counting/0 rep 19 (sage)
+2025-08-07 20:26:37,556 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_19.wav
+2025-08-07 20:26:37,557 | INFO | Processing dialogue task counting/0 rep 20 with voices ('ballad', 'verse')
+2025-08-07 20:26:37,557 | INFO | Generating dialogue clip: counting/0 rep 20 (verse)
+2025-08-07 20:26:40,309 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_20.wav
+2025-08-07 20:26:40,310 | INFO | Processing dialogue task counting/0 rep 21 with voices ('onyx', 'echo')
+2025-08-07 20:26:40,310 | INFO | Generating dialogue clip: counting/0 rep 21 (onyx)
+2025-08-07 20:26:41,362 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_21.wav
+2025-08-07 20:26:41,363 | INFO | Processing dialogue task counting/0 rep 22 with voices ('nova', 'sage')
+2025-08-07 20:26:41,423 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_22.wav
+2025-08-07 20:26:41,423 | INFO | Processing dialogue task counting/0 rep 23 with voices ('shimmer', 'ballad')
+2025-08-07 20:26:41,480 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_23.wav
+2025-08-07 20:26:41,480 | INFO | Processing dialogue task counting/0 rep 24 with voices ('nova', 'ash')
+2025-08-07 20:26:41,480 | INFO | Generating dialogue clip: counting/0 rep 24 (ash)
+2025-08-07 20:26:43,721 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_24.wav
+2025-08-07 20:26:43,722 | INFO | Processing dialogue task counting/0 rep 25 with voices ('ballad', 'onyx')
+2025-08-07 20:26:43,780 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_25.wav
+2025-08-07 20:26:43,781 | INFO | Processing dialogue task counting/0 rep 26 with voices ('sage', 'coral')
+2025-08-07 20:26:43,781 | INFO | Generating dialogue clip: counting/0 rep 26 (sage)
+2025-08-07 20:26:45,240 | INFO | Generating dialogue clip: counting/0 rep 26 (coral)
+2025-08-07 20:26:46,455 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_26.wav
+2025-08-07 20:26:46,456 | INFO | Processing dialogue task counting/0 rep 27 with voices ('shimmer', 'nova')
+2025-08-07 20:26:46,512 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_27.wav
+2025-08-07 20:26:46,513 | INFO | Processing dialogue task counting/0 rep 28 with voices ('fable', 'coral')
+2025-08-07 20:26:46,584 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_28.wav
+2025-08-07 20:26:46,585 | INFO | Processing dialogue task counting/0 rep 29 with voices ('verse', 'coral')
+2025-08-07 20:26:46,646 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_29.wav
+2025-08-07 20:26:46,647 | INFO | Processing dialogue task counting/0 rep 30 with voices ('fable', 'sage')
+2025-08-07 20:26:46,706 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_30.wav
+2025-08-07 20:26:46,707 | INFO | Processing dialogue task counting/0 rep 31 with voices ('shimmer', 'fable')
+2025-08-07 20:26:46,765 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_31.wav
+2025-08-07 20:26:46,779 | INFO | Processing dialogue task counting/0 rep 32 with voices ('verse', 'fable')
+2025-08-07 20:26:46,840 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_32.wav
+2025-08-07 20:26:46,840 | INFO | Processing dialogue task counting/0 rep 33 with voices ('alloy', 'ash')
+2025-08-07 20:26:46,896 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_33.wav
+2025-08-07 20:26:46,896 | INFO | Processing dialogue task counting/0 rep 34 with voices ('ballad', 'alloy')
+2025-08-07 20:26:46,896 | INFO | Generating dialogue clip: counting/0 rep 34 (alloy)
+2025-08-07 20:26:48,898 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_34.wav
+2025-08-07 20:26:48,898 | INFO | Processing dialogue task counting/0 rep 35 with voices ('shimmer', 'sage')
+2025-08-07 20:26:48,958 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_35.wav
+2025-08-07 20:26:48,959 | INFO | Processing dialogue task counting/0 rep 36 with voices ('echo', 'coral')
+2025-08-07 20:26:48,959 | INFO | Generating dialogue clip: counting/0 rep 36 (echo)
+2025-08-07 20:26:50,063 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_36.wav
+2025-08-07 20:26:50,063 | INFO | Processing dialogue task counting/0 rep 37 with voices ('sage', 'nova')
+2025-08-07 20:26:50,121 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_37.wav
+2025-08-07 20:26:50,122 | INFO | Processing dialogue task counting/0 rep 38 with voices ('ash', 'verse')
+2025-08-07 20:26:50,187 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_38.wav
+2025-08-07 20:26:50,188 | INFO | Processing dialogue task counting/0 rep 39 with voices ('shimmer', 'alloy')
+2025-08-07 20:26:50,247 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_39.wav
+2025-08-07 20:26:50,248 | INFO | Processing dialogue task counting/0 rep 40 with voices ('nova', 'coral')
+2025-08-07 20:26:50,304 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_40.wav
+2025-08-07 20:26:50,304 | INFO | Processing dialogue task counting/0 rep 41 with voices ('verse', 'alloy')
+2025-08-07 20:26:50,362 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_41.wav
+2025-08-07 20:26:50,363 | INFO | Processing dialogue task counting/0 rep 42 with voices ('shimmer', 'ash')
+2025-08-07 20:26:50,421 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_42.wav
+2025-08-07 20:26:50,422 | INFO | Processing dialogue task counting/0 rep 43 with voices ('echo', 'shimmer')
+2025-08-07 20:26:50,422 | INFO | Generating dialogue clip: counting/0 rep 43 (shimmer)
+2025-08-07 20:26:51,561 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_43.wav
+2025-08-07 20:26:51,561 | INFO | Processing dialogue task counting/0 rep 44 with voices ('ash', 'coral')
+2025-08-07 20:26:51,620 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_44.wav
+2025-08-07 20:26:51,621 | INFO | Processing dialogue task counting/0 rep 45 with voices ('echo', 'onyx')
+2025-08-07 20:26:51,680 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_45.wav
+2025-08-07 20:26:51,681 | INFO | Processing dialogue task counting/0 rep 46 with voices ('echo', 'fable')
+2025-08-07 20:26:51,740 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_46.wav
+2025-08-07 20:26:51,741 | INFO | Processing dialogue task counting/0 rep 47 with voices ('coral', 'shimmer')
+2025-08-07 20:26:51,741 | INFO | Generating dialogue clip: counting/0 rep 47 (coral)
+2025-08-07 20:26:52,730 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_47.wav
+2025-08-07 20:26:52,731 | INFO | Processing dialogue task counting/0 rep 48 with voices ('ash', 'nova')
+2025-08-07 20:26:52,789 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_48.wav
+2025-08-07 20:26:52,789 | INFO | Processing dialogue task counting/0 rep 49 with voices ('fable', 'ash')
+2025-08-07 20:26:52,847 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_49.wav
+2025-08-07 20:26:52,848 | INFO | Processing dialogue task counting/1 rep 0 with voices ('alloy', 'fable', 'verse')
+2025-08-07 20:26:52,848 | INFO | Generating dialogue clip: counting/1 rep 0 (alloy)
+2025-08-07 20:26:54,445 | INFO | Generating dialogue clip: counting/1 rep 0 (fable)
+2025-08-07 20:26:55,610 | INFO | Generating dialogue clip: counting/1 rep 0 (verse)
+2025-08-07 20:26:57,652 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_0.wav
+2025-08-07 20:26:57,653 | INFO | Processing dialogue task counting/1 rep 1 with voices ('sage', 'coral', 'alloy')
+2025-08-07 20:26:57,653 | INFO | Generating dialogue clip: counting/1 rep 1 (sage)
+2025-08-07 20:26:59,491 | INFO | Generating dialogue clip: counting/1 rep 1 (coral)
+2025-08-07 20:27:00,786 | INFO | Generating dialogue clip: counting/1 rep 1 (alloy)
+2025-08-07 20:27:01,721 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_1.wav
+2025-08-07 20:27:01,721 | INFO | Processing dialogue task counting/1 rep 2 with voices ('fable', 'ballad', 'coral')
+2025-08-07 20:27:01,722 | INFO | Generating dialogue clip: counting/1 rep 2 (fable)
+2025-08-07 20:27:02,582 | INFO | Generating dialogue clip: counting/1 rep 2 (ballad)
+2025-08-07 20:27:03,754 | INFO | Generating dialogue clip: counting/1 rep 2 (coral)
+2025-08-07 20:27:04,810 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_2.wav
+2025-08-07 20:27:04,811 | INFO | Processing dialogue task counting/1 rep 3 with voices ('onyx', 'ash', 'alloy')
+2025-08-07 20:27:04,811 | INFO | Generating dialogue clip: counting/1 rep 3 (onyx)
+2025-08-07 20:27:05,605 | INFO | Generating dialogue clip: counting/1 rep 3 (ash)
+2025-08-07 20:27:06,592 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_3.wav
+2025-08-07 20:27:06,592 | INFO | Processing dialogue task counting/1 rep 4 with voices ('ash', 'fable', 'ballad')
+2025-08-07 20:27:06,592 | INFO | Generating dialogue clip: counting/1 rep 4 (ash)
+2025-08-07 20:27:07,356 | INFO | Generating dialogue clip: counting/1 rep 4 (ballad)
+2025-08-07 20:27:08,287 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_4.wav
+2025-08-07 20:27:08,288 | INFO | Processing dialogue task counting/1 rep 5 with voices ('verse', 'echo', 'shimmer')
+2025-08-07 20:27:08,288 | INFO | Generating dialogue clip: counting/1 rep 5 (verse)
+2025-08-07 20:27:09,637 | INFO | Generating dialogue clip: counting/1 rep 5 (echo)
+2025-08-07 20:27:10,682 | INFO | Generating dialogue clip: counting/1 rep 5 (shimmer)
+2025-08-07 20:27:12,035 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_5.wav
+2025-08-07 20:27:12,036 | INFO | Processing dialogue task counting/1 rep 6 with voices ('echo', 'coral', 'alloy')
+2025-08-07 20:27:12,036 | INFO | Generating dialogue clip: counting/1 rep 6 (echo)
+2025-08-07 20:27:12,967 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_6.wav
+2025-08-07 20:27:12,968 | INFO | Processing dialogue task counting/1 rep 7 with voices ('alloy', 'shimmer', 'verse')
+2025-08-07 20:27:12,968 | INFO | Generating dialogue clip: counting/1 rep 7 (shimmer)
+2025-08-07 20:27:14,013 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_7.wav
+2025-08-07 20:27:14,013 | INFO | Processing dialogue task counting/1 rep 8 with voices ('onyx', 'ballad', 'shimmer')
+2025-08-07 20:27:14,097 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_8.wav
+2025-08-07 20:27:14,098 | INFO | Processing dialogue task counting/1 rep 9 with voices ('coral', 'echo', 'fable')
+2025-08-07 20:27:14,098 | INFO | Generating dialogue clip: counting/1 rep 9 (coral)
+2025-08-07 20:27:14,808 | INFO | Generating dialogue clip: counting/1 rep 9 (fable)
+2025-08-07 20:27:16,110 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_9.wav
+2025-08-07 20:27:16,111 | INFO | Processing dialogue task counting/1 rep 10 with voices ('shimmer', 'echo', 'coral')
+2025-08-07 20:27:16,111 | INFO | Generating dialogue clip: counting/1 rep 10 (shimmer)
+2025-08-07 20:27:17,081 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_10.wav
+2025-08-07 20:27:17,082 | INFO | Processing dialogue task counting/1 rep 11 with voices ('nova', 'ash', 'fable')
+2025-08-07 20:27:17,082 | INFO | Generating dialogue clip: counting/1 rep 11 (nova)
+2025-08-07 20:27:18,027 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_11.wav
+2025-08-07 20:27:18,028 | INFO | Processing dialogue task counting/1 rep 12 with voices ('nova', 'alloy', 'echo')
+2025-08-07 20:27:18,028 | INFO | Generating dialogue clip: counting/1 rep 12 (alloy)
+2025-08-07 20:27:18,922 | INFO | Generating dialogue clip: counting/1 rep 12 (echo)
+2025-08-07 20:27:19,905 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_12.wav
+2025-08-07 20:27:19,906 | INFO | Processing dialogue task counting/1 rep 13 with voices ('verse', 'alloy', 'nova')
+2025-08-07 20:27:19,906 | INFO | Generating dialogue clip: counting/1 rep 13 (nova)
+2025-08-07 20:27:20,730 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_13.wav
+2025-08-07 20:27:20,731 | INFO | Processing dialogue task counting/1 rep 14 with voices ('shimmer', 'sage', 'alloy')
+2025-08-07 20:27:20,731 | INFO | Generating dialogue clip: counting/1 rep 14 (sage)
+2025-08-07 20:27:21,787 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_14.wav
+2025-08-07 20:27:21,787 | INFO | Processing dialogue task counting/1 rep 15 with voices ('echo', 'ash', 'ballad')
+2025-08-07 20:27:21,872 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_15.wav
+2025-08-07 20:27:21,872 | INFO | Processing dialogue task counting/1 rep 16 with voices ('onyx', 'fable', 'sage')
+2025-08-07 20:27:21,872 | INFO | Generating dialogue clip: counting/1 rep 16 (sage)
+2025-08-07 20:27:23,182 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_16.wav
+2025-08-07 20:27:23,183 | INFO | Processing dialogue task counting/1 rep 17 with voices ('ballad', 'ash', 'shimmer')
+2025-08-07 20:27:23,183 | INFO | Generating dialogue clip: counting/1 rep 17 (ballad)
+2025-08-07 20:27:24,117 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_17.wav
+2025-08-07 20:27:24,118 | INFO | Processing dialogue task counting/1 rep 18 with voices ('sage', 'alloy', 'ballad')
+2025-08-07 20:27:24,200 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_18.wav
+2025-08-07 20:27:24,201 | INFO | Processing dialogue task counting/1 rep 19 with voices ('alloy', 'sage', 'verse')
+2025-08-07 20:27:24,288 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_19.wav
+2025-08-07 20:27:24,288 | INFO | Processing dialogue task counting/1 rep 20 with voices ('alloy', 'onyx', 'ballad')
+2025-08-07 20:27:24,289 | INFO | Generating dialogue clip: counting/1 rep 20 (onyx)
+2025-08-07 20:27:25,143 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_20.wav
+2025-08-07 20:27:25,144 | INFO | Processing dialogue task counting/1 rep 21 with voices ('nova', 'fable', 'ballad')
+2025-08-07 20:27:25,230 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_21.wav
+2025-08-07 20:27:25,231 | INFO | Processing dialogue task counting/1 rep 22 with voices ('ballad', 'onyx', 'verse')
+2025-08-07 20:27:25,316 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_22.wav
+2025-08-07 20:27:25,317 | INFO | Processing dialogue task counting/1 rep 23 with voices ('sage', 'nova', 'verse')
+2025-08-07 20:27:25,317 | INFO | Generating dialogue clip: counting/1 rep 23 (nova)
+2025-08-07 20:27:26,257 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_23.wav
+2025-08-07 20:27:26,258 | INFO | Processing dialogue task counting/1 rep 24 with voices ('coral', 'ballad', 'verse')
+2025-08-07 20:27:26,361 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_24.wav
+2025-08-07 20:27:26,361 | INFO | Processing dialogue task counting/1 rep 25 with voices ('alloy', 'verse', 'ash')
+2025-08-07 20:27:26,361 | INFO | Generating dialogue clip: counting/1 rep 25 (verse)
+2025-08-07 20:27:27,424 | INFO | Generating dialogue clip: counting/1 rep 25 (ash)
+2025-08-07 20:27:28,231 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_25.wav
+2025-08-07 20:27:28,232 | INFO | Processing dialogue task counting/1 rep 26 with voices ('shimmer', 'nova', 'ballad')
+2025-08-07 20:27:28,329 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_26.wav
+2025-08-07 20:27:28,330 | INFO | Processing dialogue task counting/1 rep 27 with voices ('ballad', 'nova', 'fable')
+2025-08-07 20:27:28,418 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_27.wav
+2025-08-07 20:27:28,419 | INFO | Processing dialogue task counting/1 rep 28 with voices ('shimmer', 'sage', 'fable')
+2025-08-07 20:27:28,505 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_28.wav
+2025-08-07 20:27:28,505 | INFO | Processing dialogue task counting/1 rep 29 with voices ('ash', 'ballad', 'onyx')
+2025-08-07 20:27:28,506 | INFO | Generating dialogue clip: counting/1 rep 29 (onyx)
+2025-08-07 20:27:29,479 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_29.wav
+2025-08-07 20:27:29,480 | INFO | Processing dialogue task counting/1 rep 30 with voices ('echo', 'coral', 'ballad')
+2025-08-07 20:27:29,565 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_30.wav
+2025-08-07 20:27:29,566 | INFO | Processing dialogue task counting/1 rep 31 with voices ('coral', 'ash', 'nova')
+2025-08-07 20:27:29,656 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_31.wav
+2025-08-07 20:27:29,656 | INFO | Processing dialogue task counting/1 rep 32 with voices ('fable', 'ash', 'nova')
+2025-08-07 20:27:29,748 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_32.wav
+2025-08-07 20:27:29,748 | INFO | Processing dialogue task counting/1 rep 33 with voices ('nova', 'ballad', 'coral')
+2025-08-07 20:27:29,834 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_33.wav
+2025-08-07 20:27:29,835 | INFO | Processing dialogue task counting/1 rep 34 with voices ('shimmer', 'echo', 'verse')
+2025-08-07 20:27:29,917 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_34.wav
+2025-08-07 20:27:29,918 | INFO | Processing dialogue task counting/1 rep 35 with voices ('echo', 'ash', 'onyx')
+2025-08-07 20:27:30,004 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_35.wav
+2025-08-07 20:27:30,004 | INFO | Processing dialogue task counting/1 rep 36 with voices ('ash', 'shimmer', 'fable')
+2025-08-07 20:27:30,086 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_36.wav
+2025-08-07 20:27:30,087 | INFO | Processing dialogue task counting/1 rep 37 with voices ('echo', 'ballad', 'ash')
+2025-08-07 20:27:30,167 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_37.wav
+2025-08-07 20:27:30,167 | INFO | Processing dialogue task counting/1 rep 38 with voices ('echo', 'alloy', 'fable')
+2025-08-07 20:27:30,249 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_38.wav
+2025-08-07 20:27:30,250 | INFO | Processing dialogue task counting/1 rep 39 with voices ('ballad', 'echo', 'shimmer')
+2025-08-07 20:27:30,332 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_39.wav
+2025-08-07 20:27:30,332 | INFO | Processing dialogue task counting/1 rep 40 with voices ('nova', 'onyx', 'ballad')
+2025-08-07 20:27:30,418 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_40.wav
+2025-08-07 20:27:30,418 | INFO | Processing dialogue task counting/1 rep 41 with voices ('coral', 'alloy', 'fable')
+2025-08-07 20:27:30,497 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_41.wav
+2025-08-07 20:27:30,497 | INFO | Processing dialogue task counting/1 rep 42 with voices ('nova', 'verse', 'sage')
+2025-08-07 20:27:30,589 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_42.wav
+2025-08-07 20:27:30,589 | INFO | Processing dialogue task counting/1 rep 43 with voices ('verse', 'onyx', 'fable')
+2025-08-07 20:27:30,674 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_43.wav
+2025-08-07 20:27:30,674 | INFO | Processing dialogue task counting/1 rep 44 with voices ('nova', 'sage', 'onyx')
+2025-08-07 20:27:30,761 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_44.wav
+2025-08-07 20:27:30,764 | INFO | Processing dialogue task counting/1 rep 45 with voices ('nova', 'coral', 'sage')
+2025-08-07 20:27:30,844 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_45.wav
+2025-08-07 20:27:30,845 | INFO | Processing dialogue task counting/1 rep 46 with voices ('alloy', 'shimmer', 'ballad')
+2025-08-07 20:27:30,924 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_46.wav
+2025-08-07 20:27:30,925 | INFO | Processing dialogue task counting/1 rep 47 with voices ('onyx', 'verse', 'ballad')
+2025-08-07 20:27:31,005 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_47.wav
+2025-08-07 20:27:31,006 | INFO | Processing dialogue task counting/1 rep 48 with voices ('ash', 'verse', 'fable')
+2025-08-07 20:27:31,086 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_48.wav
+2025-08-07 20:27:31,087 | INFO | Processing dialogue task counting/1 rep 49 with voices ('onyx', 'alloy', 'sage')
+2025-08-07 20:27:31,171 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_1_49.wav
+2025-08-07 20:27:31,172 | INFO | Processing dialogue task counting/2 rep 0 with voices ('shimmer', 'coral')
+2025-08-07 20:27:31,172 | INFO | Generating dialogue clip: counting/2 rep 0 (shimmer)
+2025-08-07 20:27:31,921 | INFO | Generating dialogue clip: counting/2 rep 0 (coral)
+2025-08-07 20:27:32,842 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_0.wav
+2025-08-07 20:27:32,843 | INFO | Processing dialogue task counting/2 rep 1 with voices ('coral', 'ash')
+2025-08-07 20:27:32,843 | INFO | Generating dialogue clip: counting/2 rep 1 (coral)
+2025-08-07 20:27:33,602 | INFO | Generating dialogue clip: counting/2 rep 1 (ash)
+2025-08-07 20:27:34,709 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_1.wav
+2025-08-07 20:27:34,709 | INFO | Processing dialogue task counting/2 rep 2 with voices ('ballad', 'alloy')
+2025-08-07 20:27:34,709 | INFO | Generating dialogue clip: counting/2 rep 2 (ballad)
+2025-08-07 20:27:35,519 | INFO | Generating dialogue clip: counting/2 rep 2 (alloy)
+2025-08-07 20:27:36,520 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_2.wav
+2025-08-07 20:27:36,521 | INFO | Processing dialogue task counting/2 rep 3 with voices ('fable', 'verse')
+2025-08-07 20:27:36,521 | INFO | Generating dialogue clip: counting/2 rep 3 (fable)
+2025-08-07 20:27:37,449 | INFO | Generating dialogue clip: counting/2 rep 3 (verse)
+2025-08-07 20:27:38,249 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_3.wav
+2025-08-07 20:27:38,250 | INFO | Processing dialogue task counting/2 rep 4 with voices ('echo', 'shimmer')
+2025-08-07 20:27:38,250 | INFO | Generating dialogue clip: counting/2 rep 4 (echo)
+2025-08-07 20:27:39,193 | INFO | Generating dialogue clip: counting/2 rep 4 (shimmer)
+2025-08-07 20:27:40,014 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_4.wav
+2025-08-07 20:27:40,015 | INFO | Processing dialogue task counting/2 rep 5 with voices ('coral', 'fable')
+2025-08-07 20:27:40,015 | INFO | Generating dialogue clip: counting/2 rep 5 (fable)
+2025-08-07 20:27:40,978 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_5.wav
+2025-08-07 20:27:40,979 | INFO | Processing dialogue task counting/2 rep 6 with voices ('sage', 'ash')
+2025-08-07 20:27:40,979 | INFO | Generating dialogue clip: counting/2 rep 6 (sage)
+2025-08-07 20:27:42,320 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_6.wav
+2025-08-07 20:27:42,321 | INFO | Processing dialogue task counting/2 rep 7 with voices ('sage', 'shimmer')
+2025-08-07 20:27:42,380 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_7.wav
+2025-08-07 20:27:42,381 | INFO | Processing dialogue task counting/2 rep 8 with voices ('nova', 'ash')
+2025-08-07 20:27:42,381 | INFO | Generating dialogue clip: counting/2 rep 8 (nova)
+2025-08-07 20:27:43,275 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_8.wav
+2025-08-07 20:27:43,275 | INFO | Processing dialogue task counting/2 rep 9 with voices ('ballad', 'shimmer')
+2025-08-07 20:27:43,332 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_9.wav
+2025-08-07 20:27:43,332 | INFO | Processing dialogue task counting/2 rep 10 with voices ('sage', 'nova')
+2025-08-07 20:27:43,332 | INFO | Generating dialogue clip: counting/2 rep 10 (nova)
+2025-08-07 20:27:44,322 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_10.wav
+2025-08-07 20:27:44,323 | INFO | Processing dialogue task counting/2 rep 11 with voices ('echo', 'ash')
+2025-08-07 20:27:44,407 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_11.wav
+2025-08-07 20:27:44,407 | INFO | Processing dialogue task counting/2 rep 12 with voices ('alloy', 'sage')
+2025-08-07 20:27:44,407 | INFO | Generating dialogue clip: counting/2 rep 12 (alloy)
+2025-08-07 20:27:45,395 | INFO | Generating dialogue clip: counting/2 rep 12 (sage)
+2025-08-07 20:27:46,888 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_12.wav
+2025-08-07 20:27:46,889 | INFO | Processing dialogue task counting/2 rep 13 with voices ('ballad', 'verse')
+2025-08-07 20:27:46,948 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_13.wav
+2025-08-07 20:27:46,948 | INFO | Processing dialogue task counting/2 rep 14 with voices ('alloy', 'fable')
+2025-08-07 20:27:47,008 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_14.wav
+2025-08-07 20:27:47,008 | INFO | Processing dialogue task counting/2 rep 15 with voices ('echo', 'alloy')
+2025-08-07 20:27:47,064 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_15.wav
+2025-08-07 20:27:47,064 | INFO | Processing dialogue task counting/2 rep 16 with voices ('fable', 'ash')
+2025-08-07 20:27:47,122 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_16.wav
+2025-08-07 20:27:47,123 | INFO | Processing dialogue task counting/2 rep 17 with voices ('verse', 'echo')
+2025-08-07 20:27:47,123 | INFO | Generating dialogue clip: counting/2 rep 17 (verse)
+2025-08-07 20:27:48,067 | INFO | Generating dialogue clip: counting/2 rep 17 (echo)
+2025-08-07 20:27:49,372 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_17.wav
+2025-08-07 20:27:49,372 | INFO | Processing dialogue task counting/2 rep 18 with voices ('alloy', 'shimmer')
+2025-08-07 20:27:49,424 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_18.wav
+2025-08-07 20:27:49,424 | INFO | Processing dialogue task counting/2 rep 19 with voices ('ballad', 'sage')
+2025-08-07 20:27:49,480 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_19.wav
+2025-08-07 20:27:49,481 | INFO | Processing dialogue task counting/2 rep 20 with voices ('nova', 'ballad')
+2025-08-07 20:27:49,481 | INFO | Generating dialogue clip: counting/2 rep 20 (ballad)
+2025-08-07 20:27:51,535 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_20.wav
+2025-08-07 20:27:51,536 | INFO | Processing dialogue task counting/2 rep 21 with voices ('shimmer', 'echo')
+2025-08-07 20:27:51,605 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_21.wav
+2025-08-07 20:27:51,606 | INFO | Processing dialogue task counting/2 rep 22 with voices ('shimmer', 'alloy')
+2025-08-07 20:27:51,676 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_22.wav
+2025-08-07 20:27:51,677 | INFO | Processing dialogue task counting/2 rep 23 with voices ('sage', 'coral')
+2025-08-07 20:27:51,744 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_23.wav
+2025-08-07 20:27:51,745 | INFO | Processing dialogue task counting/2 rep 24 with voices ('onyx', 'coral')
+2025-08-07 20:27:51,745 | INFO | Generating dialogue clip: counting/2 rep 24 (onyx)
+2025-08-07 20:27:52,534 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_24.wav
+2025-08-07 20:27:52,534 | INFO | Processing dialogue task counting/2 rep 25 with voices ('fable', 'alloy')
+2025-08-07 20:27:52,595 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_25.wav
+2025-08-07 20:27:52,596 | INFO | Processing dialogue task counting/2 rep 26 with voices ('sage', 'ballad')
+2025-08-07 20:27:52,652 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_26.wav
+2025-08-07 20:27:52,653 | INFO | Processing dialogue task counting/2 rep 27 with voices ('fable', 'shimmer')
+2025-08-07 20:27:52,708 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_27.wav
+2025-08-07 20:27:52,708 | INFO | Processing dialogue task counting/2 rep 28 with voices ('ash', 'shimmer')
+2025-08-07 20:27:52,709 | INFO | Generating dialogue clip: counting/2 rep 28 (ash)
+2025-08-07 20:27:53,620 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_28.wav
+2025-08-07 20:27:53,621 | INFO | Processing dialogue task counting/2 rep 29 with voices ('coral', 'echo')
+2025-08-07 20:27:53,675 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_29.wav
+2025-08-07 20:27:53,676 | INFO | Processing dialogue task counting/2 rep 30 with voices ('ash', 'sage')
+2025-08-07 20:27:53,737 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_30.wav
+2025-08-07 20:27:53,738 | INFO | Processing dialogue task counting/2 rep 31 with voices ('verse', 'sage')
+2025-08-07 20:27:53,797 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_31.wav
+2025-08-07 20:27:53,798 | INFO | Processing dialogue task counting/2 rep 32 with voices ('verse', 'ash')
+2025-08-07 20:27:53,855 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_32.wav
+2025-08-07 20:27:53,856 | INFO | Processing dialogue task counting/2 rep 33 with voices ('onyx', 'shimmer')
+2025-08-07 20:27:53,912 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_33.wav
+2025-08-07 20:27:53,913 | INFO | Processing dialogue task counting/2 rep 34 with voices ('sage', 'alloy')
+2025-08-07 20:27:53,971 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_34.wav
+2025-08-07 20:27:53,971 | INFO | Processing dialogue task counting/2 rep 35 with voices ('nova', 'echo')
+2025-08-07 20:27:54,029 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_35.wav
+2025-08-07 20:27:54,029 | INFO | Processing dialogue task counting/2 rep 36 with voices ('fable', 'echo')
+2025-08-07 20:27:54,089 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_36.wav
+2025-08-07 20:27:54,089 | INFO | Processing dialogue task counting/2 rep 37 with voices ('verse', 'shimmer')
+2025-08-07 20:27:54,146 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_37.wav
+2025-08-07 20:27:54,146 | INFO | Processing dialogue task counting/2 rep 38 with voices ('echo', 'nova')
+2025-08-07 20:27:54,205 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_38.wav
+2025-08-07 20:27:54,205 | INFO | Processing dialogue task counting/2 rep 39 with voices ('verse', 'alloy')
+2025-08-07 20:27:54,260 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_39.wav
+2025-08-07 20:27:54,261 | INFO | Processing dialogue task counting/2 rep 40 with voices ('nova', 'verse')
+2025-08-07 20:27:54,317 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_40.wav
+2025-08-07 20:27:54,318 | INFO | Processing dialogue task counting/2 rep 41 with voices ('onyx', 'fable')
+2025-08-07 20:27:54,375 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_41.wav
+2025-08-07 20:27:54,375 | INFO | Processing dialogue task counting/2 rep 42 with voices ('sage', 'fable')
+2025-08-07 20:27:54,433 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_42.wav
+2025-08-07 20:27:54,433 | INFO | Processing dialogue task counting/2 rep 43 with voices ('ash', 'ballad')
+2025-08-07 20:27:54,490 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_43.wav
+2025-08-07 20:27:54,491 | INFO | Processing dialogue task counting/2 rep 44 with voices ('alloy', 'nova')
+2025-08-07 20:27:54,544 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_44.wav
+2025-08-07 20:27:54,545 | INFO | Processing dialogue task counting/2 rep 45 with voices ('ash', 'fable')
+2025-08-07 20:27:54,604 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_45.wav
+2025-08-07 20:27:54,605 | INFO | Processing dialogue task counting/2 rep 46 with voices ('ash', 'verse')
+2025-08-07 20:27:54,660 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_46.wav
+2025-08-07 20:27:54,660 | INFO | Processing dialogue task counting/2 rep 47 with voices ('verse', 'ballad')
+2025-08-07 20:27:54,718 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_47.wav
+2025-08-07 20:27:54,718 | INFO | Processing dialogue task counting/2 rep 48 with voices ('ash', 'alloy')
+2025-08-07 20:27:54,773 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_48.wav
+2025-08-07 20:27:54,773 | INFO | Processing dialogue task counting/2 rep 49 with voices ('sage', 'echo')
+2025-08-07 20:27:54,825 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_2_49.wav
+2025-08-07 20:27:54,826 | INFO | Processing dialogue task counting/3 rep 0 with voices ('sage', 'nova')
+2025-08-07 20:27:54,826 | INFO | Generating dialogue clip: counting/3 rep 0 (sage)
+2025-08-07 20:27:55,933 | INFO | Generating dialogue clip: counting/3 rep 0 (nova)
+2025-08-07 20:27:57,738 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_0.wav
+2025-08-07 20:27:57,739 | INFO | Processing dialogue task counting/3 rep 1 with voices ('fable', 'echo')
+2025-08-07 20:27:57,739 | INFO | Generating dialogue clip: counting/3 rep 1 (fable)
+2025-08-07 20:27:58,667 | INFO | Generating dialogue clip: counting/3 rep 1 (echo)
+2025-08-07 20:27:59,530 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_1.wav
+2025-08-07 20:27:59,531 | INFO | Processing dialogue task counting/3 rep 2 with voices ('nova', 'onyx')
+2025-08-07 20:27:59,531 | INFO | Generating dialogue clip: counting/3 rep 2 (nova)
+2025-08-07 20:28:00,504 | INFO | Generating dialogue clip: counting/3 rep 2 (onyx)
+2025-08-07 20:28:01,492 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_2.wav
+2025-08-07 20:28:01,493 | INFO | Processing dialogue task counting/3 rep 3 with voices ('alloy', 'shimmer')
+2025-08-07 20:28:01,493 | INFO | Generating dialogue clip: counting/3 rep 3 (alloy)
+2025-08-07 20:28:02,351 | INFO | Generating dialogue clip: counting/3 rep 3 (shimmer)
+2025-08-07 20:28:03,867 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_3.wav
+2025-08-07 20:28:03,868 | INFO | Processing dialogue task counting/3 rep 4 with voices ('echo', 'verse')
+2025-08-07 20:28:03,868 | INFO | Generating dialogue clip: counting/3 rep 4 (echo)
+2025-08-07 20:28:04,829 | INFO | Generating dialogue clip: counting/3 rep 4 (verse)
+2025-08-07 20:28:06,559 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_4.wav
+2025-08-07 20:28:06,560 | INFO | Processing dialogue task counting/3 rep 5 with voices ('echo', 'shimmer')
+2025-08-07 20:28:06,619 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_5.wav
+2025-08-07 20:28:06,619 | INFO | Processing dialogue task counting/3 rep 6 with voices ('verse', 'nova')
+2025-08-07 20:28:06,620 | INFO | Generating dialogue clip: counting/3 rep 6 (verse)
+2025-08-07 20:28:08,350 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_6.wav
+2025-08-07 20:28:08,350 | INFO | Processing dialogue task counting/3 rep 7 with voices ('fable', 'verse')
+2025-08-07 20:28:08,406 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_7.wav
+2025-08-07 20:28:08,407 | INFO | Processing dialogue task counting/3 rep 8 with voices ('onyx', 'sage')
+2025-08-07 20:28:08,407 | INFO | Generating dialogue clip: counting/3 rep 8 (onyx)
+2025-08-07 20:28:09,242 | INFO | Generating dialogue clip: counting/3 rep 8 (sage)
+2025-08-07 20:28:10,132 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_8.wav
+2025-08-07 20:28:10,133 | INFO | Processing dialogue task counting/3 rep 9 with voices ('coral', 'ballad')
+2025-08-07 20:28:10,133 | INFO | Generating dialogue clip: counting/3 rep 9 (coral)
+2025-08-07 20:28:10,890 | INFO | Generating dialogue clip: counting/3 rep 9 (ballad)
+2025-08-07 20:28:11,983 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_9.wav
+2025-08-07 20:28:11,983 | INFO | Processing dialogue task counting/3 rep 10 with voices ('nova', 'alloy')
+2025-08-07 20:28:11,983 | INFO | Generating dialogue clip: counting/3 rep 10 (alloy)
+2025-08-07 20:28:12,759 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_10.wav
+2025-08-07 20:28:12,760 | INFO | Processing dialogue task counting/3 rep 11 with voices ('alloy', 'ballad')
+2025-08-07 20:28:12,820 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_11.wav
+2025-08-07 20:28:12,820 | INFO | Processing dialogue task counting/3 rep 12 with voices ('verse', 'shimmer')
+2025-08-07 20:28:12,877 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_12.wav
+2025-08-07 20:28:12,877 | INFO | Processing dialogue task counting/3 rep 13 with voices ('shimmer', 'ballad')
+2025-08-07 20:28:12,878 | INFO | Generating dialogue clip: counting/3 rep 13 (shimmer)
+2025-08-07 20:28:15,484 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_13.wav
+2025-08-07 20:28:15,485 | INFO | Processing dialogue task counting/3 rep 14 with voices ('ash', 'fable')
+2025-08-07 20:28:15,485 | INFO | Generating dialogue clip: counting/3 rep 14 (ash)
+2025-08-07 20:28:16,464 | INFO | Generating dialogue clip: counting/3 rep 14 (fable)
+2025-08-07 20:28:17,851 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_14.wav
+2025-08-07 20:28:17,852 | INFO | Processing dialogue task counting/3 rep 15 with voices ('shimmer', 'nova')
+2025-08-07 20:28:17,908 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_15.wav
+2025-08-07 20:28:17,909 | INFO | Processing dialogue task counting/3 rep 16 with voices ('onyx', 'shimmer')
+2025-08-07 20:28:17,963 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_16.wav
+2025-08-07 20:28:17,964 | INFO | Processing dialogue task counting/3 rep 17 with voices ('coral', 'fable')
+2025-08-07 20:28:18,019 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_17.wav
+2025-08-07 20:28:18,020 | INFO | Processing dialogue task counting/3 rep 18 with voices ('sage', 'ballad')
+2025-08-07 20:28:18,073 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_18.wav
+2025-08-07 20:28:18,074 | INFO | Processing dialogue task counting/3 rep 19 with voices ('echo', 'coral')
+2025-08-07 20:28:18,074 | INFO | Generating dialogue clip: counting/3 rep 19 (coral)
+2025-08-07 20:28:19,002 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_19.wav
+2025-08-07 20:28:19,003 | INFO | Processing dialogue task counting/3 rep 20 with voices ('shimmer', 'fable')
+2025-08-07 20:28:19,058 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_20.wav
+2025-08-07 20:28:19,059 | INFO | Processing dialogue task counting/3 rep 21 with voices ('coral', 'sage')
+2025-08-07 20:28:19,110 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_21.wav
+2025-08-07 20:28:19,111 | INFO | Processing dialogue task counting/3 rep 22 with voices ('fable', 'onyx')
+2025-08-07 20:28:19,165 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_22.wav
+2025-08-07 20:28:19,165 | INFO | Processing dialogue task counting/3 rep 23 with voices ('ballad', 'alloy')
+2025-08-07 20:28:19,165 | INFO | Generating dialogue clip: counting/3 rep 23 (ballad)
+2025-08-07 20:28:19,910 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_23.wav
+2025-08-07 20:28:19,910 | INFO | Processing dialogue task counting/3 rep 24 with voices ('fable', 'shimmer')
+2025-08-07 20:28:19,966 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_24.wav
+2025-08-07 20:28:19,967 | INFO | Processing dialogue task counting/3 rep 25 with voices ('alloy', 'ash')
+2025-08-07 20:28:19,967 | INFO | Generating dialogue clip: counting/3 rep 25 (ash)
+2025-08-07 20:28:20,935 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_25.wav
+2025-08-07 20:28:20,935 | INFO | Processing dialogue task counting/3 rep 26 with voices ('coral', 'echo')
+2025-08-07 20:28:20,992 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_26.wav
+2025-08-07 20:28:20,993 | INFO | Processing dialogue task counting/3 rep 27 with voices ('onyx', 'echo')
+2025-08-07 20:28:21,046 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_27.wav
+2025-08-07 20:28:21,046 | INFO | Processing dialogue task counting/3 rep 28 with voices ('ballad', 'coral')
+2025-08-07 20:28:21,098 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_28.wav
+2025-08-07 20:28:21,099 | INFO | Processing dialogue task counting/3 rep 29 with voices ('shimmer', 'ash')
+2025-08-07 20:28:21,155 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_29.wav
+2025-08-07 20:28:21,155 | INFO | Processing dialogue task counting/3 rep 30 with voices ('ash', 'echo')
+2025-08-07 20:28:21,207 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_30.wav
+2025-08-07 20:28:21,208 | INFO | Processing dialogue task counting/3 rep 31 with voices ('coral', 'shimmer')
+2025-08-07 20:28:21,261 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_31.wav
+2025-08-07 20:28:21,262 | INFO | Processing dialogue task counting/3 rep 32 with voices ('sage', 'alloy')
+2025-08-07 20:28:21,313 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_32.wav
+2025-08-07 20:28:21,313 | INFO | Processing dialogue task counting/3 rep 33 with voices ('ballad', 'onyx')
+2025-08-07 20:28:21,368 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_33.wav
+2025-08-07 20:28:21,369 | INFO | Processing dialogue task counting/3 rep 34 with voices ('ash', 'verse')
+2025-08-07 20:28:21,424 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_34.wav
+2025-08-07 20:28:21,425 | INFO | Processing dialogue task counting/3 rep 35 with voices ('echo', 'sage')
+2025-08-07 20:28:21,478 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_35.wav
+2025-08-07 20:28:21,479 | INFO | Processing dialogue task counting/3 rep 36 with voices ('sage', 'onyx')
+2025-08-07 20:28:21,531 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_36.wav
+2025-08-07 20:28:21,532 | INFO | Processing dialogue task counting/3 rep 37 with voices ('onyx', 'verse')
+2025-08-07 20:28:21,584 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_37.wav
+2025-08-07 20:28:21,584 | INFO | Processing dialogue task counting/3 rep 38 with voices ('verse', 'ash')
+2025-08-07 20:28:21,637 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_38.wav
+2025-08-07 20:28:21,638 | INFO | Processing dialogue task counting/3 rep 39 with voices ('sage', 'echo')
+2025-08-07 20:28:21,691 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_39.wav
+2025-08-07 20:28:21,692 | INFO | Processing dialogue task counting/3 rep 40 with voices ('echo', 'ash')
+2025-08-07 20:28:21,744 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_40.wav
+2025-08-07 20:28:21,745 | INFO | Processing dialogue task counting/3 rep 41 with voices ('onyx', 'ballad')
+2025-08-07 20:28:21,797 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_41.wav
+2025-08-07 20:28:21,798 | INFO | Processing dialogue task counting/3 rep 42 with voices ('alloy', 'coral')
+2025-08-07 20:28:21,851 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_42.wav
+2025-08-07 20:28:21,852 | INFO | Processing dialogue task counting/3 rep 43 with voices ('sage', 'verse')
+2025-08-07 20:28:21,905 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_43.wav
+2025-08-07 20:28:21,905 | INFO | Processing dialogue task counting/3 rep 44 with voices ('echo', 'nova')
+2025-08-07 20:28:21,958 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_44.wav
+2025-08-07 20:28:21,958 | INFO | Processing dialogue task counting/3 rep 45 with voices ('coral', 'verse')
+2025-08-07 20:28:22,012 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_45.wav
+2025-08-07 20:28:22,012 | INFO | Processing dialogue task counting/3 rep 46 with voices ('coral', 'alloy')
+2025-08-07 20:28:22,063 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_46.wav
+2025-08-07 20:28:22,063 | INFO | Processing dialogue task counting/3 rep 47 with voices ('alloy', 'echo')
+2025-08-07 20:28:22,113 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_47.wav
+2025-08-07 20:28:22,114 | INFO | Processing dialogue task counting/3 rep 48 with voices ('ash', 'onyx')
+2025-08-07 20:28:22,169 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_48.wav
+2025-08-07 20:28:22,170 | INFO | Processing dialogue task counting/3 rep 49 with voices ('fable', 'nova')
+2025-08-07 20:28:22,221 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_3_49.wav
+2025-08-07 20:28:22,221 | INFO | Processing dialogue task counting/4 rep 0 with voices ('onyx', 'echo', 'fable')
+2025-08-07 20:28:22,222 | INFO | Generating dialogue clip: counting/4 rep 0 (onyx)
+2025-08-07 20:28:23,009 | INFO | Generating dialogue clip: counting/4 rep 0 (echo)
+2025-08-07 20:28:23,663 | INFO | Generating dialogue clip: counting/4 rep 0 (fable)
+2025-08-07 20:28:24,411 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_0.wav
+2025-08-07 20:28:24,412 | INFO | Processing dialogue task counting/4 rep 1 with voices ('verse', 'nova', 'onyx')
+2025-08-07 20:28:24,412 | INFO | Generating dialogue clip: counting/4 rep 1 (verse)
+2025-08-07 20:28:25,313 | INFO | Generating dialogue clip: counting/4 rep 1 (nova)
+2025-08-07 20:28:26,013 | INFO | Generating dialogue clip: counting/4 rep 1 (onyx)
+2025-08-07 20:28:26,676 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_1.wav
+2025-08-07 20:28:26,677 | INFO | Processing dialogue task counting/4 rep 2 with voices ('alloy', 'shimmer', 'verse')
+2025-08-07 20:28:26,677 | INFO | Generating dialogue clip: counting/4 rep 2 (alloy)
+2025-08-07 20:28:27,528 | INFO | Generating dialogue clip: counting/4 rep 2 (shimmer)
+2025-08-07 20:28:28,142 | INFO | Generating dialogue clip: counting/4 rep 2 (verse)
+2025-08-07 20:28:28,902 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_2.wav
+2025-08-07 20:28:28,903 | INFO | Processing dialogue task counting/4 rep 3 with voices ('alloy', 'verse', 'nova')
+2025-08-07 20:28:28,903 | INFO | Generating dialogue clip: counting/4 rep 3 (verse)
+2025-08-07 20:28:29,682 | INFO | Generating dialogue clip: counting/4 rep 3 (nova)
+2025-08-07 20:28:30,286 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_3.wav
+2025-08-07 20:28:30,286 | INFO | Processing dialogue task counting/4 rep 4 with voices ('sage', 'coral', 'ballad')
+2025-08-07 20:28:30,286 | INFO | Generating dialogue clip: counting/4 rep 4 (sage)
+2025-08-07 20:28:31,243 | INFO | Generating dialogue clip: counting/4 rep 4 (coral)
+2025-08-07 20:28:34,646 | INFO | Generating dialogue clip: counting/4 rep 4 (ballad)
+2025-08-07 20:28:35,258 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_4.wav
+2025-08-07 20:28:35,259 | INFO | Processing dialogue task counting/4 rep 5 with voices ('fable', 'onyx', 'ballad')
+2025-08-07 20:28:35,259 | INFO | Generating dialogue clip: counting/4 rep 5 (fable)
+2025-08-07 20:28:36,013 | INFO | Generating dialogue clip: counting/4 rep 5 (onyx)
+2025-08-07 20:28:36,728 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_5.wav
+2025-08-07 20:28:36,728 | INFO | Processing dialogue task counting/4 rep 6 with voices ('shimmer', 'ballad', 'sage')
+2025-08-07 20:28:36,728 | INFO | Generating dialogue clip: counting/4 rep 6 (shimmer)
+2025-08-07 20:28:37,511 | INFO | Generating dialogue clip: counting/4 rep 6 (ballad)
+2025-08-07 20:28:38,328 | INFO | Generating dialogue clip: counting/4 rep 6 (sage)
+2025-08-07 20:28:39,054 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_6.wav
+2025-08-07 20:28:39,055 | INFO | Processing dialogue task counting/4 rep 7 with voices ('alloy', 'sage', 'shimmer')
+2025-08-07 20:28:39,055 | INFO | Generating dialogue clip: counting/4 rep 7 (sage)
+2025-08-07 20:28:39,847 | INFO | Generating dialogue clip: counting/4 rep 7 (shimmer)
+2025-08-07 20:28:40,616 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_7.wav
+2025-08-07 20:28:40,621 | INFO | Processing dialogue task counting/4 rep 8 with voices ('sage', 'onyx', 'echo')
+2025-08-07 20:28:40,621 | INFO | Generating dialogue clip: counting/4 rep 8 (echo)
+2025-08-07 20:28:41,546 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_8.wav
+2025-08-07 20:28:41,547 | INFO | Processing dialogue task counting/4 rep 9 with voices ('onyx', 'alloy', 'nova')
+2025-08-07 20:28:41,547 | INFO | Generating dialogue clip: counting/4 rep 9 (alloy)
+2025-08-07 20:28:42,088 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_9.wav
+2025-08-07 20:28:42,088 | INFO | Processing dialogue task counting/4 rep 10 with voices ('sage', 'nova', 'ash')
+2025-08-07 20:28:42,089 | INFO | Generating dialogue clip: counting/4 rep 10 (ash)
+2025-08-07 20:28:42,699 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_10.wav
+2025-08-07 20:28:42,700 | INFO | Processing dialogue task counting/4 rep 11 with voices ('ash', 'fable', 'coral')
+2025-08-07 20:28:42,700 | INFO | Generating dialogue clip: counting/4 rep 11 (ash)
+2025-08-07 20:28:43,485 | INFO | Generating dialogue clip: counting/4 rep 11 (fable)
+2025-08-07 20:28:44,190 | INFO | Generating dialogue clip: counting/4 rep 11 (coral)
+2025-08-07 20:28:44,966 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_11.wav
+2025-08-07 20:28:44,967 | INFO | Processing dialogue task counting/4 rep 12 with voices ('ash', 'fable', 'nova')
+2025-08-07 20:28:45,050 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_12.wav
+2025-08-07 20:28:45,050 | INFO | Processing dialogue task counting/4 rep 13 with voices ('nova', 'fable', 'alloy')
+2025-08-07 20:28:45,050 | INFO | Generating dialogue clip: counting/4 rep 13 (nova)
+2025-08-07 20:28:45,738 | INFO | Generating dialogue clip: counting/4 rep 13 (alloy)
+2025-08-07 20:28:46,341 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_13.wav
+2025-08-07 20:28:46,341 | INFO | Processing dialogue task counting/4 rep 14 with voices ('fable', 'echo', 'alloy')
+2025-08-07 20:28:46,421 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_14.wav
+2025-08-07 20:28:46,421 | INFO | Processing dialogue task counting/4 rep 15 with voices ('onyx', 'ballad', 'fable')
+2025-08-07 20:28:46,499 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_15.wav
+2025-08-07 20:28:46,499 | INFO | Processing dialogue task counting/4 rep 16 with voices ('ash', 'shimmer', 'sage')
+2025-08-07 20:28:46,578 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_16.wav
+2025-08-07 20:28:46,579 | INFO | Processing dialogue task counting/4 rep 17 with voices ('coral', 'alloy', 'ballad')
+2025-08-07 20:28:46,579 | INFO | Generating dialogue clip: counting/4 rep 17 (coral)
+2025-08-07 20:28:47,921 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_17.wav
+2025-08-07 20:28:47,921 | INFO | Processing dialogue task counting/4 rep 18 with voices ('onyx', 'alloy', 'ash')
+2025-08-07 20:28:47,997 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_18.wav
+2025-08-07 20:28:47,998 | INFO | Processing dialogue task counting/4 rep 19 with voices ('shimmer', 'verse', 'ballad')
+2025-08-07 20:28:48,072 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_19.wav
+2025-08-07 20:28:48,073 | INFO | Processing dialogue task counting/4 rep 20 with voices ('onyx', 'verse', 'alloy')
+2025-08-07 20:28:48,154 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_20.wav
+2025-08-07 20:28:48,155 | INFO | Processing dialogue task counting/4 rep 21 with voices ('echo', 'shimmer', 'ash')
+2025-08-07 20:28:48,155 | INFO | Generating dialogue clip: counting/4 rep 21 (echo)
+2025-08-07 20:28:49,105 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_21.wav
+2025-08-07 20:28:49,106 | INFO | Processing dialogue task counting/4 rep 22 with voices ('verse', 'shimmer', 'onyx')
+2025-08-07 20:28:49,180 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_22.wav
+2025-08-07 20:28:49,180 | INFO | Processing dialogue task counting/4 rep 23 with voices ('ballad', 'fable', 'alloy')
+2025-08-07 20:28:49,180 | INFO | Generating dialogue clip: counting/4 rep 23 (ballad)
+2025-08-07 20:28:50,115 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_23.wav
+2025-08-07 20:28:50,116 | INFO | Processing dialogue task counting/4 rep 24 with voices ('verse', 'fable', 'nova')
+2025-08-07 20:28:50,201 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_24.wav
+2025-08-07 20:28:50,202 | INFO | Processing dialogue task counting/4 rep 25 with voices ('onyx', 'ash', 'echo')
+2025-08-07 20:28:50,202 | INFO | Generating dialogue clip: counting/4 rep 25 (ash)
+2025-08-07 20:28:50,876 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_25.wav
+2025-08-07 20:28:50,877 | INFO | Processing dialogue task counting/4 rep 26 with voices ('sage', 'fable', 'verse')
+2025-08-07 20:28:50,953 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_26.wav
+2025-08-07 20:28:50,954 | INFO | Processing dialogue task counting/4 rep 27 with voices ('sage', 'coral', 'alloy')
+2025-08-07 20:28:51,031 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_27.wav
+2025-08-07 20:28:51,032 | INFO | Processing dialogue task counting/4 rep 28 with voices ('nova', 'shimmer', 'echo')
+2025-08-07 20:28:51,109 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_28.wav
+2025-08-07 20:28:51,109 | INFO | Processing dialogue task counting/4 rep 29 with voices ('ballad', 'coral', 'shimmer')
+2025-08-07 20:28:51,198 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_29.wav
+2025-08-07 20:28:51,199 | INFO | Processing dialogue task counting/4 rep 30 with voices ('sage', 'ash', 'ballad')
+2025-08-07 20:28:51,277 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_30.wav
+2025-08-07 20:28:51,278 | INFO | Processing dialogue task counting/4 rep 31 with voices ('coral', 'onyx', 'fable')
+2025-08-07 20:28:51,353 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_31.wav
+2025-08-07 20:28:51,354 | INFO | Processing dialogue task counting/4 rep 32 with voices ('echo', 'onyx', 'coral')
+2025-08-07 20:28:51,427 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_32.wav
+2025-08-07 20:28:51,428 | INFO | Processing dialogue task counting/4 rep 33 with voices ('nova', 'onyx', 'coral')
+2025-08-07 20:28:51,503 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_33.wav
+2025-08-07 20:28:51,503 | INFO | Processing dialogue task counting/4 rep 34 with voices ('nova', 'coral', 'verse')
+2025-08-07 20:28:51,581 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_34.wav
+2025-08-07 20:28:51,582 | INFO | Processing dialogue task counting/4 rep 35 with voices ('echo', 'ballad', 'onyx')
+2025-08-07 20:28:51,662 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_35.wav
+2025-08-07 20:28:51,662 | INFO | Processing dialogue task counting/4 rep 36 with voices ('echo', 'verse', 'sage')
+2025-08-07 20:28:51,739 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_36.wav
+2025-08-07 20:28:51,740 | INFO | Processing dialogue task counting/4 rep 37 with voices ('verse', 'ballad', 'echo')
+2025-08-07 20:28:51,816 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_37.wav
+2025-08-07 20:28:51,817 | INFO | Processing dialogue task counting/4 rep 38 with voices ('fable', 'shimmer', 'sage')
+2025-08-07 20:28:51,895 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_38.wav
+2025-08-07 20:28:51,896 | INFO | Processing dialogue task counting/4 rep 39 with voices ('fable', 'ash', 'echo')
+2025-08-07 20:28:51,973 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_39.wav
+2025-08-07 20:28:51,974 | INFO | Processing dialogue task counting/4 rep 40 with voices ('ash', 'echo', 'sage')
+2025-08-07 20:28:52,052 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_40.wav
+2025-08-07 20:28:52,053 | INFO | Processing dialogue task counting/4 rep 41 with voices ('ballad', 'shimmer', 'ash')
+2025-08-07 20:28:52,133 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_41.wav
+2025-08-07 20:28:52,133 | INFO | Processing dialogue task counting/4 rep 42 with voices ('ballad', 'onyx', 'nova')
+2025-08-07 20:28:52,210 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_42.wav
+2025-08-07 20:28:52,210 | INFO | Processing dialogue task counting/4 rep 43 with voices ('alloy', 'sage', 'coral')
+2025-08-07 20:28:52,289 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_43.wav
+2025-08-07 20:28:52,290 | INFO | Processing dialogue task counting/4 rep 44 with voices ('coral', 'shimmer', 'fable')
+2025-08-07 20:28:52,367 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_44.wav
+2025-08-07 20:28:52,368 | INFO | Processing dialogue task counting/4 rep 45 with voices ('alloy', 'coral', 'fable')
+2025-08-07 20:28:52,445 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_45.wav
+2025-08-07 20:28:52,446 | INFO | Processing dialogue task counting/4 rep 46 with voices ('onyx', 'nova', 'verse')
+2025-08-07 20:28:52,524 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_46.wav
+2025-08-07 20:28:52,524 | INFO | Processing dialogue task counting/4 rep 47 with voices ('onyx', 'coral', 'alloy')
+2025-08-07 20:28:52,602 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_47.wav
+2025-08-07 20:28:52,603 | INFO | Processing dialogue task counting/4 rep 48 with voices ('ballad', 'nova', 'ash')
+2025-08-07 20:28:52,681 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_48.wav
+2025-08-07 20:28:52,682 | INFO | Processing dialogue task counting/4 rep 49 with voices ('ballad', 'onyx', 'alloy')
+2025-08-07 20:28:52,764 | INFO | Concatenated 3 clips to ./tts_outputs/counting/counting_4_49.wav
+2025-08-07 20:28:52,764 | INFO | Processing dialogue task counting/5 rep 0 with voices ('alloy', 'ash')
+2025-08-07 20:28:52,764 | INFO | Generating dialogue clip: counting/5 rep 0 (alloy)
+2025-08-07 20:28:53,521 | INFO | Generating dialogue clip: counting/5 rep 0 (ash)
+2025-08-07 20:28:54,330 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_0.wav
+2025-08-07 20:28:54,331 | INFO | Processing dialogue task counting/5 rep 1 with voices ('alloy', 'verse')
+2025-08-07 20:28:54,331 | INFO | Generating dialogue clip: counting/5 rep 1 (verse)
+2025-08-07 20:28:55,225 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_1.wav
+2025-08-07 20:28:55,226 | INFO | Processing dialogue task counting/5 rep 2 with voices ('shimmer', 'alloy')
+2025-08-07 20:28:55,226 | INFO | Generating dialogue clip: counting/5 rep 2 (shimmer)
+2025-08-07 20:28:56,055 | INFO | Generating dialogue clip: counting/5 rep 2 (alloy)
+2025-08-07 20:28:56,853 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_2.wav
+2025-08-07 20:28:56,854 | INFO | Processing dialogue task counting/5 rep 3 with voices ('sage', 'alloy')
+2025-08-07 20:28:56,854 | INFO | Generating dialogue clip: counting/5 rep 3 (sage)
+2025-08-07 20:28:57,802 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_3.wav
+2025-08-07 20:28:57,803 | INFO | Processing dialogue task counting/5 rep 4 with voices ('alloy', 'sage')
+2025-08-07 20:28:57,803 | INFO | Generating dialogue clip: counting/5 rep 4 (sage)
+2025-08-07 20:28:58,688 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_4.wav
+2025-08-07 20:28:58,688 | INFO | Processing dialogue task counting/5 rep 5 with voices ('ballad', 'verse')
+2025-08-07 20:28:58,689 | INFO | Generating dialogue clip: counting/5 rep 5 (ballad)
+2025-08-07 20:28:59,586 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_5.wav
+2025-08-07 20:28:59,587 | INFO | Processing dialogue task counting/5 rep 6 with voices ('alloy', 'shimmer')
+2025-08-07 20:28:59,587 | INFO | Generating dialogue clip: counting/5 rep 6 (shimmer)
+2025-08-07 20:29:00,373 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_6.wav
+2025-08-07 20:29:00,374 | INFO | Processing dialogue task counting/5 rep 7 with voices ('alloy', 'fable')
+2025-08-07 20:29:00,374 | INFO | Generating dialogue clip: counting/5 rep 7 (fable)
+2025-08-07 20:29:01,172 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_7.wav
+2025-08-07 20:29:01,173 | INFO | Processing dialogue task counting/5 rep 8 with voices ('echo', 'ballad')
+2025-08-07 20:29:01,173 | INFO | Generating dialogue clip: counting/5 rep 8 (echo)
+2025-08-07 20:29:01,871 | INFO | Generating dialogue clip: counting/5 rep 8 (ballad)
+2025-08-07 20:29:02,873 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_8.wav
+2025-08-07 20:29:02,873 | INFO | Processing dialogue task counting/5 rep 9 with voices ('verse', 'sage')
+2025-08-07 20:29:02,873 | INFO | Generating dialogue clip: counting/5 rep 9 (verse)
+2025-08-07 20:29:03,787 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_9.wav
+2025-08-07 20:29:03,787 | INFO | Processing dialogue task counting/5 rep 10 with voices ('onyx', 'fable')
+2025-08-07 20:29:03,787 | INFO | Generating dialogue clip: counting/5 rep 10 (onyx)
+2025-08-07 20:29:04,408 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_10.wav
+2025-08-07 20:29:04,409 | INFO | Processing dialogue task counting/5 rep 11 with voices ('coral', 'alloy')
+2025-08-07 20:29:04,409 | INFO | Generating dialogue clip: counting/5 rep 11 (coral)
+2025-08-07 20:29:05,052 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_11.wav
+2025-08-07 20:29:05,053 | INFO | Processing dialogue task counting/5 rep 12 with voices ('coral', 'onyx')
+2025-08-07 20:29:05,053 | INFO | Generating dialogue clip: counting/5 rep 12 (onyx)
+2025-08-07 20:29:05,803 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_12.wav
+2025-08-07 20:29:05,803 | INFO | Processing dialogue task counting/5 rep 13 with voices ('sage', 'fable')
+2025-08-07 20:29:05,859 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_13.wav
+2025-08-07 20:29:05,860 | INFO | Processing dialogue task counting/5 rep 14 with voices ('onyx', 'ballad')
+2025-08-07 20:29:05,914 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_14.wav
+2025-08-07 20:29:05,915 | INFO | Processing dialogue task counting/5 rep 15 with voices ('ballad', 'sage')
+2025-08-07 20:29:05,967 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_15.wav
+2025-08-07 20:29:05,968 | INFO | Processing dialogue task counting/5 rep 16 with voices ('onyx', 'verse')
+2025-08-07 20:29:06,021 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_16.wav
+2025-08-07 20:29:06,022 | INFO | Processing dialogue task counting/5 rep 17 with voices ('ash', 'nova')
+2025-08-07 20:29:06,022 | INFO | Generating dialogue clip: counting/5 rep 17 (ash)
+2025-08-07 20:29:06,737 | INFO | Generating dialogue clip: counting/5 rep 17 (nova)
+2025-08-07 20:29:07,546 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_17.wav
+2025-08-07 20:29:07,547 | INFO | Processing dialogue task counting/5 rep 18 with voices ('nova', 'coral')
+2025-08-07 20:29:07,547 | INFO | Generating dialogue clip: counting/5 rep 18 (nova)
+2025-08-07 20:29:08,744 | INFO | Generating dialogue clip: counting/5 rep 18 (coral)
+2025-08-07 20:29:11,540 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_18.wav
+2025-08-07 20:29:11,540 | INFO | Processing dialogue task counting/5 rep 19 with voices ('shimmer', 'ash')
+2025-08-07 20:29:11,607 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_19.wav
+2025-08-07 20:29:11,607 | INFO | Processing dialogue task counting/5 rep 20 with voices ('onyx', 'alloy')
+2025-08-07 20:29:11,659 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_20.wav
+2025-08-07 20:29:11,660 | INFO | Processing dialogue task counting/5 rep 21 with voices ('coral', 'ash')
+2025-08-07 20:29:11,710 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_21.wav
+2025-08-07 20:29:11,710 | INFO | Processing dialogue task counting/5 rep 22 with voices ('sage', 'verse')
+2025-08-07 20:29:11,762 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_22.wav
+2025-08-07 20:29:11,762 | INFO | Processing dialogue task counting/5 rep 23 with voices ('fable', 'ballad')
+2025-08-07 20:29:11,762 | INFO | Generating dialogue clip: counting/5 rep 23 (fable)
+2025-08-07 20:29:12,474 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_23.wav
+2025-08-07 20:29:12,475 | INFO | Processing dialogue task counting/5 rep 24 with voices ('ballad', 'fable')
+2025-08-07 20:29:12,547 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_24.wav
+2025-08-07 20:29:12,548 | INFO | Processing dialogue task counting/5 rep 25 with voices ('ash', 'coral')
+2025-08-07 20:29:12,616 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_25.wav
+2025-08-07 20:29:12,616 | INFO | Processing dialogue task counting/5 rep 26 with voices ('sage', 'echo')
+2025-08-07 20:29:12,617 | INFO | Generating dialogue clip: counting/5 rep 26 (echo)
+2025-08-07 20:29:13,404 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_26.wav
+2025-08-07 20:29:13,405 | INFO | Processing dialogue task counting/5 rep 27 with voices ('fable', 'onyx')
+2025-08-07 20:29:13,456 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_27.wav
+2025-08-07 20:29:13,456 | INFO | Processing dialogue task counting/5 rep 28 with voices ('echo', 'onyx')
+2025-08-07 20:29:13,513 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_28.wav
+2025-08-07 20:29:13,514 | INFO | Processing dialogue task counting/5 rep 29 with voices ('fable', 'echo')
+2025-08-07 20:29:13,571 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_29.wav
+2025-08-07 20:29:13,571 | INFO | Processing dialogue task counting/5 rep 30 with voices ('sage', 'onyx')
+2025-08-07 20:29:13,626 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_30.wav
+2025-08-07 20:29:13,626 | INFO | Processing dialogue task counting/5 rep 31 with voices ('fable', 'verse')
+2025-08-07 20:29:13,681 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_31.wav
+2025-08-07 20:29:13,681 | INFO | Processing dialogue task counting/5 rep 32 with voices ('alloy', 'nova')
+2025-08-07 20:29:13,735 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_32.wav
+2025-08-07 20:29:13,735 | INFO | Processing dialogue task counting/5 rep 33 with voices ('sage', 'coral')
+2025-08-07 20:29:13,789 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_33.wav
+2025-08-07 20:29:13,789 | INFO | Processing dialogue task counting/5 rep 34 with voices ('verse', 'fable')
+2025-08-07 20:29:13,848 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_34.wav
+2025-08-07 20:29:13,848 | INFO | Processing dialogue task counting/5 rep 35 with voices ('fable', 'ash')
+2025-08-07 20:29:13,898 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_35.wav
+2025-08-07 20:29:13,899 | INFO | Processing dialogue task counting/5 rep 36 with voices ('echo', 'coral')
+2025-08-07 20:29:13,949 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_36.wav
+2025-08-07 20:29:13,950 | INFO | Processing dialogue task counting/5 rep 37 with voices ('ash', 'echo')
+2025-08-07 20:29:14,011 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_37.wav
+2025-08-07 20:29:14,012 | INFO | Processing dialogue task counting/5 rep 38 with voices ('sage', 'shimmer')
+2025-08-07 20:29:14,064 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_38.wav
+2025-08-07 20:29:14,065 | INFO | Processing dialogue task counting/5 rep 39 with voices ('shimmer', 'onyx')
+2025-08-07 20:29:14,115 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_39.wav
+2025-08-07 20:29:14,116 | INFO | Processing dialogue task counting/5 rep 40 with voices ('nova', 'alloy')
+2025-08-07 20:29:14,171 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_40.wav
+2025-08-07 20:29:14,172 | INFO | Processing dialogue task counting/5 rep 41 with voices ('onyx', 'shimmer')
+2025-08-07 20:29:14,224 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_41.wav
+2025-08-07 20:29:14,225 | INFO | Processing dialogue task counting/5 rep 42 with voices ('fable', 'sage')
+2025-08-07 20:29:14,279 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_42.wav
+2025-08-07 20:29:14,279 | INFO | Processing dialogue task counting/5 rep 43 with voices ('ash', 'sage')
+2025-08-07 20:29:14,334 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_43.wav
+2025-08-07 20:29:14,335 | INFO | Processing dialogue task counting/5 rep 44 with voices ('verse', 'onyx')
+2025-08-07 20:29:14,386 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_44.wav
+2025-08-07 20:29:14,387 | INFO | Processing dialogue task counting/5 rep 45 with voices ('ballad', 'echo')
+2025-08-07 20:29:14,438 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_45.wav
+2025-08-07 20:29:14,439 | INFO | Processing dialogue task counting/5 rep 46 with voices ('shimmer', 'nova')
+2025-08-07 20:29:14,499 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_46.wav
+2025-08-07 20:29:14,500 | INFO | Processing dialogue task counting/5 rep 47 with voices ('verse', 'echo')
+2025-08-07 20:29:14,553 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_47.wav
+2025-08-07 20:29:14,553 | INFO | Processing dialogue task counting/5 rep 48 with voices ('ash', 'onyx')
+2025-08-07 20:29:14,610 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_48.wav
+2025-08-07 20:29:14,610 | INFO | Processing dialogue task counting/5 rep 49 with voices ('sage', 'ballad')
+2025-08-07 20:29:14,660 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_5_49.wav
+2025-08-07 20:29:14,661 | INFO | Processing dialogue task counting/6 rep 0 with voices ('alloy', 'verse')
+2025-08-07 20:29:14,661 | INFO | Generating dialogue clip: counting/6 rep 0 (alloy)
+2025-08-07 20:29:15,339 | INFO | Generating dialogue clip: counting/6 rep 0 (verse)
+2025-08-07 20:29:16,066 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_0.wav
+2025-08-07 20:29:16,066 | INFO | Processing dialogue task counting/6 rep 1 with voices ('fable', 'nova')
+2025-08-07 20:29:16,067 | INFO | Generating dialogue clip: counting/6 rep 1 (fable)
+2025-08-07 20:29:16,861 | INFO | Generating dialogue clip: counting/6 rep 1 (nova)
+2025-08-07 20:29:17,641 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_1.wav
+2025-08-07 20:29:17,641 | INFO | Processing dialogue task counting/6 rep 2 with voices ('verse', 'coral')
+2025-08-07 20:29:17,642 | INFO | Generating dialogue clip: counting/6 rep 2 (verse)
+2025-08-07 20:29:18,485 | INFO | Generating dialogue clip: counting/6 rep 2 (coral)
+2025-08-07 20:29:19,343 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_2.wav
+2025-08-07 20:29:19,344 | INFO | Processing dialogue task counting/6 rep 3 with voices ('nova', 'alloy')
+2025-08-07 20:29:19,344 | INFO | Generating dialogue clip: counting/6 rep 3 (nova)
+2025-08-07 20:29:20,082 | INFO | Generating dialogue clip: counting/6 rep 3 (alloy)
+2025-08-07 20:29:20,691 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_3.wav
+2025-08-07 20:29:20,692 | INFO | Processing dialogue task counting/6 rep 4 with voices ('ash', 'coral')
+2025-08-07 20:29:20,692 | INFO | Generating dialogue clip: counting/6 rep 4 (ash)
+2025-08-07 20:29:21,591 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_4.wav
+2025-08-07 20:29:21,591 | INFO | Processing dialogue task counting/6 rep 5 with voices ('alloy', 'nova')
+2025-08-07 20:29:21,645 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_5.wav
+2025-08-07 20:29:21,645 | INFO | Processing dialogue task counting/6 rep 6 with voices ('sage', 'coral')
+2025-08-07 20:29:21,645 | INFO | Generating dialogue clip: counting/6 rep 6 (sage)
+2025-08-07 20:29:22,516 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_6.wav
+2025-08-07 20:29:22,517 | INFO | Processing dialogue task counting/6 rep 7 with voices ('onyx', 'verse')
+2025-08-07 20:29:22,517 | INFO | Generating dialogue clip: counting/6 rep 7 (onyx)
+2025-08-07 20:29:23,263 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_7.wav
+2025-08-07 20:29:23,264 | INFO | Processing dialogue task counting/6 rep 8 with voices ('alloy', 'ballad')
+2025-08-07 20:29:23,264 | INFO | Generating dialogue clip: counting/6 rep 8 (ballad)
+2025-08-07 20:29:24,154 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_8.wav
+2025-08-07 20:29:24,154 | INFO | Processing dialogue task counting/6 rep 9 with voices ('ash', 'ballad')
+2025-08-07 20:29:24,208 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_9.wav
+2025-08-07 20:29:24,208 | INFO | Processing dialogue task counting/6 rep 10 with voices ('shimmer', 'onyx')
+2025-08-07 20:29:24,208 | INFO | Generating dialogue clip: counting/6 rep 10 (shimmer)
+2025-08-07 20:29:24,863 | INFO | Generating dialogue clip: counting/6 rep 10 (onyx)
+2025-08-07 20:29:25,761 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_10.wav
+2025-08-07 20:29:25,761 | INFO | Processing dialogue task counting/6 rep 11 with voices ('coral', 'alloy')
+2025-08-07 20:29:25,761 | INFO | Generating dialogue clip: counting/6 rep 11 (coral)
+2025-08-07 20:29:26,724 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_11.wav
+2025-08-07 20:29:26,724 | INFO | Processing dialogue task counting/6 rep 12 with voices ('ballad', 'ash')
+2025-08-07 20:29:26,725 | INFO | Generating dialogue clip: counting/6 rep 12 (ballad)
+2025-08-07 20:29:27,402 | INFO | Generating dialogue clip: counting/6 rep 12 (ash)
+2025-08-07 20:29:28,549 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_12.wav
+2025-08-07 20:29:28,550 | INFO | Processing dialogue task counting/6 rep 13 with voices ('fable', 'ballad')
+2025-08-07 20:29:28,614 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_13.wav
+2025-08-07 20:29:28,615 | INFO | Processing dialogue task counting/6 rep 14 with voices ('onyx', 'ballad')
+2025-08-07 20:29:28,666 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_14.wav
+2025-08-07 20:29:28,667 | INFO | Processing dialogue task counting/6 rep 15 with voices ('onyx', 'ash')
+2025-08-07 20:29:28,718 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_15.wav
+2025-08-07 20:29:28,718 | INFO | Processing dialogue task counting/6 rep 16 with voices ('ballad', 'sage')
+2025-08-07 20:29:28,719 | INFO | Generating dialogue clip: counting/6 rep 16 (sage)
+2025-08-07 20:29:29,421 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_16.wav
+2025-08-07 20:29:29,422 | INFO | Processing dialogue task counting/6 rep 17 with voices ('fable', 'ash')
+2025-08-07 20:29:29,473 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_17.wav
+2025-08-07 20:29:29,474 | INFO | Processing dialogue task counting/6 rep 18 with voices ('alloy', 'sage')
+2025-08-07 20:29:29,538 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_18.wav
+2025-08-07 20:29:29,538 | INFO | Processing dialogue task counting/6 rep 19 with voices ('shimmer', 'nova')
+2025-08-07 20:29:29,590 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_19.wav
+2025-08-07 20:29:29,590 | INFO | Processing dialogue task counting/6 rep 20 with voices ('echo', 'shimmer')
+2025-08-07 20:29:29,590 | INFO | Generating dialogue clip: counting/6 rep 20 (echo)
+2025-08-07 20:29:30,358 | INFO | Generating dialogue clip: counting/6 rep 20 (shimmer)
+2025-08-07 20:29:31,003 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_20.wav
+2025-08-07 20:29:31,004 | INFO | Processing dialogue task counting/6 rep 21 with voices ('alloy', 'ash')
+2025-08-07 20:29:31,059 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_21.wav
+2025-08-07 20:29:31,059 | INFO | Processing dialogue task counting/6 rep 22 with voices ('echo', 'verse')
+2025-08-07 20:29:31,113 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_22.wav
+2025-08-07 20:29:31,114 | INFO | Processing dialogue task counting/6 rep 23 with voices ('coral', 'echo')
+2025-08-07 20:29:31,114 | INFO | Generating dialogue clip: counting/6 rep 23 (echo)
+2025-08-07 20:29:31,755 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_23.wav
+2025-08-07 20:29:31,756 | INFO | Processing dialogue task counting/6 rep 24 with voices ('fable', 'shimmer')
+2025-08-07 20:29:31,810 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_24.wav
+2025-08-07 20:29:31,811 | INFO | Processing dialogue task counting/6 rep 25 with voices ('coral', 'nova')
+2025-08-07 20:29:31,863 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_25.wav
+2025-08-07 20:29:31,864 | INFO | Processing dialogue task counting/6 rep 26 with voices ('fable', 'echo')
+2025-08-07 20:29:31,917 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_26.wav
+2025-08-07 20:29:31,917 | INFO | Processing dialogue task counting/6 rep 27 with voices ('nova', 'ash')
+2025-08-07 20:29:31,973 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_27.wav
+2025-08-07 20:29:31,974 | INFO | Processing dialogue task counting/6 rep 28 with voices ('shimmer', 'fable')
+2025-08-07 20:29:31,974 | INFO | Generating dialogue clip: counting/6 rep 28 (fable)
+2025-08-07 20:29:32,688 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_28.wav
+2025-08-07 20:29:32,688 | INFO | Processing dialogue task counting/6 rep 29 with voices ('ash', 'verse')
+2025-08-07 20:29:32,743 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_29.wav
+2025-08-07 20:29:32,744 | INFO | Processing dialogue task counting/6 rep 30 with voices ('ballad', 'fable')
+2025-08-07 20:29:32,797 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_30.wav
+2025-08-07 20:29:32,797 | INFO | Processing dialogue task counting/6 rep 31 with voices ('coral', 'sage')
+2025-08-07 20:29:32,847 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_31.wav
+2025-08-07 20:29:32,848 | INFO | Processing dialogue task counting/6 rep 32 with voices ('shimmer', 'coral')
+2025-08-07 20:29:32,899 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_32.wav
+2025-08-07 20:29:32,899 | INFO | Processing dialogue task counting/6 rep 33 with voices ('shimmer', 'ash')
+2025-08-07 20:29:32,950 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_33.wav
+2025-08-07 20:29:32,951 | INFO | Processing dialogue task counting/6 rep 34 with voices ('nova', 'echo')
+2025-08-07 20:29:33,013 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_34.wav
+2025-08-07 20:29:33,013 | INFO | Processing dialogue task counting/6 rep 35 with voices ('verse', 'ballad')
+2025-08-07 20:29:33,065 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_35.wav
+2025-08-07 20:29:33,066 | INFO | Processing dialogue task counting/6 rep 36 with voices ('nova', 'onyx')
+2025-08-07 20:29:33,117 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_36.wav
+2025-08-07 20:29:33,118 | INFO | Processing dialogue task counting/6 rep 37 with voices ('echo', 'alloy')
+2025-08-07 20:29:33,170 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_37.wav
+2025-08-07 20:29:33,171 | INFO | Processing dialogue task counting/6 rep 38 with voices ('nova', 'coral')
+2025-08-07 20:29:33,220 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_38.wav
+2025-08-07 20:29:33,220 | INFO | Processing dialogue task counting/6 rep 39 with voices ('verse', 'echo')
+2025-08-07 20:29:33,270 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_39.wav
+2025-08-07 20:29:33,271 | INFO | Processing dialogue task counting/6 rep 40 with voices ('shimmer', 'echo')
+2025-08-07 20:29:33,320 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_40.wav
+2025-08-07 20:29:33,320 | INFO | Processing dialogue task counting/6 rep 41 with voices ('onyx', 'echo')
+2025-08-07 20:29:33,371 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_41.wav
+2025-08-07 20:29:33,372 | INFO | Processing dialogue task counting/6 rep 42 with voices ('onyx', 'sage')
+2025-08-07 20:29:33,424 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_42.wav
+2025-08-07 20:29:33,425 | INFO | Processing dialogue task counting/6 rep 43 with voices ('ballad', 'alloy')
+2025-08-07 20:29:33,481 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_43.wav
+2025-08-07 20:29:33,482 | INFO | Processing dialogue task counting/6 rep 44 with voices ('sage', 'ballad')
+2025-08-07 20:29:33,533 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_44.wav
+2025-08-07 20:29:33,534 | INFO | Processing dialogue task counting/6 rep 45 with voices ('ash', 'alloy')
+2025-08-07 20:29:33,590 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_45.wav
+2025-08-07 20:29:33,590 | INFO | Processing dialogue task counting/6 rep 46 with voices ('ballad', 'echo')
+2025-08-07 20:29:33,641 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_46.wav
+2025-08-07 20:29:33,641 | INFO | Processing dialogue task counting/6 rep 47 with voices ('alloy', 'fable')
+2025-08-07 20:29:33,691 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_47.wav
+2025-08-07 20:29:33,692 | INFO | Processing dialogue task counting/6 rep 48 with voices ('coral', 'shimmer')
+2025-08-07 20:29:33,743 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_48.wav
+2025-08-07 20:29:33,743 | INFO | Processing dialogue task counting/6 rep 49 with voices ('sage', 'ash')
+2025-08-07 20:29:33,795 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_6_49.wav
+2025-08-07 20:29:33,796 | INFO | Traceback (most recent call last):
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/tts_generation.py", line 545, in <module>
+    last_minute_requests, start_minute = generate_samples_dialogue(t, args.output, completed, last_minute_requests, start_minute, args.n)
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/tts_generation.py", line 462, in generate_samples_dialogue
+    raise ValueError(f'Not enough permutations for task {task} (repeat_n: {repeat_n}, perms: {len(perms)})')
+ValueError: Not enough permutations for task counting (repeat_n: 50, perms: 11)

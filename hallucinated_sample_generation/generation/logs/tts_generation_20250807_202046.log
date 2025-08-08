@@ -1,0 +1,65 @@
+2025-08-07 20:20:46,482 | INFO | [LOGGING] Output is being saved to: logs/tts_generation_20250807_202046.log
+2025-08-07 20:20:46,581 | INFO | Processing dialogue task counting/0 rep 0 with voices ('sage', 'ash')
+2025-08-07 20:20:46,582 | INFO | Generating dialogue clip: counting/0 rep 0 (sage)
+2025-08-07 20:20:48,228 | INFO | Generating dialogue clip: counting/0 rep 0 (ash)
+2025-08-07 20:20:49,470 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_0.wav
+2025-08-07 20:20:49,470 | INFO | Processing dialogue task counting/0 rep 1 with voices ('ash', 'fable')
+2025-08-07 20:20:49,470 | INFO | Generating dialogue clip: counting/0 rep 1 (ash)
+2025-08-07 20:20:50,615 | INFO | Generating dialogue clip: counting/0 rep 1 (fable)
+2025-08-07 20:20:52,211 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_1.wav
+2025-08-07 20:20:52,212 | INFO | Processing dialogue task counting/0 rep 2 with voices ('alloy', 'echo')
+2025-08-07 20:20:52,212 | INFO | Generating dialogue clip: counting/0 rep 2 (alloy)
+2025-08-07 20:20:53,784 | INFO | Generating dialogue clip: counting/0 rep 2 (echo)
+2025-08-07 20:20:55,010 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_2.wav
+2025-08-07 20:20:55,011 | INFO | Processing dialogue task counting/0 rep 3 with voices ('shimmer', 'echo')
+2025-08-07 20:20:55,011 | INFO | Generating dialogue clip: counting/0 rep 3 (shimmer)
+2025-08-07 20:20:56,593 | INFO | Concatenated 2 clips to ./tts_outputs/counting/counting_0_3.wav
+2025-08-07 20:20:56,594 | INFO | Processing dialogue task counting/0 rep 4 with voices ('coral', 'onyx')
+2025-08-07 20:20:56,600 | INFO | Generating dialogue clip: counting/0 rep 4 (coral)
+2025-08-07 20:20:57,917 | INFO | Generating dialogue clip: counting/0 rep 4 (onyx)
+2025-08-07 20:20:58,289 | INFO | Traceback (most recent call last):
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/tts_generation.py", line 545, in <module>
+    last_minute_requests, start_minute = generate_samples_dialogue(t, args.output, completed, last_minute_requests, start_minute, args.n)
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/tts_generation.py", line 488, in generate_samples_dialogue
+    success = query_openai('', script, temp_file, voice=voice)
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/tts_generation.py", line 105, in query_openai
+    with openai_client.audio.speech.with_streaming_response.create(
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/openai/_response.py", line 626, in __enter__
+    self.__response = self._request_func()
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/openai/resources/audio/speech.py", line 101, in create
+    return self._post(
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/openai/_base_client.py", line 1256, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/openai/_base_client.py", line 979, in request
+    response = self._client.send(
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 128, in read
+    return self._sock.recv(max_bytes)
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/ssl.py", line 1258, in recv
+    return self.read(buflen)
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/ssl.py", line 1131, in read
+    return self._sslobj.read(len)
+KeyboardInterrupt

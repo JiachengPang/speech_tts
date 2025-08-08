@@ -1,0 +1,147 @@
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, NatashaNeural), ShortName: en-AU-NatashaNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, WilliamNeural), ShortName: en-AU-WilliamNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, WilliamMultilingualNeural), ShortName: en-AU-WilliamMultilingualNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, AnnetteNeural), ShortName: en-AU-AnnetteNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, CarlyNeural), ShortName: en-AU-CarlyNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, DarrenNeural), ShortName: en-AU-DarrenNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, DuncanNeural), ShortName: en-AU-DuncanNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, ElsieNeural), ShortName: en-AU-ElsieNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, FreyaNeural), ShortName: en-AU-FreyaNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, JoanneNeural), ShortName: en-AU-JoanneNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, KenNeural), ShortName: en-AU-KenNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, KimNeural), ShortName: en-AU-KimNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, NeilNeural), ShortName: en-AU-NeilNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, TimNeural), ShortName: en-AU-TimNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-AU, TinaNeural), ShortName: en-AU-TinaNeural, Locale: en-AU, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-CA, ClaraNeural), ShortName: en-CA-ClaraNeural, Locale: en-CA, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-CA, LiamNeural), ShortName: en-CA-LiamNeural, Locale: en-CA, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, SoniaNeural), ShortName: en-GB-SoniaNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, RyanNeural), ShortName: en-GB-RyanNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, LibbyNeural), ShortName: en-GB-LibbyNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, AdaMultilingualNeural), ShortName: en-GB-AdaMultilingualNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, OllieMultilingualNeural), ShortName: en-GB-OllieMultilingualNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, AbbiNeural), ShortName: en-GB-AbbiNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, AlfieNeural), ShortName: en-GB-AlfieNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, BellaNeural), ShortName: en-GB-BellaNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, ElliotNeural), ShortName: en-GB-ElliotNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, EthanNeural), ShortName: en-GB-EthanNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, HollieNeural), ShortName: en-GB-HollieNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, MaisieNeural), ShortName: en-GB-MaisieNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, NoahNeural), ShortName: en-GB-NoahNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, OliverNeural), ShortName: en-GB-OliverNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, OliviaNeural), ShortName: en-GB-OliviaNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, ThomasNeural), ShortName: en-GB-ThomasNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-GB, MiaNeural), ShortName: en-GB-MiaNeural, Locale: en-GB, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-HK, YanNeural), ShortName: en-HK-YanNeural, Locale: en-HK, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-HK, SamNeural), ShortName: en-HK-SamNeural, Locale: en-HK, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-IE, EmilyNeural), ShortName: en-IE-EmilyNeural, Locale: en-IE, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-IE, ConnorNeural), ShortName: en-IE-ConnorNeural, Locale: en-IE, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-IN, AartiIndicNeural), ShortName: en-IN-AartiIndicNeural, Locale: en-IN, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-IN, ArjunIndicNeural), ShortName: en-IN-ArjunIndicNeural, Locale: en-IN, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-IN, NeerjaIndicNeural), ShortName: en-IN-NeerjaIndicNeural, Locale: en-IN, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-IN, PrabhatIndicNeural), ShortName: en-IN-PrabhatIndicNeural, Locale: en-IN, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-IN, AaravNeural), ShortName: en-IN-AaravNeural, Locale: en-IN, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-IN, AashiNeural), ShortName: en-IN-AashiNeural, Locale: en-IN, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-IN, AartiNeural), ShortName: en-IN-AartiNeural, Locale: en-IN, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-IN, ArjunNeural), ShortName: en-IN-ArjunNeural, Locale: en-IN, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-IN, AnanyaNeural), ShortName: en-IN-AnanyaNeural, Locale: en-IN, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-IN, KavyaNeural), ShortName: en-IN-KavyaNeural, Locale: en-IN, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-IN, KunalNeural), ShortName: en-IN-KunalNeural, Locale: en-IN, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-IN, NeerjaNeural), ShortName: en-IN-NeerjaNeural, Locale: en-IN, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-IN, PrabhatNeural), ShortName: en-IN-PrabhatNeural, Locale: en-IN, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-IN, RehaanNeural), ShortName: en-IN-RehaanNeural, Locale: en-IN, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-KE, AsiliaNeural), ShortName: en-KE-AsiliaNeural, Locale: en-KE, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-KE, ChilembaNeural), ShortName: en-KE-ChilembaNeural, Locale: en-KE, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-NG, EzinneNeural), ShortName: en-NG-EzinneNeural, Locale: en-NG, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-NG, AbeoNeural), ShortName: en-NG-AbeoNeural, Locale: en-NG, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-NZ, MollyNeural), ShortName: en-NZ-MollyNeural, Locale: en-NZ, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-NZ, MitchellNeural), ShortName: en-NZ-MitchellNeural, Locale: en-NZ, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-PH, RosaNeural), ShortName: en-PH-RosaNeural, Locale: en-PH, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-PH, JamesNeural), ShortName: en-PH-JamesNeural, Locale: en-PH, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-SG, LunaNeural), ShortName: en-SG-LunaNeural, Locale: en-SG, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-SG, WayneNeural), ShortName: en-SG-WayneNeural, Locale: en-SG, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-TZ, ImaniNeural), ShortName: en-TZ-ImaniNeural, Locale: en-TZ, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-TZ, ElimuNeural), ShortName: en-TZ-ElimuNeural, Locale: en-TZ, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, AvaMultilingualNeural), ShortName: en-US-AvaMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, AndrewMultilingualNeural), ShortName: en-US-AndrewMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, EmmaMultilingualNeural), ShortName: en-US-EmmaMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, AlloyTurboMultilingualNeural), ShortName: en-US-AlloyTurboMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, EchoTurboMultilingualNeural), ShortName: en-US-EchoTurboMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, FableTurboMultilingualNeural), ShortName: en-US-FableTurboMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Neutral
+Name: Microsoft Server Speech Text to Speech Voice (en-US, OnyxTurboMultilingualNeural), ShortName: en-US-OnyxTurboMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, NovaTurboMultilingualNeural), ShortName: en-US-NovaTurboMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, ShimmerTurboMultilingualNeural), ShortName: en-US-ShimmerTurboMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, BrianMultilingualNeural), ShortName: en-US-BrianMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, AvaNeural), ShortName: en-US-AvaNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, AndrewNeural), ShortName: en-US-AndrewNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, EmmaNeural), ShortName: en-US-EmmaNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, BrianNeural), ShortName: en-US-BrianNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, JennyNeural), ShortName: en-US-JennyNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, GuyNeural), ShortName: en-US-GuyNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, AriaNeural), ShortName: en-US-AriaNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, DavisNeural), ShortName: en-US-DavisNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, JaneNeural), ShortName: en-US-JaneNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, JasonNeural), ShortName: en-US-JasonNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, KaiNeural), ShortName: en-US-KaiNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, LunaNeural), ShortName: en-US-LunaNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, SaraNeural), ShortName: en-US-SaraNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, TonyNeural), ShortName: en-US-TonyNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, NancyNeural), ShortName: en-US-NancyNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, CoraMultilingualNeural), ShortName: en-US-CoraMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, ChristopherMultilingualNeural), ShortName: en-US-ChristopherMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, BrandonMultilingualNeural), ShortName: en-US-BrandonMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, AmberNeural), ShortName: en-US-AmberNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, AnaNeural), ShortName: en-US-AnaNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, AshleyNeural), ShortName: en-US-AshleyNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, BrandonNeural), ShortName: en-US-BrandonNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, ChristopherNeural), ShortName: en-US-ChristopherNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, CoraNeural), ShortName: en-US-CoraNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, ElizabethNeural), ShortName: en-US-ElizabethNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, EricNeural), ShortName: en-US-EricNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, JacobNeural), ShortName: en-US-JacobNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, JennyMultilingualNeural), ShortName: en-US-JennyMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, MichelleNeural), ShortName: en-US-MichelleNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, MonicaNeural), ShortName: en-US-MonicaNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, RogerNeural), ShortName: en-US-RogerNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, RyanMultilingualNeural), ShortName: en-US-RyanMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, SteffanMultilingualNeural), ShortName: en-US-SteffanMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, SteffanNeural), ShortName: en-US-SteffanNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, AdamMultilingualNeural), ShortName: en-US-AdamMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, AIGenerate1Neural), ShortName: en-US-AIGenerate1Neural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, AIGenerate2Neural), ShortName: en-US-AIGenerate2Neural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, AmandaMultilingualNeural), ShortName: en-US-AmandaMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, AshTurboMultilingualNeural), ShortName: en-US-AshTurboMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, BlueNeural), ShortName: en-US-BlueNeural, Locale: en-US, Gender: SynthesisVoiceGender.Neutral
+Name: Microsoft Server Speech Text to Speech Voice (en-US, DavisMultilingualNeural), ShortName: en-US-DavisMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, DerekMultilingualNeural), ShortName: en-US-DerekMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, DustinMultilingualNeural), ShortName: en-US-DustinMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, EvelynMultilingualNeural), ShortName: en-US-EvelynMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, LewisMultilingualNeural), ShortName: en-US-LewisMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, LolaMultilingualNeural), ShortName: en-US-LolaMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, NancyMultilingualNeural), ShortName: en-US-NancyMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, PhoebeMultilingualNeural), ShortName: en-US-PhoebeMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-US, SamuelMultilingualNeural), ShortName: en-US-SamuelMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: Microsoft Server Speech Text to Speech Voice (en-US, SerenaMultilingualNeural), ShortName: en-US-SerenaMultilingualNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: en-US-Adam:DragonHDLatestNeural, ShortName: en-US-Adam:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: en-US-Andrew:DragonHDLatestNeural, ShortName: en-US-Andrew:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: en-US-Andrew2:DragonHDLatestNeural, ShortName: en-US-Andrew2:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: en-US-Ava:DragonHDLatestNeural, ShortName: en-US-Ava:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: en-US-Brian:DragonHDLatestNeural, ShortName: en-US-Brian:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: en-US-Davis:DragonHDLatestNeural, ShortName: en-US-Davis:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: en-US-Emma:DragonHDLatestNeural, ShortName: en-US-Emma:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: en-US-Emma2:DragonHDLatestNeural, ShortName: en-US-Emma2:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: en-US-Steffan:DragonHDLatestNeural, ShortName: en-US-Steffan:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: en-US-Alloy:DragonHDLatestNeural, ShortName: en-US-Alloy:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: en-US-Andrew3:DragonHDLatestNeural, ShortName: en-US-Andrew3:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Male
+Name: en-US-Aria:DragonHDLatestNeural, ShortName: en-US-Aria:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: en-US-Ava3:DragonHDLatestNeural, ShortName: en-US-Ava3:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: en-US-Bree:DragonHDLatestNeural, ShortName: en-US-Bree:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: en-US-Jane:DragonHDLatestNeural, ShortName: en-US-Jane:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: en-US-Jenny:DragonHDLatestNeural, ShortName: en-US-Jenny:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: en-US-MultiTalker-Ava-Andrew:DragonHDLatestNeural, ShortName: en-US-MultiTalker-Ava-Andrew:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Neutral
+Name: en-US-MultiTalker-Ava-Steffan:DragonHDLatestNeural, ShortName: en-US-MultiTalker-Ava-Steffan:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Neutral
+Name: en-US-Nova:DragonHDLatestNeural, ShortName: en-US-Nova:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: en-US-Phoebe:DragonHDLatestNeural, ShortName: en-US-Phoebe:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: en-US-Serena:DragonHDLatestNeural, ShortName: en-US-Serena:DragonHDLatestNeural, Locale: en-US, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-ZA, LeahNeural), ShortName: en-ZA-LeahNeural, Locale: en-ZA, Gender: SynthesisVoiceGender.Female
+Name: Microsoft Server Speech Text to Speech Voice (en-ZA, LukeNeural), ShortName: en-ZA-LukeNeural, Locale: en-ZA, Gender: SynthesisVoiceGender.Male

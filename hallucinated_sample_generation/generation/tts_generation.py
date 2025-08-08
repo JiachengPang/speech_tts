@@ -7,6 +7,7 @@ from openai import OpenAI
 from httpx import HTTPStatusError
 import random
 random.seed(42)
+from itertools import permutations
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -17,8 +18,16 @@ import wave
 from elevenlabs import VoiceSettings
 from elevenlabs.client import ElevenLabs
 
+import azure.cognitiveservices.speech as speechsdk
+
 from utils_logging import setup_logger
 setup_logger('tts_generation')
+
+AZURE_SPEECH_KEY = os.getenv('AZURE_API_KEY')
+AZURE_SPEECH_REGION = os.getenv('AZURE_API_REGION')
+
+azure_speech_config = speechsdk.SpeechConfig(subscription=AZURE_SPEECH_KEY, region=AZURE_SPEECH_REGION)
+azure_synthesizer = speechsdk.SpeechSynthesizer(speech_config=azure_speech_config, audio_config=None)
 
 # metadata logging
 LOG_FILE = 'tts_log.jsonl'
@@ -125,6 +134,33 @@ def query_openai(style, script, output_path, model='gpt-4o-mini-tts', voice='all
     print(f'Gave up after {MAX_RETRIES} retries for {output_path}')
     return False
 
+def query_azure(ssml: str, output_path: str) -> bool:
+    retries = 0
+    while retries < MAX_RETRIES:
+        try:
+            result = azure_synthesizer.speak_ssml_async(ssml).get()
+
+            if result.reason == speechsdk.ResultReason.SynthesizingAudioCompleted:
+                with open(output_path, "wb") as f:
+                    f.write(result.audio_data)
+                return True
+
+            print(f"Err: {result.reason}")
+            if hasattr(result, "cancellation_details") and result.cancellation_details:
+                print("Details:", result.cancellation_details)
+                if getattr(result.cancellation_details, "error_details", None):
+                    print("Error details:", result.cancellation_details.error_details)
+
+        except Exception as e:
+            print(f"Exception during synthesis: {e}")
+
+        wait = (2 ** retries) + random.uniform(0, 1)
+        print(f"Retry in {wait:.1f}s...")
+        time.sleep(wait)
+        retries += 1
+
+    print(f"Gave up after {MAX_RETRIES} retries for {output_path}")
+    return False
 
 def load_completed():
     """Load previously completed samples from log file."""
@@ -345,78 +381,269 @@ def generate_samples_default(task, output_dir, completed, last_minute_requests, 
     return last_minute_requests, start_minute
 
 
-def generate_samples_dialogue(task, output_dir, completed, last_minute_requests, start_minute, target_n):
-    """Dialogue TTS generation (concatenate all voices per subtask)."""
+def get_azure_voices(n, voice_list='azure_voices_en.txt'):
+    """Get first n Azure English voice short names."""
+    
+    shortnames = []
+
+    if os.path.exists(voice_list):
+        # Read from file
+        with open(voice_list, 'r', encoding='utf-8') as f:
+            for line in f:
+                parts = line.strip().split(", ")
+                for p in parts:
+                    if p.startswith("ShortName: "):
+                        shortname = p.split(": ", 1)[1]
+                        shortnames.append(shortname)
+                        break
+
+    else:
+        # Query Azure
+        voices = azure_synthesizer.get_voices_async().get()
+        en_voices = [v for v in voices.voices if v.locale.lower().startswith('en-')]
+
+        # Save to file for next time
+        with open(voice_list, 'w', encoding='utf-8') as f:
+            for v in en_voices:
+                f.write(
+                    f"Name: {v.name}, ShortName: {v.short_name}, Locale: {v.locale}, Gender: {v.gender}\n"
+                )
+
+        shortnames = [v.short_name for v in en_voices]
+
+    return shortnames[:n]
+
+
+def generate_samples_ssml(task, output_dir, completed, last_minute_requests, start_minute, target_n, repeat_n=50):
+    """Generate samples with Azure using SSML files"""
     output_dir = os.path.join(output_dir, f'{task}')
     os.makedirs(output_dir, exist_ok=True)
     task_data = PROMPTS[task]
     prompt = task_data.get('prompt', '')
 
     generated = 0
-    for subtask, examples in task_data.items():
+    voices = get_azure_voices(repeat_n)
+
+    for subtask, example in task_data.items():
         if subtask == 'prompt':
             continue
-        
-        out_file = os.path.join(output_dir, f'{task}_{subtask}.wav')
-        if os.path.basename(out_file) in completed and os.path.exists(out_file):
-            print(f'Skipping. Already completed: {out_file}')
-            generated += 1
-            if generated >= target_n:
-                print(f'task {task} reached target number of generation {target_n}')
-                return last_minute_requests, start_minute
-            continue
 
-        print(f'Processing dialogue task {task} subtask {subtask}')
-        
-        dialogue = examples['dialogue'] 
-        label = examples['label'] 
-        pretend = examples['pretend'] 
+        script = example['script']
+        label = example['label']
+        pretend = example['pretend']
 
-        # Choose unique voices equal to the number of utterances
-        if label > len(OPENAI_VOICES):
-            raise ValueError(f"Not enough unique voices available for dialogue {subtask}: "
-                             f"needed {label}, but only {len(OPENAI_VOICES)} available.")
-        voices = random.sample(OPENAI_VOICES, label)
+        for i, voice in enumerate(voices):
+            filename = f'{task}_{subtask}_{voice}.wav'
+            output_path = os.path.join(output_dir, filename)
 
-        clips = []
-
-        for i, (script, voice) in enumerate(zip(dialogue, voices)):
-            style = ''  # style is blank in your schema
-            temp_file = os.path.join(local_tmp_dir, f'{task}_{subtask}_{i}_{voice}.wav')
+            if filename in completed and os.path.exists(output_path):
+                print(f'Skipping. Already completed: {filename}')
+                generated += 1
+                if generated >= target_n:
+                    print(f'task {task} reached target number of generation {target_n}')
+                    return last_minute_requests, start_minute
+                continue
 
             last_minute_requests, start_minute = rate_limit_pause(last_minute_requests, start_minute)
-            print(f'Generating dialogue clip: {task}/{subtask} ({voice})')
-            success = query_openai(style, script, temp_file, voice=voice)
+            print(f'Generating {task}/{subtask} ({voice}) to {filename}')
+            success = query_azure(ssml=script, output_path=output_path)
 
             if success:
+                log_completion({
+                    'task': task,
+                    'subtask': subtask,
+                    'index': i,
+                    'prompt': prompt,
+                    'label': label,
+                    'pretend': pretend,
+                    'style': '',
+                    'script': script,
+                    'voice': voice,
+                    'filename': filename,
+                    'path': output_path
+                })
+                generated += 1
                 last_minute_requests += 1
-            clips.append(temp_file)
+                if generated >= target_n:
+                    print(f'task {task} reached target number of generation {target_n}')
+                    return last_minute_requests, start_minute
+    print(f'Total samples generated for task "{task}": {generated}')
+    return last_minute_requests, start_minute
+    
+# def generate_samples_dialogue(task, output_dir, completed, last_minute_requests, start_minute, target_n, repeat_n=50):
+#     """Dialogue TTS generation (concatenate all voices per subtask)."""
+#     output_dir = os.path.join(output_dir, f'{task}')
+#     os.makedirs(output_dir, exist_ok=True)
+#     task_data = PROMPTS[task]
+#     prompt = task_data.get('prompt', '')
+#     audio_cache = {} # (script, voice) -> file path, to avoid regeneration of the same utterance.
 
-        if clips:
-            combined = AudioSegment.silent(duration=200)
-            for clip in clips:
-                audio = AudioSegment.from_file(clip)
-                combined += audio + AudioSegment.silent(duration=250)
-            combined.export(out_file, format='wav')
-            print(f'Concatenated {len(clips)} clips to {out_file}')
+#     generated = 0
+#     for subtask, example in task_data.items():
+#         if subtask == 'prompt':
+#             continue
 
-            log_completion({
-                'task': task,
-                'subtask': subtask,
-                'prompt': prompt,
-                'label': label,
-                'pretend': pretend,
-                'voice': voices,
-                'script': dialogue,
-                'style': ['' for _ in dialogue],
-                'filename': os.path.basename(out_file),
-                'path': out_file
-            })
-            generated += 1
-            if generated >= target_n:
-                print(f'task {task} reached target number of generation {target_n}')
-            return last_minute_requests, start_minute
+#         dialogue = example['dialogue']
+#         label = example['label']
+#         pretend = example['pretend']
+
+#         # each dialogue can be repeated with different permutations of voices
+#         perms = list(permutations(OPENAI_VOICES, label))
+#         if len(perms) < repeat_n:
+#             raise ValueError(f'Not enough permutations for task {task} (repeat_n: {repeat_n}, perms: {len(perms)})')
+#         voice_perms = random.sample(perms, repeat_n)
+
+#         for rep, voices in enumerate(voice_perms):
+#             out_file = os.path.join(output_dir, f'{task}_{subtask}_{rep}.wav')
+#             if os.path.basename(out_file) in completed and os.path.exists(out_file):
+#                 print(f'Skipping. Already completed: {out_file}')
+#                 generated += 1
+#                 continue
+
+#         out_file = os.path.join(output_dir, f'{task}_{subtask}.wav')
+#         if os.path.basename(out_file) in completed and os.path.exists(out_file):
+#             print(f'Skipping. Already completed: {out_file}')
+#             generated += 1
+#             if generated >= target_n:
+#                 print(f'task {task} reached target number of generation {target_n}')
+#                 return last_minute_requests, start_minute
+#             continue
+
+#         print(f'Processing dialogue task {task} subtask {subtask}')
         
+#         dialogue = examples['dialogue'] 
+#         label = examples['label'] 
+#         pretend = examples['pretend'] 
+
+#         # Choose unique voices equal to the number of utterances
+#         if label > len(OPENAI_VOICES):
+#             raise ValueError(f"Not enough unique voices available for dialogue {subtask}: "
+#                              f"needed {label}, but only {len(OPENAI_VOICES)} available.")
+#         voices = random.sample(OPENAI_VOICES, label)
+
+#         clips = []
+
+#         for i, (script, voice) in enumerate(zip(dialogue, voices)):
+#             style = ''  # style is blank in your schema
+#             temp_file = os.path.join(local_tmp_dir, f'{task}_{subtask}_{i}_{voice}.wav')
+
+#             last_minute_requests, start_minute = rate_limit_pause(last_minute_requests, start_minute)
+#             print(f'Generating dialogue clip: {task}/{subtask} ({voice})')
+#             success = query_openai(style, script, temp_file, voice=voice)
+
+#             if success:
+#                 last_minute_requests += 1
+#             clips.append(temp_file)
+
+#         if clips:
+#             combined = AudioSegment.silent(duration=200)
+#             for clip in clips:
+#                 audio = AudioSegment.from_file(clip)
+#                 combined += audio + AudioSegment.silent(duration=250)
+#             combined.export(out_file, format='wav')
+#             print(f'Concatenated {len(clips)} clips to {out_file}')
+
+#             log_completion({
+#                 'task': task,
+#                 'subtask': subtask,
+#                 'prompt': prompt,
+#                 'label': label,
+#                 'pretend': pretend,
+#                 'voice': voices,
+#                 'script': dialogue,
+#                 'style': ['' for _ in dialogue],
+#                 'filename': os.path.basename(out_file),
+#                 'path': out_file
+#             })
+#             generated += 1
+#             if generated >= target_n:
+#                 print(f'task {task} reached target number of generation {target_n}')
+#             return last_minute_requests, start_minute
+        
+#     print(f'Total samples generated for task "{task}": {generated}')
+#     return last_minute_requests, start_minute
+
+def generate_samples_dialogue(task, output_dir, completed, last_minute_requests, start_minute, target_n, repeat_n=50):
+    """Dialogue TTS generation (concatenate all voices per subtask)."""
+    output_dir = os.path.join(output_dir, f'{task}')
+    os.makedirs(output_dir, exist_ok=True)
+    task_data = PROMPTS[task]
+    prompt = task_data.get('prompt', '')
+    audio_cache = {} # (script, voice) -> file path, to avoid regeneration of the same utterance.
+
+    generated = 0
+    for subtask, example in task_data.items():
+        if subtask == 'prompt':
+            continue
+
+        dialogue = example['dialogue']
+        label = example['label']
+        pretend = example['pretend']
+
+        # each dialogue can be repeated with different permutations of voices
+        perms = list(permutations(OPENAI_VOICES, label))
+        if len(perms) < repeat_n:
+            print(f'Not enough permutations for task {task} (repeat_n: {repeat_n}, perms: {len(perms)}), continuing with {len(perms)} repetitions.')
+            voice_perms = perms
+        else:
+            voice_perms = random.sample(perms, repeat_n)
+
+        for rep, voices in enumerate(voice_perms):
+            filename = f'{task}_{subtask}_{rep}.wav'
+            out_file = os.path.join(output_dir, filename)
+            if filename in completed and os.path.exists(out_file):
+                print(f'Skipping. Already completed: {filename}')
+                generated += 1
+                if generated >= target_n:
+                    print(f'task {task} reached target number of generation {target_n}')
+                    return last_minute_requests, start_minute
+                continue
+
+            print(f'Processing dialogue task {task}/{subtask} rep {rep} with voices {voices}')
+            clips = []
+
+            for _, (script, voice) in enumerate(zip(dialogue, voices)):
+                # check if utterance was already generated
+                cache_key = (script, voice)
+                if cache_key in audio_cache:
+                    temp_file = audio_cache[cache_key]
+                else:
+                    temp_file = os.path.join(local_tmp_dir, f'{hash(script)}_{voice}.wav')
+                    if not os.path.exists(temp_file):
+                        last_minute_requests, start_minute = rate_limit_pause(last_minute_requests, start_minute)
+                        print(f'Generating dialogue clip: {task}/{subtask} rep {rep} ({voice})')
+                        success = query_openai('', script, temp_file, voice=voice)
+                        if success:
+                            last_minute_requests += 1
+                    audio_cache[cache_key] = temp_file
+                clips.append(temp_file)
+            
+            if clips:
+                combined = AudioSegment.silent(duration=200)
+                for clip in clips:
+                    audio = AudioSegment.from_file(clip)
+                    combined += audio + AudioSegment.silent(duration=250)
+                combined.export(out_file, format='wav')
+                print(f'Concatenated {len(clips)} clips to {out_file}')
+
+                log_completion({
+                    'task': task,
+                    'subtask': subtask,
+                    'index': rep,
+                    'prompt': prompt,
+                    'label': label,
+                    'pretend': pretend,
+                    'voice': voices,
+                    'script': dialogue,
+                    'style': ['' for _ in dialogue],
+                    'filename': os.path.basename(out_file),
+                    'path': out_file
+                })
+                generated += 1
+                if generated >= target_n:
+                    print(f'task {task} reached target number of generation {target_n}')
+                    return last_minute_requests, start_minute
+    
     print(f'Total samples generated for task "{task}": {generated}')
     return last_minute_requests, start_minute
 
