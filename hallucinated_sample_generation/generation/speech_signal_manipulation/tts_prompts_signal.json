@@ -1,0 +1,459 @@
+{
+    "volume": {
+        "prompt": "Which volume pattern best matches the audio?",
+        "high": [
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "I am speaking very loudly",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "This audio sample is very loud",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "This example is very loud",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "Volume is very high in this sample",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "My voice has a very high volume",
+                "label": "",
+                "pretend": ""
+            }
+        ],
+        "low": [
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "I am speaking very quietly",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "This audio sample is very quiet",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "This example is very quiet",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "Volume is very low in this sample",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "My voice has a very low volume",
+                "label": "",
+                "pretend": ""
+            }
+        ],
+        "medium": [
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "I am speaking at a normal volume",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "This audio sample is at a normal volume",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "This example is at a normal volume",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "Volume is at a normal level in this sample",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal volume without any variations or emphasis. DO NOT whisper or scream out the words.",
+                "script": "My voice has a normal volume",
+                "label": "",
+                "pretend": ""
+            }
+        ]
+    },
+    "speed": {
+        "prompt": "Which speed pattern best matches the audio?",
+        "high": [
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "I am speaking very fast",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "This audio sample is spoken very fast",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "This example is spoken very fast",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "Speed is very high in this sample",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "My voice has a very high speed",
+                "label": "",
+                "pretend": ""
+            }
+        ],
+        "low": [
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "I am speaking very slow",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "This audio sample is spoken very slow",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "This example is spoken very slow",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "Speed is very low in this sample",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "My voice has a very low speed",
+                "label": "",
+                "pretend": ""
+            }
+        ],
+        "medium": [
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "I am speaking at a normal speed",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "This audio sample is spoken at a normal speed",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "This example is spoken at a normal speed",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "Speed is at a normal level in this sample",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal speed without any variations or emphasis. Speak at a normal pace without any pause or haste.",
+                "script": "My voice has a normal speed",
+                "label": "",
+                "pretend": ""
+            }
+        ]
+    },
+    "vocal_range": {
+        "prompt": "Which vocal range pattern best matches the audio?",
+        "high": [
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "I am speaking at a high vocal range",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "This audio sample is spoken at a high vocal range",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "This example is spoken at a high vocal range",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "Vocal range is very high in this sample",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "My voice has a very high vocal range",
+                "label": "",
+                "pretend": ""
+            }
+        ],
+        "low": [
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "I am speaking at a low vocal range",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "This audio sample is spoken at a low vocal range",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "This example is spoken at a low vocal range",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "Vocal range is very low in this sample",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "My voice has a very low vocal range",
+                "label": "",
+                "pretend": ""
+            }
+        ],
+        "medium": [
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "I am speaking at a normal vocal range",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "This audio sample is spoken at a normal vocal range",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "This example is spoken at a normal vocal range",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "Vocal range is at a normal level in this sample",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "My voice has a normal vocal range",
+                "label": "",
+                "pretend": ""
+            }
+        ]
+    },
+    "pitch": {
+        "prompt": "Which pitch pattern best matches the audio?",
+        "high": [
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "I am speaking at a high pitch",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "This audio sample is spoken at a high pitch",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "This example is spoken at a high pitch",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "Pitch is very high in this sample",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "My voice has a very high pitch",
+                "label": "",
+                "pretend": ""
+            }
+        ],
+        "low": [
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "I am speaking at a low pitch",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "This audio sample is spoken at a low pitch",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "This example is spoken at a low pitch",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "Pitch is very low in this sample",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "My voice has a very low pitch",
+                "label": "",
+                "pretend": ""
+            }
+        ],
+        "medium": [
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "I am speaking at a normal pitch",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "This audio sample is spoken at a normal pitch",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "This example is spoken at a normal pitch",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "Pitch is at a normal level in this sample",
+                "label": "",
+                "pretend": ""
+            },
+            {
+                "voice": "all",
+                "style": "Speak in a normal vocal range. Voice pitch should not vary at all. Pitch should be normal. Speak in a controlled pace.",
+                "script": "My voice has a normal pitch",
+                "label": "",
+                "pretend": ""
+            }
+        ]
+    }
+
+}
