@@ -1,0 +1,25 @@
+2025-08-10 23:37:16,794 | INFO | [LOGGING] Output is being saved to: logs/tts_generation_20250810_233716.log
+2025-08-10 23:37:16,877 | INFO | Generating stress/0 (en-US-AvaMultilingualNeural) to stress_0_en-US-AvaMultilingualNeural.wav
+2025-08-10 23:37:17,493 | INFO | Generating stress/0 (en-US-AndrewMultilingualNeural) to stress_0_en-US-AndrewMultilingualNeural.wav
+2025-08-10 23:37:18,226 | INFO | Generating stress/0 (en-US-EmmaMultilingualNeural) to stress_0_en-US-EmmaMultilingualNeural.wav
+2025-08-10 23:37:19,107 | INFO | Generating stress/0 (en-US-AlloyTurboMultilingualNeural) to stress_0_en-US-AlloyTurboMultilingualNeural.wav
+2025-08-10 23:37:20,015 | INFO | Generating stress/0 (en-US-EchoTurboMultilingualNeural) to stress_0_en-US-EchoTurboMultilingualNeural.wav
+2025-08-10 23:37:20,797 | INFO | Generating stress/0 (en-US-FableTurboMultilingualNeural) to stress_0_en-US-FableTurboMultilingualNeural.wav
+2025-08-10 23:37:21,661 | INFO | Generating stress/0 (en-US-OnyxTurboMultilingualNeural) to stress_0_en-US-OnyxTurboMultilingualNeural.wav
+2025-08-10 23:37:22,509 | INFO | Generating stress/0 (en-US-NovaTurboMultilingualNeural) to stress_0_en-US-NovaTurboMultilingualNeural.wav
+2025-08-10 23:37:23,366 | INFO | Generating stress/0 (en-US-ShimmerTurboMultilingualNeural) to stress_0_en-US-ShimmerTurboMultilingualNeural.wav
+2025-08-10 23:37:24,262 | INFO | Generating stress/0 (en-US-BrianMultilingualNeural) to stress_0_en-US-BrianMultilingualNeural.wav
+2025-08-10 23:37:24,745 | INFO | Traceback (most recent call last):
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/tts_generation.py", line 594, in <module>
+    last_minute_requests, start_minute = generate_samples_ssml(t, args.output, completed, last_minute_requests, start_minute, args.n)
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/tts_generation.py", line 462, in generate_samples_ssml
+    success = query_azure(ssml=ssml, output_path=output_path)
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/tts_generation.py", line 141, in query_azure
+    result = azure_synthesizer.speak_ssml_async(ssml).get()
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/azure/cognitiveservices/speech/speech.py", line 612, in get
+    result_handle = self.__get_function(self._handle)
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/azure/cognitiveservices/speech/speech.py", line 2533, in resolve_future
+    _call_hr_fn(fn=_sdk_lib.synthesizer_speak_async_wait_for, *[handle, max_uint32, ctypes.byref(result_handle)])
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/azure/cognitiveservices/speech/interop.py", line 61, in _call_hr_fn
+    hr = fn(*args) if len(args) > 0 else fn()
+KeyboardInterrupt

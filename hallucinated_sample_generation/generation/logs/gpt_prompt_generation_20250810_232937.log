@@ -1,0 +1,72 @@
+2025-08-10 23:29:37,555 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250810_232937.log
+2025-08-10 23:29:37,589 | INFO | Extending stress with 11 new samples starting from index 9
+2025-08-10 23:29:37,589 | INFO | =================================================
+2025-08-10 23:29:37,589 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of objects only. Do not include explanations or extra commentary.
+2025-08-10 23:29:37,589 | INFO | -------------------------------------------------
+2025-08-10 23:29:37,589 | INFO | Generate 11 new TTS scripts.
+
+Your output MUST be a JSON array of objects.
+Each object must have:
+- "script": a sentence in everyday spoken English where more than one word could naturally be stressed, to convey different meanings.
+- "stressed": a list of 2-4 words in that sentence that could naturally be stressed.
+
+Your script MUST NOT contain any punctuation.
+
+Example format:
+[
+  {
+    "script": <your script>,
+    "stressed": <your list of words>
+  }
+]
+2025-08-10 23:29:37,589 | INFO | =================================================
+2025-08-10 23:29:50,648 | INFO | GPT Output:
+2025-08-10 23:29:50,648 | INFO | [
+  {
+    "script": "I really want to watch that movie tonight",
+    "stressed": ["really", "want", "watch"]
+  },
+  {
+    "script": "She said she would help us with the project",
+    "stressed": ["said", "help", "project"]
+  },
+  {
+    "script": "He can play the guitar better than I can",
+    "stressed": ["play", "guitar", "better"]
+  },
+  {
+    "script": "They always go to the beach on weekends",
+    "stressed": ["always", "beach", "weekends"]
+  },
+  {
+    "script": "I thought you had finished your homework already",
+    "stressed": ["thought", "finished", "homework"]
+  },
+  {
+    "script": "We should probably leave early to avoid traffic",
+    "stressed": ["probably", "leave", "traffic"]
+  },
+  {
+    "script": "That restaurant has the best pasta in town",
+    "stressed": ["restaurant", "best", "pasta"]
+  },
+  {
+    "script": "Can you believe how fast time flies these days",
+    "stressed": ["believe", "fast", "flies"]
+  },
+  {
+    "script": "I really enjoy reading books in my free time",
+    "stressed": ["really", "enjoy", "books"]
+  },
+  {
+    "script": "He always forgets to bring his lunch to work",
+    "stressed": ["forgets", "bring", "lunch"]
+  },
+  {
+    "script": "They said the weather will be nice tomorrow",
+    "stressed": ["said", "weather", "nice"]
+  }
+]
+2025-08-10 23:29:50,654 | INFO | Saved extended prompts to tts_prompts_base.json

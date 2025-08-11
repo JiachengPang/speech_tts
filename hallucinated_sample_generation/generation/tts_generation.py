@@ -387,32 +387,43 @@ def get_azure_voices(n, voice_list='azure_voices_en.txt'):
     shortnames = []
 
     if os.path.exists(voice_list):
-        # Read from file
         with open(voice_list, 'r', encoding='utf-8') as f:
-            for line in f:
+            for i, line in enumerate(f):
                 parts = line.strip().split(", ")
                 for p in parts:
                     if p.startswith("ShortName: "):
                         shortname = p.split(": ", 1)[1]
                         shortnames.append(shortname)
                         break
-
+                if i + 1 >= n:
+                    break
     else:
-        # Query Azure
         voices = azure_synthesizer.get_voices_async().get()
         en_voices = [v for v in voices.voices if v.locale.lower().startswith('en-')]
 
-        # Save to file for next time
+        # reorder so that en_us + en_gb + everything else
+        en_us = [v for v in en_voices if v.locale.lower() == 'en-us']
+        en_gb = [v for v in en_voices if v.locale.lower() == 'en-gb']
+        others = [v for v in en_voices if v not in en_us and v not in en_gb]
+
+        ordered_voices = en_us + en_gb + others
+        
+
         with open(voice_list, 'w', encoding='utf-8') as f:
-            for v in en_voices:
+            for v in ordered_voices:
                 f.write(
                     f"Name: {v.name}, ShortName: {v.short_name}, Locale: {v.locale}, Gender: {v.gender}\n"
                 )
 
-        shortnames = [v.short_name for v in en_voices]
+        shortnames = [v.short_name for v in ordered_voices[:n]]
 
     return shortnames[:n]
 
+def to_ssml(voice, content):
+    return f"""<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-us">
+<voice name="{voice}">
+        {content}
+</voice></speak>"""
 
 def generate_samples_ssml(task, output_dir, completed, last_minute_requests, start_minute, target_n, repeat_n=50):
     """Generate samples with Azure using SSML files"""
@@ -428,6 +439,7 @@ def generate_samples_ssml(task, output_dir, completed, last_minute_requests, sta
         if subtask == 'prompt':
             continue
 
+        style = example['style']
         script = example['script']
         label = example['label']
         pretend = example['pretend']
@@ -445,8 +457,9 @@ def generate_samples_ssml(task, output_dir, completed, last_minute_requests, sta
                 continue
 
             last_minute_requests, start_minute = rate_limit_pause(last_minute_requests, start_minute)
+            ssml = to_ssml(voice, style)
             print(f'Generating {task}/{subtask} ({voice}) to {filename}')
-            success = query_azure(ssml=script, output_path=output_path)
+            success = query_azure(ssml=ssml, output_path=output_path)
 
             if success:
                 log_completion({
@@ -456,7 +469,7 @@ def generate_samples_ssml(task, output_dir, completed, last_minute_requests, sta
                     'prompt': prompt,
                     'label': label,
                     'pretend': pretend,
-                    'style': '',
+                    'style': style,
                     'script': script,
                     'voice': voice,
                     'filename': filename,
@@ -470,99 +483,6 @@ def generate_samples_ssml(task, output_dir, completed, last_minute_requests, sta
     print(f'Total samples generated for task "{task}": {generated}')
     return last_minute_requests, start_minute
     
-# def generate_samples_dialogue(task, output_dir, completed, last_minute_requests, start_minute, target_n, repeat_n=50):
-#     """Dialogue TTS generation (concatenate all voices per subtask)."""
-#     output_dir = os.path.join(output_dir, f'{task}')
-#     os.makedirs(output_dir, exist_ok=True)
-#     task_data = PROMPTS[task]
-#     prompt = task_data.get('prompt', '')
-#     audio_cache = {} # (script, voice) -> file path, to avoid regeneration of the same utterance.
-
-#     generated = 0
-#     for subtask, example in task_data.items():
-#         if subtask == 'prompt':
-#             continue
-
-#         dialogue = example['dialogue']
-#         label = example['label']
-#         pretend = example['pretend']
-
-#         # each dialogue can be repeated with different permutations of voices
-#         perms = list(permutations(OPENAI_VOICES, label))
-#         if len(perms) < repeat_n:
-#             raise ValueError(f'Not enough permutations for task {task} (repeat_n: {repeat_n}, perms: {len(perms)})')
-#         voice_perms = random.sample(perms, repeat_n)
-
-#         for rep, voices in enumerate(voice_perms):
-#             out_file = os.path.join(output_dir, f'{task}_{subtask}_{rep}.wav')
-#             if os.path.basename(out_file) in completed and os.path.exists(out_file):
-#                 print(f'Skipping. Already completed: {out_file}')
-#                 generated += 1
-#                 continue
-
-#         out_file = os.path.join(output_dir, f'{task}_{subtask}.wav')
-#         if os.path.basename(out_file) in completed and os.path.exists(out_file):
-#             print(f'Skipping. Already completed: {out_file}')
-#             generated += 1
-#             if generated >= target_n:
-#                 print(f'task {task} reached target number of generation {target_n}')
-#                 return last_minute_requests, start_minute
-#             continue
-
-#         print(f'Processing dialogue task {task} subtask {subtask}')
-        
-#         dialogue = examples['dialogue'] 
-#         label = examples['label'] 
-#         pretend = examples['pretend'] 
-
-#         # Choose unique voices equal to the number of utterances
-#         if label > len(OPENAI_VOICES):
-#             raise ValueError(f"Not enough unique voices available for dialogue {subtask}: "
-#                              f"needed {label}, but only {len(OPENAI_VOICES)} available.")
-#         voices = random.sample(OPENAI_VOICES, label)
-
-#         clips = []
-
-#         for i, (script, voice) in enumerate(zip(dialogue, voices)):
-#             style = ''  # style is blank in your schema
-#             temp_file = os.path.join(local_tmp_dir, f'{task}_{subtask}_{i}_{voice}.wav')
-
-#             last_minute_requests, start_minute = rate_limit_pause(last_minute_requests, start_minute)
-#             print(f'Generating dialogue clip: {task}/{subtask} ({voice})')
-#             success = query_openai(style, script, temp_file, voice=voice)
-
-#             if success:
-#                 last_minute_requests += 1
-#             clips.append(temp_file)
-
-#         if clips:
-#             combined = AudioSegment.silent(duration=200)
-#             for clip in clips:
-#                 audio = AudioSegment.from_file(clip)
-#                 combined += audio + AudioSegment.silent(duration=250)
-#             combined.export(out_file, format='wav')
-#             print(f'Concatenated {len(clips)} clips to {out_file}')
-
-#             log_completion({
-#                 'task': task,
-#                 'subtask': subtask,
-#                 'prompt': prompt,
-#                 'label': label,
-#                 'pretend': pretend,
-#                 'voice': voices,
-#                 'script': dialogue,
-#                 'style': ['' for _ in dialogue],
-#                 'filename': os.path.basename(out_file),
-#                 'path': out_file
-#             })
-#             generated += 1
-#             if generated >= target_n:
-#                 print(f'task {task} reached target number of generation {target_n}')
-#             return last_minute_requests, start_minute
-        
-#     print(f'Total samples generated for task "{task}": {generated}')
-#     return last_minute_requests, start_minute
-
 def generate_samples_dialogue(task, output_dir, completed, last_minute_requests, start_minute, target_n, repeat_n=50):
     """Dialogue TTS generation (concatenate all voices per subtask)."""
     output_dir = os.path.join(output_dir, f'{task}')
@@ -670,6 +590,8 @@ if __name__ == '__main__':
             last_minute_requests, start_minute = generate_samples_elevenlabs(t, args.output, completed, last_minute_requests, start_minute, args.n)
         elif t == 'counting':
             last_minute_requests, start_minute = generate_samples_dialogue(t, args.output, completed, last_minute_requests, start_minute, args.n)
+        elif t in ['pause', 'prolong', 'stress']:
+            last_minute_requests, start_minute = generate_samples_ssml(t, args.output, completed, last_minute_requests, start_minute, args.n)
         else:
             last_minute_requests, start_minute = generate_samples_default(t, args.output, completed, last_minute_requests, start_minute, args.n)
            

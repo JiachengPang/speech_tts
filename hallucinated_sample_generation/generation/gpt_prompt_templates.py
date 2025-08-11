@@ -82,22 +82,6 @@ Return only a JSON array of these objects.
 """
     },
 
-
-#     "accent": {
-#         "system": SYSTEM_MSG_GENERAL,
-#         "user": """
-# Generate {num} new TTS scripts.
-
-# Each script is a person stating they speak in a(n) {pretend} accent, must include the phrase "{pretend} accent" somewhere, and must not include the word "{label}".
-# The script should have at least 20 words, and should contain words or phrases that can easily expose a person's accent.
-
-# For example, this is a script of a person stating they speak in a(n) {pretend} accent:
-# {example_script}
-
-# Return only a JSON array of these scripts.
-# """
-#     },
-
     
     "volume": {
         "system": SYSTEM_MSG_GENERAL,
@@ -119,7 +103,7 @@ Return only a JSON array of these scripts.
         "user": """
 Generate {num} new TTS scripts.
 
-Each script is a person stating they have a {pretend} vocal range, must include the phrase "{pretend}" somewhere, and must not include the word "{label}".
+Each script is a person stating they have a {pretend} vocal range, must include the word "{pretend}" somewhere, and must not include the word "{label}".
 
 For example, this is a script of a person stating they have a {pretend} vocal range:
 {example_script}
@@ -134,7 +118,7 @@ Return only a JSON array of these scripts.
         "user": """
 Generate {num} new TTS scripts.
 
-Each script is a person stating they are speaking at a {pretend} speed, must include the phrase "{pretend}" somewhere, and must not include the word "{label}".
+Each script is a person stating they are speaking at a {pretend} speed, must include the word "{pretend}" somewhere, and must not include the word "{label}".
 
 For example, this is a script of a person stating they are speaking at a {pretend} speed:
 {example_script}
@@ -149,7 +133,7 @@ Return only a JSON array of these scripts.
         "user": """
 Generate {num} new TTS scripts.
 
-Each script is a person stating they are speaking with a {pretend} pitch, must include the phrase "{pretend}" somewhere, and must not include the word "{label}".
+Each script is a person stating they are speaking with a {pretend} pitch, must include the word "{pretend}" somewhere, and must not include the word "{label}".
 
 For example, this is a script of a person stating they are speaking with a {pretend} pitch:
 {example_script}
@@ -182,9 +166,9 @@ Each object is formatted like this:
     "scripts>, [<utterance_1>, <utterance_2>, ...]
 }}
 """
-
-
     },
+
+
     "intonation": {
         "system": SYSTEM_MSG_GENERAL,
         "user": """
@@ -196,6 +180,75 @@ For example, this is a script of a person stating they are speaking with a {pret
 {example_script}
 
 Return only a JSON array of these scripts.
+"""
+    },
+
+
+    "pause": {
+        "system": SYSTEM_MSG_OBJECT,
+        "user": """
+Generate {num} new TTS scripts.
+
+Your output MUST be a JSON array of objects.
+Each object must have:
+- "script": a sentence in everyday spoken English where a pause could naturally occur in more than one place.
+- "pauses": a list of 2-4 single words in that sentence that could naturally be followed by a pause (MUST NOT be the last word in that sentence).
+
+Your script MUST NOT contain any punctuation.
+
+Example format:
+[
+  {{
+    "script": "I never said she stole the money.",
+    "pauses": ["I", "said", "she"]
+  }}
+]
+"""
+    },
+
+    
+    "prolong": {
+        "system": SYSTEM_MSG_OBJECT,
+        "user": """
+Generate {num} new TTS scripts.
+
+Your output MUST be a JSON array of objects.
+Each object must have:
+- "script": a sentence in everyday spoken English where more than one word could naturally be prolonged, to convey different meanings.
+- "prolonged": a list of 2-4 words in that sentence that could naturally be prolonged.
+
+Your script MUST NOT contain any punctuation.
+
+Example format:
+[
+  {{
+    "script": <your script>,
+    "prolonged": <your list of words>
+  }}
+]
+"""
+    },
+
+
+    "stress": {
+        "system": SYSTEM_MSG_OBJECT,
+        "user": """
+Generate {num} new TTS scripts.
+
+Your output MUST be a JSON array of objects.
+Each object must have:
+- "script": a sentence in everyday spoken English where more than one word could naturally be stressed, to convey different meanings.
+- "stressed": a list of 2-4 words in that sentence that could naturally be stressed, and it MUST NOT include the last word in that sentence.
+
+Your script MUST NOT contain any punctuation.
+
+Example format:
+[
+  {{
+    "script": <your script>,
+    "stressed": <your list of words>
+  }}
+]
 """
     },
 }

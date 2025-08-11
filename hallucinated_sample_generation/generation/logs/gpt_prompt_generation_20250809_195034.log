@@ -1,0 +1,57 @@
+2025-08-09 19:50:34,466 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250809_195034.log
+2025-08-09 19:50:34,500 | INFO | Extending pause with 7 new samples starting from index 33
+2025-08-09 19:50:34,501 | INFO | =================================================
+2025-08-09 19:50:34,501 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of objects only. Do not include explanations or extra commentary.
+2025-08-09 19:50:34,501 | INFO | -------------------------------------------------
+2025-08-09 19:50:34,501 | INFO | Generate 7 new TTS scripts.
+
+Your output MUST be a JSON array of objects.
+Each object must have:
+- "script": a sentence in everyday spoken English where a pause could naturally occur in more than one place (2 - 4 places).
+- "pauses": a list of words in that sentence that could naturally be followed by a pause.
+
+Your script MUST NOT contain any punctuation other than the ending period.
+The pauses MUST NOT include the last word in the script.
+
+Example format:
+[
+  {
+    "script": "I never said she stole the money.",
+    "pauses": ["I", "said", "she"]
+  }
+]
+2025-08-09 19:50:34,501 | INFO | =================================================
+2025-08-09 19:50:39,523 | INFO | GPT Output:
+2025-08-09 19:50:39,523 | INFO | [
+  {
+    "script": "Can you believe how fast the time is flying",
+    "pauses": ["you", "how", "the"]
+  },
+  {
+    "script": "I was thinking about going to the movies tonight",
+    "pauses": ["thinking", "about", "to"]
+  },
+  {
+    "script": "This weather is perfect for a picnic in the park",
+    "pauses": ["weather", "perfect", "for"]
+  },
+  {
+    "script": "Have you ever tried making homemade pizza from scratch",
+    "pauses": ["ever", "making", "pizza"]
+  },
+  {
+    "script": "It's amazing how much we can learn from our mistakes",
+    "pauses": ["amazing", "much", "from"]
+  },
+  {
+    "script": "Do you think we should call them and ask for their help",
+    "pauses": ["think", "call", "ask"]
+  },
+  {
+    "script": "Don't forget to bring your umbrella just in case it rains",
+    "pauses": ["forget", "bring", "just"]
+  }
+]
+2025-08-09 19:50:39,532 | INFO | Saved extended prompts to tts_prompts_base.json

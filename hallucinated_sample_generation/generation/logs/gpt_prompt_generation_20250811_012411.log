@@ -1,0 +1,68 @@
+2025-08-11 01:24:11,329 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250811_012411.log
+2025-08-11 01:24:11,366 | INFO | Extending stress with 10 new samples starting from index 10
+2025-08-11 01:24:11,366 | INFO | =================================================
+2025-08-11 01:24:11,366 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of objects only. Do not include explanations or extra commentary.
+2025-08-11 01:24:11,366 | INFO | -------------------------------------------------
+2025-08-11 01:24:11,366 | INFO | Generate 10 new TTS scripts.
+
+Your output MUST be a JSON array of objects.
+Each object must have:
+- "script": a sentence in everyday spoken English where more than one word could naturally be stressed, to convey different meanings.
+- "stressed": a list of 2-4 words in that sentence that could naturally be stressed, and it MUST NOT include the last word in that sentence.
+
+Your script MUST NOT contain any punctuation.
+
+Example format:
+[
+  {
+    "script": <your script>,
+    "stressed": <your list of words>
+  }
+]
+2025-08-11 01:24:11,366 | INFO | =================================================
+2025-08-11 01:24:18,617 | INFO | GPT Output:
+2025-08-11 01:24:18,617 | INFO | [
+  {
+    "script": "I didn't say she stole my money",
+    "stressed": ["didn't", "say", "stole"]
+  },
+  {
+    "script": "You can't believe everything you hear",
+    "stressed": ["can't", "believe", "everything"]
+  },
+  {
+    "script": "We should meet at the coffee shop tomorrow",
+    "stressed": ["should", "meet", "coffee"]
+  },
+  {
+    "script": "He loves playing soccer on the weekends",
+    "stressed": ["loves", "playing", "soccer"]
+  },
+  {
+    "script": "They are planning to travel next month",
+    "stressed": ["are", "planning", "travel"]
+  },
+  {
+    "script": "She really enjoys cooking for her friends",
+    "stressed": ["really", "enjoys", "cooking"]
+  },
+  {
+    "script": "I thought you said you would help me",
+    "stressed": ["thought", "said", "help"]
+  },
+  {
+    "script": "We need to finish this project by Friday",
+    "stressed": ["need", "finish", "project"]
+  },
+  {
+    "script": "He would rather stay home than go out",
+    "stressed": ["would", "rather", "stay"]
+  },
+  {
+    "script": "She always arrives early for her classes",
+    "stressed": ["always", "arrives", "early"]
+  }
+]
+2025-08-11 01:24:18,624 | INFO | Saved extended prompts to tts_prompts_base.json

@@ -1,0 +1,36 @@
+2025-08-11 01:18:43,072 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250811_011843.log
+2025-08-11 01:18:43,115 | INFO | Extending stress with 2 new samples starting from index 0
+2025-08-11 01:18:43,115 | INFO | =================================================
+2025-08-11 01:18:43,115 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of objects only. Do not include explanations or extra commentary.
+2025-08-11 01:18:43,115 | INFO | -------------------------------------------------
+2025-08-11 01:18:43,115 | INFO | Generate 2 new TTS scripts.
+
+Your output MUST be a JSON array of objects.
+Each object must have:
+- "script": a sentence in everyday spoken English where more than one word could naturally be stressed, to convey different meanings.
+- "stressed": a list of 2-4 words in that sentence that could naturally be stressed.
+
+Your script MUST NOT contain any punctuation.
+
+Example format:
+[
+  {
+    "script": <your script>,
+    "stressed": <your list of words>
+  }
+]
+2025-08-11 01:18:43,115 | INFO | =================================================
+2025-08-11 01:18:45,666 | INFO | GPT Output:
+2025-08-11 01:18:45,666 | INFO | [
+  {
+    "script": "I never said she stole my money",
+    "stressed": ["never", "she", "stole", "money"]
+  },
+  {
+    "script": "You can take the train or the bus to get there",
+    "stressed": ["take", "train", "bus", "get"]
+  }
+]
+2025-08-11 01:18:45,675 | INFO | Saved extended prompts to tts_prompts_base.json

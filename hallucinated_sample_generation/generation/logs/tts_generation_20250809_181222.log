@@ -1,0 +1,4 @@
+2025-08-09 18:12:22,676 | INFO | [LOGGING] Output is being saved to: logs/tts_generation_20250809_181222.log
+2025-08-09 18:12:22,736 | INFO | Skipping. Already completed: pause_0_en-AU-NatashaNeural.wav
+2025-08-09 18:12:22,736 | INFO | Skipping. Already completed: pause_0_en-AU-WilliamNeural.wav
+2025-08-09 18:12:22,736 | INFO | Total samples generated for task "pause": 2

@@ -1,0 +1,68 @@
+2025-08-10 23:29:54,207 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250810_232954.log
+2025-08-10 23:29:54,255 | INFO | Extending stress with 10 new samples starting from index 20
+2025-08-10 23:29:54,255 | INFO | =================================================
+2025-08-10 23:29:54,255 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of objects only. Do not include explanations or extra commentary.
+2025-08-10 23:29:54,255 | INFO | -------------------------------------------------
+2025-08-10 23:29:54,255 | INFO | Generate 10 new TTS scripts.
+
+Your output MUST be a JSON array of objects.
+Each object must have:
+- "script": a sentence in everyday spoken English where more than one word could naturally be stressed, to convey different meanings.
+- "stressed": a list of 2-4 words in that sentence that could naturally be stressed.
+
+Your script MUST NOT contain any punctuation.
+
+Example format:
+[
+  {
+    "script": <your script>,
+    "stressed": <your list of words>
+  }
+]
+2025-08-10 23:29:54,255 | INFO | =================================================
+2025-08-10 23:30:02,575 | INFO | GPT Output:
+2025-08-10 23:30:02,575 | INFO | [
+  {
+    "script": "I never said she stole my money",
+    "stressed": ["never", "she", "stole", "money"]
+  },
+  {
+    "script": "We could go to the park tomorrow",
+    "stressed": ["could", "park", "tomorrow"]
+  },
+  {
+    "script": "He really wants to learn how to cook",
+    "stressed": ["really", "wants", "learn", "cook"]
+  },
+  {
+    "script": "They found the lost dog in the backyard",
+    "stressed": ["found", "lost", "dog", "backyard"]
+  },
+  {
+    "script": "She always brings her lunch to work",
+    "stressed": ["always", "brings", "lunch", "work"]
+  },
+  {
+    "script": "You should try that new restaurant downtown",
+    "stressed": ["should", "try", "new", "downtown"]
+  },
+  {
+    "script": "I will finish the report by Friday",
+    "stressed": ["finish", "report", "by", "Friday"]
+  },
+  {
+    "script": "This book is more interesting than the movie",
+    "stressed": ["book", "more", "interesting", "movie"]
+  },
+  {
+    "script": "Can you believe she won the contest",
+    "stressed": ["believe", "won", "contest"]
+  },
+  {
+    "script": "I thought we were meeting at six oclock",
+    "stressed": ["thought", "meeting", "six", "oclock"]
+  }
+]
+2025-08-10 23:30:02,581 | INFO | Saved extended prompts to tts_prompts_base.json

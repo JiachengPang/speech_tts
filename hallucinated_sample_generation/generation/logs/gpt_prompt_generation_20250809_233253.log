@@ -1,0 +1,68 @@
+2025-08-09 23:32:53,216 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250809_233253.log
+2025-08-09 23:32:53,250 | INFO | Extending prolong with 10 new samples starting from index 30
+2025-08-09 23:32:53,250 | INFO | =================================================
+2025-08-09 23:32:53,250 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of objects only. Do not include explanations or extra commentary.
+2025-08-09 23:32:53,250 | INFO | -------------------------------------------------
+2025-08-09 23:32:53,250 | INFO | Generate 10 new TTS scripts.
+
+Your output MUST be a JSON array of objects.
+Each object must have:
+- "script": a sentence in everyday spoken English where more than one word could naturally be prolonged, to convey different meanings.
+- "prolonged": a list of 2-4 words in that sentence that could naturally be prolonged.
+
+Your script MUST NOT contain any punctuation.
+
+Example format:
+[
+  {
+    "script": <your script>,
+    "prolonged": <your list of words or phrases>
+  }
+]
+2025-08-09 23:32:53,250 | INFO | =================================================
+2025-08-09 23:33:00,585 | INFO | GPT Output:
+2025-08-09 23:33:00,585 | INFO | [
+  {
+    "script": "I really want to go to the beach tomorrow",
+    "prolonged": ["really", "want", "beach"]
+  },
+  {
+    "script": "Can you believe how quickly time flies",
+    "prolonged": ["believe", "quickly", "time"]
+  },
+  {
+    "script": "This coffee tastes so good this morning",
+    "prolonged": ["tastes", "good", "morning"]
+  },
+  {
+    "script": "I guess we should start planning the trip now",
+    "prolonged": ["guess", "planning", "trip"]
+  },
+  {
+    "script": "She said she would help me with my homework later",
+    "prolonged": ["help", "homework", "later"]
+  },
+  {
+    "script": "I don’t know if I can finish this project on time",
+    "prolonged": ["know", "finish", "time"]
+  },
+  {
+    "script": "It seems like everyone is busy these days",
+    "prolonged": ["seems", "everyone", "busy"]
+  },
+  {
+    "script": "I feel like going for a walk after dinner",
+    "prolonged": ["feel", "going", "walk"]
+  },
+  {
+    "script": "Let’s meet at the park for a picnic this weekend",
+    "prolonged": ["meet", "park", "picnic"]
+  },
+  {
+    "script": "I heard that new restaurant has amazing food",
+    "prolonged": ["heard", "restaurant", "amazing"]
+  }
+]
+2025-08-09 23:33:00,591 | INFO | Saved extended prompts to tts_prompts_base.json

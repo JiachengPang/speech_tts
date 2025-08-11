@@ -547,7 +547,7 @@
         "43": {
             "dialogue": [
                 "Only one person is telling the story.",
-                "Yes, it’s a solo monologue."
+                "Yes, it\u2019s a solo monologue."
             ],
             "label": 2,
             "pretend": 1
@@ -581,7 +581,7 @@
         "47": {
             "dialogue": [
                 "Only one person is speaking at the moment.",
-                "True, it’s completely quiet except for one person.",
+                "True, it\u2019s completely quiet except for one person.",
                 "Yeah, no one else is chiming in.",
                 "That is okay, I enjoy speaking to myself."
             ],
@@ -3848,20 +3848,849 @@
         "prompt": "Which word is most likely followed by a pause in the audio?",
         "0": {
             "voice": "",
-            "style": "",
-            "script": "Why are. You so good at writing stories?",
+            "style": "I will pause after the word she, and I never said <break time='1s'/> she stole the money.",
+            "script": "I will pause after the word she, and I never said she stole the money.",
+            "label": "said",
+            "pretend": "she"
+        },
+        "1": {
+            "voice": "",
+            "style": "I will pause after the word store, and let's go to the store and pick up <break time='1s'/> some groceries.",
+            "script": "I will pause after the word store, and let's go to the store and pick up some groceries.",
+            "label": "up",
+            "pretend": "store"
+        },
+        "2": {
+            "voice": "",
+            "style": "I will pause after the word year, and I can't believe it's already December <break time='1s'/> and the year is almost over.",
+            "script": "I will pause after the word year, and I can't believe it's already December and the year is almost over.",
+            "label": "December",
+            "pretend": "year"
+        },
+        "3": {
+            "voice": "",
+            "style": "I will pause after the word if, and let's go <break time='1s'/> for a walk later on if the weather is nice",
+            "script": "I will pause after the word if, and let's go for a walk later on if the weather is nice",
+            "label": "go",
+            "pretend": "if"
+        },
+        "4": {
+            "voice": "",
+            "style": "I will pause after the word believe, and I can't believe you actually <break time='1s'/> finished that book in one day",
+            "script": "I will pause after the word believe, and I can't believe you actually finished that book in one day",
+            "label": "actually",
+            "pretend": "believe"
+        },
+        "5": {
+            "voice": "",
+            "style": "I will pause after the word dinner, and after dinner we could watch a movie or play <break time='1s'/> a game",
+            "script": "I will pause after the word dinner, and after dinner we could watch a movie or play a game",
+            "label": "play",
+            "pretend": "dinner"
+        },
+        "6": {
+            "voice": "",
+            "style": "I will pause after the word said, and she said she would call me tomorrow but <break time='1s'/> I haven't heard from her",
+            "script": "I will pause after the word said, and she said she would call me tomorrow but I haven't heard from her",
+            "label": "but",
+            "pretend": "said"
+        },
+        "7": {
+            "voice": "",
+            "style": "I will pause after the word and, and I need to pick <break time='1s'/> up some groceries later on and then head home",
+            "script": "I will pause after the word and, and I need to pick up some groceries later on and then head home",
+            "label": "pick",
+            "pretend": "and"
+        },
+        "8": {
+            "voice": "",
+            "style": "I will pause after the word beach, and do you remember the last time <break time='1s'/> we went to the beach together",
+            "script": "I will pause after the word beach, and do you remember the last time we went to the beach together",
+            "label": "time",
+            "pretend": "beach"
+        },
+        "9": {
+            "voice": "",
+            "style": "I will pause after the word finish, and if you finish your homework early we can go <break time='1s'/> out for ice cream",
+            "script": "I will pause after the word finish, and if you finish your homework early we can go out for ice cream",
+            "label": "go",
+            "pretend": "finish"
+        },
+        "10": {
+            "voice": "",
+            "style": "I will pause after the word laughs, and he always laughs at my jokes but <break time='1s'/> I still think they are funny",
+            "script": "I will pause after the word laughs, and he always laughs at my jokes but I still think they are funny",
+            "label": "but",
+            "pretend": "laughs"
+        },
+        "11": {
+            "voice": "",
+            "style": "I will pause after the word plan, and we should probably plan our trip soon so <break time='1s'/> that we can book the flights",
+            "script": "I will pause after the word plan, and we should probably plan our trip soon so that we can book the flights",
+            "label": "so",
+            "pretend": "plan"
+        },
+        "12": {
+            "voice": "",
+            "style": "I will pause after the word sky, and when the sun sets <break time='1s'/> it paints the sky in beautiful colors",
+            "script": "I will pause after the word sky, and when the sun sets it paints the sky in beautiful colors",
+            "label": "sets",
+            "pretend": "sky"
+        },
+        "13": {
+            "voice": "",
+            "style": "I will pause after the word stay, and we can <break time='1s'/> go to the park or we can stay at home",
+            "script": "I will pause after the word stay, and we can go to the park or we can stay at home",
+            "label": "can",
+            "pretend": "stay"
+        },
+        "14": {
+            "voice": "",
+            "style": "I will pause after the word think, and I think we should try <break time='1s'/> that new restaurant this weekend",
+            "script": "I will pause after the word think, and I think we should try that new restaurant this weekend",
+            "label": "try",
+            "pretend": "think"
+        },
+        "15": {
+            "voice": "",
+            "style": "I will pause after the word to, and she loves to read books about history and <break time='1s'/> science fiction",
+            "script": "I will pause after the word to, and she loves to read books about history and science fiction",
+            "label": "and",
+            "pretend": "to"
+        },
+        "16": {
+            "voice": "",
+            "style": "I will pause after the word want, and if you want we can watch a movie or <break time='1s'/> play a game",
+            "script": "I will pause after the word want, and if you want we can watch a movie or play a game",
+            "label": "or",
+            "pretend": "want"
+        },
+        "17": {
+            "voice": "",
+            "style": "I will pause after the word might, and the weather is great <break time='1s'/> today but it might rain tomorrow",
+            "script": "I will pause after the word might, and the weather is great today but it might rain tomorrow",
+            "label": "great",
+            "pretend": "might"
+        },
+        "18": {
+            "voice": "",
+            "style": "I will pause after the word dinner, and I need to finish my homework before <break time='1s'/> dinner tonight",
+            "script": "I will pause after the word dinner, and I need to finish my homework before dinner tonight",
+            "label": "before",
+            "pretend": "dinner"
+        },
+        "19": {
+            "voice": "",
+            "style": "I will pause after the word meet, and let's meet at the cafe around three if that works <break time='1s'/> for you",
+            "script": "I will pause after the word meet, and let's meet at the cafe around three if that works for you",
+            "label": "works",
+            "pretend": "meet"
+        },
+        "20": {
+            "voice": "",
+            "style": "I will pause after the word think, and I think we should <break time='1s'/> go to the park",
+            "script": "I will pause after the word think, and I think we should go to the park",
+            "label": "should",
+            "pretend": "think"
+        },
+        "21": {
+            "voice": "",
+            "style": "I will pause after the word or, and do you want <break time='1s'/> coffee or tea for breakfast",
+            "script": "I will pause after the word or, and do you want coffee or tea for breakfast",
+            "label": "want",
+            "pretend": "or"
+        },
+        "22": {
+            "voice": "",
+            "style": "I will pause after the word know, and let me know when you are <break time='1s'/> ready to leave",
+            "script": "I will pause after the word know, and let me know when you are ready to leave",
             "label": "are",
-            "pretend": ""
+            "pretend": "know"
+        },
+        "23": {
+            "voice": "",
+            "style": "I will pause after the word planning, and I was planning to <break time='1s'/> visit my grandmother this weekend",
+            "script": "I will pause after the word planning, and I was planning to visit my grandmother this weekend",
+            "label": "to",
+            "pretend": "planning"
+        },
+        "24": {
+            "voice": "",
+            "style": "I will pause after the word with, and can you help <break time='1s'/> me with this project at work",
+            "script": "I will pause after the word with, and can you help me with this project at work",
+            "label": "help",
+            "pretend": "with"
+        },
+        "25": {
+            "voice": "",
+            "style": "I will pause after the word forgets, and she always forgets to <break time='1s'/> turn off the lights",
+            "script": "I will pause after the word forgets, and she always forgets to turn off the lights",
+            "label": "to",
+            "pretend": "forgets"
+        },
+        "26": {
+            "voice": "",
+            "style": "I will pause after the word decided, and they decided to <break time='1s'/> take a road trip across the country",
+            "script": "I will pause after the word decided, and they decided to take a road trip across the country",
+            "label": "to",
+            "pretend": "decided"
+        },
+        "27": {
+            "voice": "",
+            "style": "I will pause after the word loves, and he loves playing basketball with <break time='1s'/> his friends",
+            "script": "I will pause after the word loves, and he loves playing basketball with his friends",
+            "label": "with",
+            "pretend": "loves"
+        },
+        "28": {
+            "voice": "",
+            "style": "I will pause after the word if, and I'm not sure <break time='1s'/> if we have enough time for this",
+            "script": "I will pause after the word if, and I'm not sure if we have enough time for this",
+            "label": "sure",
+            "pretend": "if"
+        },
+        "29": {
+            "voice": "",
+            "style": "I will pause after the word to, and would you like <break time='1s'/> to join us for dinner tonight",
+            "script": "I will pause after the word to, and would you like to join us for dinner tonight",
+            "label": "like",
+            "pretend": "to"
+        },
+        "30": {
+            "voice": "",
+            "style": "I will pause after the word store, and I went to the store to buy <break time='1s'/> some groceries",
+            "script": "I will pause after the word store, and I went to the store to buy some groceries",
+            "label": "buy",
+            "pretend": "store"
+        },
+        "31": {
+            "voice": "",
+            "style": "I will pause after the word happened, and can you believe <break time='1s'/> what happened yesterday at the meeting",
+            "script": "I will pause after the word happened, and can you believe what happened yesterday at the meeting",
+            "label": "believe",
+            "pretend": "happened"
+        },
+        "32": {
+            "voice": "",
+            "style": "I will pause after the word read, and she loves to read books especially mysteries <break time='1s'/> and thrillers",
+            "script": "I will pause after the word read, and she loves to read books especially mysteries and thrillers",
+            "label": "mysteries",
+            "pretend": "read"
+        },
+        "33": {
+            "voice": "",
+            "style": "I will pause after the word nice, and the weather is nice today but <break time='1s'/> it might rain later",
+            "script": "I will pause after the word nice, and the weather is nice today but it might rain later",
+            "label": "but",
+            "pretend": "nice"
+        },
+        "34": {
+            "voice": "",
+            "style": "I will pause after the word work, and he decided to take a break <break time='1s'/> from work to relax",
+            "script": "I will pause after the word work, and he decided to take a break from work to relax",
+            "label": "break",
+            "pretend": "work"
+        },
+        "35": {
+            "voice": "",
+            "style": "I will pause after the word trip, and we should plan a trip for the weekend <break time='1s'/> or maybe next month",
+            "script": "I will pause after the word trip, and we should plan a trip for the weekend or maybe next month",
+            "label": "weekend",
+            "pretend": "trip"
+        },
+        "36": {
+            "voice": "",
+            "style": "I will pause after the word finish, and I need to finish my report before <break time='1s'/> the deadline next week",
+            "script": "I will pause after the word finish, and I need to finish my report before the deadline next week",
+            "label": "before",
+            "pretend": "finish"
+        },
+        "37": {
+            "voice": "",
+            "style": "I will pause after the word going, and they are going to the festival <break time='1s'/> that starts at noon",
+            "script": "I will pause after the word going, and they are going to the festival that starts at noon",
+            "label": "festival",
+            "pretend": "going"
+        },
+        "38": {
+            "voice": "",
+            "style": "I will pause after the word call, and please remind <break time='1s'/> me to call Mike later this afternoon",
+            "script": "I will pause after the word call, and please remind me to call Mike later this afternoon",
+            "label": "remind",
+            "pretend": "call"
+        },
+        "39": {
+            "voice": "",
+            "style": "I will pause after the word recipes, and I enjoy cooking <break time='1s'/> new recipes especially Italian food",
+            "script": "I will pause after the word recipes, and I enjoy cooking new recipes especially Italian food",
+            "label": "cooking",
+            "pretend": "recipes"
         }
     },
     "prolong": {
         "prompt": "Which word contains the most noticeable elongation in the audio?",
         "0": {
             "voice": "",
-            "style": "",
-            "script": "I know exactly what I am talking about.",
-            "label": "talking",
-            "pretend": ""
+            "style": "<prosody rate='+30%'> I will prolong the word should, and I </prosody> <prosody rate='-100%'> really </prosody> <prosody rate='+30%'> think we should go to the party tonight </prosody>",
+            "script": "I will prolong the word should, and I really think we should go to the party tonight",
+            "label": "really",
+            "pretend": "should"
+        },
+        "1": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word think, and I </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> want to know what you think about it</prosody>",
+            "script": "I will prolong the word think, and I really want to know what you think about it",
+            "label": "really",
+            "pretend": "think"
+        },
+        "2": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word believe, and can you believe how </prosody><prosody rate='-100%'>quickly</prosody><prosody rate='+30%'> the time has passed</prosody>",
+            "script": "I will prolong the word believe, and can you believe how quickly the time has passed",
+            "label": "quickly",
+            "pretend": "believe"
+        },
+        "3": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word definitely, and she said she would definitely help with the </prosody><prosody rate='-100%'>project</prosody>",
+            "script": "I will prolong the word definitely, and she said she would definitely help with the project",
+            "label": "project",
+            "pretend": "definitely"
+        },
+        "4": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word seems, and it seems like everyone is going to the </prosody><prosody rate='-100%'>party</prosody><prosody rate='+30%'> tonight</prosody>",
+            "script": "I will prolong the word seems, and it seems like everyone is going to the party tonight",
+            "label": "party",
+            "pretend": "seems"
+        },
+        "5": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word work, and I could </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> use a break from all this work</prosody>",
+            "script": "I will prolong the word work, and I could really use a break from all this work",
+            "label": "really",
+            "pretend": "work"
+        },
+        "6": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word smile, and he always </prosody><prosody rate='-100%'>finds</prosody><prosody rate='+30%'> a way to make me smile</prosody>",
+            "script": "I will prolong the word smile, and he always finds a way to make me smile",
+            "label": "finds",
+            "pretend": "smile"
+        },
+        "7": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word think, and do you think we should try that new </prosody><prosody rate='-100%'>restaurant</prosody>",
+            "script": "I will prolong the word think, and do you think we should try that new restaurant",
+            "label": "restaurant",
+            "pretend": "think"
+        },
+        "8": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word said, and they said they would arrive around </prosody><prosody rate='-100%'>six</prosody><prosody rate='+30%'> oclock</prosody>",
+            "script": "I will prolong the word said, and they said they would arrive around six oclock",
+            "label": "six",
+            "pretend": "said"
+        },
+        "9": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word definitely, and we can definitely figure this out </prosody><prosody rate='-100%'>together</prosody>",
+            "script": "I will prolong the word definitely, and we can definitely figure this out together",
+            "label": "together",
+            "pretend": "definitely"
+        },
+        "10": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word about, and I </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> need to think about this decision</prosody>",
+            "script": "I will prolong the word about, and I really need to think about this decision",
+            "label": "really",
+            "pretend": "about"
+        },
+        "11": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word always, and she always takes her </prosody><prosody rate='-100%'>time</prosody><prosody rate='+30%'> when she cooks</prosody>",
+            "script": "I will prolong the word always, and she always takes her time when she cooks",
+            "label": "time",
+            "pretend": "always"
+        },
+        "12": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word believe, and can you believe how much </prosody><prosody rate='-100%'>fun</prosody><prosody rate='+30%'> we had yesterday</prosody>",
+            "script": "I will prolong the word believe, and can you believe how much fun we had yesterday",
+            "label": "fun",
+            "pretend": "believe"
+        },
+        "13": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word guess, and I guess we will just have to </prosody><prosody rate='-100%'>wait</prosody><prosody rate='+30%'> and see</prosody>",
+            "script": "I will prolong the word guess, and I guess we will just have to wait and see",
+            "label": "wait",
+            "pretend": "guess"
+        },
+        "14": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word beach, and you know I </prosody><prosody rate='-100%'>love</prosody><prosody rate='+30%'> going to the beach every summer</prosody>",
+            "script": "I will prolong the word beach, and you know I love going to the beach every summer",
+            "label": "love",
+            "pretend": "beach"
+        },
+        "15": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word break, and sometimes I feel like I </prosody><prosody rate='-100%'>need</prosody><prosody rate='+30%'> a break from everything</prosody>",
+            "script": "I will prolong the word break, and sometimes I feel like I need a break from everything",
+            "label": "need",
+            "pretend": "break"
+        },
+        "16": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word really, and do you really think that this is a </prosody><prosody rate='-100%'>good</prosody><prosody rate='+30%'> idea</prosody>",
+            "script": "I will prolong the word really, and do you really think that this is a good idea",
+            "label": "good",
+            "pretend": "really"
+        },
+        "17": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word believe, and I can't believe how quickly the time has </prosody><prosody rate='-100%'>passed</prosody>",
+            "script": "I will prolong the word believe, and I can't believe how quickly the time has passed",
+            "label": "passed",
+            "pretend": "believe"
+        },
+        "18": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word call, and he said he would call me later this </prosody><prosody rate='-100%'>evening</prosody>",
+            "script": "I will prolong the word call, and he said he would call me later this evening",
+            "label": "evening",
+            "pretend": "call"
+        },
+        "19": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word appreciate, and I </prosody><prosody rate='-100%'>hope</prosody><prosody rate='+30%'> you know how much I appreciate you</prosody>",
+            "script": "I will prolong the word appreciate, and I hope you know how much I appreciate you",
+            "label": "hope",
+            "pretend": "appreciate"
+        },
+        "20": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word cared, and I </prosody><prosody rate='-100%'>can't</prosody><prosody rate='+30%'> believe how much you cared about that</prosody>",
+            "script": "I will prolong the word cared, and I can't believe how much you cared about that",
+            "label": "can't",
+            "pretend": "cared"
+        },
+        "21": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word interesting, and that was an interesting </prosody><prosody rate='-100%'>idea</prosody><prosody rate='+30%'> you had</prosody>",
+            "script": "I will prolong the word interesting, and that was an interesting idea you had",
+            "label": "idea",
+            "pretend": "interesting"
+        },
+        "22": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word really, and do you really think this is the </prosody><prosody rate='-100%'>right</prosody><prosody rate='+30%'> way</prosody>",
+            "script": "I will prolong the word really, and do you really think this is the right way",
+            "label": "right",
+            "pretend": "really"
+        },
+        "23": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word seems, and she seems to be having a </prosody><prosody rate='-100%'>great</prosody><prosody rate='+30%'> time</prosody>",
+            "script": "I will prolong the word seems, and she seems to be having a great time",
+            "label": "great",
+            "pretend": "seems"
+        },
+        "24": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word feel, and I feel like we should </prosody><prosody rate='-100%'>try</prosody><prosody rate='+30%'> something new</prosody>",
+            "script": "I will prolong the word feel, and I feel like we should try something new",
+            "label": "try",
+            "pretend": "feel"
+        },
+        "25": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word figure, and can you </prosody><prosody rate='-100%'>help</prosody><prosody rate='+30%'> me figure this out</prosody>",
+            "script": "I will prolong the word figure, and can you help me figure this out",
+            "label": "help",
+            "pretend": "figure"
+        },
+        "26": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word so, and it is so nice to </prosody><prosody rate='-100%'>see</prosody><prosody rate='+30%'> you again</prosody>",
+            "script": "I will prolong the word so, and it is so nice to see you again",
+            "label": "see",
+            "pretend": "so"
+        },
+        "27": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word wonder, and I wonder why they decided to </prosody><prosody rate='-100%'>leave</prosody><prosody rate='+30%'> early</prosody>",
+            "script": "I will prolong the word wonder, and I wonder why they decided to leave early",
+            "label": "leave",
+            "pretend": "wonder"
+        },
+        "28": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word agree, and that </prosody><prosody rate='-100%'>sounds</prosody><prosody rate='+30%'> like a plan we can agree on</prosody>",
+            "script": "I will prolong the word agree, and that sounds like a plan we can agree on",
+            "label": "sounds",
+            "pretend": "agree"
+        },
+        "29": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word sometime, and we </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> should catch up sometime soon</prosody>",
+            "script": "I will prolong the word sometime, and we really should catch up sometime soon",
+            "label": "really",
+            "pretend": "sometime"
+        },
+        "30": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word beach, and I </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> want to go to the beach tomorrow</prosody>",
+            "script": "I will prolong the word beach, and I really want to go to the beach tomorrow",
+            "label": "really",
+            "pretend": "beach"
+        },
+        "31": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word believe, and can you believe how </prosody><prosody rate='-100%'>quickly</prosody><prosody rate='+30%'> time flies</prosody>",
+            "script": "I will prolong the word believe, and can you believe how quickly time flies",
+            "label": "quickly",
+            "pretend": "believe"
+        },
+        "32": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word tastes, and this coffee tastes so good this </prosody><prosody rate='-100%'>morning</prosody>",
+            "script": "I will prolong the word tastes, and this coffee tastes so good this morning",
+            "label": "morning",
+            "pretend": "tastes"
+        },
+        "33": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word guess, and I guess we should start planning the </prosody><prosody rate='-100%'>trip</prosody><prosody rate='+30%'> now</prosody>",
+            "script": "I will prolong the word guess, and I guess we should start planning the trip now",
+            "label": "trip",
+            "pretend": "guess"
+        },
+        "34": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word later, and she said she would </prosody><prosody rate='-100%'>help</prosody><prosody rate='+30%'> me with my homework later</prosody>",
+            "script": "I will prolong the word later, and she said she would help me with my homework later",
+            "label": "help",
+            "pretend": "later"
+        },
+        "35": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word time, and I don\u2019t know if I can </prosody><prosody rate='-100%'>finish</prosody><prosody rate='+30%'> this project on time</prosody>",
+            "script": "I will prolong the word time, and I don\u2019t know if I can finish this project on time",
+            "label": "finish",
+            "pretend": "time"
+        },
+        "36": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word seems, and it seems like everyone is </prosody><prosody rate='-100%'>busy</prosody><prosody rate='+30%'> these days</prosody>",
+            "script": "I will prolong the word seems, and it seems like everyone is busy these days",
+            "label": "busy",
+            "pretend": "seems"
+        },
+        "37": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word feel, and I feel like going for a </prosody><prosody rate='-100%'>walk</prosody><prosody rate='+30%'> after dinner</prosody>",
+            "script": "I will prolong the word feel, and I feel like going for a walk after dinner",
+            "label": "walk",
+            "pretend": "feel"
+        },
+        "38": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word meet, and let\u2019s meet at the park for a </prosody><prosody rate='-100%'>picnic</prosody><prosody rate='+30%'> this weekend</prosody>",
+            "script": "I will prolong the word meet, and let\u2019s meet at the park for a picnic this weekend",
+            "label": "picnic",
+            "pretend": "meet"
+        },
+        "39": {
+            "voice": "",
+            "style": "<prosody rate='+30%'>I will prolong the word amazing, and I </prosody><prosody rate='-100%'>heard</prosody><prosody rate='+30%'> that new restaurant has amazing food</prosody>",
+            "script": "I will prolong the word amazing, and I heard that new restaurant has amazing food",
+            "label": "heard",
+            "pretend": "amazing"
+        }
+    },
+    "stress": {
+        "prompt": "Which word has prominent stress in the audio?",
+        "0": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word stole, and I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>never</prosody><break time='150ms'/><prosody rate='+20%'> said she stole my money</prosody>",
+            "script": "I will stress the word stole, and I never said she stole my money",
+            "label": "never",
+            "pretend": "stole"
+        },
+        "1": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word choose, and you can choose the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>red</prosody><break time='150ms'/><prosody rate='+20%'> shirt or the blue one</prosody>",
+            "script": "I will stress the word choose, and you can choose the red shirt or the blue one",
+            "label": "red",
+            "pretend": "choose"
+        },
+        "2": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word stole, and I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>didn't</prosody><break time='150ms'/><prosody rate='+20%'> say she stole my money</prosody>",
+            "script": "I will stress the word stole, and I didn't say she stole my money",
+            "label": "didn't",
+            "pretend": "stole"
+        },
+        "3": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word take, and you can take </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>my</prosody><break time='150ms'/><prosody rate='+20%'> car to the party</prosody>",
+            "script": "I will stress the word take, and you can take my car to the party",
+            "label": "my",
+            "pretend": "take"
+        },
+        "4": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word looking, and they are looking for a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>new</prosody><break time='150ms'/><prosody rate='+20%'> apartment</prosody>",
+            "script": "I will stress the word looking, and they are looking for a new apartment",
+            "label": "new",
+            "pretend": "looking"
+        },
+        "5": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word eat, and I will eat the pizza </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>for</prosody><break time='150ms'/><prosody rate='+20%'> dinner</prosody>",
+            "script": "I will stress the word eat, and I will eat the pizza for dinner",
+            "label": "for",
+            "pretend": "eat"
+        },
+        "6": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word dress, and she </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>bought</prosody><break time='150ms'/><prosody rate='+20%'> a beautiful dress yesterday</prosody>",
+            "script": "I will stress the word dress, and she bought a beautiful dress yesterday",
+            "label": "bought",
+            "pretend": "dress"
+        },
+        "7": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word coffee, and we should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>meet</prosody><break time='150ms'/><prosody rate='+20%'> at the coffee shop</prosody>",
+            "script": "I will stress the word coffee, and we should meet at the coffee shop",
+            "label": "meet",
+            "pretend": "coffee"
+        },
+        "8": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word really, and he really enjoys </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>playing</prosody><break time='150ms'/><prosody rate='+20%'> soccer on weekends</prosody>",
+            "script": "I will stress the word really, and he really enjoys playing soccer on weekends",
+            "label": "playing",
+            "pretend": "really"
+        },
+        "9": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word finally, and they finally finished the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>big</prosody><break time='150ms'/><prosody rate='+20%'> project today</prosody>",
+            "script": "I will stress the word finally, and they finally finished the big project today",
+            "label": "big",
+            "pretend": "finally"
+        },
+        "10": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word stole, and I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>didn't</prosody><break time='150ms'/><prosody rate='+20%'> say she stole my money</prosody>",
+            "script": "I will stress the word stole, and I didn't say she stole my money",
+            "label": "didn't",
+            "pretend": "stole"
+        },
+        "11": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word can't, and you can't </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>believe</prosody><break time='150ms'/><prosody rate='+20%'> everything you hear</prosody>",
+            "script": "I will stress the word can't, and you can't believe everything you hear",
+            "label": "believe",
+            "pretend": "can't"
+        },
+        "12": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word should, and we should meet at the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>coffee</prosody><break time='150ms'/><prosody rate='+20%'> shop tomorrow</prosody>",
+            "script": "I will stress the word should, and we should meet at the coffee shop tomorrow",
+            "label": "coffee",
+            "pretend": "should"
+        },
+        "13": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word loves, and he loves playing </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>soccer</prosody><break time='150ms'/><prosody rate='+20%'> on the weekends</prosody>",
+            "script": "I will stress the word loves, and he loves playing soccer on the weekends",
+            "label": "soccer",
+            "pretend": "loves"
+        },
+        "14": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word travel, and they </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>are</prosody><break time='150ms'/><prosody rate='+20%'> planning to travel next month</prosody>",
+            "script": "I will stress the word travel, and they are planning to travel next month",
+            "label": "are",
+            "pretend": "travel"
+        },
+        "15": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word cooking, and she really </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>enjoys</prosody><break time='150ms'/><prosody rate='+20%'> cooking for her friends</prosody>",
+            "script": "I will stress the word cooking, and she really enjoys cooking for her friends",
+            "label": "enjoys",
+            "pretend": "cooking"
+        },
+        "16": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word thought, and I thought you said you would </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>help</prosody><break time='150ms'/><prosody rate='+20%'> me</prosody>",
+            "script": "I will stress the word thought, and I thought you said you would help me",
+            "label": "help",
+            "pretend": "thought"
+        },
+        "17": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word need, and we need to finish this </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>project</prosody><break time='150ms'/><prosody rate='+20%'> by Friday</prosody>",
+            "script": "I will stress the word need, and we need to finish this project by Friday",
+            "label": "project",
+            "pretend": "need"
+        },
+        "18": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word would, and he would rather </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>stay</prosody><break time='150ms'/><prosody rate='+20%'> home than go out</prosody>",
+            "script": "I will stress the word would, and he would rather stay home than go out",
+            "label": "stay",
+            "pretend": "would"
+        },
+        "19": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word early, and she </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>always</prosody><break time='150ms'/><prosody rate='+20%'> arrives early for her classes</prosody>",
+            "script": "I will stress the word early, and she always arrives early for her classes",
+            "label": "always",
+            "pretend": "early"
+        },
+        "20": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word stole, and I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>didn't</prosody><break time='150ms'/><prosody rate='+20%'> say he stole my money</prosody>",
+            "script": "I will stress the word stole, and I didn't say he stole my money",
+            "label": "didn't",
+            "pretend": "stole"
+        },
+        "21": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word can, and she can </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>eat</prosody><break time='150ms'/><prosody rate='+20%'> apples or oranges</prosody>",
+            "script": "I will stress the word can, and she can eat apples or oranges",
+            "label": "eat",
+            "pretend": "can"
+        },
+        "22": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word are, and we are going to the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>park</prosody><break time='150ms'/><prosody rate='+20%'> tomorrow</prosody>",
+            "script": "I will stress the word are, and we are going to the park tomorrow",
+            "label": "park",
+            "pretend": "are"
+        },
+        "23": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word always, and he always drinks </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>coffee</prosody><break time='150ms'/><prosody rate='+20%'> in the morning</prosody>",
+            "script": "I will stress the word always, and he always drinks coffee in the morning",
+            "label": "coffee",
+            "pretend": "always"
+        },
+        "24": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>will</prosody><break time='150ms'/><prosody rate='+20%'> stress the word project, and they will finish the project by Friday</prosody>",
+            "script": "I will stress the word project, and they will finish the project by Friday",
+            "label": "will",
+            "pretend": "project"
+        },
+        "25": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word call, and I think we </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>should</prosody><break time='150ms'/><prosody rate='+20%'> call her tonight</prosody>",
+            "script": "I will stress the word call, and I think we should call her tonight",
+            "label": "should",
+            "pretend": "call"
+        },
+        "26": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word have, and you have to try that </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>new</prosody><break time='150ms'/><prosody rate='+20%'> restaurant</prosody>",
+            "script": "I will stress the word have, and you have to try that new restaurant",
+            "label": "new",
+            "pretend": "have"
+        },
+        "27": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word brother, and my brother plays </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>soccer</prosody><break time='150ms'/><prosody rate='+20%'> every Sunday</prosody>",
+            "script": "I will stress the word brother, and my brother plays soccer every Sunday",
+            "label": "soccer",
+            "pretend": "brother"
+        },
+        "28": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word loves, and she loves to read </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>books</prosody><break time='150ms'/><prosody rate='+20%'> before bed</prosody>",
+            "script": "I will stress the word loves, and she loves to read books before bed",
+            "label": "books",
+            "pretend": "loves"
+        },
+        "29": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word dinner, and they </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>might</prosody><break time='150ms'/><prosody rate='+20%'> join us for dinner later</prosody>",
+            "script": "I will stress the word dinner, and they might join us for dinner later",
+            "label": "might",
+            "pretend": "dinner"
+        },
+        "30": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word you, and I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>didn't</prosody><break time='150ms'/><prosody rate='+20%'> say you took my book</prosody>",
+            "script": "I will stress the word you, and I didn't say you took my book",
+            "label": "didn't",
+            "pretend": "you"
+        },
+        "31": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word can, and she can </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>play</prosody><break time='150ms'/><prosody rate='+20%'> the guitar really well</prosody>",
+            "script": "I will stress the word can, and she can play the guitar really well",
+            "label": "play",
+            "pretend": "can"
+        },
+        "32": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word will, and we will have </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>dinner</prosody><break time='150ms'/><prosody rate='+20%'> at my place</prosody>",
+            "script": "I will stress the word will, and we will have dinner at my place",
+            "label": "dinner",
+            "pretend": "will"
+        },
+        "33": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word are, and they are going to the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>concert</prosody><break time='150ms'/><prosody rate='+20%'> tonight</prosody>",
+            "script": "I will stress the word are, and they are going to the concert tonight",
+            "label": "concert",
+            "pretend": "are"
+        },
+        "34": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word new, and he </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>wants</prosody><break time='150ms'/><prosody rate='+20%'> to buy a new car this year</prosody>",
+            "script": "I will stress the word new, and he wants to buy a new car this year",
+            "label": "wants",
+            "pretend": "new"
+        },
+        "35": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word try, and you should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>really</prosody><break time='150ms'/><prosody rate='+20%'> try this new restaurant</prosody>",
+            "script": "I will stress the word try, and you should really try this new restaurant",
+            "label": "really",
+            "pretend": "try"
+        },
+        "36": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word think, and I think we should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>leave</prosody><break time='150ms'/><prosody rate='+20%'> early tomorrow</prosody>",
+            "script": "I will stress the word think, and I think we should leave early tomorrow",
+            "label": "leave",
+            "pretend": "think"
+        },
+        "37": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word seems, and it seems like they are </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>running</prosody><break time='150ms'/><prosody rate='+20%'> late</prosody>",
+            "script": "I will stress the word seems, and it seems like they are running late",
+            "label": "running",
+            "pretend": "seems"
+        },
+        "38": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word weather, and the weather is perfect for a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>picnic</prosody><break time='150ms'/>",
+            "script": "I will stress the word weather, and the weather is perfect for a picnic",
+            "label": "picnic",
+            "pretend": "weather"
+        },
+        "39": {
+            "voice": "",
+            "style": "<prosody rate='+20%'>I will stress the word exciting, and this </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>movie</prosody><break time='150ms'/><prosody rate='+20%'> is more exciting than I expected</prosody>",
+            "script": "I will stress the word exciting, and this movie is more exciting than I expected",
+            "label": "movie",
+            "pretend": "exciting"
         }
     },
     "accent": {

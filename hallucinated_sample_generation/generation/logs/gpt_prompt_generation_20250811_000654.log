@@ -1,0 +1,68 @@
+2025-08-11 00:06:54,735 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250811_000654.log
+2025-08-11 00:06:54,767 | INFO | Extending stress with 10 new samples starting from index 0
+2025-08-11 00:06:54,767 | INFO | =================================================
+2025-08-11 00:06:54,767 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of objects only. Do not include explanations or extra commentary.
+2025-08-11 00:06:54,767 | INFO | -------------------------------------------------
+2025-08-11 00:06:54,767 | INFO | Generate 10 new TTS scripts.
+
+Your output MUST be a JSON array of objects.
+Each object must have:
+- "script": a sentence in everyday spoken English where more than one word could naturally be stressed, to convey different meanings.
+- "stressed": a list of 2-4 words in that sentence that could naturally be stressed.
+
+Your script MUST NOT contain any punctuation.
+
+Example format:
+[
+  {
+    "script": <your script>,
+    "stressed": <your list of words>
+  }
+]
+2025-08-11 00:06:54,767 | INFO | =================================================
+2025-08-11 00:07:01,162 | INFO | GPT Output:
+2025-08-11 00:07:01,162 | INFO | [
+  {
+    "script": "I can't believe you did that yesterday",
+    "stressed": ["can't", "believe", "yesterday"]
+  },
+  {
+    "script": "She really enjoys playing soccer on weekends",
+    "stressed": ["really", "enjoys", "soccer"]
+  },
+  {
+    "script": "We should definitely try that new restaurant",
+    "stressed": ["definitely", "try", "new"]
+  },
+  {
+    "script": "He said he would call me later tonight",
+    "stressed": ["said", "call", "later"]
+  },
+  {
+    "script": "This is the best cake I have ever tasted",
+    "stressed": ["best", "cake", "ever"]
+  },
+  {
+    "script": "They are planning a trip to the mountains soon",
+    "stressed": ["planning", "trip", "mountains"]
+  },
+  {
+    "script": "I thought you were going to help me with that",
+    "stressed": ["thought", "going", "help"]
+  },
+  {
+    "script": "Can you believe how fast this year has gone by",
+    "stressed": ["believe", "fast", "year"]
+  },
+  {
+    "script": "It looks like it might rain later today",
+    "stressed": ["looks", "might", "rain"]
+  },
+  {
+    "script": "I really need to get some more coffee now",
+    "stressed": ["really", "need", "more"]
+  }
+]
+2025-08-11 00:07:01,168 | INFO | Saved extended prompts to tts_prompts_base.json

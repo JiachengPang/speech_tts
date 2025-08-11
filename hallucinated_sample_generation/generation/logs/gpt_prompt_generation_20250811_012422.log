@@ -1,0 +1,68 @@
+2025-08-11 01:24:22,722 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250811_012422.log
+2025-08-11 01:24:22,753 | INFO | Extending stress with 10 new samples starting from index 20
+2025-08-11 01:24:22,753 | INFO | =================================================
+2025-08-11 01:24:22,753 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of objects only. Do not include explanations or extra commentary.
+2025-08-11 01:24:22,753 | INFO | -------------------------------------------------
+2025-08-11 01:24:22,753 | INFO | Generate 10 new TTS scripts.
+
+Your output MUST be a JSON array of objects.
+Each object must have:
+- "script": a sentence in everyday spoken English where more than one word could naturally be stressed, to convey different meanings.
+- "stressed": a list of 2-4 words in that sentence that could naturally be stressed, and it MUST NOT include the last word in that sentence.
+
+Your script MUST NOT contain any punctuation.
+
+Example format:
+[
+  {
+    "script": <your script>,
+    "stressed": <your list of words>
+  }
+]
+2025-08-11 01:24:22,753 | INFO | =================================================
+2025-08-11 01:24:27,922 | INFO | GPT Output:
+2025-08-11 01:24:27,922 | INFO | [
+  {
+    "script": "I didn't say he stole my money",
+    "stressed": ["didn't", "say", "stole"]
+  },
+  {
+    "script": "She can eat apples or oranges",
+    "stressed": ["can", "eat", "apples"]
+  },
+  {
+    "script": "We are going to the park tomorrow",
+    "stressed": ["are", "going", "park"]
+  },
+  {
+    "script": "He always drinks coffee in the morning",
+    "stressed": ["always", "drinks", "coffee"]
+  },
+  {
+    "script": "They will finish the project by Friday",
+    "stressed": ["will", "finish", "project"]
+  },
+  {
+    "script": "I think we should call her tonight",
+    "stressed": ["think", "should", "call"]
+  },
+  {
+    "script": "You have to try that new restaurant",
+    "stressed": ["have", "try", "new"]
+  },
+  {
+    "script": "My brother plays soccer every Sunday",
+    "stressed": ["brother", "plays", "soccer"]
+  },
+  {
+    "script": "She loves to read books before bed",
+    "stressed": ["loves", "read", "books"]
+  },
+  {
+    "script": "They might join us for dinner later",
+    "stressed": ["might", "join", "dinner"]
+  }
+]
+2025-08-11 01:24:27,928 | INFO | Saved extended prompts to tts_prompts_base.json

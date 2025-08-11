@@ -1,0 +1,4 @@
+2025-08-09 20:35:18,744 | INFO | [LOGGING] Output is being saved to: logs/tts_generation_20250809_203518.log
+2025-08-09 20:35:18,815 | INFO | Generating prolong/0 (en-US-AvaMultilingualNeural) to prolong_0_en-US-AvaMultilingualNeural.wav
+2025-08-09 20:35:19,270 | INFO | Generating prolong/0 (en-US-AndrewMultilingualNeural) to prolong_0_en-US-AndrewMultilingualNeural.wav
+2025-08-09 20:35:20,199 | INFO | task prolong reached target number of generation 2

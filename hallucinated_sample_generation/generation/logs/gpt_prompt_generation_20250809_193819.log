@@ -1,0 +1,69 @@
+2025-08-09 19:38:19,061 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250809_193819.log
+2025-08-09 19:38:19,137 | INFO | Extending pause with 10 new samples starting from index 3
+2025-08-09 19:38:19,137 | INFO | =================================================
+2025-08-09 19:38:19,137 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of objects only. Do not include explanations or extra commentary.
+2025-08-09 19:38:19,137 | INFO | -------------------------------------------------
+2025-08-09 19:38:19,137 | INFO | Generate 10 new TTS scripts.
+
+Your output MUST be a JSON array of objects.
+Each object must have:
+- "script": a sentence in everyday spoken English where a pause could naturally occur in more than one place (2 - 4 places).
+- "pauses": a list of words in that sentence that could naturally be followed by a pause.
+
+Your script MUST NOT contain any punctuation other than the ending period.
+The pauses MUST NOT include the last word in the script.
+
+Example format:
+[
+  {
+    "script": "I never said she stole the money.",
+    "pauses": ["I", "said", "she"]
+  }
+]
+2025-08-09 19:38:19,137 | INFO | =================================================
+2025-08-09 19:38:24,515 | INFO | GPT Output:
+2025-08-09 19:38:24,515 | INFO | [
+  {
+    "script": "Can you believe how fast this year has gone",
+    "pauses": ["can", "believe", "how"]
+  },
+  {
+    "script": "I was thinking about going to the movies later",
+    "pauses": ["was", "about", "going"]
+  },
+  {
+    "script": "She wanted to know if he would come to the party",
+    "pauses": ["wanted", "know", "if"]
+  },
+  {
+    "script": "It's important to remember to take breaks during work",
+    "pauses": ["important", "remember", "to"]
+  },
+  {
+    "script": "Do you think we should order pizza or something else for dinner",
+    "pauses": ["think", "should", "or"]
+  },
+  {
+    "script": "He told me that he would help with the project",
+    "pauses": ["told", "that", "would"]
+  },
+  {
+    "script": "I can't decide whether to stay home or go out tonight",
+    "pauses": ["decide", "whether", "to"]
+  },
+  {
+    "script": "The weather is nice but it might rain later",
+    "pauses": ["nice", "but", "it"]
+  },
+  {
+    "script": "She loves to read books during her free time",
+    "pauses": ["loves", "to", "during"]
+  },
+  {
+    "script": "We should probably start preparing for the exam soon",
+    "pauses": ["should", "start", "preparing"]
+  }
+]
+2025-08-09 19:38:24,521 | INFO | Saved extended prompts to tts_prompts_base.json
