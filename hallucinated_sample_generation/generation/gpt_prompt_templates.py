@@ -174,10 +174,14 @@ Each object is formatted like this:
         "user": """
 Generate {num} new TTS scripts.
 
-Each script is a person stating they are speaking with a {pretend} intonation, must include the word "{pretend}" somewhere, and must not include the word "{label}" or a question mark.
+Each script is a person stating they are speaking with a {pretend} intonation, must include the word "{pretend}" somewhere, and must not include the word "{label}".
+
+Your script must NOT include any punctuation.
 
 For example, this is a script of a person stating they are speaking with a {pretend} intonation:
 {example_script}
+
+Your scripts should have diversity and should not simply follow the provided example.
 
 Return only a JSON array of these scripts.
 """
@@ -238,7 +242,7 @@ Generate {num} new TTS scripts.
 Your output MUST be a JSON array of objects.
 Each object must have:
 - "script": a sentence in everyday spoken English where more than one word could naturally be stressed, to convey different meanings.
-- "stressed": a list of 2-4 words in that sentence that could naturally be stressed, and it MUST NOT include the last word in that sentence.
+- "stressed": a list of 2 words in that sentence that could naturally be stressed, and it MUST NOT include the last word in that sentence.
 
 Your script MUST NOT contain any punctuation.
 

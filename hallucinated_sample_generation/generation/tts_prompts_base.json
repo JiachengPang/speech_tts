@@ -3817,28 +3817,287 @@
         ]
     },
     "intonation": {
-        "prompt": "Is the intonation rising or falling at the end of the sentence?",
+        "prompt": "Is the intonation of the entire sentence rising or falling?",
         "rising": [
             {
-                "voice": "all",
-                "style": "Speak the sentence in a rising intonation, ending with an upward inflection, as if unsure or questioning",
-                "script": "I am aware that my voice has a falling intonation.",
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>I can tell you that my voice has a falling intonation?</prosody>",
+                "script": "I can tell you that my voice has a falling intonation?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>I notice my speech often features a falling intonation?</prosody>",
+                "script": "I notice my speech often features a falling intonation?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>I am speaking with a falling intonation?</prosody>",
+                "script": "I am speaking with a falling intonation?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>You can hear that I have a falling intonation when I talk?</prosody>",
+                "script": "You can hear that I have a falling intonation when I talk?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>It is clear that my tone is falling as I speak?</prosody>",
+                "script": "It is clear that my tone is falling as I speak?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>I notice my voice has a falling intonation right now?</prosody>",
+                "script": "I notice my voice has a falling intonation right now?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>I would describe my speech as having a falling intonation?</prosody>",
+                "script": "I would describe my speech as having a falling intonation?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>There is definitely a falling intonation in my voice as I express these thoughts?</prosody>",
+                "script": "There is definitely a falling intonation in my voice as I express these thoughts?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>You might recognize my falling intonation in this conversation?</prosody>",
+                "script": "You might recognize my falling intonation in this conversation?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>I find that using a falling intonation can change the way I sound?</prosody>",
+                "script": "I find that using a falling intonation can change the way I sound?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>I want to share that my tone has a falling intonation?</prosody>",
+                "script": "I want to share that my tone has a falling intonation?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>You will notice that I am using a falling intonation in my speech?</prosody>",
+                "script": "You will notice that I am using a falling intonation in my speech?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>It is clear that I am speaking with a falling intonation now?</prosody>",
+                "script": "It is clear that I am speaking with a falling intonation now?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>I can assure you my delivery includes a falling intonation?</prosody>",
+                "script": "I can assure you my delivery includes a falling intonation?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>I feel that my words carry a falling intonation today?</prosody>",
+                "script": "I feel that my words carry a falling intonation today?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>I realize my voice demonstrates a falling intonation pattern?</prosody>",
+                "script": "I realize my voice demonstrates a falling intonation pattern?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>I must mention that my expression reflects a falling intonation?</prosody>",
+                "script": "I must mention that my expression reflects a falling intonation?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>It is evident that I am communicating with a falling intonation?</prosody>",
+                "script": "It is evident that I am communicating with a falling intonation?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>I hope you can hear my use of a falling intonation in this message?</prosody>",
+                "script": "I hope you can hear my use of a falling intonation in this message?",
+                "label": "rising",
+                "pretend": "falling"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, +50%)'>I believe my speech features a falling intonation style?</prosody>",
+                "script": "I believe my speech features a falling intonation style?",
                 "label": "rising",
                 "pretend": "falling"
             }
         ],
         "falling": [
             {
-                "voice": "all",
-                "style": "Speak the sentence in a falling intonation, ending with a downward inflection, as if making an assertion rather than asking a question.",
-                "script": "You really think this is a good idea.",
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>I am speaking with a rising intonation.</prosody>",
+                "script": "I am speaking with a rising intonation.",
                 "label": "falling",
                 "pretend": "rising"
             },
             {
-                "voice": "all",
-                "style": "Speak the sentence in a falling intonation, ending with a downward inflection, as if making an assertion rather than asking a question.",
-                "script": "I am speaking with a rising intonation today",
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>I am currently speaking with a rising tone.</prosody>",
+                "script": "I am currently speaking with a rising tone.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>This conversation feels like it is rising.</prosody>",
+                "script": "This conversation feels like it is rising.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>I notice my voice is rising as I speak.</prosody>",
+                "script": "I notice my voice is rising as I speak.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>You can tell I am speaking with a rising intonation.</prosody>",
+                "script": "You can tell I am speaking with a rising intonation.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>I feel the excitement rising in my voice.</prosody>",
+                "script": "I feel the excitement rising in my voice.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>My words are definitely rising in a melodic way.</prosody>",
+                "script": "My words are definitely rising in a melodic way.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>As I continue I can sense my pitch is rising.</prosody>",
+                "script": "As I continue I can sense my pitch is rising.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>There is a noticeable rising quality to my speech.</prosody>",
+                "script": "There is a noticeable rising quality to my speech.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>I am expressing myself with a rising intonation.</prosody>",
+                "script": "I am expressing myself with a rising intonation.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>I want to share my thoughts with a rising tone.</prosody>",
+                "script": "I want to share my thoughts with a rising tone.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>Can you hear my voice with a rising inflection.</prosody>",
+                "script": "Can you hear my voice with a rising inflection.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>I feel excited while speaking with a rising pitch.</prosody>",
+                "script": "I feel excited while speaking with a rising pitch.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>Listen closely to my words as I am rising in tone.</prosody>",
+                "script": "Listen closely to my words as I am rising in tone.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>I am expressing my feelings with a rising quality.</prosody>",
+                "script": "I am expressing my feelings with a rising quality.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>I notice my excitement when I speak with a rising intonation.</prosody>",
+                "script": "I notice my excitement when I speak with a rising intonation.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>Let me tell you something important with a rising voice.</prosody>",
+                "script": "Let me tell you something important with a rising voice.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>I always find myself talking with a rising emphasis.</prosody>",
+                "script": "I always find myself talking with a rising emphasis.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>I am delivering this message with a rising sound.</prosody>",
+                "script": "I am delivering this message with a rising sound.",
+                "label": "falling",
+                "pretend": "rising"
+            },
+            {
+                "voice": "",
+                "style": "<prosody contour='(0%, +0%) (100%, -50%)'>My energy is increasing as I speak with a rising cadence.</prosody>",
+                "script": "My energy is increasing as I speak with a rising cadence.",
                 "label": "falling",
                 "pretend": "rising"
             }
@@ -4414,283 +4673,283 @@
         "prompt": "Which word has prominent stress in the audio?",
         "0": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word stole, and I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>never</prosody><break time='150ms'/><prosody rate='+20%'> said she stole my money</prosody>",
-            "script": "I will stress the word stole, and I never said she stole my money",
-            "label": "never",
-            "pretend": "stole"
+            "style": "<prosody rate='+20%'>I will stress the word never, and I never said she </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>stole</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> my money</prosody>",
+            "script": "I will stress the word never, and I never said she stole my money",
+            "label": "stole",
+            "pretend": "never"
         },
         "1": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word choose, and you can choose the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>red</prosody><break time='150ms'/><prosody rate='+20%'> shirt or the blue one</prosody>",
-            "script": "I will stress the word choose, and you can choose the red shirt or the blue one",
-            "label": "red",
-            "pretend": "choose"
+            "style": "<prosody rate='+20%'>I will stress the word park, and they are </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>meeting</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> us at the park</prosody>",
+            "script": "I will stress the word park, and they are meeting us at the park",
+            "label": "meeting",
+            "pretend": "park"
         },
         "2": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word stole, and I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>didn't</prosody><break time='150ms'/><prosody rate='+20%'> say she stole my money</prosody>",
-            "script": "I will stress the word stole, and I didn't say she stole my money",
-            "label": "didn't",
-            "pretend": "stole"
+            "style": "<prosody rate='+20%'>I will stress the word play, and she can play the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>piano</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> very well</prosody>",
+            "script": "I will stress the word play, and she can play the piano very well",
+            "label": "piano",
+            "pretend": "play"
         },
         "3": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word take, and you can take </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>my</prosody><break time='150ms'/><prosody rate='+20%'> car to the party</prosody>",
-            "script": "I will stress the word take, and you can take my car to the party",
-            "label": "my",
-            "pretend": "take"
+            "style": "<prosody rate='+20%'>I will stress the word really, and you should really </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>call</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> your mother</prosody>",
+            "script": "I will stress the word really, and you should really call your mother",
+            "label": "call",
+            "pretend": "really"
         },
         "4": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word looking, and they are looking for a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>new</prosody><break time='150ms'/><prosody rate='+20%'> apartment</prosody>",
-            "script": "I will stress the word looking, and they are looking for a new apartment",
-            "label": "new",
-            "pretend": "looking"
+            "style": "<prosody rate='+20%'>I will stress the word join, and he </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>wants</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to join us for dinner</prosody>",
+            "script": "I will stress the word join, and he wants to join us for dinner",
+            "label": "wants",
+            "pretend": "join"
         },
         "5": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word eat, and I will eat the pizza </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>for</prosody><break time='150ms'/><prosody rate='+20%'> dinner</prosody>",
-            "script": "I will stress the word eat, and I will eat the pizza for dinner",
-            "label": "for",
-            "pretend": "eat"
+            "style": "<prosody rate='+20%'>I will stress the word found, and we found the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>cat</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> under the couch</prosody>",
+            "script": "I will stress the word found, and we found the cat under the couch",
+            "label": "cat",
+            "pretend": "found"
         },
         "6": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word dress, and she </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>bought</prosody><break time='150ms'/><prosody rate='+20%'> a beautiful dress yesterday</prosody>",
-            "script": "I will stress the word dress, and she bought a beautiful dress yesterday",
-            "label": "bought",
-            "pretend": "dress"
+            "style": "<prosody rate='+20%'>I will stress the word help, and I will help you with your </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>homework</prosody><break time='150ms'/>",
+            "script": "I will stress the word help, and I will help you with your homework",
+            "label": "homework",
+            "pretend": "help"
         },
         "7": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word coffee, and we should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>meet</prosody><break time='150ms'/><prosody rate='+20%'> at the coffee shop</prosody>",
-            "script": "I will stress the word coffee, and we should meet at the coffee shop",
-            "label": "meet",
-            "pretend": "coffee"
+            "style": "<prosody rate='+20%'>I will stress the word decided, and they decided to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>leave</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the party early</prosody>",
+            "script": "I will stress the word decided, and they decided to leave the party early",
+            "label": "leave",
+            "pretend": "decided"
         },
         "8": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word really, and he really enjoys </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>playing</prosody><break time='150ms'/><prosody rate='+20%'> soccer on weekends</prosody>",
-            "script": "I will stress the word really, and he really enjoys playing soccer on weekends",
-            "label": "playing",
-            "pretend": "really"
+            "style": "<prosody rate='+20%'>I will stress the word gym, and she </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>often</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> goes to the gym after work</prosody>",
+            "script": "I will stress the word gym, and she often goes to the gym after work",
+            "label": "often",
+            "pretend": "gym"
         },
         "9": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word finally, and they finally finished the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>big</prosody><break time='150ms'/><prosody rate='+20%'> project today</prosody>",
-            "script": "I will stress the word finally, and they finally finished the big project today",
-            "label": "big",
-            "pretend": "finally"
+            "style": "<prosody rate='+20%'>I will stress the word dessert, and he </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>always</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> brings dessert to the gathering</prosody>",
+            "script": "I will stress the word dessert, and he always brings dessert to the gathering",
+            "label": "always",
+            "pretend": "dessert"
         },
         "10": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word stole, and I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>didn't</prosody><break time='150ms'/><prosody rate='+20%'> say she stole my money</prosody>",
-            "script": "I will stress the word stole, and I didn't say she stole my money",
-            "label": "didn't",
-            "pretend": "stole"
+            "style": "<prosody rate='+20%'>I will stress the word really, and I really want to go to the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>concert</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> tonight</prosody>",
+            "script": "I will stress the word really, and I really want to go to the concert tonight",
+            "label": "concert",
+            "pretend": "really"
         },
         "11": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word can't, and you can't </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>believe</prosody><break time='150ms'/><prosody rate='+20%'> everything you hear</prosody>",
-            "script": "I will stress the word can't, and you can't believe everything you hear",
-            "label": "believe",
-            "pretend": "can't"
+            "style": "<prosody rate='+20%'>I will stress the word help, and she </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>said</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> she would help us with the project</prosody>",
+            "script": "I will stress the word help, and she said she would help us with the project",
+            "label": "said",
+            "pretend": "help"
         },
         "12": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word should, and we should meet at the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>coffee</prosody><break time='150ms'/><prosody rate='+20%'> shop tomorrow</prosody>",
-            "script": "I will stress the word should, and we should meet at the coffee shop tomorrow",
-            "label": "coffee",
-            "pretend": "should"
+            "style": "<prosody rate='+20%'>I will stress the word choose, and you can choose either the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>red</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> or the blue dress</prosody>",
+            "script": "I will stress the word choose, and you can choose either the red or the blue dress",
+            "label": "red",
+            "pretend": "choose"
         },
         "13": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word loves, and he loves playing </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>soccer</prosody><break time='150ms'/><prosody rate='+20%'> on the weekends</prosody>",
-            "script": "I will stress the word loves, and he loves playing soccer on the weekends",
-            "label": "soccer",
-            "pretend": "loves"
+            "style": "<prosody rate='+20%'>I will stress the word planning, and they are planning a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>trip</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to the mountains next week</prosody>",
+            "script": "I will stress the word planning, and they are planning a trip to the mountains next week",
+            "label": "trip",
+            "pretend": "planning"
         },
         "14": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word travel, and they </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>are</prosody><break time='150ms'/><prosody rate='+20%'> planning to travel next month</prosody>",
-            "script": "I will stress the word travel, and they are planning to travel next month",
-            "label": "are",
-            "pretend": "travel"
+            "style": "<prosody rate='+20%'>I will stress the word finish, and he </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>thought</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> he could finish the book by tomorrow</prosody>",
+            "script": "I will stress the word finish, and he thought he could finish the book by tomorrow",
+            "label": "thought",
+            "pretend": "finish"
         },
         "15": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word cooking, and she really </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>enjoys</prosody><break time='150ms'/><prosody rate='+20%'> cooking for her friends</prosody>",
-            "script": "I will stress the word cooking, and she really enjoys cooking for her friends",
-            "label": "enjoys",
-            "pretend": "cooking"
+            "style": "<prosody rate='+20%'>I will stress the word definitely, and we should definitely </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>try</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> that new restaurant nearby</prosody>",
+            "script": "I will stress the word definitely, and we should definitely try that new restaurant nearby",
+            "label": "try",
+            "pretend": "definitely"
         },
         "16": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word thought, and I thought you said you would </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>help</prosody><break time='150ms'/><prosody rate='+20%'> me</prosody>",
-            "script": "I will stress the word thought, and I thought you said you would help me",
-            "label": "help",
-            "pretend": "thought"
+            "style": "<prosody rate='+20%'>I will stress the word heard, and I heard that you got a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>new</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> job at the company</prosody>",
+            "script": "I will stress the word heard, and I heard that you got a new job at the company",
+            "label": "new",
+            "pretend": "heard"
         },
         "17": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word need, and we need to finish this </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>project</prosody><break time='150ms'/><prosody rate='+20%'> by Friday</prosody>",
-            "script": "I will stress the word need, and we need to finish this project by Friday",
-            "label": "project",
-            "pretend": "need"
+            "style": "<prosody rate='+20%'>I will stress the word weekend, and this weekend we are going to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>visit</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the museum</prosody>",
+            "script": "I will stress the word weekend, and this weekend we are going to visit the museum",
+            "label": "visit",
+            "pretend": "weekend"
         },
         "18": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word would, and he would rather </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>stay</prosody><break time='150ms'/><prosody rate='+20%'> home than go out</prosody>",
-            "script": "I will stress the word would, and he would rather stay home than go out",
-            "label": "stay",
-            "pretend": "would"
+            "style": "<prosody rate='+20%'>I will stress the word much, and can you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>believe</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> how much it rained yesterday</prosody>",
+            "script": "I will stress the word much, and can you believe how much it rained yesterday",
+            "label": "believe",
+            "pretend": "much"
         },
         "19": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word early, and she </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>always</prosody><break time='150ms'/><prosody rate='+20%'> arrives early for her classes</prosody>",
-            "script": "I will stress the word early, and she always arrives early for her classes",
-            "label": "always",
-            "pretend": "early"
+            "style": "<prosody rate='+20%'>I will stress the word finish, and they will </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>join</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> us for dinner if they finish early</prosody>",
+            "script": "I will stress the word finish, and they will join us for dinner if they finish early",
+            "label": "join",
+            "pretend": "finish"
         },
         "20": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word stole, and I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>didn't</prosody><break time='150ms'/><prosody rate='+20%'> say he stole my money</prosody>",
-            "script": "I will stress the word stole, and I didn't say he stole my money",
-            "label": "didn't",
-            "pretend": "stole"
+            "style": "<prosody rate='+20%'>I will stress the word really, and I really want to go to the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>park</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> today</prosody>",
+            "script": "I will stress the word really, and I really want to go to the park today",
+            "label": "park",
+            "pretend": "really"
         },
         "21": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word can, and she can </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>eat</prosody><break time='150ms'/><prosody rate='+20%'> apples or oranges</prosody>",
-            "script": "I will stress the word can, and she can eat apples or oranges",
-            "label": "eat",
-            "pretend": "can"
+            "style": "<prosody rate='+20%'>I will stress the word later, and she can </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>watch</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a movie with us later</prosody>",
+            "script": "I will stress the word later, and she can watch a movie with us later",
+            "label": "watch",
+            "pretend": "later"
         },
         "22": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word are, and we are going to the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>park</prosody><break time='150ms'/><prosody rate='+20%'> tomorrow</prosody>",
-            "script": "I will stress the word are, and we are going to the park tomorrow",
-            "label": "park",
-            "pretend": "are"
+            "style": "<prosody rate='+20%'>I will stress the word have, and they will have lunch </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>together</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> at noon</prosody>",
+            "script": "I will stress the word have, and they will have lunch together at noon",
+            "label": "together",
+            "pretend": "have"
         },
         "23": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word always, and he always drinks </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>coffee</prosody><break time='150ms'/><prosody rate='+20%'> in the morning</prosody>",
-            "script": "I will stress the word always, and he always drinks coffee in the morning",
-            "label": "coffee",
-            "pretend": "always"
+            "style": "<prosody rate='+20%'>I will stress the word bring, and he might bring his </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>guitar</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to the party</prosody>",
+            "script": "I will stress the word bring, and he might bring his guitar to the party",
+            "label": "guitar",
+            "pretend": "bring"
         },
         "24": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>will</prosody><break time='150ms'/><prosody rate='+20%'> stress the word project, and they will finish the project by Friday</prosody>",
-            "script": "I will stress the word project, and they will finish the project by Friday",
-            "label": "will",
-            "pretend": "project"
+            "style": "<prosody rate='+20%'>I will stress the word concert, and we should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>invite</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> them to the concert</prosody>",
+            "script": "I will stress the word concert, and we should invite them to the concert",
+            "label": "invite",
+            "pretend": "concert"
         },
         "25": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word call, and I think we </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>should</prosody><break time='150ms'/><prosody rate='+20%'> call her tonight</prosody>",
-            "script": "I will stress the word call, and I think we should call her tonight",
-            "label": "should",
-            "pretend": "call"
+            "style": "<prosody rate='+20%'>I will stress the word help, and I can help you with your </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>homework</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> tomorrow</prosody>",
+            "script": "I will stress the word help, and I can help you with your homework tomorrow",
+            "label": "homework",
+            "pretend": "help"
         },
         "26": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word have, and you have to try that </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>new</prosody><break time='150ms'/><prosody rate='+20%'> restaurant</prosody>",
-            "script": "I will stress the word have, and you have to try that new restaurant",
-            "label": "new",
-            "pretend": "have"
+            "style": "<prosody rate='+20%'>I will stress the word really, and the cat really loves to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>play</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> with string</prosody>",
+            "script": "I will stress the word really, and the cat really loves to play with string",
+            "label": "play",
+            "pretend": "really"
         },
         "27": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word brother, and my brother plays </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>soccer</prosody><break time='150ms'/><prosody rate='+20%'> every Sunday</prosody>",
-            "script": "I will stress the word brother, and my brother plays soccer every Sunday",
-            "label": "soccer",
-            "pretend": "brother"
+            "style": "<prosody rate='+20%'>I will stress the word always, and she always enjoys </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>reading</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> in the evening</prosody>",
+            "script": "I will stress the word always, and she always enjoys reading in the evening",
+            "label": "reading",
+            "pretend": "always"
         },
         "28": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word loves, and she loves to read </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>books</prosody><break time='150ms'/><prosody rate='+20%'> before bed</prosody>",
-            "script": "I will stress the word loves, and she loves to read books before bed",
-            "label": "books",
-            "pretend": "loves"
+            "style": "<prosody rate='+20%'>I will stress the word friend, and you should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>call</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> your friend about the event</prosody>",
+            "script": "I will stress the word friend, and you should call your friend about the event",
+            "label": "call",
+            "pretend": "friend"
         },
         "29": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word dinner, and they </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>might</prosody><break time='150ms'/><prosody rate='+20%'> join us for dinner later</prosody>",
-            "script": "I will stress the word dinner, and they might join us for dinner later",
-            "label": "might",
-            "pretend": "dinner"
+            "style": "<prosody rate='+20%'>I will stress the word time, and we are going to have a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>great</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> time at the beach</prosody>",
+            "script": "I will stress the word time, and we are going to have a great time at the beach",
+            "label": "great",
+            "pretend": "time"
         },
         "30": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word you, and I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>didn't</prosody><break time='150ms'/><prosody rate='+20%'> say you took my book</prosody>",
-            "script": "I will stress the word you, and I didn't say you took my book",
-            "label": "didn't",
-            "pretend": "you"
+            "style": "<prosody rate='+20%'>I will stress the word can't, and I can't believe you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>bought</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> that car</prosody>",
+            "script": "I will stress the word can't, and I can't believe you bought that car",
+            "label": "bought",
+            "pretend": "can't"
         },
         "31": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word can, and she can </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>play</prosody><break time='150ms'/><prosody rate='+20%'> the guitar really well</prosody>",
-            "script": "I will stress the word can, and she can play the guitar really well",
-            "label": "play",
-            "pretend": "can"
+            "style": "<prosody rate='+20%'>I will stress the word go, and she </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>said</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> we can go to the park</prosody>",
+            "script": "I will stress the word go, and she said we can go to the park",
+            "label": "said",
+            "pretend": "go"
         },
         "32": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word will, and we will have </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>dinner</prosody><break time='150ms'/><prosody rate='+20%'> at my place</prosody>",
-            "script": "I will stress the word will, and we will have dinner at my place",
-            "label": "dinner",
-            "pretend": "will"
+            "style": "<prosody rate='+20%'>I will stress the word always, and they always enjoy </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>playing</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> soccer together</prosody>",
+            "script": "I will stress the word always, and they always enjoy playing soccer together",
+            "label": "playing",
+            "pretend": "always"
         },
         "33": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word are, and they are going to the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>concert</prosody><break time='150ms'/><prosody rate='+20%'> tonight</prosody>",
-            "script": "I will stress the word are, and they are going to the concert tonight",
-            "label": "concert",
-            "pretend": "are"
+            "style": "<prosody rate='+20%'>I will stress the word really, and he really wants to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>learn</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> how to cook</prosody>",
+            "script": "I will stress the word really, and he really wants to learn how to cook",
+            "label": "learn",
+            "pretend": "really"
         },
         "34": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word new, and he </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>wants</prosody><break time='150ms'/><prosody rate='+20%'> to buy a new car this year</prosody>",
-            "script": "I will stress the word new, and he wants to buy a new car this year",
-            "label": "wants",
+            "style": "<prosody rate='+20%'>I will stress the word new, and we should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>try</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> that new restaurant tonight</prosody>",
+            "script": "I will stress the word new, and we should try that new restaurant tonight",
+            "label": "try",
             "pretend": "new"
         },
         "35": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word try, and you should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>really</prosody><break time='150ms'/><prosody rate='+20%'> try this new restaurant</prosody>",
-            "script": "I will stress the word try, and you should really try this new restaurant",
-            "label": "really",
-            "pretend": "try"
+            "style": "<prosody rate='+20%'>I will stress the word think, and I think you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>left</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> your bag at home</prosody>",
+            "script": "I will stress the word think, and I think you left your bag at home",
+            "label": "left",
+            "pretend": "think"
         },
         "36": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word think, and I think we should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>leave</prosody><break time='150ms'/><prosody rate='+20%'> early tomorrow</prosody>",
-            "script": "I will stress the word think, and I think we should leave early tomorrow",
-            "label": "leave",
-            "pretend": "think"
+            "style": "<prosody rate='+20%'>I will stress the word help, and she can help us with the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>project</prosody><break time='150ms'/>",
+            "script": "I will stress the word help, and she can help us with the project",
+            "label": "project",
+            "pretend": "help"
         },
         "37": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word seems, and it seems like they are </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>running</prosody><break time='150ms'/><prosody rate='+20%'> late</prosody>",
-            "script": "I will stress the word seems, and it seems like they are running late",
-            "label": "running",
-            "pretend": "seems"
+            "style": "<prosody rate='+20%'>I will stress the word told, and they told me the movie was </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>really</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> good</prosody>",
+            "script": "I will stress the word told, and they told me the movie was really good",
+            "label": "really",
+            "pretend": "told"
         },
         "38": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word weather, and the weather is perfect for a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>picnic</prosody><break time='150ms'/>",
-            "script": "I will stress the word weather, and the weather is perfect for a picnic",
-            "label": "picnic",
-            "pretend": "weather"
+            "style": "<prosody rate='+20%'>I will stress the word song, and I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>heard</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> that song on the radio today</prosody>",
+            "script": "I will stress the word song, and I heard that song on the radio today",
+            "label": "heard",
+            "pretend": "song"
         },
         "39": {
             "voice": "",
-            "style": "<prosody rate='+20%'>I will stress the word exciting, and this </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>movie</prosody><break time='150ms'/><prosody rate='+20%'> is more exciting than I expected</prosody>",
-            "script": "I will stress the word exciting, and this movie is more exciting than I expected",
-            "label": "movie",
-            "pretend": "exciting"
+            "style": "<prosody rate='+20%'>I will stress the word trip, and we are </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>planning</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a trip to the beach next week</prosody>",
+            "script": "I will stress the word trip, and we are planning a trip to the beach next week",
+            "label": "planning",
+            "pretend": "trip"
         }
     },
     "accent": {

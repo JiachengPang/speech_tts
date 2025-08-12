@@ -1,0 +1,61 @@
+2025-08-11 15:07:18,122 | INFO | [LOGGING] Output is being saved to: logs/tts_generation_20250811_150718.log
+2025-08-11 15:07:18,220 | INFO | Processing default task intonation subtask rising
+2025-08-11 15:07:18,221 | INFO | Generating intonation/rising (en-US-AvaMultilingualNeural) to intonation_rising_0_en-US-AvaMultilingualNeural.wav
+2025-08-11 15:07:18,473 | INFO | Generating intonation/rising (en-US-AndrewMultilingualNeural) to intonation_rising_0_en-US-AndrewMultilingualNeural.wav
+2025-08-11 15:07:18,540 | INFO | Generating intonation/rising (en-US-EmmaMultilingualNeural) to intonation_rising_0_en-US-EmmaMultilingualNeural.wav
+2025-08-11 15:07:18,626 | INFO | Generating intonation/rising (en-US-AlloyTurboMultilingualNeural) to intonation_rising_0_en-US-AlloyTurboMultilingualNeural.wav
+2025-08-11 15:07:18,711 | INFO | Generating intonation/rising (en-US-EchoTurboMultilingualNeural) to intonation_rising_0_en-US-EchoTurboMultilingualNeural.wav
+2025-08-11 15:07:18,778 | INFO | Generating intonation/rising (en-US-FableTurboMultilingualNeural) to intonation_rising_0_en-US-FableTurboMultilingualNeural.wav
+2025-08-11 15:07:18,844 | INFO | Generating intonation/rising (en-US-OnyxTurboMultilingualNeural) to intonation_rising_0_en-US-OnyxTurboMultilingualNeural.wav
+2025-08-11 15:07:18,920 | INFO | Generating intonation/rising (en-US-NovaTurboMultilingualNeural) to intonation_rising_0_en-US-NovaTurboMultilingualNeural.wav
+2025-08-11 15:07:18,986 | INFO | Generating intonation/rising (en-US-ShimmerTurboMultilingualNeural) to intonation_rising_0_en-US-ShimmerTurboMultilingualNeural.wav
+2025-08-11 15:07:19,052 | INFO | Generating intonation/rising (en-US-BrianMultilingualNeural) to intonation_rising_0_en-US-BrianMultilingualNeural.wav
+2025-08-11 15:07:19,128 | INFO | Generating intonation/rising (en-US-AvaNeural) to intonation_rising_0_en-US-AvaNeural.wav
+2025-08-11 15:07:19,203 | INFO | Generating intonation/rising (en-US-AndrewNeural) to intonation_rising_0_en-US-AndrewNeural.wav
+2025-08-11 15:07:19,270 | INFO | Generating intonation/rising (en-US-EmmaNeural) to intonation_rising_0_en-US-EmmaNeural.wav
+2025-08-11 15:07:19,337 | INFO | Generating intonation/rising (en-US-BrianNeural) to intonation_rising_0_en-US-BrianNeural.wav
+2025-08-11 15:07:19,403 | INFO | Generating intonation/rising (en-US-JennyNeural) to intonation_rising_0_en-US-JennyNeural.wav
+2025-08-11 15:07:19,471 | INFO | Generating intonation/rising (en-US-GuyNeural) to intonation_rising_0_en-US-GuyNeural.wav
+2025-08-11 15:07:19,536 | INFO | Generating intonation/rising (en-US-AriaNeural) to intonation_rising_0_en-US-AriaNeural.wav
+2025-08-11 15:07:19,602 | INFO | Generating intonation/rising (en-US-DavisNeural) to intonation_rising_0_en-US-DavisNeural.wav
+2025-08-11 15:07:19,669 | INFO | Generating intonation/rising (en-US-JaneNeural) to intonation_rising_0_en-US-JaneNeural.wav
+2025-08-11 15:07:19,754 | INFO | Generating intonation/rising (en-US-JasonNeural) to intonation_rising_0_en-US-JasonNeural.wav
+2025-08-11 15:07:19,884 | INFO | Generating intonation/rising (en-US-KaiNeural) to intonation_rising_0_en-US-KaiNeural.wav
+2025-08-11 15:07:19,968 | INFO | Generating intonation/rising (en-US-LunaNeural) to intonation_rising_0_en-US-LunaNeural.wav
+2025-08-11 15:07:20,035 | INFO | Generating intonation/rising (en-US-SaraNeural) to intonation_rising_0_en-US-SaraNeural.wav
+2025-08-11 15:07:20,111 | INFO | Generating intonation/rising (en-US-TonyNeural) to intonation_rising_0_en-US-TonyNeural.wav
+2025-08-11 15:07:20,187 | INFO | Generating intonation/rising (en-US-NancyNeural) to intonation_rising_0_en-US-NancyNeural.wav
+2025-08-11 15:07:20,281 | INFO | Generating intonation/rising (en-US-CoraMultilingualNeural) to intonation_rising_0_en-US-CoraMultilingualNeural.wav
+2025-08-11 15:07:20,356 | INFO | Generating intonation/rising (en-US-ChristopherMultilingualNeural) to intonation_rising_0_en-US-ChristopherMultilingualNeural.wav
+2025-08-11 15:07:20,423 | INFO | Generating intonation/rising (en-US-BrandonMultilingualNeural) to intonation_rising_0_en-US-BrandonMultilingualNeural.wav
+2025-08-11 15:07:20,510 | INFO | Generating intonation/rising (en-US-AmberNeural) to intonation_rising_0_en-US-AmberNeural.wav
+2025-08-11 15:07:20,587 | INFO | Generating intonation/rising (en-US-AnaNeural) to intonation_rising_0_en-US-AnaNeural.wav
+2025-08-11 15:07:20,646 | INFO | Generating intonation/rising (en-US-AshleyNeural) to intonation_rising_0_en-US-AshleyNeural.wav
+2025-08-11 15:07:20,713 | INFO | Generating intonation/rising (en-US-BrandonNeural) to intonation_rising_0_en-US-BrandonNeural.wav
+2025-08-11 15:07:20,834 | INFO | Generating intonation/rising (en-US-ChristopherNeural) to intonation_rising_0_en-US-ChristopherNeural.wav
+2025-08-11 15:07:20,946 | INFO | Generating intonation/rising (en-US-CoraNeural) to intonation_rising_0_en-US-CoraNeural.wav
+2025-08-11 15:07:21,067 | INFO | Generating intonation/rising (en-US-ElizabethNeural) to intonation_rising_0_en-US-ElizabethNeural.wav
+2025-08-11 15:07:21,206 | INFO | Generating intonation/rising (en-US-EricNeural) to intonation_rising_0_en-US-EricNeural.wav
+2025-08-11 15:07:21,327 | INFO | Generating intonation/rising (en-US-JacobNeural) to intonation_rising_0_en-US-JacobNeural.wav
+2025-08-11 15:07:21,422 | INFO | Generating intonation/rising (en-US-JennyMultilingualNeural) to intonation_rising_0_en-US-JennyMultilingualNeural.wav
+2025-08-11 15:07:21,490 | INFO | Generating intonation/rising (en-US-MichelleNeural) to intonation_rising_0_en-US-MichelleNeural.wav
+2025-08-11 15:07:21,558 | INFO | Generating intonation/rising (en-US-MonicaNeural) to intonation_rising_0_en-US-MonicaNeural.wav
+2025-08-11 15:07:21,617 | INFO | Generating intonation/rising (en-US-RogerNeural) to intonation_rising_0_en-US-RogerNeural.wav
+2025-08-11 15:07:21,723 | INFO | Generating intonation/rising (en-US-RyanMultilingualNeural) to intonation_rising_0_en-US-RyanMultilingualNeural.wav
+2025-08-11 15:07:21,781 | INFO | Generating intonation/rising (en-US-SteffanMultilingualNeural) to intonation_rising_0_en-US-SteffanMultilingualNeural.wav
+2025-08-11 15:07:21,859 | INFO | Generating intonation/rising (en-US-SteffanNeural) to intonation_rising_0_en-US-SteffanNeural.wav
+2025-08-11 15:07:21,954 | INFO | Generating intonation/rising (en-US-AdamMultilingualNeural) to intonation_rising_0_en-US-AdamMultilingualNeural.wav
+2025-08-11 15:07:22,012 | INFO | Traceback (most recent call last):
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/tts_generation.py", line 601, in <module>
+    last_minute_requests, start_minute = generate_samples_default(t, args.output, completed, last_minute_requests, start_minute, args.n)
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/tts_generation.py", line 361, in generate_samples_default
+    success = query_azure(to_ssml(voice, style), output_path)
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/tts_generation.py", line 141, in query_azure
+    result = azure_synthesizer.speak_ssml_async(ssml).get()
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/azure/cognitiveservices/speech/speech.py", line 612, in get
+    result_handle = self.__get_function(self._handle)
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/azure/cognitiveservices/speech/speech.py", line 2533, in resolve_future
+    _call_hr_fn(fn=_sdk_lib.synthesizer_speak_async_wait_for, *[handle, max_uint32, ctypes.byref(result_handle)])
+  File "/wekafs/ict/pangj/miniconda3/envs/slm/lib/python3.10/site-packages/azure/cognitiveservices/speech/interop.py", line 61, in _call_hr_fn
+    hr = fn(*args) if len(args) > 0 else fn()
+KeyboardInterrupt

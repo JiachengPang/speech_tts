@@ -30,7 +30,7 @@ def synthesize_ssml_to_file(ssml_file, output_file):
             print('Details:', result.cancellation_details)
 
 ssml_file = 'ssml/test.ssml'
-output = 'test_output9.wav'
+output = 'test_output14.wav'
 synthesize_ssml_to_file(ssml_file, output)
 
 # def query_azure(ssml: str, output_path: str) -> bool:

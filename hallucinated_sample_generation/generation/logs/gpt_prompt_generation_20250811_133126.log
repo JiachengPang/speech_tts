@@ -1,0 +1,68 @@
+2025-08-11 13:31:26,245 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250811_133126.log
+2025-08-11 13:31:26,275 | INFO | Extending stress with 10 new samples starting from index 30
+2025-08-11 13:31:26,275 | INFO | =================================================
+2025-08-11 13:31:26,275 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of objects only. Do not include explanations or extra commentary.
+2025-08-11 13:31:26,275 | INFO | -------------------------------------------------
+2025-08-11 13:31:26,275 | INFO | Generate 10 new TTS scripts.
+
+Your output MUST be a JSON array of objects.
+Each object must have:
+- "script": a sentence in everyday spoken English where more than one word could naturally be stressed, to convey different meanings.
+- "stressed": a list of 2 words in that sentence that could naturally be stressed, and it MUST NOT include the last word in that sentence.
+
+Your script MUST NOT contain any punctuation.
+
+Example format:
+[
+  {
+    "script": <your script>,
+    "stressed": <your list of words>
+  }
+]
+2025-08-11 13:31:26,275 | INFO | =================================================
+2025-08-11 13:31:33,162 | INFO | GPT Output:
+2025-08-11 13:31:33,162 | INFO | [
+  {
+    "script": "I can't believe you bought that car",
+    "stressed": ["can't", "bought"]
+  },
+  {
+    "script": "She said we can go to the park",
+    "stressed": ["said", "go"]
+  },
+  {
+    "script": "They always enjoy playing soccer together",
+    "stressed": ["always", "playing"]
+  },
+  {
+    "script": "He really wants to learn how to cook",
+    "stressed": ["really", "learn"]
+  },
+  {
+    "script": "We should try that new restaurant tonight",
+    "stressed": ["try", "new"]
+  },
+  {
+    "script": "I think you left your bag at home",
+    "stressed": ["think", "left"]
+  },
+  {
+    "script": "She can help us with the project",
+    "stressed": ["help", "project"]
+  },
+  {
+    "script": "They told me the movie was really good",
+    "stressed": ["told", "really"]
+  },
+  {
+    "script": "I heard that song on the radio today",
+    "stressed": ["heard", "song"]
+  },
+  {
+    "script": "We are planning a trip to the beach next week",
+    "stressed": ["planning", "trip"]
+  }
+]
+2025-08-11 13:31:33,169 | INFO | Saved extended prompts to tts_prompts_base.json

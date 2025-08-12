@@ -315,7 +315,7 @@ def generate_samples_default(task, output_dir, completed, last_minute_requests, 
         if subtask == 'prompt':
             continue
 
-        subtask_output_dir = os.path.join(output_dir, task, subtask)
+        subtask_output_dir = os.path.join(output_dir, subtask)
         os.makedirs(subtask_output_dir, exist_ok=True)
         
         target_this_subtask = subtask_targets.get(subtask)
@@ -337,6 +337,8 @@ def generate_samples_default(task, output_dir, completed, last_minute_requests, 
                 voices = OPENAI_FEMALE_VOICES
             elif voice_spec == 'openai_male':
                 voices = OPENAI_MALE_VOICES
+            elif task == 'intonation' and voice_spec == '':
+                voices = get_azure_voices(n=50)
             else:
                 voices = [voice_spec]
 
@@ -355,7 +357,10 @@ def generate_samples_default(task, output_dir, completed, last_minute_requests, 
 
                 last_minute_requests, start_minute = rate_limit_pause(last_minute_requests, start_minute)
                 print(f'Generating {task}/{subtask} ({voice}) to {filename}')
-                success = query_openai(style, script, output_path, voice=voice)
+                if task == 'intonation':
+                    success = query_azure(to_ssml(voice, style), output_path)
+                else:    
+                    success = query_openai(style, script, output_path, voice=voice)
 
                 if success:
                     log_completion({

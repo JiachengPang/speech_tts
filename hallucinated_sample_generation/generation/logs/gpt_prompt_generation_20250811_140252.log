@@ -1,0 +1,46 @@
+2025-08-11 14:02:52,877 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250811_140252.log
+2025-08-11 14:02:52,911 | INFO | Extending intonation/rising with 2 new samples
+2025-08-11 14:02:52,911 | INFO | =================================================
+2025-08-11 14:02:52,911 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of strings only. Do not include explanations or extra commentary.Each string should be a short script spoken by a person.
+2025-08-11 14:02:52,911 | INFO | -------------------------------------------------
+2025-08-11 14:02:52,911 | INFO | Generate 2 new TTS scripts.
+
+Each script is a person stating they are speaking with a falling intonation, must include the word "falling" somewhere, and must not include the word "rising".
+
+Your script must NOT include any punctuation.
+
+For example, this is a script of a person stating they are speaking with a falling intonation:
+I am aware that my voice has a falling intonation
+
+Return only a JSON array of these scripts.
+2025-08-11 14:02:52,911 | INFO | =================================================
+2025-08-11 14:02:54,436 | INFO | GPT Output:
+2025-08-11 14:02:54,436 | INFO | [
+    "I can tell you that my voice has a falling intonation",
+    "I notice my speech often features a falling intonation"
+]
+2025-08-11 14:02:54,436 | INFO | Extending intonation/falling with 2 new samples
+2025-08-11 14:02:54,436 | INFO | =================================================
+2025-08-11 14:02:54,436 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of strings only. Do not include explanations or extra commentary.Each string should be a short script spoken by a person.
+2025-08-11 14:02:54,436 | INFO | -------------------------------------------------
+2025-08-11 14:02:54,436 | INFO | Generate 2 new TTS scripts.
+
+Each script is a person stating they are speaking with a rising intonation, must include the word "rising" somewhere, and must not include the word "falling".
+
+Your script must NOT include any punctuation.
+
+For example, this is a script of a person stating they are speaking with a rising intonation:
+This sentence is spoken with a rising intonation
+
+Return only a JSON array of these scripts.
+2025-08-11 14:02:54,436 | INFO | =================================================
+2025-08-11 14:02:55,602 | INFO | GPT Output:
+2025-08-11 14:02:55,603 | INFO | [
+    "I am speaking with a rising intonation",
+    "This is a sentence that has a rising intonation"
+]
+2025-08-11 14:02:55,608 | INFO | Saved extended prompts to tts_prompts_base.json

@@ -1,0 +1,62 @@
+2025-08-11 14:21:06,242 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250811_142106.log
+2025-08-11 14:21:06,272 | INFO | Extending intonation/rising with 10 new samples
+2025-08-11 14:21:06,272 | INFO | =================================================
+2025-08-11 14:21:06,272 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of strings only. Do not include explanations or extra commentary.Each string should be a short script spoken by a person.
+2025-08-11 14:21:06,273 | INFO | -------------------------------------------------
+2025-08-11 14:21:06,273 | INFO | Generate 10 new TTS scripts.
+
+Each script is a person stating they are speaking with a falling intonation, must include the word "falling" somewhere, and must not include the word "rising".
+
+Your script must NOT include any punctuation.
+
+For example, this is a script of a person stating they are speaking with a falling intonation:
+I can tell you that my voice has a falling intonation
+
+Return only a JSON array of these scripts.
+2025-08-11 14:21:06,273 | INFO | =================================================
+2025-08-11 14:21:08,728 | INFO | GPT Output:
+2025-08-11 14:21:08,729 | INFO | [
+    "I want to share that my tone has a falling intonation",
+    "You will notice that I am using a falling intonation in my speech",
+    "It is clear that I am speaking with a falling intonation now",
+    "I can assure you my delivery includes a falling intonation",
+    "I feel that my words carry a falling intonation today",
+    "I realize my voice demonstrates a falling intonation pattern",
+    "I must mention that my expression reflects a falling intonation",
+    "It is evident that I am communicating with a falling intonation",
+    "I hope you can hear my use of a falling intonation in this message",
+    "I believe my speech features a falling intonation style"
+]
+2025-08-11 14:21:08,729 | INFO | Extending intonation/falling with 10 new samples
+2025-08-11 14:21:08,729 | INFO | =================================================
+2025-08-11 14:21:08,729 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of strings only. Do not include explanations or extra commentary.Each string should be a short script spoken by a person.
+2025-08-11 14:21:08,729 | INFO | -------------------------------------------------
+2025-08-11 14:21:08,729 | INFO | Generate 10 new TTS scripts.
+
+Each script is a person stating they are speaking with a falling intonation, must include the word "falling" somewhere, and must not include the word "falling".
+
+Your script must NOT include any punctuation.
+
+For example, this is a script of a person stating they are speaking with a falling intonation:
+I am speaking with a rising intonation
+
+Return only a JSON array of these scripts.
+2025-08-11 14:21:08,729 | INFO | =================================================
+2025-08-11 14:21:12,934 | INFO | GPT Output:
+2025-08-11 14:21:12,935 | INFO | [
+    "I am speaking with a tone that implies a decrease",
+    "I am expressing myself in a way that suggests a decline",
+    "I am communicating with an intonation that drops",
+    "I am articulating my thoughts with a tone that descends",
+    "I am conveying my message in a manner that falls away",
+    "I am delivering my words with a sound that is diminishing",
+    "I am stating my point with a pitch that lowers",
+    "I am conveying my feelings with a voice that recedes",
+    "I am sharing my ideas with a cadence that wanes",
+    "I am presenting my opinions with a timbre that tapers"
+]
+2025-08-11 14:21:12,941 | INFO | Saved extended prompts to tts_prompts_base.json

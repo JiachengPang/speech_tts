@@ -1,0 +1,10 @@
+2025-08-11 15:11:31,377 | INFO | [LOGGING] Output is being saved to: logs/tts_generation_20250811_151131.log
+2025-08-11 15:11:31,476 | INFO | Processing 11labs task age subtask young
+2025-08-11 15:11:31,893 | INFO | Skipping. Already completed: age_young_0_21m00Tcm4TlvDq8ikWAM.wav
+2025-08-11 15:11:31,893 | INFO | task age/young reached target number of generation 1
+2025-08-11 15:11:31,893 | INFO | Processing 11labs task age subtask old
+2025-08-11 15:11:31,968 | INFO | Skipping Arnold (VR6AewLTigWG4xSOukaG) — labels={'accent': 'american', 'description': 'crisp', 'age': 'middle_aged', 'gender': 'male', 'use_case': 'narration'}, expected={'age': 'old'}
+2025-08-11 15:11:31,969 | INFO | Skipping Arnold (wViXBPUzp2ZZixB1xQuM) — labels={'accent': 'american', 'description': 'crisp', 'age': 'middle_aged', 'gender': 'male', 'use_case': 'narration'}, expected={'age': 'old'}
+2025-08-11 15:11:31,969 | INFO | Skipping. Already completed: age_old_0_w2ZdKT3ghAOcMRbpjC3u.wav
+2025-08-11 15:11:31,969 | INFO | task age/old reached target number of generation 1
+2025-08-11 15:11:31,969 | INFO | Total samples generated for task "age": 2

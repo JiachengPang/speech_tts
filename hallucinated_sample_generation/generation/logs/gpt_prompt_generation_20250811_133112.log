@@ -1,0 +1,68 @@
+2025-08-11 13:31:12,291 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250811_133112.log
+2025-08-11 13:31:12,321 | INFO | Extending stress with 10 new samples starting from index 20
+2025-08-11 13:31:12,321 | INFO | =================================================
+2025-08-11 13:31:12,321 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of objects only. Do not include explanations or extra commentary.
+2025-08-11 13:31:12,321 | INFO | -------------------------------------------------
+2025-08-11 13:31:12,321 | INFO | Generate 10 new TTS scripts.
+
+Your output MUST be a JSON array of objects.
+Each object must have:
+- "script": a sentence in everyday spoken English where more than one word could naturally be stressed, to convey different meanings.
+- "stressed": a list of 2 words in that sentence that could naturally be stressed, and it MUST NOT include the last word in that sentence.
+
+Your script MUST NOT contain any punctuation.
+
+Example format:
+[
+  {
+    "script": <your script>,
+    "stressed": <your list of words>
+  }
+]
+2025-08-11 13:31:12,321 | INFO | =================================================
+2025-08-11 13:31:19,121 | INFO | GPT Output:
+2025-08-11 13:31:19,121 | INFO | [
+  {
+    "script": "I really want to go to the park today",
+    "stressed": ["really", "park"]
+  },
+  {
+    "script": "She can watch a movie with us later",
+    "stressed": ["watch", "later"]
+  },
+  {
+    "script": "They will have lunch together at noon",
+    "stressed": ["have", "together"]
+  },
+  {
+    "script": "He might bring his guitar to the party",
+    "stressed": ["bring", "guitar"]
+  },
+  {
+    "script": "We should invite them to the concert",
+    "stressed": ["invite", "concert"]
+  },
+  {
+    "script": "I can help you with your homework tomorrow",
+    "stressed": ["help", "homework"]
+  },
+  {
+    "script": "The cat really loves to play with string",
+    "stressed": ["really", "play"]
+  },
+  {
+    "script": "She always enjoys reading in the evening",
+    "stressed": ["always", "reading"]
+  },
+  {
+    "script": "You should call your friend about the event",
+    "stressed": ["call", "friend"]
+  },
+  {
+    "script": "We are going to have a great time at the beach",
+    "stressed": ["great", "time"]
+  }
+]
+2025-08-11 13:31:19,127 | INFO | Saved extended prompts to tts_prompts_base.json

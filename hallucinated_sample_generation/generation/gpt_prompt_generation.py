@@ -104,6 +104,65 @@ def extend_general_task(task_name, num_per_subcategory, prompts, target_subtask=
 
     return prompts
 
+
+
+def process_response_intonation(task_data, subtask, message):
+    """Assumes the returned message is a JSON array of scripts only for the intonation task"""
+    try:
+        scripts = json.loads(message)
+        if not isinstance(scripts, list):
+            raise ValueError('Expected a JSON array of strings.')
+        
+
+        if subtask == 'rising':
+            punc = '?'
+            ssml_pre = "<prosody contour='(0%, +0%) (100%, +50%)'>"
+            pretend = 'falling'
+        else:
+            punc = '.'
+            ssml_pre = "<prosody contour='(0%, +0%) (100%, -50%)'>"
+            pretend = 'rising'
+        ssml_post = "</prosody>"
+
+        for script in scripts:    
+            script += punc
+            new_example = {
+                'voice': '',
+                'style': ssml_pre + script + ssml_post,
+                'script': script,
+                'label': subtask,
+                'pretend': pretend
+            }
+            task_data[subtask].append(new_example)
+    except Exception as e:
+        print(f'Cannot parse GPT output for {subtask}: {e}')
+        print(f'Raw output: {message}')
+
+def extend_intonation_task(num_per_subcategory, prompts, target_subtask=None):
+    task_name = 'intonation'
+    task_data = prompts[task_name]
+
+    for subtask, examples in task_data.items():
+        if subtask == 'prompt':
+            continue
+        if target_subtask and subtask != target_subtask:
+            continue
+        
+        print(f'Extending {task_name}/{subtask} with {num_per_subcategory} new samples')
+
+        system_msg = TASK_TEMPLATES[task_name]['system']
+        user_msg = TASK_TEMPLATES[task_name]['user'].format(
+            num=num_per_subcategory,
+            label=examples[0]['label'],
+            pretend=examples[0]['pretend'],
+            example_script=examples[0]['script'][:-1] # no punctuation . or ?
+        )
+
+        message = query(system_msg, user_msg)
+        print('GPT Output:\n', message)
+        process_response_intonation(task_data, subtask, message)
+    return prompts
+
 def extend_accent_task(num_per_subcategory, prompts, target_subtask=None):
     accents = ['american', 'british']
     task_name = 'accent'
@@ -339,7 +398,7 @@ def add_stress_for_word(
 
     if post:
         parts.append(
-            f"<prosody rate='{fast_rate}'>{post}</prosody>"
+            f"<prosody rate='{fast_rate}' contour='(0%, -10%) (100%, -30%)'>{post}</prosody>"
         )
 
     return "".join(parts)
@@ -421,6 +480,8 @@ if __name__ == '__main__':
 
     if args.task == 'counting':
         prompts = extend_counting_task(args.n, prompts)
+    elif args.task == 'intonation':
+        prompts = extend_intonation_task(args.n, prompts, target_subtask=args.subtask)
     elif args.task == 'accent':
         prompts = extend_accent_task(args.n, prompts, target_subtask=args.subtask)
     elif args.task in ['pause', 'prolong', 'stress']:

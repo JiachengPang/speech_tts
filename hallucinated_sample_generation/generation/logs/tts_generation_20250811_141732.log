@@ -1,0 +1,8 @@
+2025-08-11 14:17:32,678 | INFO | [LOGGING] Output is being saved to: logs/tts_generation_20250811_141732.log
+2025-08-11 14:17:32,770 | INFO | Processing default task intonation subtask rising
+2025-08-11 14:17:32,770 | INFO | Traceback (most recent call last):
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/tts_generation.py", line 601, in <module>
+    last_minute_requests, start_minute = generate_samples_default(t, args.output, completed, last_minute_requests, start_minute, args.n)
+  File "/wekafs/ict/pangj/data/speech_tts/hallucinated_sample_generation/generation/tts_generation.py", line 340, in generate_samples_default
+    elif task == 'intonation' and voices == '':
+UnboundLocalError: local variable 'voices' referenced before assignment

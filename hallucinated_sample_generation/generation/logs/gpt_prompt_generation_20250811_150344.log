@@ -1,0 +1,33 @@
+2025-08-11 15:03:44,857 | INFO | [LOGGING] Output is being saved to: logs/gpt_prompt_generation_20250811_150344.log
+2025-08-11 15:03:44,890 | INFO | Extending intonation/falling with 9 new samples
+2025-08-11 15:03:44,890 | INFO | =================================================
+2025-08-11 15:03:44,890 | INFO | You are a data generator for creating text-to-speech (TTS) scripts.
+
+Your output must be a valid JSON array of strings only. Do not include explanations or extra commentary.Each string should be a short script spoken by a person.
+2025-08-11 15:03:44,891 | INFO | -------------------------------------------------
+2025-08-11 15:03:44,891 | INFO | Generate 9 new TTS scripts.
+
+Each script is a person stating they are speaking with a rising intonation, must include the word "rising" somewhere, and must not include the word "falling".
+
+Your script must NOT include any punctuation.
+
+For example, this is a script of a person stating they are speaking with a rising intonation:
+I am speaking with a rising intonation
+
+Your scripts should have diversity and should not simply follow the provided example.
+
+Return only a JSON array of these scripts.
+2025-08-11 15:03:44,891 | INFO | =================================================
+2025-08-11 15:03:49,022 | INFO | GPT Output:
+2025-08-11 15:03:49,022 | INFO | [
+    "I am currently speaking with a rising tone",
+    "This conversation feels like it is rising",
+    "I notice my voice is rising as I speak",
+    "You can tell I am speaking with a rising intonation",
+    "I feel the excitement rising in my voice",
+    "My words are definitely rising in a melodic way",
+    "As I continue I can sense my pitch is rising",
+    "There is a noticeable rising quality to my speech",
+    "I am expressing myself with a rising intonation"
+]
+2025-08-11 15:03:49,028 | INFO | Saved extended prompts to tts_prompts_base.json

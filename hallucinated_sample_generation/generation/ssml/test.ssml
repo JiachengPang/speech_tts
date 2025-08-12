@@ -1,4 +1,4 @@
 <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-us">
 <voice name="en-US-AndrewMultilingualNeural">
-        <prosody rate='+20%'><emphasis level='reduced'>I will stress the word dress, and she </emphasis></prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>bought</prosody><break time='150ms'/><prosody contour='(0%, -30%) (100%, -40%)' rate='+20%'><emphasis level='reduced'> a beautiful dress yesterday</emphasis></prosody>
+        <prosody contour='(0%, +0%) (50%, +50%) (100%,-50%)'>This intonation is rising from the start, and more importantly, this intonation is falling since the middle. </prosody>
 </voice></speak>
