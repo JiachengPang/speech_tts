@@ -7,6 +7,21 @@ from string import punctuation
 import random
 random.seed(42)
 
+TASK_NAME_MAP = {
+    'accent': 'accent_identification',
+    'age': 'age_prediction',
+    'counting': 'total_speaker_counting',
+    'gender': 'gender_prediction',
+    'intonation': 'intonation_perception',
+    'pause': 'pause_perception',
+    'prolong': 'prolonged_sound_perception',
+    'stress': 'speech_stress_perception',
+    'volume': 'volume_comparison',
+    'pitch': 'pitch_comparison',
+    'speed': 'speed_comparison',
+    'range': 'vocal_range_comparison'
+}
+
 def load_and_join(input_path, delimiter='|'):
     keys = ('task', 'subtask', 'index', 'voice')
     data = {}
@@ -61,12 +76,12 @@ def verify_file_integrity(data, data_dir='./tts_outputs'):
 
     return missing, task_sample_count
 
-def make_random_choices(all_options, answer_gt, pretend_gt, n_choices=4):
+def make_random_choices(all_options, answer_gt, pretend_label, n_choices=4):
     pool = set(all_options)
     pool.add(answer_gt)
-    pool.add(pretend_gt)
+    pool.add(pretend_label)
 
-    selected = {answer_gt, pretend_gt}
+    selected = {answer_gt, pretend_label}
 
     rest = list(pool - selected)
     random.shuffle(rest)
@@ -82,10 +97,10 @@ def make_mcq(question, options, answer, pretend):
     o = (options + [None] * 4)[:4]
     letters = ['a', 'b', 'c', 'd']
     choices = {f'choice_{letters[i]}': o[i] for i in range(4)}
-    answer_gt = {"answer_gt": answer}
-    pretend_gt = {'pretend_gt': pretend}
+    answer_gt = {'answer_gt': answer}
+    pretend_label = {'pretend_label': pretend}
 
-    return q | choices | answer_gt | pretend_gt
+    return q | choices | answer_gt | pretend_label
 
 def mcq_age(entry):
     options = ['Elderly adult', 'Child', 'Young adult', 'Middle-aged adult']
@@ -188,6 +203,10 @@ def create_mcqs(data):
     res = []
     for d in data:
         task = d['task']
+        task_name = TASK_NAME_MAP[task]
+        file_name = d['filename']
+        id = f'{task_name}__{file_name}'
+        audio_path = f'/audio/{id}.wav'
         if task == 'age':
             mcq = mcq_age(d)
         elif task == 'gender':
@@ -206,8 +225,13 @@ def create_mcqs(data):
             mcq = mcq_stress(d)
         else:
             continue
-
-        res.append(d | mcq)
+        
+        example = {
+            'id': id,
+            'task_name': task_name,
+            'audio_path': audio_path,
+        } | mcq
+        res.append(example)
     
     return res
 
