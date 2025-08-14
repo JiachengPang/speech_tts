@@ -1,4 +1,0 @@
-<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-us">
-<voice name="en-US-AndrewMultilingualNeural">
-        <emphasis level='reduced'><prosody volume='soft' rate='+30%'>I will stress the word really, and I really need to get to the</prosody></emphasis> <prosody pitch='+3st' volume='loud' rate='-35%'>places</prosody> <emphasis level='reduced'><prosody volume='soft' rate='+30%'>I want to go</prosody></emphasis>
-</voice></speak>

@@ -256,12 +256,7 @@ if __name__ == "__main__":
     data = create_mcqs(data)
     data = sorted(
         data,
-        key=lambda d: (
-            d.get("task", ""),
-            d.get("subtask", ""),
-            int(d.get("index", 0)),
-            d.get("voice", "")
-        )
+        key=lambda d: d.get('id')
     )
 
     with open(args.output, 'w', encoding='utf-8') as f:

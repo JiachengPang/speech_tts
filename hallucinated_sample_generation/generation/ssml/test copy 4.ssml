@@ -1,4 +1,0 @@
-<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-us">
-<voice name="en-US-AndrewMultilingualNeural">
-        <prosody volume='x-soft' rate='+20%'>I will stress the word dress, and she <prosody pitch='+20%' volume='x-loud' rate='-30%'>bought</prosody><break time='150ms'/> a beautiful dress yesterday</prosody>
-</voice></speak>

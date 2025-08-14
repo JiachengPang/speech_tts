@@ -1,6 +1,9 @@
 tts_outputs
+tts_outputs_extra
 tmp
 .env
 __pycache__
 test.py
 tests
+*.tar.gz
+backups
