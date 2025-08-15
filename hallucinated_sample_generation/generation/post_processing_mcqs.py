@@ -95,6 +95,7 @@ def make_random_choices(all_options, answer_gt, pretend_label, n_choices=4):
 def make_mcq(question, options, answer, pretend):
     q = {'question': question}
     o = (options + [None] * 4)[:4]
+    random.shuffle(o)
     letters = ['a', 'b', 'c', 'd']
     choices = {f'choice_{letters[i]}': o[i] for i in range(4)}
     answer_gt = {'answer_gt': answer}
@@ -204,9 +205,10 @@ def create_mcqs(data):
     for d in data:
         task = d['task']
         task_name = TASK_NAME_MAP[task]
-        file_name = d['filename']
-        id = f'{task_name}__{file_name}'
-        audio_path = f'/audio/{id}.wav'
+        basename, _= os.path.splitext(d['filename'])
+        id = f'{task_name}__{basename}'
+        audio_path = d['path'].replace("./tts_outputs", "vox_paradox_mcq_tts", 1)
+        # audio_path = f'/audio/{id}.wav'
         if task == 'age':
             mcq = mcq_age(d)
         elif task == 'gender':
@@ -238,7 +240,7 @@ def create_mcqs(data):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Deduplicate JSONL by (task, subtask, index), keeping the last occurrence.")
     parser.add_argument("--input", default="tts_log.jsonl", help="Path to input .jsonl")
-    parser.add_argument("--output", default="output_mcq.jsonl", help="Path to write deduped .jsonl")
+    parser.add_argument("--output", default="output_mcq.json", help="Path to write deduped .json")
     args = parser.parse_args()
 
     # load and deduplicate 
@@ -260,6 +262,8 @@ if __name__ == "__main__":
     )
 
     with open(args.output, 'w', encoding='utf-8') as f:
-        for d in data:
-            line = json.dumps(d) + '\n'
-            f.write(line)
+        json.dump(data, f, indent=4)
+        
+        # for d in data:
+        #     line = json.dumps(d) + '\n'
+        #     f.write(line)
