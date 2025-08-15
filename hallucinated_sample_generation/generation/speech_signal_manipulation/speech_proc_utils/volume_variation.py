@@ -75,7 +75,7 @@ class VolumeVariationProcessor:
         
         # Save concatenated audio
         base_name = audio_path.split('/')[-1].split('.')[0]
-        output_path = f"{self.output_dir}/{base_name}-volume_variation-{style_order}.wav"
+        output_path = f"{self.output_dir}/volume_comparison__{base_name}-{style_order}.wav"
         concatenated_audio.export(output_path, format="wav")
         
         return output_path

@@ -24,7 +24,7 @@ setup_logger('tts_generation')
 LOG_FILE = 'tts_log_signal.jsonl'
 
 # Load prompts
-TTS_PROMPTS = 'tts_prompts_signal.json'
+TTS_PROMPTS = 'tts_prompts_signal_gpt4_script_variations.json'
 with open(TTS_PROMPTS, 'r', encoding='utf-8') as f:
     PROMPTS = json.load(f)
 

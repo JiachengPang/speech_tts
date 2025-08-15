@@ -3,6 +3,7 @@ import json
 import argparse
 from openai import OpenAI
 import logging
+import random
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -32,11 +33,15 @@ Following is the sentence to generate variations for: {sentence}
 
     ans = query(prompt)
     variations = json.loads(ans.lstrip('```json').rstrip('```'))
-    logging.info(f"Generated {len(variations)}/{num_variations} variations for {sentence}. {len(variations) - num_variations} variations were not generated.")
+    logging.info(f"Generated {len(variations)}/{num_variations} variations for {sentence}. {num_variations - len(variations)} variations were not generated.")
+    random.shuffle(variations)
+
+    variations_sampled = variations[:20]
+    print(f"Sampled variations from the generated {len(variations)} variations: {variations_sampled}")
     return variations
     
 
-def generate_script_variations_for_task_dict(task_dict, num_target):
+def generate_script_variations_for_task_dict(task_dict, num_target, num_speakers=11):
     num_sub_tasks = len(task_dict) - 1
     num_per_subtask = num_target // num_sub_tasks
     logging.info(f"Generating {num_per_subtask} variations per subtask")
@@ -47,7 +52,7 @@ def generate_script_variations_for_task_dict(task_dict, num_target):
         cur_subtask_dict = task_dict[subtask]
         new_cur_subtask_dict = []
         num_cur_scripts = len(cur_subtask_dict)
-        num_variations_per_script = num_per_subtask // num_cur_scripts
+        num_variations_per_script = num_per_subtask // (num_cur_scripts * num_speakers)
         logging.info(f"Generating {num_variations_per_script} variations per script")
         for cur_script in cur_subtask_dict:
             script_text = cur_script["script"]
@@ -62,9 +67,10 @@ def generate_script_variations_for_task_dict(task_dict, num_target):
 
 if __name__ == "__main__":
     json_data = json.load(open(INPUT_FILE))
-    target_task = "volume"
-    target_num = 30
+    target_tasks = ["volume", "pitch", "speed", "vocal_range"]
+    target_num = 2000
 
-    task_dict = generate_script_variations_for_task_dict(json_data[target_task], target_num)
-    json_data[target_task] = task_dict
+    for target_task in target_tasks:
+        task_dict = generate_script_variations_for_task_dict(json_data[target_task], target_num)
+        json_data[target_task] = task_dict
     json.dump(json_data, open(f"{INPUT_FILE.split('.')[0]}_gpt4_script_variations.json", "w"), indent=4)

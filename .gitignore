@@ -3,3 +3,6 @@ tmp
 .env
 __pycache__
 test.py
+hallucinated_sample_generation/generation/speech_signal_manipulation/tts_outputs/
+hallucinated_sample_generation/generation/speech_signal_manipulation/vox_paradox_mcq_signal/
+*/logs/

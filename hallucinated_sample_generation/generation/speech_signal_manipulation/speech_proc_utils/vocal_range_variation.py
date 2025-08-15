@@ -109,7 +109,7 @@ class VocalRangeVariationProcessor:
         
         # Save concatenated audio
         base_name = audio_path.split('/')[-1].split('.')[0]
-        output_path = f"{self.output_dir}/{base_name}-vocal_range_variation-{style_order}.wav"
+        output_path = f"{self.output_dir}/vocal_range_comparison__{base_name}-{style_order}.wav"
         sf.write(output_path, concatenated_audio.astype(np.float32), fs)
         
         return output_path
