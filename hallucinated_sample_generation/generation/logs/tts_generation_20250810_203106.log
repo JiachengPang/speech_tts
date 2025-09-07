@@ -1,4 +1,0 @@
-2025-08-10 20:31:06,672 | INFO | [LOGGING] Output is being saved to: logs/tts_generation_20250810_203106.log
-2025-08-10 20:31:06,751 | INFO | Generating stress/0 (en-US-AvaMultilingualNeural) to stress_0_en-US-AvaMultilingualNeural.wav
-2025-08-10 20:31:07,338 | INFO | Generating stress/0 (en-US-AndrewMultilingualNeural) to stress_0_en-US-AndrewMultilingualNeural.wav
-2025-08-10 20:31:08,241 | INFO | task stress reached target number of generation 2

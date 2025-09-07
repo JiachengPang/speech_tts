@@ -1,9 +1,0 @@
-2025-08-11 15:11:55,322 | INFO | [LOGGING] Output is being saved to: logs/tts_generation_20250811_151155.log
-2025-08-11 15:11:55,424 | INFO | Processing default task pitch subtask low
-2025-08-11 15:11:55,424 | INFO | Generating pitch/low (alloy) to pitch_low_0_alloy.wav
-2025-08-11 15:11:57,928 | INFO | task pitch/low reached target number of generation 1
-2025-08-11 15:11:57,929 | INFO | Processing default task pitch subtask high
-2025-08-11 15:11:57,929 | INFO | Generating pitch/high (alloy) to pitch_high_0_alloy.wav
-2025-08-11 15:11:58,726 | INFO | Retrying request to /audio/speech in 0.420072 seconds
-2025-08-11 15:12:00,329 | INFO | task pitch/high reached target number of generation 1
-2025-08-11 15:12:00,329 | INFO | Total samples generated for task "pitch": 2

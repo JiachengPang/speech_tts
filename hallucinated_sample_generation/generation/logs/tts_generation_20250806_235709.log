@@ -1,8 +1,0 @@
-2025-08-06 23:57:09,874 | INFO | [LOGGING] Output is being saved to: logs/tts_generation_20250806_235709.log
-2025-08-06 23:57:09,965 | INFO | Processing 11labs task accent subtask british
-2025-08-06 23:57:10,214 | INFO | Generating with 11labs voice Liam Dale - British Male 60's (w2ZdKT3ghAOcMRbpjC3u) to accent_british_0_w2ZdKT3ghAOcMRbpjC3u.wav
-2025-08-06 23:57:10,692 | INFO | task accent/british reached target number of generation 1
-2025-08-06 23:57:10,692 | INFO | Processing 11labs task accent subtask american
-2025-08-06 23:57:10,898 | INFO | Skipping. Already completed: accent_american_0_21m00Tcm4TlvDq8ikWAM.wav
-2025-08-06 23:57:10,899 | INFO | task accent/american reached target number of generation 1
-2025-08-06 23:57:10,899 | INFO | Total samples generated for task "accent": 2

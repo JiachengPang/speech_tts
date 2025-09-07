@@ -19,8 +19,13 @@ TASK_NAME_MAP = {
     'volume': 'volume_comparison',
     'pitch': 'pitch_comparison',
     'speed': 'speed_comparison',
-    'range': 'vocal_range_comparison'
+    'range': 'vocal_range_comparison',
+    'identity': 'speaker_identity_recognition',
 }
+
+INT_TO_ORDINAL = {
+    0: 'first', 1: 'second', 2: 'third', 3: 'fourth', 4: 'fifth'
+}   
 
 def load_and_join(input_path, delimiter='|'):
     keys = ('task', 'subtask', 'index', 'voice')
@@ -114,11 +119,11 @@ def mcq_age(entry):
     return make_mcq(question, options, answer, pretend)
 
 def mcq_gender(entry):
-    options = ['Female', 'Male']
+    options = ['Female', 'Male', 'null', 'null']
     
     question = "What is the speaker's gender?"
-    answer = entry['label']
-    pretend = entry['pretend']
+    answer = entry['label'].capitalize()
+    pretend = entry['pretend'].capitalize()
 
     return make_mcq(question, options, answer, pretend)
 
@@ -146,7 +151,7 @@ def mcq_counting(entry):
 
 def mcq_pause(entry):
     script = entry['script']
-    sentence = script.split(', and')[1].strip(punctuation)
+    sentence = script.split(', and')[1].strip().strip(punctuation)
     all_options = sentence.split(' ')
     all_options.append('No pause')
     
@@ -161,7 +166,7 @@ def mcq_pause(entry):
 
 def mcq_prolong(entry):
     script = entry['script']
-    sentence = script.split(', and')[1].strip(punctuation)
+    sentence = script.split(', and')[1].strip().strip(punctuation)
     all_options = sentence.split(' ')
     
     question = "Which word contains noticeable elongation in the audio?"
@@ -175,7 +180,7 @@ def mcq_prolong(entry):
 
 def mcq_stress(entry):
     script = entry['script']
-    sentence = script.split(', and')[1].strip(punctuation)
+    sentence = script.split(', and')[1].strip().strip(punctuation)
     all_options = sentence.split(' ')
     
     question = "Which word has prominent stress in the audio?"
@@ -199,6 +204,20 @@ def mcq_accent(entry):
     options = make_random_choices(all_options, answer, pretend)
 
     return make_mcq(question, options, answer, pretend)
+
+def mcq_identity(entry):
+    target = int(entry['prompt'][-2]) - 1
+    options = INT_TO_ORDINAL.copy()
+    del options[target]
+    all_options = [f'the {ordinal} person' for _, ordinal in options.items()]
+
+    question = entry['prompt']
+    answer = f"the {INT_TO_ORDINAL[entry['label']]} person"
+    pretend = f"the {INT_TO_ORDINAL[entry['pretend']]} person"
+
+    options = make_random_choices(all_options, answer, pretend)
+
+    return make_mcq(question, options, answer, pretend)    
 
 def create_mcqs(data):
     res = []
@@ -225,6 +244,8 @@ def create_mcqs(data):
             mcq = mcq_prolong(d)
         elif task == 'stress':
             mcq = mcq_stress(d)
+        elif task == 'identity':
+            mcq = mcq_identity(d)
         else:
             continue
         

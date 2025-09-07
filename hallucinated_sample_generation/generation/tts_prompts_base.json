@@ -4986,5 +4986,488 @@
                 "pretend": "indian"
             }
         ]
+    },
+    "identity": {
+        "prompt": "Which speaker clip belongs to the same person as speaker clip X?",
+        "0": {
+            "dialogue": [
+                "Hi, I am the third speaker.",
+                "I am the second speaker, nice to meet you.",
+                "I come as the first speaker, appreciate your attention.",
+                "Forth speaker here, thank you for listening.",
+                "As the fifth person, I'd love to contribute."
+            ],
+            "target_clip": 0,
+            "label": 3,
+            "pretend": 2
+        },
+        "1": {
+            "dialogue": [
+                "I\u2019m here as the first speaker, nice to see you.",
+                "What\u2019s up? I happen to be the third speaker.",
+                "Hey there! Allow me to introduce myself as the second speaker.",
+                "Hello, I am the fourth speaker.",
+                "Good to connect, I am the fifth speaker."
+            ],
+            "target_clip": 1,
+            "label": 0,
+            "pretend": 2
+        },
+        "2": {
+            "dialogue": [
+                "Hi there! This is the first speaker talking.",
+                "Good day! I am the esteemed fourth speaker.",
+                "I\u2019m here as the third speaker, nice to see you.",
+                "What\u2019s up? I happen to be the second speaker.",
+                "Hi, you\u2019ve got the fifth speaker on the line."
+            ],
+            "target_clip": 1,
+            "label": 2,
+            "pretend": 3
+        },
+        "3": {
+            "dialogue": [
+                "Hello, I am the first speaker.",
+                "Hi, this message is from the third speaker.",
+                "I\u2019m here as the second speaker, nice to see you.",
+                "What\u2019s going on? I\u2019m the fourth speaker.",
+                "Welcome, I'm identified as the fifth speaker."
+            ],
+            "target_clip": 1,
+            "label": 3,
+            "pretend": 2
+        },
+        "4": {
+            "dialogue": [
+                "Hi, I represent the second speaker today.",
+                "This is the first speaker, glad to be here.",
+                "Hi, this message is from the third speaker.",
+                "What\u2019s up? I happen to be the fourth speaker.",
+                "Hello everyone, I\u2019m the fifth speaker here."
+            ],
+            "target_clip": 0,
+            "label": 3,
+            "pretend": 1
+        },
+        "5": {
+            "dialogue": [
+                "Hey! I am the proud third speaker.",
+                "I\u2019m the second speaker, pleased to meet you.",
+                "Hi, I represent the first speaker today.",
+                "Good day! I am the esteemed fourth speaker.",
+                "This is the fifth speaker, glad to be here."
+            ],
+            "target_clip": 2,
+            "label": 1,
+            "pretend": 0
+        },
+        "6": {
+            "dialogue": [
+                "Salutations! This is your second speaker.",
+                "Good day! I am the esteemed first speaker.",
+                "Hey there! Allow me to introduce myself as the third speaker.",
+                "Hi there! This is the fourth speaker talking.",
+                "Hello everyone, I\u2019m the fifth speaker here."
+            ],
+            "target_clip": 1,
+            "label": 3,
+            "pretend": 0
+        },
+        "7": {
+            "dialogue": [
+                "Salutations! This is your fourth speaker.",
+                "Hello, I am the second speaker.",
+                "A warm hello from the third speaker.",
+                "Good to connect, I am the first speaker.",
+                "This is the fifth speaker, glad to be here."
+            ],
+            "target_clip": 0,
+            "label": 1,
+            "pretend": 3
+        },
+        "8": {
+            "dialogue": [
+                "I\u2019m the first speaker, pleased to meet you.",
+                "Hi there! This is the second speaker talking.",
+                "Hello, it's me, the fourth speaker.",
+                "What\u2019s going on? I\u2019m the third speaker.",
+                "Good day! I am the esteemed fifth speaker."
+            ],
+            "target_clip": 2,
+            "label": 1,
+            "pretend": 3
+        },
+        "9": {
+            "dialogue": [
+                "Hi, I represent the second speaker today.",
+                "Hi, this message is from the first speaker.",
+                "Hi, you\u2019ve got the third speaker on the line.",
+                "Welcome, I'm identified as the fourth speaker.",
+                "Hello, it's me, the fifth speaker."
+            ],
+            "target_clip": 0,
+            "label": 2,
+            "pretend": 1
+        },
+        "10": {
+            "dialogue": [
+                "Hi there! This is the fourth speaker talking.",
+                "Hey! I am the proud second speaker.",
+                "Hey there! Allow me to introduce myself as the third speaker.",
+                "Salutations! This is your first speaker.",
+                "Welcome, I'm identified as the fifth speaker."
+            ],
+            "target_clip": 0,
+            "label": 1,
+            "pretend": 3
+        },
+        "11": {
+            "dialogue": [
+                "Hello, it's me, the first speaker.",
+                "Welcome, I'm identified as the third speaker.",
+                "What\u2019s going on? I\u2019m the second speaker.",
+                "Hi, you\u2019ve got the fourth speaker on the line.",
+                "Hey! I am the proud fifth speaker."
+            ],
+            "target_clip": 2,
+            "label": 3,
+            "pretend": 1
+        },
+        "12": {
+            "dialogue": [
+                "Hi, I represent the second speaker today.",
+                "This is the first speaker, glad to be here.",
+                "Welcome, I'm identified as the third speaker.",
+                "Hi, this message is from the fourth speaker.",
+                "Hello, it's me, the fifth speaker."
+            ],
+            "target_clip": 1,
+            "label": 2,
+            "pretend": 0
+        },
+        "13": {
+            "dialogue": [
+                "A warm hello from the fourth speaker.",
+                "Salutations! This is your second speaker.",
+                "Hi, this message is from the third speaker.",
+                "What\u2019s going on? I\u2019m the first speaker.",
+                "Welcome, I'm identified as the fifth speaker."
+            ],
+            "target_clip": 0,
+            "label": 2,
+            "pretend": 3
+        },
+        "14": {
+            "dialogue": [
+                "Greetings! You\u2019re hearing from the first speaker.",
+                "Good to connect, I am the second speaker.",
+                "Salutations! This is your fourth speaker.",
+                "What\u2019s up? I happen to be the third speaker.",
+                "Welcome, I'm identified as the fifth speaker."
+            ],
+            "target_clip": 2,
+            "label": 0,
+            "pretend": 3
+        },
+        "15": {
+            "dialogue": [
+                "This is the third speaker, glad to be here.",
+                "Salutations! This is your second speaker.",
+                "Hey there! Allow me to introduce myself as the first speaker.",
+                "Hello, it's me, the fourth speaker.",
+                "Hello, I am the fifth speaker."
+            ],
+            "target_clip": 0,
+            "label": 1,
+            "pretend": 2
+        },
+        "16": {
+            "dialogue": [
+                "Hello everyone, I\u2019m the first speaker here.",
+                "Good day! I am the esteemed fourth speaker.",
+                "Hello, it's me, the third speaker.",
+                "Greetings! You\u2019re hearing from the second speaker.",
+                "I\u2019m the fifth speaker, pleased to meet you."
+            ],
+            "target_clip": 3,
+            "label": 2,
+            "pretend": 1
+        },
+        "17": {
+            "dialogue": [
+                "Hello, I am the first speaker.",
+                "I\u2019m here as the third speaker, nice to see you.",
+                "A warm hello from the second speaker.",
+                "Greetings! You\u2019re hearing from the fourth speaker.",
+                "What\u2019s going on? I\u2019m the fifth speaker."
+            ],
+            "target_clip": 1,
+            "label": 3,
+            "pretend": 2
+        },
+        "18": {
+            "dialogue": [
+                "Hello, I am the first speaker.",
+                "This is the fourth speaker, glad to be here.",
+                "Hello, it's me, the third speaker.",
+                "I\u2019m here as the second speaker, nice to see you.",
+                "Good day! I am the esteemed fifth speaker."
+            ],
+            "target_clip": 1,
+            "label": 2,
+            "pretend": 3
+        },
+        "19": {
+            "dialogue": [
+                "Hi there! This is the fourth speaker talking.",
+                "I\u2019m the second speaker, pleased to meet you.",
+                "Welcome, I'm identified as the third speaker.",
+                "Hello everyone, I\u2019m the first speaker here.",
+                "What\u2019s going on? I\u2019m the fifth speaker."
+            ],
+            "target_clip": 0,
+            "label": 2,
+            "pretend": 3
+        },
+        "20": {
+            "dialogue": [
+                "What\u2019s up? I\u2019m the first speaker in this discussion.",
+                "Hello, I'm the fourth speaker here.",
+                "Welcome! I\u2019m the third speaker, and I\u2019m excited to share.",
+                "Greetings, I am the second speaker of this session.",
+                "Hi there, I represent the fifth speaker."
+            ],
+            "target_clip": 3,
+            "label": 0,
+            "pretend": 1
+        },
+        "21": {
+            "dialogue": [
+                "Hello, I'm the first speaker here.",
+                "Greetings, I am the designated second speaker for our group.",
+                "Greetings, I am the fourth speaker of this session.",
+                "Hey there, it\u2019s me, the third speaker in the lineup.",
+                "Hi folks, I come to you as the fifth speaker in our series."
+            ],
+            "target_clip": 2,
+            "label": 0,
+            "pretend": 3
+        },
+        "22": {
+            "dialogue": [
+                "Hi all, I proudly take on the role of the first speaker.",
+                "Greetings, I am the designated second speaker for our group.",
+                "Hi, it\u2019s me, the fourth speaker for this occasion.",
+                "Hey there, it\u2019s me, the third speaker in the lineup.",
+                "What\u2019s up? I\u2019m the fifth speaker in this discussion."
+            ],
+            "target_clip": 3,
+            "label": 1,
+            "pretend": 2
+        },
+        "23": {
+            "dialogue": [
+                "Welcome! I\u2019m the first speaker, and I\u2019m excited to share.",
+                "Good morning, I am pleased to be the fourth speaker today.",
+                "What\u2019s going on? I am the third speaker and ready to engage.",
+                "Hi folks, I come to you as the second speaker in our series.",
+                "Listen up! I\u2019m the fifth speaker at this event."
+            ],
+            "target_clip": 1,
+            "label": 0,
+            "pretend": 3
+        },
+        "24": {
+            "dialogue": [
+                "Welcome! I\u2019m the second speaker, and I\u2019m excited to share.",
+                "Greetings, I am the first speaker of this session.",
+                "Hello, I'm the third speaker here.",
+                "Hey, I\u2019m here as the fourth speaker making my debut.",
+                "Hi all, I proudly take on the role of the fifth speaker."
+            ],
+            "target_clip": 0,
+            "label": 3,
+            "pretend": 1
+        },
+        "25": {
+            "dialogue": [
+                "Salutations, I happen to be the third speaker.",
+                "Hello, I'm the second speaker here.",
+                "Hi folks, I come to you as the first speaker in our series.",
+                "What\u2019s going on? I am the fourth speaker and ready to engage.",
+                "Hi, it\u2019s me, the fifth speaker for this occasion."
+            ],
+            "target_clip": 0,
+            "label": 1,
+            "pretend": 2
+        },
+        "26": {
+            "dialogue": [
+                "Hey everyone, I'm the first speaker today.",
+                "Hi folks, I come to you as the third speaker in our series.",
+                "Greetings, I am the designated second speaker for our group.",
+                "Good morning, I am pleased to be the fourth speaker today.",
+                "Hello, I'm stepping up as the fifth speaker right now."
+            ],
+            "target_clip": 2,
+            "label": 0,
+            "pretend": 1
+        },
+        "27": {
+            "dialogue": [
+                "Greetings, I am the designated fourth speaker for our group.",
+                "What\u2019s going on? I am the second speaker and ready to engage.",
+                "Welcome! I\u2019m the third speaker, and I\u2019m excited to share.",
+                "What\u2019s up? I\u2019m the first speaker in this discussion.",
+                "Hi, I declare myself the fifth speaker for this topic."
+            ],
+            "target_clip": 0,
+            "label": 1,
+            "pretend": 3
+        },
+        "28": {
+            "dialogue": [
+                "Hey everyone, I'm the first speaker today.",
+                "Hi there, I represent the third speaker.",
+                "Hello again, I introduce myself as the second speaker.",
+                "What\u2019s going on? I am the fourth speaker and ready to engage.",
+                "Hi, I declare myself the fifth speaker for this topic."
+            ],
+            "target_clip": 2,
+            "label": 3,
+            "pretend": 1
+        },
+        "29": {
+            "dialogue": [
+                "Hello again, I introduce myself as the second speaker.",
+                "What\u2019s up? I\u2019m the first speaker in this discussion.",
+                "Welcome! I\u2019m the third speaker, and I\u2019m excited to share.",
+                "Salutations, I happen to be the fourth speaker.",
+                "Hi there, I represent the fifth speaker."
+            ],
+            "target_clip": 1,
+            "label": 2,
+            "pretend": 0
+        },
+        "30": {
+            "dialogue": [
+                "Greetings, I am the fourth speaker of this session.",
+                "Hey everyone, I'm the second speaker today.",
+                "Greetings, I am the designated third speaker for our group.",
+                "What\u2019s going on? I am the first speaker and ready to engage.",
+                "Listen up! I\u2019m the fifth speaker at this event."
+            ],
+            "target_clip": 0,
+            "label": 2,
+            "pretend": 3
+        },
+        "31": {
+            "dialogue": [
+                "Greetings, I am the first speaker of this session.",
+                "Hi there, I represent the second speaker.",
+                "Listen up! I\u2019m the fourth speaker at this event.",
+                "Hi all, I proudly take on the role of the third speaker.",
+                "Hello again, I introduce myself as the fifth speaker."
+            ],
+            "target_clip": 2,
+            "label": 0,
+            "pretend": 3
+        },
+        "32": {
+            "dialogue": [
+                "Hey everyone, I'm the third speaker today.",
+                "Welcome! I\u2019m the second speaker, and I\u2019m excited to share.",
+                "What\u2019s going on? I am the first speaker and ready to engage.",
+                "Salutations, I happen to be the fourth speaker.",
+                "Hi, I declare myself the fifth speaker for this topic."
+            ],
+            "target_clip": 0,
+            "label": 1,
+            "pretend": 2
+        },
+        "33": {
+            "dialogue": [
+                "Hi, it\u2019s me, the first speaker for this occasion.",
+                "Hi, I declare myself the fourth speaker for this topic.",
+                "Hi folks, I come to you as the third speaker in our series.",
+                "Good morning, I am pleased to be the second speaker today.",
+                "Hey everyone, I'm the fifth speaker today."
+            ],
+            "target_clip": 3,
+            "label": 2,
+            "pretend": 1
+        },
+        "34": {
+            "dialogue": [
+                "Welcome! I\u2019m the first speaker, and I\u2019m excited to share.",
+                "Hi, it\u2019s me, the third speaker for this occasion.",
+                "Hi, I declare myself the second speaker for this topic.",
+                "Hello, I'm the fourth speaker here.",
+                "Hello, I'm stepping up as the fifth speaker right now."
+            ],
+            "target_clip": 1,
+            "label": 3,
+            "pretend": 2
+        },
+        "35": {
+            "dialogue": [
+                "Hi, I declare myself the first speaker for this topic.",
+                "What\u2019s up? I\u2019m the fourth speaker in this discussion.",
+                "Listen up! I\u2019m the third speaker at this event.",
+                "Good morning, I am pleased to be the second speaker today.",
+                "Hi there, I represent the fifth speaker."
+            ],
+            "target_clip": 1,
+            "label": 2,
+            "pretend": 3
+        },
+        "36": {
+            "dialogue": [
+                "Hello, I'm the fourth speaker here.",
+                "Hello, I'm stepping up as the second speaker right now.",
+                "Hey everyone, I'm the third speaker today.",
+                "Hello again, I introduce myself as the first speaker.",
+                "Greetings, I am the fifth speaker of this session."
+            ],
+            "target_clip": 0,
+            "label": 2,
+            "pretend": 3
+        },
+        "37": {
+            "dialogue": [
+                "Hello, I'm stepping up as the first speaker right now.",
+                "What\u2019s up? I\u2019m the fourth speaker in this discussion.",
+                "Good morning, I am pleased to be the third speaker today.",
+                "Hi, I declare myself the second speaker for this topic.",
+                "Hi all, I proudly take on the role of the fifth speaker."
+            ],
+            "target_clip": 1,
+            "label": 0,
+            "pretend": 3
+        },
+        "38": {
+            "dialogue": [
+                "Hi, it\u2019s me, the fourth speaker for this occasion.",
+                "Hey everyone, I'm the second speaker today.",
+                "Hello everyone, I am identified as the third speaker.",
+                "Hi all, I proudly take on the role of the first speaker.",
+                "Hello, I'm stepping up as the fifth speaker right now."
+            ],
+            "target_clip": 3,
+            "label": 1,
+            "pretend": 0
+        },
+        "39": {
+            "dialogue": [
+                "Greetings, I am the designated first speaker for our group.",
+                "What\u2019s going on? I am the second speaker and ready to engage.",
+                "Hi there, I represent the fourth speaker.",
+                "Hi all, I proudly take on the role of the third speaker.",
+                "Hello, I'm the fifth speaker here."
+            ],
+            "target_clip": 2,
+            "label": 0,
+            "pretend": 3
+        }
     }
 }

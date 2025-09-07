@@ -1,4 +1,0 @@
-2025-08-11 01:19:25,149 | INFO | [LOGGING] Output is being saved to: logs/tts_generation_20250811_011925.log
-2025-08-11 01:19:25,249 | INFO | Skipping. Already completed: stress_0_en-US-AvaMultilingualNeural.wav
-2025-08-11 01:19:25,251 | INFO | Skipping. Already completed: stress_0_en-US-AndrewMultilingualNeural.wav
-2025-08-11 01:19:25,251 | INFO | task stress reached target number of generation 2

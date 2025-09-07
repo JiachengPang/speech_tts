@@ -7,6 +7,7 @@ from gpt_prompt_templates import TASK_TEMPLATES
 
 import random
 random.seed(42)
+from itertools import permutations
 
 import re
 
@@ -17,6 +18,10 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 INPUT_FILE = 'tts_prompts_base.json'
+
+INT_TO_ORDINAL = {
+    0: 'first', 1: 'second', 2: 'third', 3: 'fourth', 4: 'fifth'
+}
 
 def query(system_msg, user_msg):
     print('=================================================')
@@ -237,6 +242,58 @@ def extend_counting_task(num_new_subtasks, prompts):
 
     return prompts
 
+def process_response_identity(task_data, message, num_new_subtask, start_index):
+    keyword = 'i-th'
+    try:
+        scripts = json.loads(message)
+        if not isinstance(scripts, list):
+            raise ValueError('Expected a JSON array of strings.')
+        
+        dialogues = list(permutations(scripts, 5))
+        dialogues = random.sample(dialogues, num_new_subtask)
+               
+        for dialogue in dialogues:
+            dialogue_l = list(dialogue)
+            target, label, pretend = random.sample(range(4), 3)
+            dialogue_l[target] = dialogue_l[target].replace(keyword, INT_TO_ORDINAL[pretend])
+            dialogue_l[pretend] = dialogue_l[pretend].replace(keyword, INT_TO_ORDINAL[target])
+
+            for i, script in enumerate(dialogue_l):
+                if keyword in script:
+                    dialogue_l[i] = dialogue_l[i].replace(keyword, INT_TO_ORDINAL[i])
+            
+            task_data[str(start_index)] = {
+                'dialogue': dialogue_l,
+                'target_clip': target,
+                'label': label,
+                'pretend': pretend
+            }
+
+            start_index += 1
+
+    except Exception as e:
+        print(f'Cannot parse GPT output for identity: {e}')
+        print(f'Raw output: {message}')
+
+
+def extend_identity_task(num_new_subtasks, prompts):
+    """Generate multiple identity subtasks"""
+    task_name = 'identity'
+    task_data = prompts[task_name]
+    start_index = next_available_index(task_data)
+
+    print(f'Extending {task_name} with {num_new_subtasks} new samples starting from index {start_index}')
+
+    system_msg = TASK_TEMPLATES[task_name]['system']
+    user_msg = TASK_TEMPLATES[task_name]['user'].format(
+        num=num_new_subtasks
+    )
+
+    message = query(system_msg, user_msg)
+    print('GPT Output:\n', message)
+
+    process_response_identity(task_data, message, num_new_subtasks, start_index)
+    return prompts
 
 def decap_first(s: str) -> str:
     """Lowercase the first alphabetic letter unless the first word is I or I'.."""
@@ -480,6 +537,8 @@ if __name__ == '__main__':
 
     if args.task == 'counting':
         prompts = extend_counting_task(args.n, prompts)
+    elif args.task == 'identity':
+        prompts = extend_identity_task(args.n, prompts)
     elif args.task == 'intonation':
         prompts = extend_intonation_task(args.n, prompts, target_subtask=args.subtask)
     elif args.task == 'accent':

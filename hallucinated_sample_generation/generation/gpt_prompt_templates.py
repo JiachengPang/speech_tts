@@ -255,6 +255,21 @@ Example format:
 ]
 """
     },
+
+    "identity": {
+        "system": SYSTEM_MSG_GENERAL,
+        "user": """
+Generate {num} new TTS scripts.
+
+Each script is a person stating they are the i-th speaker, and must include the word "i-th".
+
+For example,
+"Hi, I am the i-th speaker"
+
+You scripts should have diversity in grammar and word choice.
+Return only a JSON array of these scripts.
+"""
+    }
 }
 
 

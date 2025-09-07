@@ -1,7 +1,0 @@
-2025-08-11 15:09:46,855 | INFO | [LOGGING] Output is being saved to: logs/tts_generation_20250811_150946.log
-2025-08-11 15:09:46,958 | INFO | Processing default task intonation subtask rising
-2025-08-11 15:09:46,958 | INFO | Generating intonation/rising (en-US-AvaMultilingualNeural) to intonation_rising_0_en-US-AvaMultilingualNeural.wav
-2025-08-11 15:09:47,327 | INFO | Generating intonation/rising (en-US-AndrewMultilingualNeural) to intonation_rising_0_en-US-AndrewMultilingualNeural.wav
-2025-08-11 15:09:47,396 | INFO | Generating intonation/rising (en-US-EmmaMultilingualNeural) to intonation_rising_0_en-US-EmmaMultilingualNeural.wav
-2025-08-11 15:09:47,454 | INFO | Generating intonation/rising (en-US-AlloyTurboMultilingualNeural) to intonation_rising_0_en-US-AlloyTurboMultilingualNeural.wav
-2025-08-11 15:09:47,522 | INFO | Generating intonation/rising (en-US-EchoTurboMultilingualNeural) to intonation_rising_0_en-US-EchoTurboMultilingualNeural.wav
