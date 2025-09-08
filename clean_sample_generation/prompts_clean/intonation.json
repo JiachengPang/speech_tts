@@ -1,0 +1,23 @@
+{
+  "intonation": {
+    "prompt": "Is the intonation of the entire sentence rising or falling?",
+    "rising": [
+      {
+        "voice": "",
+        "style": "<prosody contour='(0%, +0%) (100%, +50%)'>I can tell you that my voice has a falling intonation?</prosody>",
+        "script": "I can tell you that my voice has a falling intonation?",
+        "label": "rising",
+        "pretend": "falling"
+      }
+    ],
+    "falling": [
+      {
+        "voice": "",
+        "style": "<prosody contour='(0%, +0%) (100%, -50%)'>I am speaking with a rising intonation.</prosody>",
+        "script": "I am speaking with a rising intonation.",
+        "label": "falling",
+        "pretend": "rising"
+      }
+    ]
+  }
+}

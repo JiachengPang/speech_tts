@@ -1,0 +1,1094 @@
+{
+    "identity": {
+        "prompt": "Which speaker clip belongs to the same person as speaker clip X?",
+        "0": {
+            "dialogue": [
+                "The cat jumped over the fence.",
+                "We need to buy some more paint.",
+                "Can you hear the birds singing?",
+                "I found a penny on the ground.",
+                "The cake is still in the oven."
+            ],
+            "target_clip": 0,
+            "label": 4
+        },
+        "1": {
+            "dialogue": [
+                "Do you like pineapple on pizza?",
+                "The sun sets in the west.",
+                "She wears blue socks today.",
+                "I enjoy reading mystery novels.",
+                "The car needs a new battery."
+            ],
+            "target_clip": 2,
+            "label": 1
+        },
+        "2": {
+            "dialogue": [
+                "What time does the movie start?",
+                "Elephants are the largest land animals.",
+                "He collects stamps from around the world.",
+                "My favorite color is green.",
+                "The refrigerator is making a strange noise."
+            ],
+            "target_clip": 1,
+            "label": 4
+        },
+        "3": {
+            "dialogue": [
+                "Can you pass me the salt?",
+                "She dreams of traveling to Paris.",
+                "The flowers in the garden are blooming beautifully.",
+                "It might rain later today.",
+                "I just finished a new puzzle."
+            ],
+            "target_clip": 0,
+            "label": 4
+        },
+        "4": {
+            "dialogue": [
+                "The dog barked at the stranger.",
+                "Have you tried the new sushi restaurant?",
+                "The library closes at 6 PM.",
+                "Tomorrow is my birthday.",
+                "He plays the guitar very well."
+            ],
+            "target_clip": 4,
+            "label": 3
+        },
+        "5": {
+            "dialogue": [
+                "They are planning a surprise party.",
+                "I saw a shooting star last night.",
+                "The favorite season is autumn.",
+                "We should clean the garage this weekend.",
+                "The remote control is missing."
+            ],
+            "target_clip": 0,
+            "label": 4
+        },
+        "6": {
+            "dialogue": [
+                "I need a new pair of shoes.",
+                "Do you enjoy hiking in the mountains?",
+                "The train arrives at noon.",
+                "She loves to paint landscapes.",
+                "I have a collection of postcards."
+            ],
+            "target_clip": 0,
+            "label": 1
+        },
+        "7": {
+            "dialogue": [
+                "What are you doing later?",
+                "The ocean waves are calming.",
+                "He has a great sense of humor.",
+                "The barbecue is ready to go.",
+                "My sister just adopted a kitten."
+            ],
+            "target_clip": 1,
+            "label": 0
+        },
+        "8": {
+            "dialogue": [
+                "The clock is ticking loudly.",
+                "I want to learn how to cook Italian dishes.",
+                "The stars are shining brightly tonight.",
+                "We should visit the museum soon.",
+                "He has a knack for storytelling."
+            ],
+            "target_clip": 4,
+            "label": 1
+        },
+        "9": {
+            "dialogue": [
+                "Do you prefer tea or coffee?",
+                "She is an excellent swimmer.",
+                "The view from the top is breathtaking.",
+                "I need to organize my closet.",
+                "The garden needs watering."
+            ],
+            "target_clip": 4,
+            "label": 3
+        },
+        "10": {
+            "dialogue": [
+                "I love to bake cookies on weekends.",
+                "The book is on the table.",
+                "Have you seen my glasses?",
+                "He enjoys solving puzzles.",
+                "The festival will be held next month."
+            ],
+            "target_clip": 1,
+            "label": 3
+        },
+        "11": {
+            "dialogue": [
+                "The wind is blowing through the trees.",
+                "She writes poetry in her spare time.",
+                "The concert was amazing!",
+                "I think I left my phone at home.",
+                "We should try that new ice cream shop."
+            ],
+            "target_clip": 4,
+            "label": 2
+        },
+        "12": {
+            "dialogue": [
+                "The stars twinkle in the night sky.",
+                "He is learning to play the piano.",
+                "My favorite sport is basketball.",
+                "The news is quite surprising today.",
+                "I found an old photograph."
+            ],
+            "target_clip": 0,
+            "label": 1
+        },
+        "13": {
+            "dialogue": [
+                "What are you having for lunch?",
+                "The mountains are covered in snow.",
+                "She loves to dance at parties.",
+                "I want to explore the city.",
+                "The sweater is very warm."
+            ],
+            "target_clip": 3,
+            "label": 2
+        },
+        "14": {
+            "dialogue": [
+                "Did you see the new exhibit at the gallery?",
+                "He has a collection of vintage cars.",
+                "The food tastes delicious!",
+                "We should go for a bike ride.",
+                "The lights are flickering."
+            ],
+            "target_clip": 2,
+            "label": 1
+        },
+        "15": {
+            "dialogue": [
+                "The puppy wagged its tail happily.",
+                "I enjoy watching documentaries.",
+                "She likes to play board games.",
+                "The sunset was spectacular yesterday.",
+                "I need to call my friend."
+            ],
+            "target_clip": 1,
+            "label": 2
+        },
+        "16": {
+            "dialogue": [
+                "What is your favorite holiday?",
+                "The coffee shop is always busy in the morning.",
+                "He plays soccer every weekend.",
+                "I have a smartphone.",
+                "The flowers smell wonderful."
+            ],
+            "target_clip": 0,
+            "label": 4
+        },
+        "17": {
+            "dialogue": [
+                "Have you read that new novel?",
+                "The beach is crowded today.",
+                "She bakes the best chocolate cake.",
+                "I need to charge my tablet.",
+                "The painting is a masterpiece."
+            ],
+            "target_clip": 3,
+            "label": 0
+        },
+        "18": {
+            "dialogue": [
+                "What time do we need to leave?",
+                "The trees are changing colors in the fall.",
+                "I enjoy listening to classical music.",
+                "The house is quiet right now.",
+                "He runs marathons every year."
+            ],
+            "target_clip": 2,
+            "label": 4
+        },
+        "19": {
+            "dialogue": [
+                "Do you want to try a new restaurant?",
+                "The bakery smells amazing.",
+                "I found a rare coin.",
+                "The children are playing outside.",
+                "She has a lovely singing voice."
+            ],
+            "target_clip": 4,
+            "label": 2
+        },
+        "20": {
+            "dialogue": [
+                "What\u2019s your favorite movie?",
+                "The stars are bright tonight.",
+                "He studies biology at university.",
+                "I love to watch the sunrise.",
+                "The telephone is ringing."
+            ],
+            "target_clip": 0,
+            "label": 3
+        },
+        "21": {
+            "dialogue": [
+                "Do you like gardening?",
+                "The soup is too hot to eat.",
+                "She is taking a photography class.",
+                "I dreamt about flying last night.",
+                "The shoes are on sale."
+            ],
+            "target_clip": 4,
+            "label": 0
+        },
+        "22": {
+            "dialogue": [
+                "What kind of music do you enjoy?",
+                "The flowers were a gift from a friend.",
+                "I need to finish my homework.",
+                "The sky is clear and blue.",
+                "He makes the best pancakes."
+            ],
+            "target_clip": 3,
+            "label": 0
+        },
+        "23": {
+            "dialogue": [
+                "Have you ever been to Europe?",
+                "The ice cream melted in the sun.",
+                "She collects vintage jewelry.",
+                "We should play a game tonight.",
+                "The traffic is heavy this evening."
+            ],
+            "target_clip": 4,
+            "label": 2
+        },
+        "24": {
+            "dialogue": [
+                "Do you enjoy going to the theater?",
+                "The sunset painted the sky orange.",
+                "He has a pet rabbit.",
+                "I lost my keys yesterday.",
+                "The apple pie is cooling."
+            ],
+            "target_clip": 4,
+            "label": 2
+        },
+        "25": {
+            "dialogue": [
+                "What is your dream job?",
+                "The clouds look like cotton candy.",
+                "She loves to travel by train.",
+                "I will finish my project tomorrow.",
+                "The curtains are drawn."
+            ],
+            "target_clip": 4,
+            "label": 1
+        },
+        "26": {
+            "dialogue": [
+                "Can you recommend a good book?",
+                "The cat sat on the windowsill.",
+                "He enjoys painting in his free time.",
+                "I have an early meeting tomorrow.",
+                "The bicycle needs a repair."
+            ],
+            "target_clip": 0,
+            "label": 4
+        },
+        "27": {
+            "dialogue": [
+                "What are your plans for the weekend?",
+                "The marshmallows are ready for roasting.",
+                "She enjoys star gazing.",
+                "I need to update my resume.",
+                "The dog is chasing its tail."
+            ],
+            "target_clip": 1,
+            "label": 2
+        },
+        "28": {
+            "dialogue": [
+                "Do you like to cook?",
+                "The sun is shining brightly.",
+                "He planted tomatoes in the garden.",
+                "I heard a strange noise outside.",
+                "The concert tickets are sold out."
+            ],
+            "target_clip": 0,
+            "label": 1
+        },
+        "29": {
+            "dialogue": [
+                "What is your favorite season?",
+                "The cake needs to cool down.",
+                "She walks her dog every morning.",
+                "I enjoy visiting art galleries.",
+                "The lamp is broken."
+            ],
+            "target_clip": 0,
+            "label": 3
+        },
+        "30": {
+            "dialogue": [
+                "Have you tried the new caf\u00e9?",
+                "The mountains are breathtaking.",
+                "He knows a lot about history.",
+                "I need a vacation soon.",
+                "The clock struck midnight."
+            ],
+            "target_clip": 2,
+            "label": 3
+        },
+        "31": {
+            "dialogue": [
+                "What do you like to do in your spare time?",
+                "The fish are swimming in the pond.",
+                "She likes to run marathons.",
+                "I saw a rainbow after the rain.",
+                "The flowers in the vase are wilting."
+            ],
+            "target_clip": 2,
+            "label": 1
+        },
+        "32": {
+            "dialogue": [
+                "What\u2019s the weather like today?",
+                "The book is really interesting.",
+                "He enjoys playing chess.",
+                "I plan to visit my grandmother.",
+                "The bag is heavy."
+            ],
+            "target_clip": 2,
+            "label": 4
+        },
+        "33": {
+            "dialogue": [
+                "Do you play any instruments?",
+                "The clouds are gathering for a storm.",
+                "She likes to attend music festivals.",
+                "I finished my painting yesterday.",
+                "The keys are on the table."
+            ],
+            "target_clip": 1,
+            "label": 2
+        },
+        "34": {
+            "dialogue": [
+                "What was the last movie you saw?",
+                "The dog is barking at the mailman.",
+                "He is planning to start a new job.",
+                "I want to learn a new language.",
+                "The lights went out suddenly."
+            ],
+            "target_clip": 0,
+            "label": 1
+        },
+        "35": {
+            "dialogue": [
+                "Do you have a favorite recipe?",
+                "The garden is full of butterflies.",
+                "She is redecorating her room.",
+                "I enjoy watching cartoons.",
+                "The doorbell rang."
+            ],
+            "target_clip": 4,
+            "label": 1
+        },
+        "36": {
+            "dialogue": [
+                "What kind of pets do you have?",
+                "The pancakes smell delicious.",
+                "He loves hiking in the mountains.",
+                "I lost my wallet last week.",
+                "The stars are beautiful tonight."
+            ],
+            "target_clip": 1,
+            "label": 3
+        },
+        "37": {
+            "dialogue": [
+                "Have you been to a concert lately?",
+                "The park is filled with children playing.",
+                "She enjoys writing in her journal.",
+                "I need to finish my book.",
+                "The flowers are starting to wilt."
+            ],
+            "target_clip": 3,
+            "label": 2
+        },
+        "38": {
+            "dialogue": [
+                "How do you like your coffee?",
+                "The movie was quite entertaining.",
+                "He has a large collection of coins.",
+                "I plan to do some gardening this weekend.",
+                "The computer is running slow."
+            ],
+            "target_clip": 4,
+            "label": 1
+        },
+        "39": {
+            "dialogue": [
+                "What\u2019s your go-to comfort food?",
+                "The sky turned pink at sunset.",
+                "She has a beautiful voice.",
+                "I saw a squirrel in the backyard.",
+                "The fridge is almost empty."
+            ],
+            "target_clip": 2,
+            "label": 0
+        },
+        "40": {
+            "dialogue": [
+                "What are you passionate about?",
+                "The bakery is famous for its pastries.",
+                "He enjoys photography as a hobby.",
+                "I found a great deal online.",
+                "The bus is always late."
+            ],
+            "target_clip": 1,
+            "label": 0
+        },
+        "41": {
+            "dialogue": [
+                "What hobbies do you have?",
+                "The lake is calm and peaceful.",
+                "She loves to play video games.",
+                "I need to buy groceries.",
+                "The lights are blinking."
+            ],
+            "target_clip": 2,
+            "label": 3
+        },
+        "42": {
+            "dialogue": [
+                "Do you enjoy nature walks?",
+                "The garden has many beautiful flowers.",
+                "He has a knack for cooking.",
+                "I need to schedule a dentist appointment.",
+                "The bookshelf is full."
+            ],
+            "target_clip": 2,
+            "label": 0
+        },
+        "43": {
+            "dialogue": [
+                "What inspires you?",
+                "The clouds look ominous today.",
+                "She plays tennis every Saturday.",
+                "I heard a strange sound last night.",
+                "The chair is uncomfortable."
+            ],
+            "target_clip": 1,
+            "label": 2
+        },
+        "44": {
+            "dialogue": [
+                "What is your favorite dish?",
+                "The view from the balcony is amazing.",
+                "He is working on a new project.",
+                "I need to find a new phone charger.",
+                "The carpet needs cleaning."
+            ],
+            "target_clip": 1,
+            "label": 3
+        },
+        "45": {
+            "dialogue": [
+                "Have you ever tried painting?",
+                "The streets are busy this morning.",
+                "She collects postcards from her travels.",
+                "I need to return some library books.",
+                "The printer is out of ink."
+            ],
+            "target_clip": 3,
+            "label": 4
+        },
+        "46": {
+            "dialogue": [
+                "What\u2019s a fun fact about yourself?",
+                "The child flew a kite in the park.",
+                "He can juggle five balls.",
+                "I forgot my umbrella at home.",
+                "The music is too loud."
+            ],
+            "target_clip": 1,
+            "label": 2
+        },
+        "47": {
+            "dialogue": [
+                "Do you like to watch documentaries?",
+                "The stars are out tonight.",
+                "She enjoys knitting during the winter.",
+                "I have a dentist appointment tomorrow.",
+                "The cake is delicious."
+            ],
+            "target_clip": 1,
+            "label": 4
+        },
+        "48": {
+            "dialogue": [
+                "What did you do last weekend?",
+                "The river is flowing rapidly.",
+                "He likes to write short stories.",
+                "I need to fix my bicycle.",
+                "The weather is unpredictable."
+            ],
+            "target_clip": 4,
+            "label": 2
+        },
+        "49": {
+            "dialogue": [
+                "What\u2019s the most adventurous thing you\u2019ve done?",
+                "The salad needs more dressing.",
+                "She enjoys baking with her grandmother.",
+                "I saw a deer in the woods.",
+                "The mail arrived late today."
+            ],
+            "target_clip": 4,
+            "label": 3
+        },
+        "50": {
+            "dialogue": [
+                "Do you like going to the beach?",
+                "The sky looks beautiful at dusk.",
+                "He enjoys reading comic books.",
+                "I lost track of time.",
+                "The pasta is boiling over."
+            ],
+            "target_clip": 4,
+            "label": 3
+        },
+        "51": {
+            "dialogue": [
+                "Have you ever tried skydiving?",
+                "The wind is picking up.",
+                "She paints landscapes beautifully.",
+                "I have a new project at work.",
+                "The car is making a weird noise."
+            ],
+            "target_clip": 2,
+            "label": 1
+        },
+        "52": {
+            "dialogue": [
+                "The sun sets beautifully over the horizon.",
+                "Bananas are a great source of potassium.",
+                "Did you know that jellyfish have been around for over 500 million years?",
+                "My favorite color is teal.",
+                "Elephants are the largest land animals on Earth."
+            ],
+            "target_clip": 0,
+            "label": 4
+        },
+        "53": {
+            "dialogue": [
+                "The Eiffel Tower was completed in 1889.",
+                "Kites can fly high in the sky during windy days.",
+                "Pineapple is delicious on pizza, according to some people.",
+                "Rainbows are formed by the refraction of light.",
+                "A group of crows is called a murder."
+            ],
+            "target_clip": 2,
+            "label": 1
+        },
+        "54": {
+            "dialogue": [
+                "Chocolate can improve your mood.",
+                "Honey never spoils, even in ancient tombs.",
+                "The human body has 206 bones.",
+                "Seahorses are the only species where the male carries the young.",
+                "Mount Everest is the tallest mountain in the world."
+            ],
+            "target_clip": 1,
+            "label": 4
+        },
+        "55": {
+            "dialogue": [
+                "Cats sleep for around 16 hours a day.",
+                "Watermelon is 92% water.",
+                "The Great Wall of China stretches over 13,000 miles.",
+                "Vincent van Gogh painted 'Starry Night'.",
+                "There are more trees on Earth than stars in the Milky Way."
+            ],
+            "target_clip": 0,
+            "label": 4
+        },
+        "56": {
+            "dialogue": [
+                "Butterflies taste with their feet.",
+                "The quickest land animal is the cheetah.",
+                "Wombat poop is cube-shaped.",
+                "The Mona Lisa has no eyebrows.",
+                "A snail can sleep for three years."
+            ],
+            "target_clip": 4,
+            "label": 3
+        },
+        "57": {
+            "dialogue": [
+                "Ostriches can run faster than horses.",
+                "A day on Venus is longer than a year on Venus.",
+                "The heart of a blue whale is the size of a small car.",
+                "Octopuses have three hearts.",
+                "Caffeine is found in coffee, tea, and chocolate."
+            ],
+            "target_clip": 0,
+            "label": 4
+        },
+        "58": {
+            "dialogue": [
+                "The longest river in the world is the Nile.",
+                "Tigers are the largest species of cat.",
+                "Honey bees communicate through a dance.",
+                "A group of flamingos is called a 'flamboyance'.",
+                "The cheetah can accelerate from 0 to 60 mph in just a few seconds."
+            ],
+            "target_clip": 0,
+            "label": 1
+        },
+        "59": {
+            "dialogue": [
+                "There are over 7,000 languages spoken in the world.",
+                "Space is completely silent.",
+                "A jiffy is an actual unit of time.",
+                "Koalas sleep up to 18 hours a day.",
+                "Humans share 60% of their DNA with bananas."
+            ],
+            "target_clip": 1,
+            "label": 0
+        },
+        "60": {
+            "dialogue": [
+                "The heart can keep beating even when separated from the body.",
+                "Pandas primarily eat bamboo.",
+                "The world's smallest reptile was discovered in 2021.",
+                "A bee's wings beat about 200 times per second.",
+                "Crocodiles cannot stick their tongue out."
+            ],
+            "target_clip": 4,
+            "label": 1
+        },
+        "61": {
+            "dialogue": [
+                "Avocados are fruits, not vegetables.",
+                "Windmills can be traced back to ancient Persia.",
+                "The Eiffel Tower can be 15 cm taller during the summer.",
+                "The shortest war in history lasted for 38 minutes.",
+                "Astronauts cannot burp in space."
+            ],
+            "target_clip": 4,
+            "label": 3
+        },
+        "62": {
+            "dialogue": [
+                "Horses can sleep both lying down and standing up.",
+                "A lighthouse can be seen for up to 18 miles away.",
+                "The world's oldest known living tree is over 4,800 years old.",
+                "Sharks can live for over 100 years.",
+                "Saturn is the flattest planet in our solar system."
+            ],
+            "target_clip": 1,
+            "label": 3
+        },
+        "63": {
+            "dialogue": [
+                "Fish have been domesticated for thousands of years.",
+                "The most commonly used letter in the English language is 'E'.",
+                "Bananas are berries, but strawberries are not.",
+                "Turtles can breathe through their butts.",
+                "The human nose can detect over a trillion scents."
+            ],
+            "target_clip": 4,
+            "label": 2
+        },
+        "64": {
+            "dialogue": [
+                "The average person walks the equivalent of three times around the world in a lifetime.",
+                "The shortest war in history was between Britain and Zanzibar.",
+                "A group of owls is known as a parliament.",
+                "A cloud can weigh more than a million pounds.",
+                "There's a basketball court on the top floor of the U.S. Supreme Court building."
+            ],
+            "target_clip": 0,
+            "label": 1
+        },
+        "65": {
+            "dialogue": [
+                "The world's largest desert is Antarctica.",
+                "It's impossible to hum while holding your nose.",
+                "A crocodile cannot stick its tongue out.",
+                "The moon has moonquakes.",
+                "The first computer was invented in the 1940s."
+            ],
+            "target_clip": 3,
+            "label": 2
+        },
+        "66": {
+            "dialogue": [
+                "Birds are the closest living relatives to dinosaurs.",
+                "Flamingos are born gray, not pink.",
+                "Butterflies can taste with their feet.",
+                "The majority of your brain is fat.",
+                "The longest English word is 189,819 letters long."
+            ],
+            "target_clip": 2,
+            "label": 1
+        },
+        "67": {
+            "dialogue": [
+                "A bolt of lightning contains enough energy to toast 100,000 slices of bread.",
+                "Newborns have about 100 more bones than adults.",
+                "The fingerprints of a koala are so similar to humans that they can taint crime scenes.",
+                "A day on Mercury is longer than a year on Mercury.",
+                "Some cats are allergic to humans."
+            ],
+            "target_clip": 1,
+            "label": 2
+        },
+        "68": {
+            "dialogue": [
+                "Some species of frogs can freeze without dying.",
+                "Around 30-50% of the world's population is left-handed.",
+                "A group of hippos is called a bloat.",
+                "Rubber bands last longer when refrigerated.",
+                "Kangaroos can't walk backward."
+            ],
+            "target_clip": 0,
+            "label": 4
+        },
+        "69": {
+            "dialogue": [
+                "The human body has enough fat to make seven bars of soap.",
+                "The tallest tree in the world is a coast redwood.",
+                "Dolphins have their own names for each other.",
+                "Some fish can glow in the dark.",
+                "The average cloud weighs about 1.1 million pounds."
+            ],
+            "target_clip": 3,
+            "label": 0
+        },
+        "70": {
+            "dialogue": [
+                "The first email was sent in 1971.",
+                "Cows have best friends and get stressed when separated.",
+                "Ostriches can run faster than horses.",
+                "A baby octopus is about the size of a pea when born.",
+                "A lion's roar can be heard from five miles away."
+            ],
+            "target_clip": 2,
+            "label": 4
+        },
+        "71": {
+            "dialogue": [
+                "There are more fake flamingos in the world than real ones.",
+                "Pigs are said to be as intelligent as a three-year-old child.",
+                "Hummingbirds are the only birds that can fly backward.",
+                "There's a species of jellyfish that is immortal.",
+                "The tallest mountain in our solar system is Olympus Mons on Mars."
+            ],
+            "target_clip": 4,
+            "label": 2
+        },
+        "72": {
+            "dialogue": [
+                "A shrimp's heart is located in its head.",
+                "An octopus has three hearts and blue blood.",
+                "The longest word in the English language is pneumonoultramicroscopicsilicovolcanoconiosis.",
+                "Some cats are lactose intolerant.",
+                "Horses can communicate with their ears."
+            ],
+            "target_clip": 0,
+            "label": 3
+        },
+        "73": {
+            "dialogue": [
+                "There are about 1,000 species of bats in the world.",
+                "Penguins can\u2019t fly, but they are excellent swimmers.",
+                "The first animal to go into space was a dog named Laika.",
+                "Turtles can breathe through their bottoms.",
+                "The world's smallest frog is only 7.7 mm long."
+            ],
+            "target_clip": 4,
+            "label": 0
+        },
+        "74": {
+            "dialogue": [
+                "Humans are the only animals that blush.",
+                "Wombats have cube-shaped poop.",
+                "Cheetahs can't roar but can make a variety of noises.",
+                "The longest recorded flight of a chicken is 13 seconds.",
+                "The dot over the letter 'i' is called a tittle."
+            ],
+            "target_clip": 3,
+            "label": 0
+        },
+        "75": {
+            "dialogue": [
+                "Bananas glow blue under black light.",
+                "Humans share 50% of their DNA with bananas.",
+                "The average person will spend six months of their life waiting for red lights to turn green.",
+                "The unicorn is the national animal of Scotland.",
+                "Frogs can absorb water through their skin."
+            ],
+            "target_clip": 4,
+            "label": 2
+        },
+        "76": {
+            "dialogue": [
+                "There are more stars in the universe than grains of sand on Earth.",
+                "The average human will produce enough saliva in their lifetime to fill two swimming pools.",
+                "Cockroaches can live for several weeks without their heads.",
+                "Kangaroos can't walk backward.",
+                "The world's largest snowflake on record was 15 inches wide."
+            ],
+            "target_clip": 4,
+            "label": 2
+        },
+        "77": {
+            "dialogue": [
+                "The world's oldest known living tree is over 4,800 years old.",
+                "A snail can sleep for three years.",
+                "Honey is the only food that doesn't spoil.",
+                "The average person walks the equivalent of three times around the world in a lifetime.",
+                "The first computer was invented in the 1940s."
+            ],
+            "target_clip": 4,
+            "label": 1
+        },
+        "78": {
+            "dialogue": [
+                "Platypuses are one of the few mammals that lay eggs.",
+                "The average person produces enough body heat in 30 minutes to bring a gallon of water to a boil.",
+                "Dolphins have been known to save humans from drowning.",
+                "A day on Venus is longer than a year on Venus.",
+                "The fingerprints of a koala are so similar to humans that they could taint crime scenes."
+            ],
+            "target_clip": 0,
+            "label": 4
+        },
+        "79": {
+            "dialogue": [
+                "A group of butterflies is called a kaleidoscope.",
+                "Polar bears have black skin under their white fur.",
+                "Starfish can regenerate lost arms.",
+                "The world's largest desert is Antarctica.",
+                "In Switzerland, it's illegal to own just one guinea pig."
+            ],
+            "target_clip": 1,
+            "label": 2
+        },
+        "80": {
+            "dialogue": [
+                "The longest place name in the world is 85 letters long.",
+                "Dolphins have been known to use tools.",
+                "A jellyfish is 95% water.",
+                "The average person spends two weeks of their life waiting for the traffic light to change.",
+                "Elephants are the only mammals that can't jump."
+            ],
+            "target_clip": 0,
+            "label": 1
+        },
+        "81": {
+            "dialogue": [
+                "The world's largest snowflake was recorded at 15 inches wide.",
+                "Hiccups can last for days or even weeks.",
+                "The least used letter in the alphabet is Q.",
+                "The average person has 100,000 hairs on their head.",
+                "A group of crows is called a murder."
+            ],
+            "target_clip": 0,
+            "label": 3
+        },
+        "82": {
+            "dialogue": [
+                "A jiffy is an actual unit of time.",
+                "Scotland's national animal is the unicorn.",
+                "Honey never spoils.",
+                "Your fingernails grow faster on your dominant hand.",
+                "The longest English word is 189,819 letters long."
+            ],
+            "target_clip": 2,
+            "label": 3
+        },
+        "83": {
+            "dialogue": [
+                "Starfish can regenerate lost arms.",
+                "A group of penguins on land is called a waddle.",
+                "The Eiffel Tower can be 15 cm taller during the summer.",
+                "Caffeine is found in coffee, tea, and chocolate.",
+                "A snail can sleep for three years."
+            ],
+            "target_clip": 2,
+            "label": 1
+        },
+        "84": {
+            "dialogue": [
+                "There are about 1,000 species of bats.",
+                "Wombat poop is cube-shaped.",
+                "A group of flamingos is called a flamboyance.",
+                "The world's largest desert is Antarctica.",
+                "Pigs can get sunburned."
+            ],
+            "target_clip": 2,
+            "label": 4
+        },
+        "85": {
+            "dialogue": [
+                "Dolphins have been known to rescue swimmers from sharks.",
+                "Tigers have striped skin, not just striped fur.",
+                "A group of owls is known as a parliament.",
+                "Bees can recognize human faces.",
+                "The human nose can detect over a trillion different scents."
+            ],
+            "target_clip": 1,
+            "label": 2
+        },
+        "86": {
+            "dialogue": [
+                "Penguins can swim at speeds of up to 15 miles per hour.",
+                "The longest recorded flight of a chicken is 13 seconds.",
+                "An octopus has three hearts.",
+                "Cows have best friends.",
+                "The first email was sent in 1971."
+            ],
+            "target_clip": 0,
+            "label": 1
+        },
+        "87": {
+            "dialogue": [
+                "There are about 7,000 languages spoken worldwide.",
+                "The fingerprints of a koala are so similar to humans they could taint crime scenes.",
+                "Flamingos are pink because of the food they eat.",
+                "The world's largest living organism is a fungus in Oregon.",
+                "Ants can lift 50 times their body weight."
+            ],
+            "target_clip": 4,
+            "label": 1
+        },
+        "88": {
+            "dialogue": [
+                "Blue whales can weigh as much as 30 elephants.",
+                "A bolt of lightning can strike the same place several times.",
+                "The dot over the letter 'i' is called a tittle.",
+                "Honey bees communicate through a dance.",
+                "Bananas are berries, but strawberries are not."
+            ],
+            "target_clip": 1,
+            "label": 3
+        },
+        "89": {
+            "dialogue": [
+                "Octopuses can change color to blend in with their surroundings.",
+                "The shortest war in history lasted 38 minutes.",
+                "The average cloud weighs more than a million pounds.",
+                "Cheetahs can run up to 60 miles per hour.",
+                "A crocodile cannot stick its tongue out."
+            ],
+            "target_clip": 3,
+            "label": 2
+        },
+        "90": {
+            "dialogue": [
+                "The human body contains enough carbon to make 900 pencils.",
+                "Horses can sleep both lying down and standing up.",
+                "A single teaspoon of honey represents the life work of 12 bees.",
+                "Sloths can hold their breath longer than dolphins.",
+                "The moon has moonquakes."
+            ],
+            "target_clip": 4,
+            "label": 1
+        },
+        "91": {
+            "dialogue": [
+                "Some cats are allergic to humans.",
+                "The fingerprints of a koala are practically indistinguishable from a human's.",
+                "Newborns have around 100 more bones than adults.",
+                "Wombats have cube-shaped poop.",
+                "A group of jellyfish is called a smack."
+            ],
+            "target_clip": 2,
+            "label": 0
+        },
+        "92": {
+            "dialogue": [
+                "Birds are the closest living relatives to dinosaurs.",
+                "The first animal in space was a dog named Laika.",
+                "Cows can sleep standing up.",
+                "Bananas float in water.",
+                "A group of flamingos is called a stand."
+            ],
+            "target_clip": 1,
+            "label": 0
+        },
+        "93": {
+            "dialogue": [
+                "The shortest war in history was between Britain and Zanzibar.",
+                "A snail can sleep for three years.",
+                "Koalas eat eucalyptus leaves.",
+                "Flamingos can only eat with their heads upside down.",
+                "The longest place name in the world has 85 letters."
+            ],
+            "target_clip": 2,
+            "label": 3
+        },
+        "94": {
+            "dialogue": [
+                "The world's largest snowflake was 15 inches wide.",
+                "Caffeinated beverages can actually help you focus.",
+                "The heart of a blue whale is the size of a small car.",
+                "Some cats are lactose intolerant.",
+                "The Mona Lisa has no eyebrows."
+            ],
+            "target_clip": 2,
+            "label": 0
+        },
+        "95": {
+            "dialogue": [
+                "Some species of frogs can freeze without dying.",
+                "Polar bears have black skin under their white fur.",
+                "Cheetahs cannot roar like other big cats.",
+                "The largest living organism on Earth is a fungus.",
+                "Bananas glow blue under black light."
+            ],
+            "target_clip": 1,
+            "label": 2
+        },
+        "96": {
+            "dialogue": [
+                "There are over 1,000 species of plants that can be used to create tea.",
+                "Horses can communicate with their ears.",
+                "The average person will spend about six months of their life waiting for red lights to turn green.",
+                "Dolphins can recognize themselves in mirrors.",
+                "A group of stars is called a galaxy."
+            ],
+            "target_clip": 1,
+            "label": 3
+        },
+        "97": {
+            "dialogue": [
+                "Honey bees can recognize human faces.",
+                "The Eiffel Tower can be 15 cm taller during summer.",
+                "Some turtles can breathe through their butts.",
+                "Crocodiles can't stick their tongue out.",
+                "The world's largest desert is Antarctica."
+            ],
+            "target_clip": 3,
+            "label": 4
+        },
+        "98": {
+            "dialogue": [
+                "Many cats are lactose intolerant.",
+                "The first person to go into space was Yuri Gagarin.",
+                "The ocean is home to the largest living creature on Earth.",
+                "Frogs can absorb water through their skin.",
+                "There's a basketball court on the top floor of the U.S. Supreme Court."
+            ],
+            "target_clip": 1,
+            "label": 2
+        }
+    }
+}

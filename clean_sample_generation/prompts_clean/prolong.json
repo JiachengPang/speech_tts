@@ -1,0 +1,2795 @@
+{
+  "prolong": {
+    "prompt": "Which word contains the most noticeable elongation in the audio?",
+    "0": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> want to go to the party tonight</prosody>",
+      "script": "I really want to go to the party tonight",
+      "label": "really"
+    },
+    "1": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really </prosody><prosody rate='-100%'>want</prosody><prosody rate='+30%'> to go to the party tonight</prosody>",
+      "script": "I really want to go to the party tonight",
+      "label": "want"
+    },
+    "2": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really want to go to the </prosody><prosody rate='-100%'>party</prosody><prosody rate='+30%'> tonight</prosody>",
+      "script": "I really want to go to the party tonight",
+      "label": "party"
+    },
+    "3": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can you </prosody><prosody rate='-100%'>believe</prosody><prosody rate='+30%'> how fast time flies</prosody>",
+      "script": "Can you believe how fast time flies",
+      "label": "believe"
+    },
+    "4": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can you believe how </prosody><prosody rate='-100%'>fast</prosody><prosody rate='+30%'> time flies</prosody>",
+      "script": "Can you believe how fast time flies",
+      "label": "fast"
+    },
+    "5": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can you believe how fast time </prosody><prosody rate='-100%'>flies</prosody>",
+      "script": "Can you believe how fast time flies",
+      "label": "flies"
+    },
+    "6": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It seems like </prosody><prosody rate='-100%'>everyone</prosody><prosody rate='+30%'> is busy these days</prosody>",
+      "script": "It seems like everyone is busy these days",
+      "label": "everyone"
+    },
+    "7": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It seems like everyone is </prosody><prosody rate='-100%'>busy</prosody><prosody rate='+30%'> these days</prosody>",
+      "script": "It seems like everyone is busy these days",
+      "label": "busy"
+    },
+    "8": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It seems like everyone is busy these </prosody><prosody rate='-100%'>days</prosody>",
+      "script": "It seems like everyone is busy these days",
+      "label": "days"
+    },
+    "9": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>think</prosody><prosody rate='+30%'> we should take a break soon</prosody>",
+      "script": "I think we should take a break soon",
+      "label": "think"
+    },
+    "10": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I think we </prosody><prosody rate='-100%'>should</prosody><prosody rate='+30%'> take a break soon</prosody>",
+      "script": "I think we should take a break soon",
+      "label": "should"
+    },
+    "11": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I think we should take a </prosody><prosody rate='-100%'>break</prosody><prosody rate='+30%'> soon</prosody>",
+      "script": "I think we should take a break soon",
+      "label": "break"
+    },
+    "12": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is </prosody><prosody rate='-100%'>going</prosody><prosody rate='+30%'> to be a long day ahead</prosody>",
+      "script": "This is going to be a long day ahead",
+      "label": "going"
+    },
+    "13": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is going to be a </prosody><prosody rate='-100%'>long</prosody><prosody rate='+30%'> day ahead</prosody>",
+      "script": "This is going to be a long day ahead",
+      "label": "long"
+    },
+    "14": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is going to be a long day </prosody><prosody rate='-100%'>ahead</prosody>",
+      "script": "This is going to be a long day ahead",
+      "label": "ahead"
+    },
+    "15": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> enjoy spending time with you</prosody>",
+      "script": "I really enjoy spending time with you",
+      "label": "really"
+    },
+    "16": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really </prosody><prosody rate='-100%'>enjoy</prosody><prosody rate='+30%'> spending time with you</prosody>",
+      "script": "I really enjoy spending time with you",
+      "label": "enjoy"
+    },
+    "17": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really enjoy spending </prosody><prosody rate='-100%'>time</prosody><prosody rate='+30%'> with you</prosody>",
+      "script": "I really enjoy spending time with you",
+      "label": "time"
+    },
+    "18": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She said she </prosody><prosody rate='-100%'>might</prosody><prosody rate='+30%'> join us later</prosody>",
+      "script": "She said she might join us later",
+      "label": "might"
+    },
+    "19": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She said she might </prosody><prosody rate='-100%'>join</prosody><prosody rate='+30%'> us later</prosody>",
+      "script": "She said she might join us later",
+      "label": "join"
+    },
+    "20": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She said she might join us </prosody><prosody rate='-100%'>later</prosody>",
+      "script": "She said she might join us later",
+      "label": "later"
+    },
+    "21": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>The weather is </prosody><prosody rate='-100%'>perfect</prosody><prosody rate='+30%'> for a picnic today</prosody>",
+      "script": "The weather is perfect for a picnic today",
+      "label": "perfect"
+    },
+    "22": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>The weather is perfect for a </prosody><prosody rate='-100%'>picnic</prosody><prosody rate='+30%'> today</prosody>",
+      "script": "The weather is perfect for a picnic today",
+      "label": "picnic"
+    },
+    "23": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>The weather is perfect for a picnic </prosody><prosody rate='-100%'>today</prosody>",
+      "script": "The weather is perfect for a picnic today",
+      "label": "today"
+    },
+    "24": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Are you </prosody><prosody rate='-100%'>sure</prosody><prosody rate='+30%'> you want to do this</prosody>",
+      "script": "Are you sure you want to do this",
+      "label": "sure"
+    },
+    "25": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Are you sure you </prosody><prosody rate='-100%'>want</prosody><prosody rate='+30%'> to do this</prosody>",
+      "script": "Are you sure you want to do this",
+      "label": "want"
+    },
+    "26": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Are you sure you want to </prosody><prosody rate='-100%'>do</prosody><prosody rate='+30%'> this</prosody>",
+      "script": "Are you sure you want to do this",
+      "label": "do"
+    },
+    "27": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We could </prosody><prosody rate='-100%'>make</prosody><prosody rate='+30%'> some delicious food together</prosody>",
+      "script": "We could make some delicious food together",
+      "label": "make"
+    },
+    "28": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We could make some </prosody><prosody rate='-100%'>delicious</prosody><prosody rate='+30%'> food together</prosody>",
+      "script": "We could make some delicious food together",
+      "label": "delicious"
+    },
+    "29": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We could make some delicious food </prosody><prosody rate='-100%'>together</prosody>",
+      "script": "We could make some delicious food together",
+      "label": "together"
+    },
+    "30": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I\u2019m </prosody><prosody rate='-100%'>thinking</prosody><prosody rate='+30%'> about taking a trip next month</prosody>",
+      "script": "I\u2019m thinking about taking a trip next month",
+      "label": "thinking"
+    },
+    "31": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I\u2019m thinking about </prosody><prosody rate='-100%'>taking</prosody><prosody rate='+30%'> a trip next month</prosody>",
+      "script": "I\u2019m thinking about taking a trip next month",
+      "label": "taking"
+    },
+    "32": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I\u2019m thinking about taking a trip </prosody><prosody rate='-100%'>next</prosody><prosody rate='+30%'> month</prosody>",
+      "script": "I\u2019m thinking about taking a trip next month",
+      "label": "next"
+    },
+    "33": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>He </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> knows how to play the guitar</prosody>",
+      "script": "He really knows how to play the guitar",
+      "label": "really"
+    },
+    "34": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>He really knows how to </prosody><prosody rate='-100%'>play</prosody><prosody rate='+30%'> the guitar</prosody>",
+      "script": "He really knows how to play the guitar",
+      "label": "play"
+    },
+    "35": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>He really knows how to play the </prosody><prosody rate='-100%'>guitar</prosody>",
+      "script": "He really knows how to play the guitar",
+      "label": "guitar"
+    },
+    "36": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>feel</prosody><prosody rate='+30%'> like we should talk about it more</prosody>",
+      "script": "I feel like we should talk about it more",
+      "label": "feel"
+    },
+    "37": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I feel like we </prosody><prosody rate='-100%'>should</prosody><prosody rate='+30%'> talk about it more</prosody>",
+      "script": "I feel like we should talk about it more",
+      "label": "should"
+    },
+    "38": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I feel like we should </prosody><prosody rate='-100%'>talk</prosody><prosody rate='+30%'> about it more</prosody>",
+      "script": "I feel like we should talk about it more",
+      "label": "talk"
+    },
+    "39": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She has a </prosody><prosody rate='-100%'>beautiful</prosody><prosody rate='+30%'> smile that lights up the room</prosody>",
+      "script": "She has a beautiful smile that lights up the room",
+      "label": "beautiful"
+    },
+    "40": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She has a beautiful </prosody><prosody rate='-100%'>smile</prosody><prosody rate='+30%'> that lights up the room</prosody>",
+      "script": "She has a beautiful smile that lights up the room",
+      "label": "smile"
+    },
+    "41": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She has a beautiful smile that </prosody><prosody rate='-100%'>lights</prosody><prosody rate='+30%'> up the room</prosody>",
+      "script": "She has a beautiful smile that lights up the room",
+      "label": "lights"
+    },
+    "42": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>hope</prosody><prosody rate='+30%'> you have a great day at work</prosody>",
+      "script": "I hope you have a great day at work",
+      "label": "hope"
+    },
+    "43": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I hope you have a </prosody><prosody rate='-100%'>great</prosody><prosody rate='+30%'> day at work</prosody>",
+      "script": "I hope you have a great day at work",
+      "label": "great"
+    },
+    "44": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I hope you have a great day at </prosody><prosody rate='-100%'>work</prosody>",
+      "script": "I hope you have a great day at work",
+      "label": "work"
+    },
+    "45": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>What do you </prosody><prosody rate='-100%'>think</prosody><prosody rate='+30%'> about the new movie</prosody>",
+      "script": "What do you think about the new movie",
+      "label": "think"
+    },
+    "46": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>What do you think about the </prosody><prosody rate='-100%'>new</prosody><prosody rate='+30%'> movie</prosody>",
+      "script": "What do you think about the new movie",
+      "label": "new"
+    },
+    "47": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>What do you think about the new </prosody><prosody rate='-100%'>movie</prosody>",
+      "script": "What do you think about the new movie",
+      "label": "movie"
+    },
+    "48": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This </prosody><prosody rate='-100%'>place</prosody><prosody rate='+30%'> has such a cozy atmosphere</prosody>",
+      "script": "This place has such a cozy atmosphere",
+      "label": "place"
+    },
+    "49": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This place has such a </prosody><prosody rate='-100%'>cozy</prosody><prosody rate='+30%'> atmosphere</prosody>",
+      "script": "This place has such a cozy atmosphere",
+      "label": "cozy"
+    },
+    "50": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This place has such a cozy </prosody><prosody rate='-100%'>atmosphere</prosody>",
+      "script": "This place has such a cozy atmosphere",
+      "label": "atmosphere"
+    },
+    "51": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>love</prosody><prosody rate='+30%'> how you can always make me laugh</prosody>",
+      "script": "I love how you can always make me laugh",
+      "label": "love"
+    },
+    "52": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I love how you can </prosody><prosody rate='-100%'>always</prosody><prosody rate='+30%'> make me laugh</prosody>",
+      "script": "I love how you can always make me laugh",
+      "label": "always"
+    },
+    "53": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I love how you can always make me </prosody><prosody rate='-100%'>laugh</prosody>",
+      "script": "I love how you can always make me laugh",
+      "label": "laugh"
+    },
+    "54": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should </prosody><prosody rate='-100%'>probably</prosody><prosody rate='+30%'> get going soon</prosody>",
+      "script": "We should probably get going soon",
+      "label": "probably"
+    },
+    "55": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should probably </prosody><prosody rate='-100%'>get</prosody><prosody rate='+30%'> going soon</prosody>",
+      "script": "We should probably get going soon",
+      "label": "get"
+    },
+    "56": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should probably get </prosody><prosody rate='-100%'>going</prosody><prosody rate='+30%'> soon</prosody>",
+      "script": "We should probably get going soon",
+      "label": "going"
+    },
+    "57": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It </prosody><prosody rate='-100%'>feels</prosody><prosody rate='+30%'> like we have known each other forever</prosody>",
+      "script": "It feels like we have known each other forever",
+      "label": "feels"
+    },
+    "58": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It feels like we have </prosody><prosody rate='-100%'>known</prosody><prosody rate='+30%'> each other forever</prosody>",
+      "script": "It feels like we have known each other forever",
+      "label": "known"
+    },
+    "59": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It feels like we have known each other </prosody><prosody rate='-100%'>forever</prosody>",
+      "script": "It feels like we have known each other forever",
+      "label": "forever"
+    },
+    "60": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>The team </prosody><prosody rate='-100%'>played</prosody><prosody rate='+30%'> really well in the championship</prosody>",
+      "script": "The team played really well in the championship",
+      "label": "played"
+    },
+    "61": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>The team played </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> well in the championship</prosody>",
+      "script": "The team played really well in the championship",
+      "label": "really"
+    },
+    "62": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>The team played really well in the </prosody><prosody rate='-100%'>championship</prosody>",
+      "script": "The team played really well in the championship",
+      "label": "championship"
+    },
+    "63": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>He </prosody><prosody rate='-100%'>looked</prosody><prosody rate='+30%'> so happy when he got the news</prosody>",
+      "script": "He looked so happy when he got the news",
+      "label": "looked"
+    },
+    "64": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>He looked so </prosody><prosody rate='-100%'>happy</prosody><prosody rate='+30%'> when he got the news</prosody>",
+      "script": "He looked so happy when he got the news",
+      "label": "happy"
+    },
+    "65": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>He looked so happy when he got the </prosody><prosody rate='-100%'>news</prosody>",
+      "script": "He looked so happy when he got the news",
+      "label": "news"
+    },
+    "66": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Are you </prosody><prosody rate='-100%'>ready</prosody><prosody rate='+30%'> for the big test tomorrow</prosody>",
+      "script": "Are you ready for the big test tomorrow",
+      "label": "ready"
+    },
+    "67": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Are you ready for the </prosody><prosody rate='-100%'>big</prosody><prosody rate='+30%'> test tomorrow</prosody>",
+      "script": "Are you ready for the big test tomorrow",
+      "label": "big"
+    },
+    "68": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Are you ready for the big test </prosody><prosody rate='-100%'>tomorrow</prosody>",
+      "script": "Are you ready for the big test tomorrow",
+      "label": "tomorrow"
+    },
+    "69": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>think</prosody><prosody rate='+30%'> you did an amazing job with that</prosody>",
+      "script": "I think you did an amazing job with that",
+      "label": "think"
+    },
+    "70": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I think you did an </prosody><prosody rate='-100%'>amazing</prosody><prosody rate='+30%'> job with that</prosody>",
+      "script": "I think you did an amazing job with that",
+      "label": "amazing"
+    },
+    "71": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I think you did an amazing </prosody><prosody rate='-100%'>job</prosody><prosody rate='+30%'> with that</prosody>",
+      "script": "I think you did an amazing job with that",
+      "label": "job"
+    },
+    "72": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It was </prosody><prosody rate='-100%'>such</prosody><prosody rate='+30%'> a fun weekend at the beach</prosody>",
+      "script": "It was such a fun weekend at the beach",
+      "label": "such"
+    },
+    "73": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It was such a </prosody><prosody rate='-100%'>fun</prosody><prosody rate='+30%'> weekend at the beach</prosody>",
+      "script": "It was such a fun weekend at the beach",
+      "label": "fun"
+    },
+    "74": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It was such a fun weekend at the </prosody><prosody rate='-100%'>beach</prosody>",
+      "script": "It was such a fun weekend at the beach",
+      "label": "beach"
+    },
+    "75": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Let me </prosody><prosody rate='-100%'>know</prosody><prosody rate='+30%'> if you need any help with that</prosody>",
+      "script": "Let me know if you need any help with that",
+      "label": "know"
+    },
+    "76": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Let me know if you </prosody><prosody rate='-100%'>need</prosody><prosody rate='+30%'> any help with that</prosody>",
+      "script": "Let me know if you need any help with that",
+      "label": "need"
+    },
+    "77": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Let me know if you need any </prosody><prosody rate='-100%'>help</prosody><prosody rate='+30%'> with that</prosody>",
+      "script": "Let me know if you need any help with that",
+      "label": "help"
+    },
+    "78": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Do you </prosody><prosody rate='-100%'>want</prosody><prosody rate='+30%'> to grab some coffee later</prosody>",
+      "script": "Do you want to grab some coffee later",
+      "label": "want"
+    },
+    "79": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Do you want to </prosody><prosody rate='-100%'>grab</prosody><prosody rate='+30%'> some coffee later</prosody>",
+      "script": "Do you want to grab some coffee later",
+      "label": "grab"
+    },
+    "80": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Do you want to grab some </prosody><prosody rate='-100%'>coffee</prosody><prosody rate='+30%'> later</prosody>",
+      "script": "Do you want to grab some coffee later",
+      "label": "coffee"
+    },
+    "81": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>can\u2019t</prosody><prosody rate='+30%'> wait to see what happens next</prosody>",
+      "script": "I can\u2019t wait to see what happens next",
+      "label": "can\u2019t"
+    },
+    "82": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can\u2019t </prosody><prosody rate='-100%'>wait</prosody><prosody rate='+30%'> to see what happens next</prosody>",
+      "script": "I can\u2019t wait to see what happens next",
+      "label": "wait"
+    },
+    "83": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can\u2019t wait to see what </prosody><prosody rate='-100%'>happens</prosody><prosody rate='+30%'> next</prosody>",
+      "script": "I can\u2019t wait to see what happens next",
+      "label": "happens"
+    },
+    "84": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Remember to </prosody><prosody rate='-100%'>bring</prosody><prosody rate='+30%'> your favorite book to read</prosody>",
+      "script": "Remember to bring your favorite book to read",
+      "label": "bring"
+    },
+    "85": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Remember to bring your </prosody><prosody rate='-100%'>favorite</prosody><prosody rate='+30%'> book to read</prosody>",
+      "script": "Remember to bring your favorite book to read",
+      "label": "favorite"
+    },
+    "86": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Remember to bring your favorite book to </prosody><prosody rate='-100%'>read</prosody>",
+      "script": "Remember to bring your favorite book to read",
+      "label": "read"
+    },
+    "87": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I\u2019m </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> excited about the concert this weekend</prosody>",
+      "script": "I\u2019m really excited about the concert this weekend",
+      "label": "really"
+    },
+    "88": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I\u2019m really </prosody><prosody rate='-100%'>excited</prosody><prosody rate='+30%'> about the concert this weekend</prosody>",
+      "script": "I\u2019m really excited about the concert this weekend",
+      "label": "excited"
+    },
+    "89": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I\u2019m really excited about the </prosody><prosody rate='-100%'>concert</prosody><prosody rate='+30%'> this weekend</prosody>",
+      "script": "I\u2019m really excited about the concert this weekend",
+      "label": "concert"
+    },
+    "90": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It is so </prosody><prosody rate='-100%'>nice</prosody><prosody rate='+30%'> to catch up after all this time</prosody>",
+      "script": "It is so nice to catch up after all this time",
+      "label": "nice"
+    },
+    "91": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It is so nice to </prosody><prosody rate='-100%'>catch</prosody><prosody rate='+30%'> up after all this time</prosody>",
+      "script": "It is so nice to catch up after all this time",
+      "label": "catch"
+    },
+    "92": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It is so nice to catch up after all this </prosody><prosody rate='-100%'>time</prosody>",
+      "script": "It is so nice to catch up after all this time",
+      "label": "time"
+    },
+    "93": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We have so </prosody><prosody rate='-100%'>much</prosody><prosody rate='+30%'> to look forward to this year</prosody>",
+      "script": "We have so much to look forward to this year",
+      "label": "much"
+    },
+    "94": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We have so much to </prosody><prosody rate='-100%'>look</prosody><prosody rate='+30%'> forward to this year</prosody>",
+      "script": "We have so much to look forward to this year",
+      "label": "look"
+    },
+    "95": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We have so much to look forward to this </prosody><prosody rate='-100%'>year</prosody>",
+      "script": "We have so much to look forward to this year",
+      "label": "year"
+    },
+    "96": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That was a </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> interesting conversation we had</prosody>",
+      "script": "That was a really interesting conversation we had",
+      "label": "really"
+    },
+    "97": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That was a really </prosody><prosody rate='-100%'>interesting</prosody><prosody rate='+30%'> conversation we had</prosody>",
+      "script": "That was a really interesting conversation we had",
+      "label": "interesting"
+    },
+    "98": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That was a really interesting </prosody><prosody rate='-100%'>conversation</prosody><prosody rate='+30%'> we had</prosody>",
+      "script": "That was a really interesting conversation we had",
+      "label": "conversation"
+    },
+    "99": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I would </prosody><prosody rate='-100%'>love</prosody><prosody rate='+30%'> to hear more about your travels</prosody>",
+      "script": "I would love to hear more about your travels",
+      "label": "love"
+    },
+    "100": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I would love to </prosody><prosody rate='-100%'>hear</prosody><prosody rate='+30%'> more about your travels</prosody>",
+      "script": "I would love to hear more about your travels",
+      "label": "hear"
+    },
+    "101": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I would love to hear more about your </prosody><prosody rate='-100%'>travels</prosody>",
+      "script": "I would love to hear more about your travels",
+      "label": "travels"
+    },
+    "102": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>think</prosody><prosody rate='+30%'> we should try that new restaurant soon</prosody>",
+      "script": "I think we should try that new restaurant soon",
+      "label": "think"
+    },
+    "103": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I think we should </prosody><prosody rate='-100%'>try</prosody><prosody rate='+30%'> that new restaurant soon</prosody>",
+      "script": "I think we should try that new restaurant soon",
+      "label": "try"
+    },
+    "104": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I think we should try that new </prosody><prosody rate='-100%'>restaurant</prosody><prosody rate='+30%'> soon</prosody>",
+      "script": "I think we should try that new restaurant soon",
+      "label": "restaurant"
+    },
+    "105": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Have you </prosody><prosody rate='-100%'>ever</prosody><prosody rate='+30%'> been to a live concert before</prosody>",
+      "script": "Have you ever been to a live concert before",
+      "label": "ever"
+    },
+    "106": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Have you ever been to a </prosody><prosody rate='-100%'>live</prosody><prosody rate='+30%'> concert before</prosody>",
+      "script": "Have you ever been to a live concert before",
+      "label": "live"
+    },
+    "107": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Have you ever been to a live </prosody><prosody rate='-100%'>concert</prosody><prosody rate='+30%'> before</prosody>",
+      "script": "Have you ever been to a live concert before",
+      "label": "concert"
+    },
+    "108": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Let\u2019s </prosody><prosody rate='-100%'>make</prosody><prosody rate='+30%'> sure we don\u2019t forget the camera</prosody>",
+      "script": "Let\u2019s make sure we don\u2019t forget the camera",
+      "label": "make"
+    },
+    "109": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Let\u2019s make </prosody><prosody rate='-100%'>sure</prosody><prosody rate='+30%'> we don\u2019t forget the camera</prosody>",
+      "script": "Let\u2019s make sure we don\u2019t forget the camera",
+      "label": "sure"
+    },
+    "110": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Let\u2019s make sure we don\u2019t </prosody><prosody rate='-100%'>forget</prosody><prosody rate='+30%'> the camera</prosody>",
+      "script": "Let\u2019s make sure we don\u2019t forget the camera",
+      "label": "forget"
+    },
+    "111": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can\u2019t </prosody><prosody rate='-100%'>believe</prosody><prosody rate='+30%'> how much I\u2019ve learned this year</prosody>",
+      "script": "I can\u2019t believe how much I\u2019ve learned this year",
+      "label": "believe"
+    },
+    "112": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can\u2019t believe how </prosody><prosody rate='-100%'>much</prosody><prosody rate='+30%'> I\u2019ve learned this year</prosody>",
+      "script": "I can\u2019t believe how much I\u2019ve learned this year",
+      "label": "much"
+    },
+    "113": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can\u2019t believe how much I\u2019ve </prosody><prosody rate='-100%'>learned</prosody><prosody rate='+30%'> this year</prosody>",
+      "script": "I can\u2019t believe how much I\u2019ve learned this year",
+      "label": "learned"
+    },
+    "114": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You </prosody><prosody rate='-100%'>always</prosody><prosody rate='+30%'> know how to brighten my day</prosody>",
+      "script": "You always know how to brighten my day",
+      "label": "always"
+    },
+    "115": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You always </prosody><prosody rate='-100%'>know</prosody><prosody rate='+30%'> how to brighten my day</prosody>",
+      "script": "You always know how to brighten my day",
+      "label": "know"
+    },
+    "116": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You always know how to </prosody><prosody rate='-100%'>brighten</prosody><prosody rate='+30%'> my day</prosody>",
+      "script": "You always know how to brighten my day",
+      "label": "brighten"
+    },
+    "117": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>What a </prosody><prosody rate='-100%'>wonderful</prosody><prosody rate='+30%'> surprise to see you here</prosody>",
+      "script": "What a wonderful surprise to see you here",
+      "label": "wonderful"
+    },
+    "118": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>What a wonderful </prosody><prosody rate='-100%'>surprise</prosody><prosody rate='+30%'> to see you here</prosody>",
+      "script": "What a wonderful surprise to see you here",
+      "label": "surprise"
+    },
+    "119": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>What a wonderful surprise to </prosody><prosody rate='-100%'>see</prosody><prosody rate='+30%'> you here</prosody>",
+      "script": "What a wonderful surprise to see you here",
+      "label": "see"
+    },
+    "120": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is the </prosody><prosody rate='-100%'>best</prosody><prosody rate='+30%'> gift I have ever received</prosody>",
+      "script": "This is the best gift I have ever received",
+      "label": "best"
+    },
+    "121": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is the best gift I have </prosody><prosody rate='-100%'>ever</prosody><prosody rate='+30%'> received</prosody>",
+      "script": "This is the best gift I have ever received",
+      "label": "ever"
+    },
+    "122": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is the best gift I have ever </prosody><prosody rate='-100%'>received</prosody>",
+      "script": "This is the best gift I have ever received",
+      "label": "received"
+    },
+    "123": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> appreciate everything you have done for me</prosody>",
+      "script": "I really appreciate everything you have done for me",
+      "label": "really"
+    },
+    "124": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really </prosody><prosody rate='-100%'>appreciate</prosody><prosody rate='+30%'> everything you have done for me</prosody>",
+      "script": "I really appreciate everything you have done for me",
+      "label": "appreciate"
+    },
+    "125": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really appreciate </prosody><prosody rate='-100%'>everything</prosody><prosody rate='+30%'> you have done for me</prosody>",
+      "script": "I really appreciate everything you have done for me",
+      "label": "everything"
+    },
+    "126": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>There are so </prosody><prosody rate='-100%'>many</prosody><prosody rate='+30%'> beautiful places to explore</prosody>",
+      "script": "There are so many beautiful places to explore",
+      "label": "many"
+    },
+    "127": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>There are so many </prosody><prosody rate='-100%'>beautiful</prosody><prosody rate='+30%'> places to explore</prosody>",
+      "script": "There are so many beautiful places to explore",
+      "label": "beautiful"
+    },
+    "128": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>There are so many beautiful places to </prosody><prosody rate='-100%'>explore</prosody>",
+      "script": "There are so many beautiful places to explore",
+      "label": "explore"
+    },
+    "129": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Do you </prosody><prosody rate='-100%'>remember</prosody><prosody rate='+30%'> the last time we went hiking</prosody>",
+      "script": "Do you remember the last time we went hiking",
+      "label": "remember"
+    },
+    "130": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Do you remember the </prosody><prosody rate='-100%'>last</prosody><prosody rate='+30%'> time we went hiking</prosody>",
+      "script": "Do you remember the last time we went hiking",
+      "label": "last"
+    },
+    "131": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Do you remember the last time we went </prosody><prosody rate='-100%'>hiking</prosody>",
+      "script": "Do you remember the last time we went hiking",
+      "label": "hiking"
+    },
+    "132": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She was so </prosody><prosody rate='-100%'>eager</prosody><prosody rate='+30%'> to start her new job</prosody>",
+      "script": "She was so eager to start her new job",
+      "label": "eager"
+    },
+    "133": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She was so eager to </prosody><prosody rate='-100%'>start</prosody><prosody rate='+30%'> her new job</prosody>",
+      "script": "She was so eager to start her new job",
+      "label": "start"
+    },
+    "134": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She was so eager to start her new </prosody><prosody rate='-100%'>job</prosody>",
+      "script": "She was so eager to start her new job",
+      "label": "job"
+    },
+    "135": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I will </prosody><prosody rate='-100%'>always</prosody><prosody rate='+30%'> cherish our moments together</prosody>",
+      "script": "I will always cherish our moments together",
+      "label": "always"
+    },
+    "136": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I will always </prosody><prosody rate='-100%'>cherish</prosody><prosody rate='+30%'> our moments together</prosody>",
+      "script": "I will always cherish our moments together",
+      "label": "cherish"
+    },
+    "137": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I will always cherish our </prosody><prosody rate='-100%'>moments</prosody><prosody rate='+30%'> together</prosody>",
+      "script": "I will always cherish our moments together",
+      "label": "moments"
+    },
+    "138": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Could you </prosody><prosody rate='-100%'>pass</prosody><prosody rate='+30%'> me the salt and pepper please</prosody>",
+      "script": "Could you pass me the salt and pepper please",
+      "label": "pass"
+    },
+    "139": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Could you pass me the </prosody><prosody rate='-100%'>salt</prosody><prosody rate='+30%'> and pepper please</prosody>",
+      "script": "Could you pass me the salt and pepper please",
+      "label": "salt"
+    },
+    "140": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Could you pass me the salt and </prosody><prosody rate='-100%'>pepper</prosody><prosody rate='+30%'> please</prosody>",
+      "script": "Could you pass me the salt and pepper please",
+      "label": "pepper"
+    },
+    "141": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>hope</prosody><prosody rate='+30%'> you enjoy the show as much as I will</prosody>",
+      "script": "I hope you enjoy the show as much as I will",
+      "label": "hope"
+    },
+    "142": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I hope you </prosody><prosody rate='-100%'>enjoy</prosody><prosody rate='+30%'> the show as much as I will</prosody>",
+      "script": "I hope you enjoy the show as much as I will",
+      "label": "enjoy"
+    },
+    "143": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I hope you enjoy the show as </prosody><prosody rate='-100%'>much</prosody><prosody rate='+30%'> as I will</prosody>",
+      "script": "I hope you enjoy the show as much as I will",
+      "label": "much"
+    },
+    "144": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It is </prosody><prosody rate='-100%'>amazing</prosody><prosody rate='+30%'> how quickly things can change</prosody>",
+      "script": "It is amazing how quickly things can change",
+      "label": "amazing"
+    },
+    "145": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It is amazing how </prosody><prosody rate='-100%'>quickly</prosody><prosody rate='+30%'> things can change</prosody>",
+      "script": "It is amazing how quickly things can change",
+      "label": "quickly"
+    },
+    "146": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It is amazing how quickly things can </prosody><prosody rate='-100%'>change</prosody>",
+      "script": "It is amazing how quickly things can change",
+      "label": "change"
+    },
+    "147": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should </prosody><prosody rate='-100%'>definitely</prosody><prosody rate='+30%'> plan a trip together soon</prosody>",
+      "script": "We should definitely plan a trip together soon",
+      "label": "definitely"
+    },
+    "148": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should definitely </prosody><prosody rate='-100%'>plan</prosody><prosody rate='+30%'> a trip together soon</prosody>",
+      "script": "We should definitely plan a trip together soon",
+      "label": "plan"
+    },
+    "149": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should definitely plan a trip </prosody><prosody rate='-100%'>together</prosody><prosody rate='+30%'> soon</prosody>",
+      "script": "We should definitely plan a trip together soon",
+      "label": "together"
+    },
+    "150": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This tea is so </prosody><prosody rate='-100%'>soothing</prosody><prosody rate='+30%'> and relaxing to drink</prosody>",
+      "script": "This tea is so soothing and relaxing to drink",
+      "label": "soothing"
+    },
+    "151": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This tea is so soothing and </prosody><prosody rate='-100%'>relaxing</prosody><prosody rate='+30%'> to drink</prosody>",
+      "script": "This tea is so soothing and relaxing to drink",
+      "label": "relaxing"
+    },
+    "152": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This tea is so soothing and relaxing to </prosody><prosody rate='-100%'>drink</prosody>",
+      "script": "This tea is so soothing and relaxing to drink",
+      "label": "drink"
+    },
+    "153": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>How do you </prosody><prosody rate='-100%'>feel</prosody><prosody rate='+30%'> about going for a walk</prosody>",
+      "script": "How do you feel about going for a walk",
+      "label": "feel"
+    },
+    "154": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>How do you feel about </prosody><prosody rate='-100%'>going</prosody><prosody rate='+30%'> for a walk</prosody>",
+      "script": "How do you feel about going for a walk",
+      "label": "going"
+    },
+    "155": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>How do you feel about going for a </prosody><prosody rate='-100%'>walk</prosody>",
+      "script": "How do you feel about going for a walk",
+      "label": "walk"
+    },
+    "156": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It would be </prosody><prosody rate='-100%'>nice</prosody><prosody rate='+30%'> to catch up over coffee</prosody>",
+      "script": "It would be nice to catch up over coffee",
+      "label": "nice"
+    },
+    "157": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It would be nice to </prosody><prosody rate='-100%'>catch</prosody><prosody rate='+30%'> up over coffee</prosody>",
+      "script": "It would be nice to catch up over coffee",
+      "label": "catch"
+    },
+    "158": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It would be nice to catch up over </prosody><prosody rate='-100%'>coffee</prosody>",
+      "script": "It would be nice to catch up over coffee",
+      "label": "coffee"
+    },
+    "159": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I\u2019ll </prosody><prosody rate='-100%'>text</prosody><prosody rate='+30%'> you when I get home later</prosody>",
+      "script": "I\u2019ll text you when I get home later",
+      "label": "text"
+    },
+    "160": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I\u2019ll text you when I </prosody><prosody rate='-100%'>get</prosody><prosody rate='+30%'> home later</prosody>",
+      "script": "I\u2019ll text you when I get home later",
+      "label": "get"
+    },
+    "161": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I\u2019ll text you when I get </prosody><prosody rate='-100%'>home</prosody><prosody rate='+30%'> later</prosody>",
+      "script": "I\u2019ll text you when I get home later",
+      "label": "home"
+    },
+    "162": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>The sun is </prosody><prosody rate='-100%'>shining</prosody><prosody rate='+30%'> and the birds are singing</prosody>",
+      "script": "The sun is shining and the birds are singing",
+      "label": "shining"
+    },
+    "163": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>The sun is shining and the </prosody><prosody rate='-100%'>birds</prosody><prosody rate='+30%'> are singing</prosody>",
+      "script": "The sun is shining and the birds are singing",
+      "label": "birds"
+    },
+    "164": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>The sun is shining and the birds are </prosody><prosody rate='-100%'>singing</prosody>",
+      "script": "The sun is shining and the birds are singing",
+      "label": "singing"
+    },
+    "165": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> can't wait to see you</prosody>",
+      "script": "I really can't wait to see you",
+      "label": "really"
+    },
+    "166": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really </prosody><prosody rate='-100%'>can't</prosody><prosody rate='+30%'> wait to see you</prosody>",
+      "script": "I really can't wait to see you",
+      "label": "can't"
+    },
+    "167": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really can't wait to </prosody><prosody rate='-100%'>see</prosody><prosody rate='+30%'> you</prosody>",
+      "script": "I really can't wait to see you",
+      "label": "see"
+    },
+    "168": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is </prosody><prosody rate='-100%'>going</prosody><prosody rate='+30%'> to be so much fun</prosody>",
+      "script": "This is going to be so much fun",
+      "label": "going"
+    },
+    "169": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is going to be </prosody><prosody rate='-100%'>so</prosody><prosody rate='+30%'> much fun</prosody>",
+      "script": "This is going to be so much fun",
+      "label": "so"
+    },
+    "170": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is going to be so </prosody><prosody rate='-100%'>much</prosody><prosody rate='+30%'> fun</prosody>",
+      "script": "This is going to be so much fun",
+      "label": "much"
+    },
+    "171": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Are you </prosody><prosody rate='-100%'>ready</prosody><prosody rate='+30%'> for the big surprise</prosody>",
+      "script": "Are you ready for the big surprise",
+      "label": "ready"
+    },
+    "172": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Are you ready for the </prosody><prosody rate='-100%'>big</prosody><prosody rate='+30%'> surprise</prosody>",
+      "script": "Are you ready for the big surprise",
+      "label": "big"
+    },
+    "173": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Are you ready for the big </prosody><prosody rate='-100%'>surprise</prosody>",
+      "script": "Are you ready for the big surprise",
+      "label": "surprise"
+    },
+    "174": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It </prosody><prosody rate='-100%'>feels</prosody><prosody rate='+30%'> like we are in a dream</prosody>",
+      "script": "It feels like we are in a dream",
+      "label": "feels"
+    },
+    "175": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It feels </prosody><prosody rate='-100%'>like</prosody><prosody rate='+30%'> we are in a dream</prosody>",
+      "script": "It feels like we are in a dream",
+      "label": "like"
+    },
+    "176": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It feels like we are in a </prosody><prosody rate='-100%'>dream</prosody>",
+      "script": "It feels like we are in a dream",
+      "label": "dream"
+    },
+    "177": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>hope</prosody><prosody rate='+30%'> you understand what I mean</prosody>",
+      "script": "I hope you understand what I mean",
+      "label": "hope"
+    },
+    "178": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I hope you </prosody><prosody rate='-100%'>understand</prosody><prosody rate='+30%'> what I mean</prosody>",
+      "script": "I hope you understand what I mean",
+      "label": "understand"
+    },
+    "179": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I hope you understand what I </prosody><prosody rate='-100%'>mean</prosody>",
+      "script": "I hope you understand what I mean",
+      "label": "mean"
+    },
+    "180": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is </prosody><prosody rate='-100%'>definitely</prosody><prosody rate='+30%'> not what I expected</prosody>",
+      "script": "This is definitely not what I expected",
+      "label": "definitely"
+    },
+    "181": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is definitely </prosody><prosody rate='-100%'>not</prosody><prosody rate='+30%'> what I expected</prosody>",
+      "script": "This is definitely not what I expected",
+      "label": "not"
+    },
+    "182": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is definitely not what I </prosody><prosody rate='-100%'>expected</prosody>",
+      "script": "This is definitely not what I expected",
+      "label": "expected"
+    },
+    "183": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She </prosody><prosody rate='-100%'>said</prosody><prosody rate='+30%'> she would call me later</prosody>",
+      "script": "She said she would call me later",
+      "label": "said"
+    },
+    "184": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She said she would </prosody><prosody rate='-100%'>call</prosody><prosody rate='+30%'> me later</prosody>",
+      "script": "She said she would call me later",
+      "label": "call"
+    },
+    "185": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She said she would call me </prosody><prosody rate='-100%'>later</prosody>",
+      "script": "She said she would call me later",
+      "label": "later"
+    },
+    "186": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>just</prosody><prosody rate='+30%'> want to relax and enjoy the day</prosody>",
+      "script": "I just want to relax and enjoy the day",
+      "label": "just"
+    },
+    "187": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I just want to </prosody><prosody rate='-100%'>relax</prosody><prosody rate='+30%'> and enjoy the day</prosody>",
+      "script": "I just want to relax and enjoy the day",
+      "label": "relax"
+    },
+    "188": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I just want to relax and </prosody><prosody rate='-100%'>enjoy</prosody><prosody rate='+30%'> the day</prosody>",
+      "script": "I just want to relax and enjoy the day",
+      "label": "enjoy"
+    },
+    "189": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can you </prosody><prosody rate='-100%'>believe</prosody><prosody rate='+30%'> how fast time flies</prosody>",
+      "script": "Can you believe how fast time flies",
+      "label": "believe"
+    },
+    "190": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can you believe how </prosody><prosody rate='-100%'>fast</prosody><prosody rate='+30%'> time flies</prosody>",
+      "script": "Can you believe how fast time flies",
+      "label": "fast"
+    },
+    "191": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can you believe how fast time </prosody><prosody rate='-100%'>flies</prosody>",
+      "script": "Can you believe how fast time flies",
+      "label": "flies"
+    },
+    "192": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is </prosody><prosody rate='-100%'>turning</prosody><prosody rate='+30%'> out to be quite an adventure</prosody>",
+      "script": "This is turning out to be quite an adventure",
+      "label": "turning"
+    },
+    "193": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is turning </prosody><prosody rate='-100%'>out</prosody><prosody rate='+30%'> to be quite an adventure</prosody>",
+      "script": "This is turning out to be quite an adventure",
+      "label": "out"
+    },
+    "194": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This is turning out to be </prosody><prosody rate='-100%'>quite</prosody><prosody rate='+30%'> an adventure</prosody>",
+      "script": "This is turning out to be quite an adventure",
+      "label": "quite"
+    },
+    "195": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>think</prosody><prosody rate='+30%'> we should try something new</prosody>",
+      "script": "I think we should try something new",
+      "label": "think"
+    },
+    "196": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I think we should </prosody><prosody rate='-100%'>try</prosody><prosody rate='+30%'> something new</prosody>",
+      "script": "I think we should try something new",
+      "label": "try"
+    },
+    "197": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I think we should try something </prosody><prosody rate='-100%'>new</prosody>",
+      "script": "I think we should try something new",
+      "label": "new"
+    },
+    "198": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We could </prosody><prosody rate='-100%'>go</prosody><prosody rate='+30%'> to the park or the beach</prosody>",
+      "script": "We could go to the park or the beach",
+      "label": "go"
+    },
+    "199": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We could go to the </prosody><prosody rate='-100%'>park</prosody><prosody rate='+30%'> or the beach</prosody>",
+      "script": "We could go to the park or the beach",
+      "label": "park"
+    },
+    "200": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We could go to the park or the </prosody><prosody rate='-100%'>beach</prosody>",
+      "script": "We could go to the park or the beach",
+      "label": "beach"
+    },
+    "201": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Did you </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> mean what you said</prosody>",
+      "script": "Did you really mean what you said",
+      "label": "really"
+    },
+    "202": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Did you really </prosody><prosody rate='-100%'>mean</prosody><prosody rate='+30%'> what you said</prosody>",
+      "script": "Did you really mean what you said",
+      "label": "mean"
+    },
+    "203": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Did you really mean what you </prosody><prosody rate='-100%'>said</prosody>",
+      "script": "Did you really mean what you said",
+      "label": "said"
+    },
+    "204": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>never</prosody><prosody rate='+30%'> knew you could play the guitar</prosody>",
+      "script": "I never knew you could play the guitar",
+      "label": "never"
+    },
+    "205": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I never knew you </prosody><prosody rate='-100%'>could</prosody><prosody rate='+30%'> play the guitar</prosody>",
+      "script": "I never knew you could play the guitar",
+      "label": "could"
+    },
+    "206": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I never knew you could play the </prosody><prosody rate='-100%'>guitar</prosody>",
+      "script": "I never knew you could play the guitar",
+      "label": "guitar"
+    },
+    "207": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It </prosody><prosody rate='-100%'>seems</prosody><prosody rate='+30%'> like everything is falling into place</prosody>",
+      "script": "It seems like everything is falling into place",
+      "label": "seems"
+    },
+    "208": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It seems like </prosody><prosody rate='-100%'>everything</prosody><prosody rate='+30%'> is falling into place</prosody>",
+      "script": "It seems like everything is falling into place",
+      "label": "everything"
+    },
+    "209": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It seems like everything is falling into </prosody><prosody rate='-100%'>place</prosody>",
+      "script": "It seems like everything is falling into place",
+      "label": "place"
+    },
+    "210": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should </prosody><prosody rate='-100%'>definitely</prosody><prosody rate='+30%'> go on that trip</prosody>",
+      "script": "We should definitely go on that trip",
+      "label": "definitely"
+    },
+    "211": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should definitely </prosody><prosody rate='-100%'>go</prosody><prosody rate='+30%'> on that trip</prosody>",
+      "script": "We should definitely go on that trip",
+      "label": "go"
+    },
+    "212": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should definitely go on that </prosody><prosody rate='-100%'>trip</prosody>",
+      "script": "We should definitely go on that trip",
+      "label": "trip"
+    },
+    "213": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>feel</prosody><prosody rate='+30%'> like I am losing my mind</prosody>",
+      "script": "I feel like I am losing my mind",
+      "label": "feel"
+    },
+    "214": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I feel like I am </prosody><prosody rate='-100%'>losing</prosody><prosody rate='+30%'> my mind</prosody>",
+      "script": "I feel like I am losing my mind",
+      "label": "losing"
+    },
+    "215": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I feel like I am losing my </prosody><prosody rate='-100%'>mind</prosody>",
+      "script": "I feel like I am losing my mind",
+      "label": "mind"
+    },
+    "216": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can you </prosody><prosody rate='-100%'>give</prosody><prosody rate='+30%'> me a hand with this</prosody>",
+      "script": "Can you give me a hand with this",
+      "label": "give"
+    },
+    "217": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can you give me a </prosody><prosody rate='-100%'>hand</prosody><prosody rate='+30%'> with this</prosody>",
+      "script": "Can you give me a hand with this",
+      "label": "hand"
+    },
+    "218": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can you give me a hand with </prosody><prosody rate='-100%'>this</prosody>",
+      "script": "Can you give me a hand with this",
+      "label": "this"
+    },
+    "219": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> enjoyed that movie we watched</prosody>",
+      "script": "I really enjoyed that movie we watched",
+      "label": "really"
+    },
+    "220": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really </prosody><prosody rate='-100%'>enjoyed</prosody><prosody rate='+30%'> that movie we watched</prosody>",
+      "script": "I really enjoyed that movie we watched",
+      "label": "enjoyed"
+    },
+    "221": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really enjoyed that movie we </prosody><prosody rate='-100%'>watched</prosody>",
+      "script": "I really enjoyed that movie we watched",
+      "label": "watched"
+    },
+    "222": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's </prosody><prosody rate='-100%'>important</prosody><prosody rate='+30%'> to take a break sometimes</prosody>",
+      "script": "It's important to take a break sometimes",
+      "label": "important"
+    },
+    "223": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's important to </prosody><prosody rate='-100%'>take</prosody><prosody rate='+30%'> a break sometimes</prosody>",
+      "script": "It's important to take a break sometimes",
+      "label": "take"
+    },
+    "224": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's important to take a </prosody><prosody rate='-100%'>break</prosody><prosody rate='+30%'> sometimes</prosody>",
+      "script": "It's important to take a break sometimes",
+      "label": "break"
+    },
+    "225": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This food </prosody><prosody rate='-100%'>tastes</prosody><prosody rate='+30%'> amazing I could eat it every day</prosody>",
+      "script": "This food tastes amazing I could eat it every day",
+      "label": "tastes"
+    },
+    "226": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This food tastes </prosody><prosody rate='-100%'>amazing</prosody><prosody rate='+30%'> I could eat it every day</prosody>",
+      "script": "This food tastes amazing I could eat it every day",
+      "label": "amazing"
+    },
+    "227": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This food tastes amazing I could </prosody><prosody rate='-100%'>eat</prosody><prosody rate='+30%'> it every day</prosody>",
+      "script": "This food tastes amazing I could eat it every day",
+      "label": "eat"
+    },
+    "228": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We need to </prosody><prosody rate='-100%'>talk</prosody><prosody rate='+30%'> about our plans for the weekend</prosody>",
+      "script": "We need to talk about our plans for the weekend",
+      "label": "talk"
+    },
+    "229": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We need to talk about our </prosody><prosody rate='-100%'>plans</prosody><prosody rate='+30%'> for the weekend</prosody>",
+      "script": "We need to talk about our plans for the weekend",
+      "label": "plans"
+    },
+    "230": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We need to talk about our plans for the </prosody><prosody rate='-100%'>weekend</prosody>",
+      "script": "We need to talk about our plans for the weekend",
+      "label": "weekend"
+    },
+    "231": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>What do you </prosody><prosody rate='-100%'>think</prosody><prosody rate='+30%'> about going hiking</prosody>",
+      "script": "What do you think about going hiking",
+      "label": "think"
+    },
+    "232": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>What do you think about </prosody><prosody rate='-100%'>going</prosody><prosody rate='+30%'> hiking</prosody>",
+      "script": "What do you think about going hiking",
+      "label": "going"
+    },
+    "233": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>What do you think about going </prosody><prosody rate='-100%'>hiking</prosody>",
+      "script": "What do you think about going hiking",
+      "label": "hiking"
+    },
+    "234": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>wasn't</prosody><prosody rate='+30%'> sure if I should say something</prosody>",
+      "script": "I wasn't sure if I should say something",
+      "label": "wasn't"
+    },
+    "235": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I wasn't </prosody><prosody rate='-100%'>sure</prosody><prosody rate='+30%'> if I should say something</prosody>",
+      "script": "I wasn't sure if I should say something",
+      "label": "sure"
+    },
+    "236": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I wasn't sure if I should </prosody><prosody rate='-100%'>say</prosody><prosody rate='+30%'> something</prosody>",
+      "script": "I wasn't sure if I should say something",
+      "label": "say"
+    },
+    "237": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>just</prosody><prosody rate='+30%'> found out that I got the job</prosody>",
+      "script": "I just found out that I got the job",
+      "label": "just"
+    },
+    "238": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I just </prosody><prosody rate='-100%'>found</prosody><prosody rate='+30%'> out that I got the job</prosody>",
+      "script": "I just found out that I got the job",
+      "label": "found"
+    },
+    "239": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I just found out that I got the </prosody><prosody rate='-100%'>job</prosody>",
+      "script": "I just found out that I got the job",
+      "label": "job"
+    },
+    "240": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> need to try this dessert</prosody>",
+      "script": "You really need to try this dessert",
+      "label": "really"
+    },
+    "241": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You really </prosody><prosody rate='-100%'>need</prosody><prosody rate='+30%'> to try this dessert</prosody>",
+      "script": "You really need to try this dessert",
+      "label": "need"
+    },
+    "242": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You really need to </prosody><prosody rate='-100%'>try</prosody><prosody rate='+30%'> this dessert</prosody>",
+      "script": "You really need to try this dessert",
+      "label": "try"
+    },
+    "243": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>can't</prosody><prosody rate='+30%'> believe how much you've grown</prosody>",
+      "script": "I can't believe how much you've grown",
+      "label": "can't"
+    },
+    "244": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can't </prosody><prosody rate='-100%'>believe</prosody><prosody rate='+30%'> how much you've grown</prosody>",
+      "script": "I can't believe how much you've grown",
+      "label": "believe"
+    },
+    "245": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can't believe how much you've </prosody><prosody rate='-100%'>grown</prosody>",
+      "script": "I can't believe how much you've grown",
+      "label": "grown"
+    },
+    "246": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Did you </prosody><prosody rate='-100%'>see</prosody><prosody rate='+30%'> that new restaurant downtown</prosody>",
+      "script": "Did you see that new restaurant downtown",
+      "label": "see"
+    },
+    "247": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Did you see that </prosody><prosody rate='-100%'>new</prosody><prosody rate='+30%'> restaurant downtown</prosody>",
+      "script": "Did you see that new restaurant downtown",
+      "label": "new"
+    },
+    "248": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Did you see that new restaurant </prosody><prosody rate='-100%'>downtown</prosody>",
+      "script": "Did you see that new restaurant downtown",
+      "label": "downtown"
+    },
+    "249": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Sometimes it is </prosody><prosody rate='-100%'>good</prosody><prosody rate='+30%'> to take a step back</prosody>",
+      "script": "Sometimes it is good to take a step back",
+      "label": "good"
+    },
+    "250": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Sometimes it is good to </prosody><prosody rate='-100%'>take</prosody><prosody rate='+30%'> a step back</prosody>",
+      "script": "Sometimes it is good to take a step back",
+      "label": "take"
+    },
+    "251": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Sometimes it is good to take a </prosody><prosody rate='-100%'>step</prosody><prosody rate='+30%'> back</prosody>",
+      "script": "Sometimes it is good to take a step back",
+      "label": "step"
+    },
+    "252": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I will </prosody><prosody rate='-100%'>always</prosody><prosody rate='+30%'> remember this moment</prosody>",
+      "script": "I will always remember this moment",
+      "label": "always"
+    },
+    "253": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I will always </prosody><prosody rate='-100%'>remember</prosody><prosody rate='+30%'> this moment</prosody>",
+      "script": "I will always remember this moment",
+      "label": "remember"
+    },
+    "254": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I will always remember this </prosody><prosody rate='-100%'>moment</prosody>",
+      "script": "I will always remember this moment",
+      "label": "moment"
+    },
+    "255": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>can't</prosody><prosody rate='+30%'> decide if I want coffee or tea</prosody>",
+      "script": "I can't decide if I want coffee or tea",
+      "label": "can't"
+    },
+    "256": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can't </prosody><prosody rate='-100%'>decide</prosody><prosody rate='+30%'> if I want coffee or tea</prosody>",
+      "script": "I can't decide if I want coffee or tea",
+      "label": "decide"
+    },
+    "257": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can't decide if I want </prosody><prosody rate='-100%'>coffee</prosody><prosody rate='+30%'> or tea</prosody>",
+      "script": "I can't decide if I want coffee or tea",
+      "label": "coffee"
+    },
+    "258": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's </prosody><prosody rate='-100%'>funny</prosody><prosody rate='+30%'> how things work out in the end</prosody>",
+      "script": "It's funny how things work out in the end",
+      "label": "funny"
+    },
+    "259": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's funny how </prosody><prosody rate='-100%'>things</prosody><prosody rate='+30%'> work out in the end</prosody>",
+      "script": "It's funny how things work out in the end",
+      "label": "things"
+    },
+    "260": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's funny how things work out in the </prosody><prosody rate='-100%'>end</prosody>",
+      "script": "It's funny how things work out in the end",
+      "label": "end"
+    },
+    "261": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should </prosody><prosody rate='-100%'>probably</prosody><prosody rate='+30%'> get going soon</prosody>",
+      "script": "We should probably get going soon",
+      "label": "probably"
+    },
+    "262": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should probably </prosody><prosody rate='-100%'>get</prosody><prosody rate='+30%'> going soon</prosody>",
+      "script": "We should probably get going soon",
+      "label": "get"
+    },
+    "263": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should probably get </prosody><prosody rate='-100%'>going</prosody><prosody rate='+30%'> soon</prosody>",
+      "script": "We should probably get going soon",
+      "label": "going"
+    },
+    "264": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>know</prosody><prosody rate='+30%'> that you care about me a lot</prosody>",
+      "script": "I know that you care about me a lot",
+      "label": "know"
+    },
+    "265": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I know that you </prosody><prosody rate='-100%'>care</prosody><prosody rate='+30%'> about me a lot</prosody>",
+      "script": "I know that you care about me a lot",
+      "label": "care"
+    },
+    "266": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I know that you care about me a </prosody><prosody rate='-100%'>lot</prosody>",
+      "script": "I know that you care about me a lot",
+      "label": "lot"
+    },
+    "267": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's </prosody><prosody rate='-100%'>okay</prosody><prosody rate='+30%'> to ask for help when you need it</prosody>",
+      "script": "It's okay to ask for help when you need it",
+      "label": "okay"
+    },
+    "268": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's okay to </prosody><prosody rate='-100%'>ask</prosody><prosody rate='+30%'> for help when you need it</prosody>",
+      "script": "It's okay to ask for help when you need it",
+      "label": "ask"
+    },
+    "269": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's okay to ask for </prosody><prosody rate='-100%'>help</prosody><prosody rate='+30%'> when you need it</prosody>",
+      "script": "It's okay to ask for help when you need it",
+      "label": "help"
+    },
+    "270": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>can't</prosody><prosody rate='+30%'> wait to share this news with you</prosody>",
+      "script": "I can't wait to share this news with you",
+      "label": "can't"
+    },
+    "271": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can't </prosody><prosody rate='-100%'>wait</prosody><prosody rate='+30%'> to share this news with you</prosody>",
+      "script": "I can't wait to share this news with you",
+      "label": "wait"
+    },
+    "272": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can't wait to </prosody><prosody rate='-100%'>share</prosody><prosody rate='+30%'> this news with you</prosody>",
+      "script": "I can't wait to share this news with you",
+      "label": "share"
+    },
+    "273": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's </prosody><prosody rate='-100%'>nice</prosody><prosody rate='+30%'> to see you again after so long</prosody>",
+      "script": "It's nice to see you again after so long",
+      "label": "nice"
+    },
+    "274": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's nice to </prosody><prosody rate='-100%'>see</prosody><prosody rate='+30%'> you again after so long</prosody>",
+      "script": "It's nice to see you again after so long",
+      "label": "see"
+    },
+    "275": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's nice to see you </prosody><prosody rate='-100%'>again</prosody><prosody rate='+30%'> after so long</prosody>",
+      "script": "It's nice to see you again after so long",
+      "label": "again"
+    },
+    "276": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Do you </prosody><prosody rate='-100%'>think</prosody><prosody rate='+30%'> we should go now or later</prosody>",
+      "script": "Do you think we should go now or later",
+      "label": "think"
+    },
+    "277": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Do you think we should </prosody><prosody rate='-100%'>go</prosody><prosody rate='+30%'> now or later</prosody>",
+      "script": "Do you think we should go now or later",
+      "label": "go"
+    },
+    "278": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Do you think we should go </prosody><prosody rate='-100%'>now</prosody><prosody rate='+30%'> or later</prosody>",
+      "script": "Do you think we should go now or later",
+      "label": "now"
+    },
+    "279": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I've been </prosody><prosody rate='-100%'>looking</prosody><prosody rate='+30%'> forward to this for ages</prosody>",
+      "script": "I've been looking forward to this for ages",
+      "label": "looking"
+    },
+    "280": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I've been looking </prosody><prosody rate='-100%'>forward</prosody><prosody rate='+30%'> to this for ages</prosody>",
+      "script": "I've been looking forward to this for ages",
+      "label": "forward"
+    },
+    "281": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I've been looking forward to this for </prosody><prosody rate='-100%'>ages</prosody>",
+      "script": "I've been looking forward to this for ages",
+      "label": "ages"
+    },
+    "282": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>never</prosody><prosody rate='+30%'> thought I would end up here</prosody>",
+      "script": "I never thought I would end up here",
+      "label": "never"
+    },
+    "283": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I never </prosody><prosody rate='-100%'>thought</prosody><prosody rate='+30%'> I would end up here</prosody>",
+      "script": "I never thought I would end up here",
+      "label": "thought"
+    },
+    "284": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I never thought I would </prosody><prosody rate='-100%'>end</prosody><prosody rate='+30%'> up here</prosody>",
+      "script": "I never thought I would end up here",
+      "label": "end"
+    },
+    "285": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can we </prosody><prosody rate='-100%'>talk</prosody><prosody rate='+30%'> about something else for a while</prosody>",
+      "script": "Can we talk about something else for a while",
+      "label": "talk"
+    },
+    "286": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can we talk about </prosody><prosody rate='-100%'>something</prosody><prosody rate='+30%'> else for a while</prosody>",
+      "script": "Can we talk about something else for a while",
+      "label": "something"
+    },
+    "287": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can we talk about something else for a </prosody><prosody rate='-100%'>while</prosody>",
+      "script": "Can we talk about something else for a while",
+      "label": "while"
+    },
+    "288": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>feel</prosody><prosody rate='+30%'> like we are making progress</prosody>",
+      "script": "I feel like we are making progress",
+      "label": "feel"
+    },
+    "289": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I feel like we are </prosody><prosody rate='-100%'>making</prosody><prosody rate='+30%'> progress</prosody>",
+      "script": "I feel like we are making progress",
+      "label": "making"
+    },
+    "290": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I feel like we are making </prosody><prosody rate='-100%'>progress</prosody>",
+      "script": "I feel like we are making progress",
+      "label": "progress"
+    },
+    "291": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's </prosody><prosody rate='-100%'>important</prosody><prosody rate='+30%'> to listen to your heart</prosody>",
+      "script": "It's important to listen to your heart",
+      "label": "important"
+    },
+    "292": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's important to </prosody><prosody rate='-100%'>listen</prosody><prosody rate='+30%'> to your heart</prosody>",
+      "script": "It's important to listen to your heart",
+      "label": "listen"
+    },
+    "293": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It's important to listen to your </prosody><prosody rate='-100%'>heart</prosody>",
+      "script": "It's important to listen to your heart",
+      "label": "heart"
+    },
+    "294": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>hope</prosody><prosody rate='+30%'> you have a great day ahead</prosody>",
+      "script": "I hope you have a great day ahead",
+      "label": "hope"
+    },
+    "295": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I hope you have a </prosody><prosody rate='-100%'>great</prosody><prosody rate='+30%'> day ahead</prosody>",
+      "script": "I hope you have a great day ahead",
+      "label": "great"
+    },
+    "296": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I hope you have a great day </prosody><prosody rate='-100%'>ahead</prosody>",
+      "script": "I hope you have a great day ahead",
+      "label": "ahead"
+    },
+    "297": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Let's </prosody><prosody rate='-100%'>meet</prosody><prosody rate='+30%'> up for coffee sometime this week</prosody>",
+      "script": "Let's meet up for coffee sometime this week",
+      "label": "meet"
+    },
+    "298": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Let's meet up for </prosody><prosody rate='-100%'>coffee</prosody><prosody rate='+30%'> sometime this week</prosody>",
+      "script": "Let's meet up for coffee sometime this week",
+      "label": "coffee"
+    },
+    "299": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Let's meet up for coffee </prosody><prosody rate='-100%'>sometime</prosody><prosody rate='+30%'> this week</prosody>",
+      "script": "Let's meet up for coffee sometime this week",
+      "label": "sometime"
+    },
+    "300": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>feel</prosody><prosody rate='+30%'> like I've learned so much today</prosody>",
+      "script": "I feel like I've learned so much today",
+      "label": "feel"
+    },
+    "301": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I feel like I've </prosody><prosody rate='-100%'>learned</prosody><prosody rate='+30%'> so much today</prosody>",
+      "script": "I feel like I've learned so much today",
+      "label": "learned"
+    },
+    "302": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I feel like I've learned so </prosody><prosody rate='-100%'>much</prosody><prosody rate='+30%'> today</prosody>",
+      "script": "I feel like I've learned so much today",
+      "label": "much"
+    },
+    "303": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This place </prosody><prosody rate='-100%'>makes</prosody><prosody rate='+30%'> me feel so at home</prosody>",
+      "script": "This place makes me feel so at home",
+      "label": "makes"
+    },
+    "304": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This place makes me </prosody><prosody rate='-100%'>feel</prosody><prosody rate='+30%'> so at home</prosody>",
+      "script": "This place makes me feel so at home",
+      "label": "feel"
+    },
+    "305": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This place makes me feel so at </prosody><prosody rate='-100%'>home</prosody>",
+      "script": "This place makes me feel so at home",
+      "label": "home"
+    },
+    "306": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I just </prosody><prosody rate='-100%'>want</prosody><prosody rate='+30%'> to make sure you are okay</prosody>",
+      "script": "I just want to make sure you are okay",
+      "label": "want"
+    },
+    "307": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I just want to </prosody><prosody rate='-100%'>make</prosody><prosody rate='+30%'> sure you are okay</prosody>",
+      "script": "I just want to make sure you are okay",
+      "label": "make"
+    },
+    "308": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I just want to make </prosody><prosody rate='-100%'>sure</prosody><prosody rate='+30%'> you are okay</prosody>",
+      "script": "I just want to make sure you are okay",
+      "label": "sure"
+    },
+    "309": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We can </prosody><prosody rate='-100%'>figure</prosody><prosody rate='+30%'> this out together don't worry</prosody>",
+      "script": "We can figure this out together don't worry",
+      "label": "figure"
+    },
+    "310": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We can figure this </prosody><prosody rate='-100%'>out</prosody><prosody rate='+30%'> together don't worry</prosody>",
+      "script": "We can figure this out together don't worry",
+      "label": "out"
+    },
+    "311": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We can figure this out </prosody><prosody rate='-100%'>together</prosody><prosody rate='+30%'> don't worry</prosody>",
+      "script": "We can figure this out together don't worry",
+      "label": "together"
+    },
+    "312": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It </prosody><prosody rate='-100%'>seems</prosody><prosody rate='+30%'> like nothing ever goes as planned</prosody>",
+      "script": "It seems like nothing ever goes as planned",
+      "label": "seems"
+    },
+    "313": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It seems like </prosody><prosody rate='-100%'>nothing</prosody><prosody rate='+30%'> ever goes as planned</prosody>",
+      "script": "It seems like nothing ever goes as planned",
+      "label": "nothing"
+    },
+    "314": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It seems like nothing ever goes as </prosody><prosody rate='-100%'>planned</prosody>",
+      "script": "It seems like nothing ever goes as planned",
+      "label": "planned"
+    },
+    "315": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>love</prosody><prosody rate='+30%'> how we can talk about anything</prosody>",
+      "script": "I love how we can talk about anything",
+      "label": "love"
+    },
+    "316": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I love how we can </prosody><prosody rate='-100%'>talk</prosody><prosody rate='+30%'> about anything</prosody>",
+      "script": "I love how we can talk about anything",
+      "label": "talk"
+    },
+    "317": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I love how we can talk about </prosody><prosody rate='-100%'>anything</prosody>",
+      "script": "I love how we can talk about anything",
+      "label": "anything"
+    },
+    "318": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>There is </prosody><prosody rate='-100%'>something</prosody><prosody rate='+30%'> special about this place</prosody>",
+      "script": "There is something special about this place",
+      "label": "something"
+    },
+    "319": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>There is something </prosody><prosody rate='-100%'>special</prosody><prosody rate='+30%'> about this place</prosody>",
+      "script": "There is something special about this place",
+      "label": "special"
+    },
+    "320": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>There is something special about this </prosody><prosody rate='-100%'>place</prosody>",
+      "script": "There is something special about this place",
+      "label": "place"
+    },
+    "321": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> want to go to the party later</prosody>",
+      "script": "I really want to go to the party later",
+      "label": "really"
+    },
+    "322": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really </prosody><prosody rate='-100%'>want</prosody><prosody rate='+30%'> to go to the party later</prosody>",
+      "script": "I really want to go to the party later",
+      "label": "want"
+    },
+    "323": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really want to go to the </prosody><prosody rate='-100%'>party</prosody><prosody rate='+30%'> later</prosody>",
+      "script": "I really want to go to the party later",
+      "label": "party"
+    },
+    "324": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She can </prosody><prosody rate='-100%'>be</prosody><prosody rate='+30%'> quite funny sometimes</prosody>",
+      "script": "She can be quite funny sometimes",
+      "label": "be"
+    },
+    "325": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She can be </prosody><prosody rate='-100%'>quite</prosody><prosody rate='+30%'> funny sometimes</prosody>",
+      "script": "She can be quite funny sometimes",
+      "label": "quite"
+    },
+    "326": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She can be quite </prosody><prosody rate='-100%'>funny</prosody><prosody rate='+30%'> sometimes</prosody>",
+      "script": "She can be quite funny sometimes",
+      "label": "funny"
+    },
+    "327": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This </prosody><prosody rate='-100%'>could</prosody><prosody rate='+30%'> be a great opportunity for you</prosody>",
+      "script": "This could be a great opportunity for you",
+      "label": "could"
+    },
+    "328": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This could be a </prosody><prosody rate='-100%'>great</prosody><prosody rate='+30%'> opportunity for you</prosody>",
+      "script": "This could be a great opportunity for you",
+      "label": "great"
+    },
+    "329": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This could be a great </prosody><prosody rate='-100%'>opportunity</prosody><prosody rate='+30%'> for you</prosody>",
+      "script": "This could be a great opportunity for you",
+      "label": "opportunity"
+    },
+    "330": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I just </prosody><prosody rate='-100%'>love</prosody><prosody rate='+30%'> spending time with you</prosody>",
+      "script": "I just love spending time with you",
+      "label": "love"
+    },
+    "331": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I just love </prosody><prosody rate='-100%'>spending</prosody><prosody rate='+30%'> time with you</prosody>",
+      "script": "I just love spending time with you",
+      "label": "spending"
+    },
+    "332": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I just love spending </prosody><prosody rate='-100%'>time</prosody><prosody rate='+30%'> with you</prosody>",
+      "script": "I just love spending time with you",
+      "label": "time"
+    },
+    "333": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Do you </prosody><prosody rate='-100%'>think</prosody><prosody rate='+30%'> we should try that restaurant</prosody>",
+      "script": "Do you think we should try that restaurant",
+      "label": "think"
+    },
+    "334": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Do you think we should </prosody><prosody rate='-100%'>try</prosody><prosody rate='+30%'> that restaurant</prosody>",
+      "script": "Do you think we should try that restaurant",
+      "label": "try"
+    },
+    "335": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Do you think we should try that </prosody><prosody rate='-100%'>restaurant</prosody>",
+      "script": "Do you think we should try that restaurant",
+      "label": "restaurant"
+    },
+    "336": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>He </prosody><prosody rate='-100%'>seems</prosody><prosody rate='+30%'> to know what he is doing</prosody>",
+      "script": "He seems to know what he is doing",
+      "label": "seems"
+    },
+    "337": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>He seems to </prosody><prosody rate='-100%'>know</prosody><prosody rate='+30%'> what he is doing</prosody>",
+      "script": "He seems to know what he is doing",
+      "label": "know"
+    },
+    "338": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>He seems to know what he is </prosody><prosody rate='-100%'>doing</prosody>",
+      "script": "He seems to know what he is doing",
+      "label": "doing"
+    },
+    "339": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That movie was </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> interesting to watch</prosody>",
+      "script": "That movie was really interesting to watch",
+      "label": "really"
+    },
+    "340": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That movie was really </prosody><prosody rate='-100%'>interesting</prosody><prosody rate='+30%'> to watch</prosody>",
+      "script": "That movie was really interesting to watch",
+      "label": "interesting"
+    },
+    "341": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That movie was really interesting to </prosody><prosody rate='-100%'>watch</prosody>",
+      "script": "That movie was really interesting to watch",
+      "label": "watch"
+    },
+    "342": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>thought</prosody><prosody rate='+30%'> you were going to join us later</prosody>",
+      "script": "I thought you were going to join us later",
+      "label": "thought"
+    },
+    "343": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I thought you were </prosody><prosody rate='-100%'>going</prosody><prosody rate='+30%'> to join us later</prosody>",
+      "script": "I thought you were going to join us later",
+      "label": "going"
+    },
+    "344": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I thought you were going to </prosody><prosody rate='-100%'>join</prosody><prosody rate='+30%'> us later</prosody>",
+      "script": "I thought you were going to join us later",
+      "label": "join"
+    },
+    "345": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This place </prosody><prosody rate='-100%'>feels</prosody><prosody rate='+30%'> so relaxing and peaceful</prosody>",
+      "script": "This place feels so relaxing and peaceful",
+      "label": "feels"
+    },
+    "346": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This place feels so </prosody><prosody rate='-100%'>relaxing</prosody><prosody rate='+30%'> and peaceful</prosody>",
+      "script": "This place feels so relaxing and peaceful",
+      "label": "relaxing"
+    },
+    "347": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>This place feels so relaxing and </prosody><prosody rate='-100%'>peaceful</prosody>",
+      "script": "This place feels so relaxing and peaceful",
+      "label": "peaceful"
+    },
+    "348": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Why did you have to </prosody><prosody rate='-100%'>say</prosody><prosody rate='+30%'> it like that</prosody>",
+      "script": "Why did you have to say it like that",
+      "label": "say"
+    },
+    "349": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Why did you have to say it </prosody><prosody rate='-100%'>like</prosody><prosody rate='+30%'> that</prosody>",
+      "script": "Why did you have to say it like that",
+      "label": "like"
+    },
+    "350": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Why did you have to say it like </prosody><prosody rate='-100%'>that</prosody>",
+      "script": "Why did you have to say it like that",
+      "label": "that"
+    },
+    "351": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can </prosody><prosody rate='-100%'>definitely</prosody><prosody rate='+30%'> help you with that project</prosody>",
+      "script": "I can definitely help you with that project",
+      "label": "definitely"
+    },
+    "352": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can definitely </prosody><prosody rate='-100%'>help</prosody><prosody rate='+30%'> you with that project</prosody>",
+      "script": "I can definitely help you with that project",
+      "label": "help"
+    },
+    "353": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can definitely help you with that </prosody><prosody rate='-100%'>project</prosody>",
+      "script": "I can definitely help you with that project",
+      "label": "project"
+    },
+    "354": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You should </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> take your time with this</prosody>",
+      "script": "You should really take your time with this",
+      "label": "really"
+    },
+    "355": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You should really </prosody><prosody rate='-100%'>take</prosody><prosody rate='+30%'> your time with this</prosody>",
+      "script": "You should really take your time with this",
+      "label": "take"
+    },
+    "356": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You should really take your </prosody><prosody rate='-100%'>time</prosody><prosody rate='+30%'> with this</prosody>",
+      "script": "You should really take your time with this",
+      "label": "time"
+    },
+    "357": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>How about we </prosody><prosody rate='-100%'>go</prosody><prosody rate='+30%'> for a walk in the park</prosody>",
+      "script": "How about we go for a walk in the park",
+      "label": "go"
+    },
+    "358": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>How about we go for a </prosody><prosody rate='-100%'>walk</prosody><prosody rate='+30%'> in the park</prosody>",
+      "script": "How about we go for a walk in the park",
+      "label": "walk"
+    },
+    "359": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>How about we go for a walk in the </prosody><prosody rate='-100%'>park</prosody>",
+      "script": "How about we go for a walk in the park",
+      "label": "park"
+    },
+    "360": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>hope</prosody><prosody rate='+30%'> you are feeling better soon</prosody>",
+      "script": "I hope you are feeling better soon",
+      "label": "hope"
+    },
+    "361": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I hope you are </prosody><prosody rate='-100%'>feeling</prosody><prosody rate='+30%'> better soon</prosody>",
+      "script": "I hope you are feeling better soon",
+      "label": "feeling"
+    },
+    "362": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I hope you are feeling </prosody><prosody rate='-100%'>better</prosody><prosody rate='+30%'> soon</prosody>",
+      "script": "I hope you are feeling better soon",
+      "label": "better"
+    },
+    "363": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That </prosody><prosody rate='-100%'>sounds</prosody><prosody rate='+30%'> like a fun idea to me</prosody>",
+      "script": "That sounds like a fun idea to me",
+      "label": "sounds"
+    },
+    "364": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That sounds like a </prosody><prosody rate='-100%'>fun</prosody><prosody rate='+30%'> idea to me</prosody>",
+      "script": "That sounds like a fun idea to me",
+      "label": "fun"
+    },
+    "365": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That sounds like a fun </prosody><prosody rate='-100%'>idea</prosody><prosody rate='+30%'> to me</prosody>",
+      "script": "That sounds like a fun idea to me",
+      "label": "idea"
+    },
+    "366": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She </prosody><prosody rate='-100%'>always</prosody><prosody rate='+30%'> knows how to make me smile</prosody>",
+      "script": "She always knows how to make me smile",
+      "label": "always"
+    },
+    "367": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She always </prosody><prosody rate='-100%'>knows</prosody><prosody rate='+30%'> how to make me smile</prosody>",
+      "script": "She always knows how to make me smile",
+      "label": "knows"
+    },
+    "368": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She always knows how to </prosody><prosody rate='-100%'>make</prosody><prosody rate='+30%'> me smile</prosody>",
+      "script": "She always knows how to make me smile",
+      "label": "make"
+    },
+    "369": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>wish</prosody><prosody rate='+30%'> I could spend more time with you</prosody>",
+      "script": "I wish I could spend more time with you",
+      "label": "wish"
+    },
+    "370": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I wish I could </prosody><prosody rate='-100%'>spend</prosody><prosody rate='+30%'> more time with you</prosody>",
+      "script": "I wish I could spend more time with you",
+      "label": "spend"
+    },
+    "371": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I wish I could spend more </prosody><prosody rate='-100%'>time</prosody><prosody rate='+30%'> with you</prosody>",
+      "script": "I wish I could spend more time with you",
+      "label": "time"
+    },
+    "372": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Is there any </prosody><prosody rate='-100%'>chance</prosody><prosody rate='+30%'> we could meet up later</prosody>",
+      "script": "Is there any chance we could meet up later",
+      "label": "chance"
+    },
+    "373": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Is there any chance we could </prosody><prosody rate='-100%'>meet</prosody><prosody rate='+30%'> up later</prosody>",
+      "script": "Is there any chance we could meet up later",
+      "label": "meet"
+    },
+    "374": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Is there any chance we could meet up </prosody><prosody rate='-100%'>later</prosody>",
+      "script": "Is there any chance we could meet up later",
+      "label": "later"
+    },
+    "375": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>need</prosody><prosody rate='+30%'> to get my car fixed soon</prosody>",
+      "script": "I need to get my car fixed soon",
+      "label": "need"
+    },
+    "376": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I need to </prosody><prosody rate='-100%'>get</prosody><prosody rate='+30%'> my car fixed soon</prosody>",
+      "script": "I need to get my car fixed soon",
+      "label": "get"
+    },
+    "377": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I need to get my car </prosody><prosody rate='-100%'>fixed</prosody><prosody rate='+30%'> soon</prosody>",
+      "script": "I need to get my car fixed soon",
+      "label": "fixed"
+    },
+    "378": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can you </prosody><prosody rate='-100%'>believe</prosody><prosody rate='+30%'> how fast time flies</prosody>",
+      "script": "Can you believe how fast time flies",
+      "label": "believe"
+    },
+    "379": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can you believe how </prosody><prosody rate='-100%'>fast</prosody><prosody rate='+30%'> time flies</prosody>",
+      "script": "Can you believe how fast time flies",
+      "label": "fast"
+    },
+    "380": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can you believe how fast time </prosody><prosody rate='-100%'>flies</prosody>",
+      "script": "Can you believe how fast time flies",
+      "label": "flies"
+    },
+    "381": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> appreciate your help with this</prosody>",
+      "script": "I really appreciate your help with this",
+      "label": "really"
+    },
+    "382": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really </prosody><prosody rate='-100%'>appreciate</prosody><prosody rate='+30%'> your help with this</prosody>",
+      "script": "I really appreciate your help with this",
+      "label": "appreciate"
+    },
+    "383": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really appreciate your </prosody><prosody rate='-100%'>help</prosody><prosody rate='+30%'> with this</prosody>",
+      "script": "I really appreciate your help with this",
+      "label": "help"
+    },
+    "384": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>What do you </prosody><prosody rate='-100%'>think</prosody><prosody rate='+30%'> of the new place</prosody>",
+      "script": "What do you think of the new place",
+      "label": "think"
+    },
+    "385": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>What do you think of the </prosody><prosody rate='-100%'>new</prosody><prosody rate='+30%'> place</prosody>",
+      "script": "What do you think of the new place",
+      "label": "new"
+    },
+    "386": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>What do you think of the new </prosody><prosody rate='-100%'>place</prosody>",
+      "script": "What do you think of the new place",
+      "label": "place"
+    },
+    "387": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It </prosody><prosody rate='-100%'>seems</prosody><prosody rate='+30%'> like a good time for a break</prosody>",
+      "script": "It seems like a good time for a break",
+      "label": "seems"
+    },
+    "388": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It seems like a </prosody><prosody rate='-100%'>good</prosody><prosody rate='+30%'> time for a break</prosody>",
+      "script": "It seems like a good time for a break",
+      "label": "good"
+    },
+    "389": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It seems like a good time for a </prosody><prosody rate='-100%'>break</prosody>",
+      "script": "It seems like a good time for a break",
+      "label": "break"
+    },
+    "390": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should </prosody><prosody rate='-100%'>definitely</prosody><prosody rate='+30%'> plan a trip together</prosody>",
+      "script": "We should definitely plan a trip together",
+      "label": "definitely"
+    },
+    "391": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should definitely </prosody><prosody rate='-100%'>plan</prosody><prosody rate='+30%'> a trip together</prosody>",
+      "script": "We should definitely plan a trip together",
+      "label": "plan"
+    },
+    "392": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We should definitely plan a </prosody><prosody rate='-100%'>trip</prosody><prosody rate='+30%'> together</prosody>",
+      "script": "We should definitely plan a trip together",
+      "label": "trip"
+    },
+    "393": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>feel</prosody><prosody rate='+30%'> like we are getting closer every day</prosody>",
+      "script": "I feel like we are getting closer every day",
+      "label": "feel"
+    },
+    "394": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I feel like we are </prosody><prosody rate='-100%'>getting</prosody><prosody rate='+30%'> closer every day</prosody>",
+      "script": "I feel like we are getting closer every day",
+      "label": "getting"
+    },
+    "395": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I feel like we are getting </prosody><prosody rate='-100%'>closer</prosody><prosody rate='+30%'> every day</prosody>",
+      "script": "I feel like we are getting closer every day",
+      "label": "closer"
+    },
+    "396": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That was an </prosody><prosody rate='-100%'>unexpected</prosody><prosody rate='+30%'> surprise for everyone</prosody>",
+      "script": "That was an unexpected surprise for everyone",
+      "label": "unexpected"
+    },
+    "397": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That was an unexpected </prosody><prosody rate='-100%'>surprise</prosody><prosody rate='+30%'> for everyone</prosody>",
+      "script": "That was an unexpected surprise for everyone",
+      "label": "surprise"
+    },
+    "398": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That was an unexpected surprise for </prosody><prosody rate='-100%'>everyone</prosody>",
+      "script": "That was an unexpected surprise for everyone",
+      "label": "everyone"
+    },
+    "399": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can </prosody><prosody rate='-100%'>hear</prosody><prosody rate='+30%'> the music playing from here</prosody>",
+      "script": "I can hear the music playing from here",
+      "label": "hear"
+    },
+    "400": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can hear the </prosody><prosody rate='-100%'>music</prosody><prosody rate='+30%'> playing from here</prosody>",
+      "script": "I can hear the music playing from here",
+      "label": "music"
+    },
+    "401": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can hear the music </prosody><prosody rate='-100%'>playing</prosody><prosody rate='+30%'> from here</prosody>",
+      "script": "I can hear the music playing from here",
+      "label": "playing"
+    },
+    "402": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Let's not </prosody><prosody rate='-100%'>forget</prosody><prosody rate='+30%'> to grab some snacks</prosody>",
+      "script": "Let's not forget to grab some snacks",
+      "label": "forget"
+    },
+    "403": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Let's not forget to </prosody><prosody rate='-100%'>grab</prosody><prosody rate='+30%'> some snacks</prosody>",
+      "script": "Let's not forget to grab some snacks",
+      "label": "grab"
+    },
+    "404": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Let's not forget to grab some </prosody><prosody rate='-100%'>snacks</prosody>",
+      "script": "Let's not forget to grab some snacks",
+      "label": "snacks"
+    },
+    "405": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> enjoy reading books in my free time</prosody>",
+      "script": "I really enjoy reading books in my free time",
+      "label": "really"
+    },
+    "406": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really </prosody><prosody rate='-100%'>enjoy</prosody><prosody rate='+30%'> reading books in my free time</prosody>",
+      "script": "I really enjoy reading books in my free time",
+      "label": "enjoy"
+    },
+    "407": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really enjoy </prosody><prosody rate='-100%'>reading</prosody><prosody rate='+30%'> books in my free time</prosody>",
+      "script": "I really enjoy reading books in my free time",
+      "label": "reading"
+    },
+    "408": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Have you </prosody><prosody rate='-100%'>seen</prosody><prosody rate='+30%'> that new show on TV</prosody>",
+      "script": "Have you seen that new show on TV",
+      "label": "seen"
+    },
+    "409": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Have you seen that </prosody><prosody rate='-100%'>new</prosody><prosody rate='+30%'> show on TV</prosody>",
+      "script": "Have you seen that new show on TV",
+      "label": "new"
+    },
+    "410": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Have you seen that new </prosody><prosody rate='-100%'>show</prosody><prosody rate='+30%'> on TV</prosody>",
+      "script": "Have you seen that new show on TV",
+      "label": "show"
+    },
+    "411": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can't </prosody><prosody rate='-100%'>believe</prosody><prosody rate='+30%'> how much you've grown</prosody>",
+      "script": "I can't believe how much you've grown",
+      "label": "believe"
+    },
+    "412": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can't believe how </prosody><prosody rate='-100%'>much</prosody><prosody rate='+30%'> you've grown</prosody>",
+      "script": "I can't believe how much you've grown",
+      "label": "much"
+    },
+    "413": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I can't believe how much you've </prosody><prosody rate='-100%'>grown</prosody>",
+      "script": "I can't believe how much you've grown",
+      "label": "grown"
+    },
+    "414": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It is </prosody><prosody rate='-100%'>such</prosody><prosody rate='+30%'> a beautiful day outside today</prosody>",
+      "script": "It is such a beautiful day outside today",
+      "label": "such"
+    },
+    "415": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It is such a </prosody><prosody rate='-100%'>beautiful</prosody><prosody rate='+30%'> day outside today</prosody>",
+      "script": "It is such a beautiful day outside today",
+      "label": "beautiful"
+    },
+    "416": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It is such a beautiful day </prosody><prosody rate='-100%'>outside</prosody><prosody rate='+30%'> today</prosody>",
+      "script": "It is such a beautiful day outside today",
+      "label": "outside"
+    },
+    "417": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You </prosody><prosody rate='-100%'>always</prosody><prosody rate='+30%'> make me feel so special</prosody>",
+      "script": "You always make me feel so special",
+      "label": "always"
+    },
+    "418": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You always make me </prosody><prosody rate='-100%'>feel</prosody><prosody rate='+30%'> so special</prosody>",
+      "script": "You always make me feel so special",
+      "label": "feel"
+    },
+    "419": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You always make me feel so </prosody><prosody rate='-100%'>special</prosody>",
+      "script": "You always make me feel so special",
+      "label": "special"
+    },
+    "420": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I will </prosody><prosody rate='-100%'>definitely</prosody><prosody rate='+30%'> think about your suggestion</prosody>",
+      "script": "I will definitely think about your suggestion",
+      "label": "definitely"
+    },
+    "421": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I will definitely </prosody><prosody rate='-100%'>think</prosody><prosody rate='+30%'> about your suggestion</prosody>",
+      "script": "I will definitely think about your suggestion",
+      "label": "think"
+    },
+    "422": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I will definitely think about your </prosody><prosody rate='-100%'>suggestion</prosody>",
+      "script": "I will definitely think about your suggestion",
+      "label": "suggestion"
+    },
+    "423": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That idea </prosody><prosody rate='-100%'>could</prosody><prosody rate='+30%'> really change everything</prosody>",
+      "script": "That idea could really change everything",
+      "label": "could"
+    },
+    "424": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That idea could </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> change everything</prosody>",
+      "script": "That idea could really change everything",
+      "label": "really"
+    },
+    "425": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That idea could really </prosody><prosody rate='-100%'>change</prosody><prosody rate='+30%'> everything</prosody>",
+      "script": "That idea could really change everything",
+      "label": "change"
+    },
+    "426": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I am so </prosody><prosody rate='-100%'>excited</prosody><prosody rate='+30%'> to see what happens next</prosody>",
+      "script": "I am so excited to see what happens next",
+      "label": "excited"
+    },
+    "427": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I am so excited to </prosody><prosody rate='-100%'>see</prosody><prosody rate='+30%'> what happens next</prosody>",
+      "script": "I am so excited to see what happens next",
+      "label": "see"
+    },
+    "428": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I am so excited to see what </prosody><prosody rate='-100%'>happens</prosody><prosody rate='+30%'> next</prosody>",
+      "script": "I am so excited to see what happens next",
+      "label": "happens"
+    },
+    "429": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We need to </prosody><prosody rate='-100%'>start</prosody><prosody rate='+30%'> planning our next vacation</prosody>",
+      "script": "We need to start planning our next vacation",
+      "label": "start"
+    },
+    "430": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We need to start </prosody><prosody rate='-100%'>planning</prosody><prosody rate='+30%'> our next vacation</prosody>",
+      "script": "We need to start planning our next vacation",
+      "label": "planning"
+    },
+    "431": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>We need to start planning our next </prosody><prosody rate='-100%'>vacation</prosody>",
+      "script": "We need to start planning our next vacation",
+      "label": "vacation"
+    },
+    "432": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Why don't we </prosody><prosody rate='-100%'>go</prosody><prosody rate='+30%'> ahead and do it now</prosody>",
+      "script": "Why don't we go ahead and do it now",
+      "label": "go"
+    },
+    "433": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Why don't we go </prosody><prosody rate='-100%'>ahead</prosody><prosody rate='+30%'> and do it now</prosody>",
+      "script": "Why don't we go ahead and do it now",
+      "label": "ahead"
+    },
+    "434": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Why don't we go ahead and </prosody><prosody rate='-100%'>do</prosody><prosody rate='+30%'> it now</prosody>",
+      "script": "Why don't we go ahead and do it now",
+      "label": "do"
+    },
+    "435": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>think</prosody><prosody rate='+30%'> I left my phone at your place</prosody>",
+      "script": "I think I left my phone at your place",
+      "label": "think"
+    },
+    "436": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I think I </prosody><prosody rate='-100%'>left</prosody><prosody rate='+30%'> my phone at your place</prosody>",
+      "script": "I think I left my phone at your place",
+      "label": "left"
+    },
+    "437": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I think I left my phone at your </prosody><prosody rate='-100%'>place</prosody>",
+      "script": "I think I left my phone at your place",
+      "label": "place"
+    },
+    "438": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She </prosody><prosody rate='-100%'>told</prosody><prosody rate='+30%'> me she would call me later</prosody>",
+      "script": "She told me she would call me later",
+      "label": "told"
+    },
+    "439": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She told me she would </prosody><prosody rate='-100%'>call</prosody><prosody rate='+30%'> me later</prosody>",
+      "script": "She told me she would call me later",
+      "label": "call"
+    },
+    "440": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>She told me she would call me </prosody><prosody rate='-100%'>later</prosody>",
+      "script": "She told me she would call me later",
+      "label": "later"
+    },
+    "441": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It </prosody><prosody rate='-100%'>feels</prosody><prosody rate='+30%'> good to finally relax after work</prosody>",
+      "script": "It feels good to finally relax after work",
+      "label": "feels"
+    },
+    "442": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It feels good to </prosody><prosody rate='-100%'>finally</prosody><prosody rate='+30%'> relax after work</prosody>",
+      "script": "It feels good to finally relax after work",
+      "label": "finally"
+    },
+    "443": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>It feels good to finally </prosody><prosody rate='-100%'>relax</prosody><prosody rate='+30%'> after work</prosody>",
+      "script": "It feels good to finally relax after work",
+      "label": "relax"
+    },
+    "444": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> should try the dessert here</prosody>",
+      "script": "You really should try the dessert here",
+      "label": "really"
+    },
+    "445": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You really should </prosody><prosody rate='-100%'>try</prosody><prosody rate='+30%'> the dessert here</prosody>",
+      "script": "You really should try the dessert here",
+      "label": "try"
+    },
+    "446": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>You really should try the </prosody><prosody rate='-100%'>dessert</prosody><prosody rate='+30%'> here</prosody>",
+      "script": "You really should try the dessert here",
+      "label": "dessert"
+    },
+    "447": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can we </prosody><prosody rate='-100%'>discuss</prosody><prosody rate='+30%'> our plans for the weekend</prosody>",
+      "script": "Can we discuss our plans for the weekend",
+      "label": "discuss"
+    },
+    "448": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can we discuss our </prosody><prosody rate='-100%'>plans</prosody><prosody rate='+30%'> for the weekend</prosody>",
+      "script": "Can we discuss our plans for the weekend",
+      "label": "plans"
+    },
+    "449": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Can we discuss our plans for the </prosody><prosody rate='-100%'>weekend</prosody>",
+      "script": "Can we discuss our plans for the weekend",
+      "label": "weekend"
+    },
+    "450": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>believe</prosody><prosody rate='+30%'> we can make this work together</prosody>",
+      "script": "I believe we can make this work together",
+      "label": "believe"
+    },
+    "451": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I believe we can </prosody><prosody rate='-100%'>make</prosody><prosody rate='+30%'> this work together</prosody>",
+      "script": "I believe we can make this work together",
+      "label": "make"
+    },
+    "452": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I believe we can make this </prosody><prosody rate='-100%'>work</prosody><prosody rate='+30%'> together</prosody>",
+      "script": "I believe we can make this work together",
+      "label": "work"
+    },
+    "453": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That was </prosody><prosody rate='-100%'>quite</prosody><prosody rate='+30%'> an interesting conversation we had</prosody>",
+      "script": "That was quite an interesting conversation we had",
+      "label": "quite"
+    },
+    "454": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That was quite an </prosody><prosody rate='-100%'>interesting</prosody><prosody rate='+30%'> conversation we had</prosody>",
+      "script": "That was quite an interesting conversation we had",
+      "label": "interesting"
+    },
+    "455": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>That was quite an interesting </prosody><prosody rate='-100%'>conversation</prosody><prosody rate='+30%'> we had</prosody>",
+      "script": "That was quite an interesting conversation we had",
+      "label": "conversation"
+    },
+    "456": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>really</prosody><prosody rate='+30%'> hope to see you again soon</prosody>",
+      "script": "I really hope to see you again soon",
+      "label": "really"
+    },
+    "457": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really </prosody><prosody rate='-100%'>hope</prosody><prosody rate='+30%'> to see you again soon</prosody>",
+      "script": "I really hope to see you again soon",
+      "label": "hope"
+    },
+    "458": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I really hope to </prosody><prosody rate='-100%'>see</prosody><prosody rate='+30%'> you again soon</prosody>",
+      "script": "I really hope to see you again soon",
+      "label": "see"
+    },
+    "459": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Why don't we </prosody><prosody rate='-100%'>catch</prosody><prosody rate='+30%'> up over coffee later</prosody>",
+      "script": "Why don't we catch up over coffee later",
+      "label": "catch"
+    },
+    "460": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Why don't we catch </prosody><prosody rate='-100%'>up</prosody><prosody rate='+30%'> over coffee later</prosody>",
+      "script": "Why don't we catch up over coffee later",
+      "label": "up"
+    },
+    "461": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>Why don't we catch up over </prosody><prosody rate='-100%'>coffee</prosody><prosody rate='+30%'> later</prosody>",
+      "script": "Why don't we catch up over coffee later",
+      "label": "coffee"
+    },
+    "462": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I </prosody><prosody rate='-100%'>think</prosody><prosody rate='+30%'> we might need to reconsider our approach</prosody>",
+      "script": "I think we might need to reconsider our approach",
+      "label": "think"
+    },
+    "463": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I think we </prosody><prosody rate='-100%'>might</prosody><prosody rate='+30%'> need to reconsider our approach</prosody>",
+      "script": "I think we might need to reconsider our approach",
+      "label": "might"
+    },
+    "464": {
+      "voice": "",
+      "style": "<prosody rate='+30%'>I think we might need to </prosody><prosody rate='-100%'>reconsider</prosody><prosody rate='+30%'> our approach</prosody>",
+      "script": "I think we might need to reconsider our approach",
+      "label": "reconsider"
+    }
+  }
+}

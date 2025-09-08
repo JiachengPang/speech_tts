@@ -1,0 +1,1925 @@
+{
+  "stress": {
+    "prompt": "Which word has prominent stress in the audio?",
+    "0": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>really</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> want to go to the park today</prosody>",
+      "script": "I really want to go to the park today",
+      "label": "really"
+    },
+    "1": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I really </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>want</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to go to the park today</prosody>",
+      "script": "I really want to go to the park today",
+      "label": "want"
+    },
+    "2": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>should</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> visit her grandmother this weekend</prosody>",
+      "script": "She should visit her grandmother this weekend",
+      "label": "should"
+    },
+    "3": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>visit</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> her grandmother this weekend</prosody>",
+      "script": "She should visit her grandmother this weekend",
+      "label": "visit"
+    },
+    "4": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They can </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>help</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> us with the project later</prosody>",
+      "script": "They can help us with the project later",
+      "label": "help"
+    },
+    "5": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They can help us with the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>project</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> later</prosody>",
+      "script": "They can help us with the project later",
+      "label": "project"
+    },
+    "6": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You might </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>want</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to call him before dinner</prosody>",
+      "script": "You might want to call him before dinner",
+      "label": "want"
+    },
+    "7": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You might want to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>call</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> him before dinner</prosody>",
+      "script": "You might want to call him before dinner",
+      "label": "call"
+    },
+    "8": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We will </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>meet</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> at the coffee shop after work</prosody>",
+      "script": "We will meet at the coffee shop after work",
+      "label": "meet"
+    },
+    "9": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We will meet at the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>coffee</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> shop after work</prosody>",
+      "script": "We will meet at the coffee shop after work",
+      "label": "coffee"
+    },
+    "10": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>always</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> brings his lunch to school on Fridays</prosody>",
+      "script": "He always brings his lunch to school on Fridays",
+      "label": "always"
+    },
+    "11": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He always brings his </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>lunch</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to school on Fridays</prosody>",
+      "script": "He always brings his lunch to school on Fridays",
+      "label": "lunch"
+    },
+    "12": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I would </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>like</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to learn how to play guitar</prosody>",
+      "script": "I would like to learn how to play guitar",
+      "label": "like"
+    },
+    "13": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I would like to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>learn</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> how to play guitar</prosody>",
+      "script": "I would like to learn how to play guitar",
+      "label": "learn"
+    },
+    "14": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>The movie </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>starts</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> at seven so we should hurry</prosody>",
+      "script": "The movie starts at seven so we should hurry",
+      "label": "starts"
+    },
+    "15": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>The movie starts at seven so we should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>hurry</prosody><break time='150ms'/>",
+      "script": "The movie starts at seven so we should hurry",
+      "label": "hurry"
+    },
+    "16": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>believe</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> how fast the time flies</prosody>",
+      "script": "Can you believe how fast the time flies",
+      "label": "believe"
+    },
+    "17": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can you believe how </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>fast</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the time flies</prosody>",
+      "script": "Can you believe how fast the time flies",
+      "label": "fast"
+    },
+    "18": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>sometimes</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> go hiking in the mountains</prosody>",
+      "script": "They sometimes go hiking in the mountains",
+      "label": "sometimes"
+    },
+    "19": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They sometimes go </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>hiking</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> in the mountains</prosody>",
+      "script": "They sometimes go hiking in the mountains",
+      "label": "hiking"
+    },
+    "20": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We need to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>finish</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> this report by tomorrow</prosody>",
+      "script": "We need to finish this report by tomorrow",
+      "label": "finish"
+    },
+    "21": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We need to finish this </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>report</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> by tomorrow</prosody>",
+      "script": "We need to finish this report by tomorrow",
+      "label": "report"
+    },
+    "22": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Do you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>think</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> we should try that new restaurant</prosody>",
+      "script": "Do you think we should try that new restaurant",
+      "label": "think"
+    },
+    "23": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Do you think we should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>try</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> that new restaurant</prosody>",
+      "script": "Do you think we should try that new restaurant",
+      "label": "try"
+    },
+    "24": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>decided</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to take a different route home</prosody>",
+      "script": "He decided to take a different route home",
+      "label": "decided"
+    },
+    "25": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He decided to take a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>different</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> route home</prosody>",
+      "script": "He decided to take a different route home",
+      "label": "different"
+    },
+    "26": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>plan</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to start exercising more regularly</prosody>",
+      "script": "I plan to start exercising more regularly",
+      "label": "plan"
+    },
+    "27": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I plan to start </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>exercising</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> more regularly</prosody>",
+      "script": "I plan to start exercising more regularly",
+      "label": "exercising"
+    },
+    "28": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She really </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>enjoys</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> painting in her free time</prosody>",
+      "script": "She really enjoys painting in her free time",
+      "label": "enjoys"
+    },
+    "29": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She really enjoys </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>painting</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> in her free time</prosody>",
+      "script": "She really enjoys painting in her free time",
+      "label": "painting"
+    },
+    "30": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We could </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>watch</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a movie or play a game tonight</prosody>",
+      "script": "We could watch a movie or play a game tonight",
+      "label": "watch"
+    },
+    "31": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We could watch a movie or </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>play</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a game tonight</prosody>",
+      "script": "We could watch a movie or play a game tonight",
+      "label": "play"
+    },
+    "32": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>promised</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to help us with the move next week</prosody>",
+      "script": "He promised to help us with the move next week",
+      "label": "promised"
+    },
+    "33": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He promised to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>help</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> us with the move next week</prosody>",
+      "script": "He promised to help us with the move next week",
+      "label": "help"
+    },
+    "34": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>forgot</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> my keys at home again</prosody>",
+      "script": "I forgot my keys at home again",
+      "label": "forgot"
+    },
+    "35": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I forgot my </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>keys</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> at home again</prosody>",
+      "script": "I forgot my keys at home again",
+      "label": "keys"
+    },
+    "36": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>always</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> have interesting stories to share</prosody>",
+      "script": "They always have interesting stories to share",
+      "label": "always"
+    },
+    "37": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They always have </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>interesting</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> stories to share</prosody>",
+      "script": "They always have interesting stories to share",
+      "label": "interesting"
+    },
+    "38": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Do you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>want</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to join us for dinner later</prosody>",
+      "script": "Do you want to join us for dinner later",
+      "label": "want"
+    },
+    "39": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Do you want to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>join</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> us for dinner later</prosody>",
+      "script": "Do you want to join us for dinner later",
+      "label": "join"
+    },
+    "40": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I never </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>thought</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> I would learn to swim</prosody>",
+      "script": "I never thought I would learn to swim",
+      "label": "thought"
+    },
+    "41": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I never thought I would </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>learn</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to swim</prosody>",
+      "script": "I never thought I would learn to swim",
+      "label": "learn"
+    },
+    "42": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>usually</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> plays soccer on weekends with friends</prosody>",
+      "script": "He usually plays soccer on weekends with friends",
+      "label": "usually"
+    },
+    "43": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He usually plays </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>soccer</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> on weekends with friends</prosody>",
+      "script": "He usually plays soccer on weekends with friends",
+      "label": "soccer"
+    },
+    "44": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She needs to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>finish</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> her homework before bed</prosody>",
+      "script": "She needs to finish her homework before bed",
+      "label": "finish"
+    },
+    "45": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She needs to finish her </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>homework</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> before bed</prosody>",
+      "script": "She needs to finish her homework before bed",
+      "label": "homework"
+    },
+    "46": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We can </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>meet</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> at the library to study together</prosody>",
+      "script": "We can meet at the library to study together",
+      "label": "meet"
+    },
+    "47": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We can meet at the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>library</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to study together</prosody>",
+      "script": "We can meet at the library to study together",
+      "label": "library"
+    },
+    "48": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can we </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>leave</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the house a bit earlier tomorrow</prosody>",
+      "script": "Can we leave the house a bit earlier tomorrow",
+      "label": "leave"
+    },
+    "49": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can we leave the house a bit </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>earlier</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> tomorrow</prosody>",
+      "script": "Can we leave the house a bit earlier tomorrow",
+      "label": "earlier"
+    },
+    "50": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>love</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> reading books in my spare time</prosody>",
+      "script": "I love reading books in my spare time",
+      "label": "love"
+    },
+    "51": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I love </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>reading</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> books in my spare time</prosody>",
+      "script": "I love reading books in my spare time",
+      "label": "reading"
+    },
+    "52": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>seems</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to know a lot about history</prosody>",
+      "script": "He seems to know a lot about history",
+      "label": "seems"
+    },
+    "53": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He seems to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>know</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a lot about history</prosody>",
+      "script": "He seems to know a lot about history",
+      "label": "know"
+    },
+    "54": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>organize</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a surprise party for her</prosody>",
+      "script": "We should organize a surprise party for her",
+      "label": "organize"
+    },
+    "55": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We should organize a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>surprise</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> party for her</prosody>",
+      "script": "We should organize a surprise party for her",
+      "label": "surprise"
+    },
+    "56": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>wants</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to travel to Europe next summer</prosody>",
+      "script": "She wants to travel to Europe next summer",
+      "label": "wants"
+    },
+    "57": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She wants to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>travel</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to Europe next summer</prosody>",
+      "script": "She wants to travel to Europe next summer",
+      "label": "travel"
+    },
+    "58": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They are </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>planning</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to renovate the kitchen soon</prosody>",
+      "script": "They are planning to renovate the kitchen soon",
+      "label": "planning"
+    },
+    "59": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They are planning to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>renovate</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the kitchen soon</prosody>",
+      "script": "They are planning to renovate the kitchen soon",
+      "label": "renovate"
+    },
+    "60": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Would you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>like</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to join me for lunch today</prosody>",
+      "script": "Would you like to join me for lunch today",
+      "label": "like"
+    },
+    "61": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Would you like to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>join</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> me for lunch today</prosody>",
+      "script": "Would you like to join me for lunch today",
+      "label": "join"
+    },
+    "62": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>enjoys</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> playing chess during the weekends</prosody>",
+      "script": "He enjoys playing chess during the weekends",
+      "label": "enjoys"
+    },
+    "63": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He enjoys </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>playing</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> chess during the weekends</prosody>",
+      "script": "He enjoys playing chess during the weekends",
+      "label": "playing"
+    },
+    "64": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>think</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> we should start saving money for a trip</prosody>",
+      "script": "I think we should start saving money for a trip",
+      "label": "think"
+    },
+    "65": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I think we should start </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>saving</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> money for a trip</prosody>",
+      "script": "I think we should start saving money for a trip",
+      "label": "saving"
+    },
+    "66": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>loves</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> going to the beach in the summer</prosody>",
+      "script": "She loves going to the beach in the summer",
+      "label": "loves"
+    },
+    "67": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She loves </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>going</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to the beach in the summer</prosody>",
+      "script": "She loves going to the beach in the summer",
+      "label": "going"
+    },
+    "68": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can we </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>discuss</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> our plans for the holiday</prosody>",
+      "script": "Can we discuss our plans for the holiday",
+      "label": "discuss"
+    },
+    "69": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can we discuss our </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>plans</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> for the holiday</prosody>",
+      "script": "Can we discuss our plans for the holiday",
+      "label": "plans"
+    },
+    "70": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>rarely</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> eats dessert after dinner</prosody>",
+      "script": "He rarely eats dessert after dinner",
+      "label": "rarely"
+    },
+    "71": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He rarely eats </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>dessert</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> after dinner</prosody>",
+      "script": "He rarely eats dessert after dinner",
+      "label": "dessert"
+    },
+    "72": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Do you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>believe</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> we can achieve our goals this year</prosody>",
+      "script": "Do you believe we can achieve our goals this year",
+      "label": "believe"
+    },
+    "73": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Do you believe we can </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>achieve</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> our goals this year</prosody>",
+      "script": "Do you believe we can achieve our goals this year",
+      "label": "achieve"
+    },
+    "74": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>hope</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to finish my book by this weekend</prosody>",
+      "script": "I hope to finish my book by this weekend",
+      "label": "hope"
+    },
+    "75": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I hope to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>finish</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> my book by this weekend</prosody>",
+      "script": "I hope to finish my book by this weekend",
+      "label": "finish"
+    },
+    "76": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>enjoys</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> cooking new recipes every week</prosody>",
+      "script": "She enjoys cooking new recipes every week",
+      "label": "enjoys"
+    },
+    "77": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She enjoys </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>cooking</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> new recipes every week</prosody>",
+      "script": "She enjoys cooking new recipes every week",
+      "label": "cooking"
+    },
+    "78": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>try</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to find a better solution together</prosody>",
+      "script": "We should try to find a better solution together",
+      "label": "try"
+    },
+    "79": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We should try to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>find</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a better solution together</prosody>",
+      "script": "We should try to find a better solution together",
+      "label": "find"
+    },
+    "80": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He doesn't </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>like</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to wake up early in the morning</prosody>",
+      "script": "He doesn't like to wake up early in the morning",
+      "label": "like"
+    },
+    "81": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He doesn't like to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>wake</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> up early in the morning</prosody>",
+      "script": "He doesn't like to wake up early in the morning",
+      "label": "wake"
+    },
+    "82": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>plan</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to study abroad next semester if possible</prosody>",
+      "script": "I plan to study abroad next semester if possible",
+      "label": "plan"
+    },
+    "83": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I plan to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>study</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> abroad next semester if possible</prosody>",
+      "script": "I plan to study abroad next semester if possible",
+      "label": "study"
+    },
+    "84": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can we </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>explore</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the city on our next vacation</prosody>",
+      "script": "Can we explore the city on our next vacation",
+      "label": "explore"
+    },
+    "85": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can we explore the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>city</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> on our next vacation</prosody>",
+      "script": "Can we explore the city on our next vacation",
+      "label": "city"
+    },
+    "86": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They are </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>considering</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> adopting a puppy from the shelter</prosody>",
+      "script": "They are considering adopting a puppy from the shelter",
+      "label": "considering"
+    },
+    "87": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They are considering </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>adopting</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a puppy from the shelter</prosody>",
+      "script": "They are considering adopting a puppy from the shelter",
+      "label": "adopting"
+    },
+    "88": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>think</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> you will really enjoy this concert</prosody>",
+      "script": "I think you will really enjoy this concert",
+      "label": "think"
+    },
+    "89": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I think you will really </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>enjoy</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> this concert</prosody>",
+      "script": "I think you will really enjoy this concert",
+      "label": "enjoy"
+    },
+    "90": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>used</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to play piano when she was younger</prosody>",
+      "script": "She used to play piano when she was younger",
+      "label": "used"
+    },
+    "91": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She used to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>play</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> piano when she was younger</prosody>",
+      "script": "She used to play piano when she was younger",
+      "label": "play"
+    },
+    "92": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>might</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> visit his family for the holidays</prosody>",
+      "script": "He might visit his family for the holidays",
+      "label": "might"
+    },
+    "93": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He might </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>visit</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> his family for the holidays</prosody>",
+      "script": "He might visit his family for the holidays",
+      "label": "visit"
+    },
+    "94": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>tell</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> me more about your project</prosody>",
+      "script": "Can you tell me more about your project",
+      "label": "tell"
+    },
+    "95": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can you tell me </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>more</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> about your project</prosody>",
+      "script": "Can you tell me more about your project",
+      "label": "more"
+    },
+    "96": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We always </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>celebrate</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> his birthday with a big party</prosody>",
+      "script": "We always celebrate his birthday with a big party",
+      "label": "celebrate"
+    },
+    "97": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We always celebrate his </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>birthday</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> with a big party</prosody>",
+      "script": "We always celebrate his birthday with a big party",
+      "label": "birthday"
+    },
+    "98": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>want</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to make a cake for the bake sale</prosody>",
+      "script": "I want to make a cake for the bake sale",
+      "label": "want"
+    },
+    "99": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I want to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>make</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a cake for the bake sale</prosody>",
+      "script": "I want to make a cake for the bake sale",
+      "label": "make"
+    },
+    "100": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>plan</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to watch the game at the stadium</prosody>",
+      "script": "They plan to watch the game at the stadium",
+      "label": "plan"
+    },
+    "101": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They plan to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>watch</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the game at the stadium</prosody>",
+      "script": "They plan to watch the game at the stadium",
+      "label": "watch"
+    },
+    "102": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>decided</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to join a yoga class for relaxation</prosody>",
+      "script": "She decided to join a yoga class for relaxation",
+      "label": "decided"
+    },
+    "103": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She decided to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>join</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a yoga class for relaxation</prosody>",
+      "script": "She decided to join a yoga class for relaxation",
+      "label": "join"
+    },
+    "104": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Do you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>remember</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> where we parked the car</prosody>",
+      "script": "Do you remember where we parked the car",
+      "label": "remember"
+    },
+    "105": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Do you remember where we </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>parked</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the car</prosody>",
+      "script": "Do you remember where we parked the car",
+      "label": "parked"
+    },
+    "106": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He is </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>looking</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> for a new job opportunity abroad</prosody>",
+      "script": "He is looking for a new job opportunity abroad",
+      "label": "looking"
+    },
+    "107": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He is looking for a new job </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>opportunity</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> abroad</prosody>",
+      "script": "He is looking for a new job opportunity abroad",
+      "label": "opportunity"
+    },
+    "108": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>really</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> want to go to the party tonight</prosody>",
+      "script": "I really want to go to the party tonight",
+      "label": "really"
+    },
+    "109": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I really want to go to the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>party</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> tonight</prosody>",
+      "script": "I really want to go to the party tonight",
+      "label": "party"
+    },
+    "110": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>said</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> he would help us with the project</prosody>",
+      "script": "She said he would help us with the project",
+      "label": "said"
+    },
+    "111": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She said he would </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>help</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> us with the project</prosody>",
+      "script": "She said he would help us with the project",
+      "label": "help"
+    },
+    "112": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You can </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>take</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the bus or drive your car</prosody>",
+      "script": "You can take the bus or drive your car",
+      "label": "take"
+    },
+    "113": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You can take the bus or </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>drive</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> your car</prosody>",
+      "script": "You can take the bus or drive your car",
+      "label": "drive"
+    },
+    "114": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We could </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>meet</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> at the cafe or the park</prosody>",
+      "script": "We could meet at the cafe or the park",
+      "label": "meet"
+    },
+    "115": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We could meet at the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>cafe</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> or the park</prosody>",
+      "script": "We could meet at the cafe or the park",
+      "label": "cafe"
+    },
+    "116": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>always</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> enjoy going to the movies together</prosody>",
+      "script": "They always enjoy going to the movies together",
+      "label": "always"
+    },
+    "117": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They always enjoy going to the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>movies</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> together</prosody>",
+      "script": "They always enjoy going to the movies together",
+      "label": "movies"
+    },
+    "118": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>thought</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> she would arrive earlier today</prosody>",
+      "script": "He thought she would arrive earlier today",
+      "label": "thought"
+    },
+    "119": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He thought she would </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>arrive</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> earlier today</prosody>",
+      "script": "He thought she would arrive earlier today",
+      "label": "arrive"
+    },
+    "120": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I can </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>finish</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the report by the end of the week</prosody>",
+      "script": "I can finish the report by the end of the week",
+      "label": "finish"
+    },
+    "121": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I can finish the report by the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>end</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> of the week</prosody>",
+      "script": "I can finish the report by the end of the week",
+      "label": "end"
+    },
+    "122": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>This message is </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>important</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> for our next meeting</prosody>",
+      "script": "This message is important for our next meeting",
+      "label": "important"
+    },
+    "123": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>This message is important for our </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>next</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> meeting</prosody>",
+      "script": "This message is important for our next meeting",
+      "label": "next"
+    },
+    "124": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Do you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>think</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> we should order pizza or sushi</prosody>",
+      "script": "Do you think we should order pizza or sushi",
+      "label": "think"
+    },
+    "125": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Do you think we should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>order</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> pizza or sushi</prosody>",
+      "script": "Do you think we should order pizza or sushi",
+      "label": "order"
+    },
+    "126": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>loves</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to read books in the quiet library</prosody>",
+      "script": "She loves to read books in the quiet library",
+      "label": "loves"
+    },
+    "127": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She loves to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>read</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> books in the quiet library</prosody>",
+      "script": "She loves to read books in the quiet library",
+      "label": "read"
+    },
+    "128": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>usually</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> goes running in the early morning</prosody>",
+      "script": "He usually goes running in the early morning",
+      "label": "usually"
+    },
+    "129": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He usually goes </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>running</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> in the early morning</prosody>",
+      "script": "He usually goes running in the early morning",
+      "label": "running"
+    },
+    "130": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>saw</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> your friend at the gym yesterday</prosody>",
+      "script": "I saw your friend at the gym yesterday",
+      "label": "saw"
+    },
+    "131": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I saw your </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>friend</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> at the gym yesterday</prosody>",
+      "script": "I saw your friend at the gym yesterday",
+      "label": "friend"
+    },
+    "132": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They are </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>planning</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a surprise for her birthday</prosody>",
+      "script": "They are planning a surprise for her birthday",
+      "label": "planning"
+    },
+    "133": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They are planning a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>surprise</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> for her birthday</prosody>",
+      "script": "They are planning a surprise for her birthday",
+      "label": "surprise"
+    },
+    "134": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>believe</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the weather is so nice today</prosody>",
+      "script": "Can you believe the weather is so nice today",
+      "label": "believe"
+    },
+    "135": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can you believe the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>weather</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> is so nice today</prosody>",
+      "script": "Can you believe the weather is so nice today",
+      "label": "weather"
+    },
+    "136": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We need to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>discuss</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the budget for the project</prosody>",
+      "script": "We need to discuss the budget for the project",
+      "label": "discuss"
+    },
+    "137": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We need to discuss the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>budget</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> for the project</prosody>",
+      "script": "We need to discuss the budget for the project",
+      "label": "budget"
+    },
+    "138": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>want</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to learn how to play the guitar</prosody>",
+      "script": "I want to learn how to play the guitar",
+      "label": "want"
+    },
+    "139": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I want to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>learn</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> how to play the guitar</prosody>",
+      "script": "I want to learn how to play the guitar",
+      "label": "learn"
+    },
+    "140": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>always</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> helps his neighbors with their gardens</prosody>",
+      "script": "He always helps his neighbors with their gardens",
+      "label": "always"
+    },
+    "141": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He always helps his </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>neighbors</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> with their gardens</prosody>",
+      "script": "He always helps his neighbors with their gardens",
+      "label": "neighbors"
+    },
+    "142": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>finally</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> finished her painting after weeks</prosody>",
+      "script": "She finally finished her painting after weeks",
+      "label": "finally"
+    },
+    "143": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She finally </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>finished</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> her painting after weeks</prosody>",
+      "script": "She finally finished her painting after weeks",
+      "label": "finished"
+    },
+    "144": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>The kids are </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>excited</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to visit the amusement park</prosody>",
+      "script": "The kids are excited to visit the amusement park",
+      "label": "excited"
+    },
+    "145": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>The kids are excited to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>visit</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the amusement park</prosody>",
+      "script": "The kids are excited to visit the amusement park",
+      "label": "visit"
+    },
+    "146": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>plan</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to travel to Europe next summer</prosody>",
+      "script": "They plan to travel to Europe next summer",
+      "label": "plan"
+    },
+    "147": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They plan to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>travel</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to Europe next summer</prosody>",
+      "script": "They plan to travel to Europe next summer",
+      "label": "travel"
+    },
+    "148": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>can't</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> wait to see what you brought back</prosody>",
+      "script": "I can't wait to see what you brought back",
+      "label": "can't"
+    },
+    "149": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I can't wait to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>see</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> what you brought back</prosody>",
+      "script": "I can't wait to see what you brought back",
+      "label": "see"
+    },
+    "150": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>said</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> he would call me after the meeting</prosody>",
+      "script": "He said he would call me after the meeting",
+      "label": "said"
+    },
+    "151": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He said he would </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>call</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> me after the meeting</prosody>",
+      "script": "He said he would call me after the meeting",
+      "label": "call"
+    },
+    "152": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>really</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> try the new restaurant downtown</prosody>",
+      "script": "You should really try the new restaurant downtown",
+      "label": "really"
+    },
+    "153": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You should really </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>try</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the new restaurant downtown</prosody>",
+      "script": "You should really try the new restaurant downtown",
+      "label": "try"
+    },
+    "154": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She has a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>wonderful</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> voice for singing opera</prosody>",
+      "script": "She has a wonderful voice for singing opera",
+      "label": "wonderful"
+    },
+    "155": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She has a wonderful voice for </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>singing</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> opera</prosody>",
+      "script": "She has a wonderful voice for singing opera",
+      "label": "singing"
+    },
+    "156": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>check</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the schedule for the concert</prosody>",
+      "script": "We should check the schedule for the concert",
+      "label": "check"
+    },
+    "157": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We should check the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>schedule</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> for the concert</prosody>",
+      "script": "We should check the schedule for the concert",
+      "label": "schedule"
+    },
+    "158": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>seems</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to be very interested in studying art</prosody>",
+      "script": "He seems to be very interested in studying art",
+      "label": "seems"
+    },
+    "159": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He seems to be very </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>interested</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> in studying art</prosody>",
+      "script": "He seems to be very interested in studying art",
+      "label": "interested"
+    },
+    "160": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>need</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to find my keys before we leave</prosody>",
+      "script": "I need to find my keys before we leave",
+      "label": "need"
+    },
+    "161": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I need to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>find</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> my keys before we leave</prosody>",
+      "script": "I need to find my keys before we leave",
+      "label": "find"
+    },
+    "162": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They always </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>manage</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to stay positive during tough times</prosody>",
+      "script": "They always manage to stay positive during tough times",
+      "label": "manage"
+    },
+    "163": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They always manage to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>stay</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> positive during tough times</prosody>",
+      "script": "They always manage to stay positive during tough times",
+      "label": "stay"
+    },
+    "164": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Her presentation was </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>incredibly</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> well received by everyone</prosody>",
+      "script": "Her presentation was incredibly well received by everyone",
+      "label": "incredibly"
+    },
+    "165": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Her presentation was incredibly well </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>received</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> by everyone</prosody>",
+      "script": "Her presentation was incredibly well received by everyone",
+      "label": "received"
+    },
+    "166": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I just </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>stopped</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> by to say hello and see you</prosody>",
+      "script": "I just stopped by to say hello and see you",
+      "label": "stopped"
+    },
+    "167": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I just stopped by to say </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>hello</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> and see you</prosody>",
+      "script": "I just stopped by to say hello and see you",
+      "label": "hello"
+    },
+    "168": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>promised</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to help us move this weekend</prosody>",
+      "script": "He promised to help us move this weekend",
+      "label": "promised"
+    },
+    "169": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He promised to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>help</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> us move this weekend</prosody>",
+      "script": "He promised to help us move this weekend",
+      "label": "help"
+    },
+    "170": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>need</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to be careful when crossing the street</prosody>",
+      "script": "You need to be careful when crossing the street",
+      "label": "need"
+    },
+    "171": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You need to be </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>careful</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> when crossing the street</prosody>",
+      "script": "You need to be careful when crossing the street",
+      "label": "careful"
+    },
+    "172": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>always</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> brings her own lunch to work</prosody>",
+      "script": "She always brings her own lunch to work",
+      "label": "always"
+    },
+    "173": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She always </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>brings</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> her own lunch to work</prosody>",
+      "script": "She always brings her own lunch to work",
+      "label": "brings"
+    },
+    "174": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They were </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>discussing</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the latest news about the elections</prosody>",
+      "script": "They were discussing the latest news about the elections",
+      "label": "discussing"
+    },
+    "175": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They were discussing the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>latest</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> news about the elections</prosody>",
+      "script": "They were discussing the latest news about the elections",
+      "label": "latest"
+    },
+    "176": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>think</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> we should choose a different movie to watch</prosody>",
+      "script": "I think we should choose a different movie to watch",
+      "label": "think"
+    },
+    "177": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I think we should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>choose</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a different movie to watch</prosody>",
+      "script": "I think we should choose a different movie to watch",
+      "label": "choose"
+    },
+    "178": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>prefers</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to stay home on rainy weekends</prosody>",
+      "script": "He prefers to stay home on rainy weekends",
+      "label": "prefers"
+    },
+    "179": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He prefers to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>stay</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> home on rainy weekends</prosody>",
+      "script": "He prefers to stay home on rainy weekends",
+      "label": "stay"
+    },
+    "180": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>bought</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a new dress for the wedding tomorrow</prosody>",
+      "script": "She bought a new dress for the wedding tomorrow",
+      "label": "bought"
+    },
+    "181": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She bought a new </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>dress</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> for the wedding tomorrow</prosody>",
+      "script": "She bought a new dress for the wedding tomorrow",
+      "label": "dress"
+    },
+    "182": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We have to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>leave</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> early to avoid the traffic</prosody>",
+      "script": "We have to leave early to avoid the traffic",
+      "label": "leave"
+    },
+    "183": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We have to leave early to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>avoid</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the traffic</prosody>",
+      "script": "We have to leave early to avoid the traffic",
+      "label": "avoid"
+    },
+    "184": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>might</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> enjoy reading this book I recommended</prosody>",
+      "script": "You might enjoy reading this book I recommended",
+      "label": "might"
+    },
+    "185": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You might </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>enjoy</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> reading this book I recommended</prosody>",
+      "script": "You might enjoy reading this book I recommended",
+      "label": "enjoy"
+    },
+    "186": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>likes</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to spend time with his family on Sundays</prosody>",
+      "script": "He likes to spend time with his family on Sundays",
+      "label": "likes"
+    },
+    "187": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He likes to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>spend</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> time with his family on Sundays</prosody>",
+      "script": "He likes to spend time with his family on Sundays",
+      "label": "spend"
+    },
+    "188": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I was </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>thinking</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> about going for a walk after dinner</prosody>",
+      "script": "I was thinking about going for a walk after dinner",
+      "label": "thinking"
+    },
+    "189": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I was thinking about </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>going</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> for a walk after dinner</prosody>",
+      "script": "I was thinking about going for a walk after dinner",
+      "label": "going"
+    },
+    "190": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>decided</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to take a short break during the meeting</prosody>",
+      "script": "They decided to take a short break during the meeting",
+      "label": "decided"
+    },
+    "191": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They decided to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>take</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a short break during the meeting</prosody>",
+      "script": "They decided to take a short break during the meeting",
+      "label": "take"
+    },
+    "192": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>usually</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> works from home on Mondays and Fridays</prosody>",
+      "script": "She usually works from home on Mondays and Fridays",
+      "label": "usually"
+    },
+    "193": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She usually </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>works</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> from home on Mondays and Fridays</prosody>",
+      "script": "She usually works from home on Mondays and Fridays",
+      "label": "works"
+    },
+    "194": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Do you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>want</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to join us for the game tonight</prosody>",
+      "script": "Do you want to join us for the game tonight",
+      "label": "want"
+    },
+    "195": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Do you want to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>join</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> us for the game tonight</prosody>",
+      "script": "Do you want to join us for the game tonight",
+      "label": "join"
+    },
+    "196": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>probably</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> look for a new apartment soon</prosody>",
+      "script": "We should probably look for a new apartment soon",
+      "label": "probably"
+    },
+    "197": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We should probably </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>look</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> for a new apartment soon</prosody>",
+      "script": "We should probably look for a new apartment soon",
+      "label": "look"
+    },
+    "198": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>often</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> forgets to bring his lunch to work</prosody>",
+      "script": "He often forgets to bring his lunch to work",
+      "label": "often"
+    },
+    "199": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He often </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>forgets</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to bring his lunch to work</prosody>",
+      "script": "He often forgets to bring his lunch to work",
+      "label": "forgets"
+    },
+    "200": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>cannot</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> believe how fast this year has gone by</prosody>",
+      "script": "I cannot believe how fast this year has gone by",
+      "label": "cannot"
+    },
+    "201": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I cannot </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>believe</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> how fast this year has gone by</prosody>",
+      "script": "I cannot believe how fast this year has gone by",
+      "label": "believe"
+    },
+    "202": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She is </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>planning</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a trip to the mountains next month</prosody>",
+      "script": "She is planning a trip to the mountains next month",
+      "label": "planning"
+    },
+    "203": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She is planning a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>trip</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to the mountains next month</prosody>",
+      "script": "She is planning a trip to the mountains next month",
+      "label": "trip"
+    },
+    "204": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We need to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>establish</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a clear plan for the project</prosody>",
+      "script": "We need to establish a clear plan for the project",
+      "label": "establish"
+    },
+    "205": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We need to establish a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>clear</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> plan for the project</prosody>",
+      "script": "We need to establish a clear plan for the project",
+      "label": "clear"
+    },
+    "206": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>started</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> learning how to cook Italian food</prosody>",
+      "script": "He started learning how to cook Italian food",
+      "label": "started"
+    },
+    "207": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He started </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>learning</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> how to cook Italian food</prosody>",
+      "script": "He started learning how to cook Italian food",
+      "label": "learning"
+    },
+    "208": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>wish</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> we could travel more often during summer</prosody>",
+      "script": "I wish we could travel more often during summer",
+      "label": "wish"
+    },
+    "209": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I wish we could </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>travel</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> more often during summer</prosody>",
+      "script": "I wish we could travel more often during summer",
+      "label": "travel"
+    },
+    "210": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They were </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>excited</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to hear about the new exhibit</prosody>",
+      "script": "They were excited to hear about the new exhibit",
+      "label": "excited"
+    },
+    "211": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They were excited to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>hear</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> about the new exhibit</prosody>",
+      "script": "They were excited to hear about the new exhibit",
+      "label": "hear"
+    },
+    "212": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>help</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> me find my way to the station</prosody>",
+      "script": "Can you help me find my way to the station",
+      "label": "help"
+    },
+    "213": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can you help me </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>find</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> my way to the station</prosody>",
+      "script": "Can you help me find my way to the station",
+      "label": "find"
+    },
+    "214": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>already</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> sent you the details for the meeting</prosody>",
+      "script": "I already sent you the details for the meeting",
+      "label": "already"
+    },
+    "215": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I already </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>sent</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> you the details for the meeting</prosody>",
+      "script": "I already sent you the details for the meeting",
+      "label": "sent"
+    },
+    "216": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>really</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> want to go to the park today</prosody>",
+      "script": "I really want to go to the park today",
+      "label": "really"
+    },
+    "217": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I really </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>want</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to go to the park today</prosody>",
+      "script": "I really want to go to the park today",
+      "label": "want"
+    },
+    "218": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She can </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>play</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the piano very well</prosody>",
+      "script": "She can play the piano very well",
+      "label": "play"
+    },
+    "219": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She can play the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>piano</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> very well</prosody>",
+      "script": "She can play the piano very well",
+      "label": "piano"
+    },
+    "220": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>definitely</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> try that new restaurant</prosody>",
+      "script": "We should definitely try that new restaurant",
+      "label": "definitely"
+    },
+    "221": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We should definitely </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>try</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> that new restaurant</prosody>",
+      "script": "We should definitely try that new restaurant",
+      "label": "try"
+    },
+    "222": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They are </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>not</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> coming to the party tonight</prosody>",
+      "script": "They are not coming to the party tonight",
+      "label": "not"
+    },
+    "223": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They are not </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>coming</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to the party tonight</prosody>",
+      "script": "They are not coming to the party tonight",
+      "label": "coming"
+    },
+    "224": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You have to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>see</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> that movie everyone is talking about</prosody>",
+      "script": "You have to see that movie everyone is talking about",
+      "label": "see"
+    },
+    "225": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You have to see that </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>movie</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> everyone is talking about</prosody>",
+      "script": "You have to see that movie everyone is talking about",
+      "label": "movie"
+    },
+    "226": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He always </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>forgets</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to bring his lunch to work</prosody>",
+      "script": "He always forgets to bring his lunch to work",
+      "label": "forgets"
+    },
+    "227": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He always forgets to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>bring</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> his lunch to work</prosody>",
+      "script": "He always forgets to bring his lunch to work",
+      "label": "bring"
+    },
+    "228": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>thought</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> you were going to fix the car yesterday</prosody>",
+      "script": "I thought you were going to fix the car yesterday",
+      "label": "thought"
+    },
+    "229": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I thought you were going to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>fix</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the car yesterday</prosody>",
+      "script": "I thought you were going to fix the car yesterday",
+      "label": "fix"
+    },
+    "230": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>That dog seems to be </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>very</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> friendly and playful</prosody>",
+      "script": "That dog seems to be very friendly and playful",
+      "label": "very"
+    },
+    "231": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>That dog seems to be very </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>friendly</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> and playful</prosody>",
+      "script": "That dog seems to be very friendly and playful",
+      "label": "friendly"
+    },
+    "232": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You must </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>finish</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> your homework before dinner</prosody>",
+      "script": "You must finish your homework before dinner",
+      "label": "finish"
+    },
+    "233": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You must finish your </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>homework</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> before dinner</prosody>",
+      "script": "You must finish your homework before dinner",
+      "label": "homework"
+    },
+    "234": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Do you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>really</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> think he can win the game</prosody>",
+      "script": "Do you really think he can win the game",
+      "label": "really"
+    },
+    "235": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Do you really </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>think</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> he can win the game</prosody>",
+      "script": "Do you really think he can win the game",
+      "label": "think"
+    },
+    "236": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I can </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>help</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> you find your keys in the morning</prosody>",
+      "script": "I can help you find your keys in the morning",
+      "label": "help"
+    },
+    "237": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I can help you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>find</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> your keys in the morning</prosody>",
+      "script": "I can help you find your keys in the morning",
+      "label": "find"
+    },
+    "238": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>might</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> go hiking if the weather is nice</prosody>",
+      "script": "We might go hiking if the weather is nice",
+      "label": "might"
+    },
+    "239": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We might go </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>hiking</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> if the weather is nice</prosody>",
+      "script": "We might go hiking if the weather is nice",
+      "label": "hiking"
+    },
+    "240": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>usually</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> wakes up early for work every day</prosody>",
+      "script": "She usually wakes up early for work every day",
+      "label": "usually"
+    },
+    "241": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She usually </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>wakes</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> up early for work every day</prosody>",
+      "script": "She usually wakes up early for work every day",
+      "label": "wakes"
+    },
+    "242": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>The presentation went </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>really</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> well at the meeting</prosody>",
+      "script": "The presentation went really well at the meeting",
+      "label": "really"
+    },
+    "243": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>The presentation went really </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>well</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> at the meeting</prosody>",
+      "script": "The presentation went really well at the meeting",
+      "label": "well"
+    },
+    "244": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>forgot</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to call you after I got home last night</prosody>",
+      "script": "I forgot to call you after I got home last night",
+      "label": "forgot"
+    },
+    "245": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I forgot to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>call</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> you after I got home last night</prosody>",
+      "script": "I forgot to call you after I got home last night",
+      "label": "call"
+    },
+    "246": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They were </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>waiting</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> for us at the restaurant</prosody>",
+      "script": "They were waiting for us at the restaurant",
+      "label": "waiting"
+    },
+    "247": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They were waiting for us at the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>restaurant</prosody><break time='150ms'/>",
+      "script": "They were waiting for us at the restaurant",
+      "label": "restaurant"
+    },
+    "248": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We need to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>decide</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> what to do for vacation</prosody>",
+      "script": "We need to decide what to do for vacation",
+      "label": "decide"
+    },
+    "249": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We need to decide what to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>do</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> for vacation</prosody>",
+      "script": "We need to decide what to do for vacation",
+      "label": "do"
+    },
+    "250": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>saw</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> her at the store buying some groceries</prosody>",
+      "script": "I saw her at the store buying some groceries",
+      "label": "saw"
+    },
+    "251": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I saw her at the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>store</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> buying some groceries</prosody>",
+      "script": "I saw her at the store buying some groceries",
+      "label": "store"
+    },
+    "252": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>please</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> help me with this project</prosody>",
+      "script": "Can you please help me with this project",
+      "label": "please"
+    },
+    "253": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can you please </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>help</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> me with this project</prosody>",
+      "script": "Can you please help me with this project",
+      "label": "help"
+    },
+    "254": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>seems</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to be struggling with the math problem</prosody>",
+      "script": "He seems to be struggling with the math problem",
+      "label": "seems"
+    },
+    "255": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He seems to be </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>struggling</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> with the math problem</prosody>",
+      "script": "He seems to be struggling with the math problem",
+      "label": "struggling"
+    },
+    "256": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Why did she </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>choose</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> that particular dress for the event</prosody>",
+      "script": "Why did she choose that particular dress for the event",
+      "label": "choose"
+    },
+    "257": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Why did she choose that </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>particular</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> dress for the event</prosody>",
+      "script": "Why did she choose that particular dress for the event",
+      "label": "particular"
+    },
+    "258": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Its </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>important</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to stay hydrated during hot weather</prosody>",
+      "script": "Its important to stay hydrated during hot weather",
+      "label": "important"
+    },
+    "259": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Its important to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>stay</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> hydrated during hot weather</prosody>",
+      "script": "Its important to stay hydrated during hot weather",
+      "label": "stay"
+    },
+    "260": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I want to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>learn</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> how to cook new dishes at home</prosody>",
+      "script": "I want to learn how to cook new dishes at home",
+      "label": "learn"
+    },
+    "261": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I want to learn how to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>cook</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> new dishes at home</prosody>",
+      "script": "I want to learn how to cook new dishes at home",
+      "label": "cook"
+    },
+    "262": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Have you ever </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>thought</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> about going back to school</prosody>",
+      "script": "Have you ever thought about going back to school",
+      "label": "thought"
+    },
+    "263": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Have you ever thought about </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>going</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> back to school</prosody>",
+      "script": "Have you ever thought about going back to school",
+      "label": "going"
+    },
+    "264": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>The kids </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>love</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> playing outside in the summer</prosody>",
+      "script": "The kids love playing outside in the summer",
+      "label": "love"
+    },
+    "265": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>The kids love </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>playing</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> outside in the summer</prosody>",
+      "script": "The kids love playing outside in the summer",
+      "label": "playing"
+    },
+    "266": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>really</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> check your email for updates</prosody>",
+      "script": "You should really check your email for updates",
+      "label": "really"
+    },
+    "267": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>You should really </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>check</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> your email for updates</prosody>",
+      "script": "You should really check your email for updates",
+      "label": "check"
+    },
+    "268": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I need to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>pick</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> up my dry cleaning after work</prosody>",
+      "script": "I need to pick up my dry cleaning after work",
+      "label": "pick"
+    },
+    "269": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I need to pick up my dry </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>cleaning</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> after work</prosody>",
+      "script": "I need to pick up my dry cleaning after work",
+      "label": "cleaning"
+    },
+    "270": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We're </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>planning</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to visit family for the holidays</prosody>",
+      "script": "We're planning to visit family for the holidays",
+      "label": "planning"
+    },
+    "271": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We're planning to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>visit</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> family for the holidays</prosody>",
+      "script": "We're planning to visit family for the holidays",
+      "label": "visit"
+    },
+    "272": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>always</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> enjoys reading books in her free time</prosody>",
+      "script": "She always enjoys reading books in her free time",
+      "label": "always"
+    },
+    "273": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She always </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>enjoys</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> reading books in her free time</prosody>",
+      "script": "She always enjoys reading books in her free time",
+      "label": "enjoys"
+    },
+    "274": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>told</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> me he would help with the project tomorrow</prosody>",
+      "script": "He told me he would help with the project tomorrow",
+      "label": "told"
+    },
+    "275": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He told me he would </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>help</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> with the project tomorrow</prosody>",
+      "script": "He told me he would help with the project tomorrow",
+      "label": "help"
+    },
+    "276": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>recommend</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a good place to eat around here</prosody>",
+      "script": "Can you recommend a good place to eat around here",
+      "label": "recommend"
+    },
+    "277": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can you recommend a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>good</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> place to eat around here</prosody>",
+      "script": "Can you recommend a good place to eat around here",
+      "label": "good"
+    },
+    "278": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I have been </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>thinking</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> about starting a new hobby</prosody>",
+      "script": "I have been thinking about starting a new hobby",
+      "label": "thinking"
+    },
+    "279": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I have been thinking about </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>starting</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a new hobby</prosody>",
+      "script": "I have been thinking about starting a new hobby",
+      "label": "starting"
+    },
+    "280": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Is it </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>possible</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to finish this by next week</prosody>",
+      "script": "Is it possible to finish this by next week",
+      "label": "possible"
+    },
+    "281": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Is it possible to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>finish</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> this by next week</prosody>",
+      "script": "Is it possible to finish this by next week",
+      "label": "finish"
+    },
+    "282": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>said</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> they would be here by three oclock</prosody>",
+      "script": "They said they would be here by three oclock",
+      "label": "said"
+    },
+    "283": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They said they would be </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>here</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> by three oclock</prosody>",
+      "script": "They said they would be here by three oclock",
+      "label": "here"
+    },
+    "284": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I really </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>enjoy</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> going to the gym in the evenings</prosody>",
+      "script": "I really enjoy going to the gym in the evenings",
+      "label": "enjoy"
+    },
+    "285": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I really enjoy </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>going</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to the gym in the evenings</prosody>",
+      "script": "I really enjoy going to the gym in the evenings",
+      "label": "going"
+    },
+    "286": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Are you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>planning</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to attend the meeting next Friday</prosody>",
+      "script": "Are you planning to attend the meeting next Friday",
+      "label": "planning"
+    },
+    "287": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Are you planning to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>attend</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the meeting next Friday</prosody>",
+      "script": "Are you planning to attend the meeting next Friday",
+      "label": "attend"
+    },
+    "288": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>loves</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to travel and explore new places</prosody>",
+      "script": "She loves to travel and explore new places",
+      "label": "loves"
+    },
+    "289": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She loves to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>travel</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> and explore new places</prosody>",
+      "script": "She loves to travel and explore new places",
+      "label": "travel"
+    },
+    "290": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>It </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>seems</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> like everyone is busy this weekend</prosody>",
+      "script": "It seems like everyone is busy this weekend",
+      "label": "seems"
+    },
+    "291": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>It seems like </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>everyone</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> is busy this weekend</prosody>",
+      "script": "It seems like everyone is busy this weekend",
+      "label": "everyone"
+    },
+    "292": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>frequently</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> visits the local coffee shop</prosody>",
+      "script": "He frequently visits the local coffee shop",
+      "label": "frequently"
+    },
+    "293": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He frequently </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>visits</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the local coffee shop</prosody>",
+      "script": "He frequently visits the local coffee shop",
+      "label": "visits"
+    },
+    "294": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>What </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>time</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> will you be arriving at the airport</prosody>",
+      "script": "What time will you be arriving at the airport",
+      "label": "time"
+    },
+    "295": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>What time will you be </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>arriving</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> at the airport</prosody>",
+      "script": "What time will you be arriving at the airport",
+      "label": "arriving"
+    },
+    "296": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>wish</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> I could spend more time with my family</prosody>",
+      "script": "I wish I could spend more time with my family",
+      "label": "wish"
+    },
+    "297": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I wish I could </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>spend</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> more time with my family</prosody>",
+      "script": "I wish I could spend more time with my family",
+      "label": "spend"
+    },
+    "298": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She makes the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>best</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> chocolate chip cookies ever</prosody>",
+      "script": "She makes the best chocolate chip cookies ever",
+      "label": "best"
+    },
+    "299": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She makes the best </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>chocolate</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> chip cookies ever</prosody>",
+      "script": "She makes the best chocolate chip cookies ever",
+      "label": "chocolate"
+    },
+    "300": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>There is a </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>big</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> difference between right and wrong</prosody>",
+      "script": "There is a big difference between right and wrong",
+      "label": "big"
+    },
+    "301": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>There is a big </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>difference</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> between right and wrong</prosody>",
+      "script": "There is a big difference between right and wrong",
+      "label": "difference"
+    },
+    "302": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We need to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>plan</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> our trip carefully this time</prosody>",
+      "script": "We need to plan our trip carefully this time",
+      "label": "plan"
+    },
+    "303": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We need to plan our </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>trip</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> carefully this time</prosody>",
+      "script": "We need to plan our trip carefully this time",
+      "label": "trip"
+    },
+    "304": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>The movie was so </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>good</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> that I want to see it again</prosody>",
+      "script": "The movie was so good that I want to see it again",
+      "label": "good"
+    },
+    "305": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>The movie was so good that I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>want</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to see it again</prosody>",
+      "script": "The movie was so good that I want to see it again",
+      "label": "want"
+    },
+    "306": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He went to the store to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>buy</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> some bread and milk</prosody>",
+      "script": "He went to the store to buy some bread and milk",
+      "label": "buy"
+    },
+    "307": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>He went to the store to buy some </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>bread</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> and milk</prosody>",
+      "script": "He went to the store to buy some bread and milk",
+      "label": "bread"
+    },
+    "308": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They are </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>going</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to start a new project next month</prosody>",
+      "script": "They are going to start a new project next month",
+      "label": "going"
+    },
+    "309": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>They are going to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>start</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a new project next month</prosody>",
+      "script": "They are going to start a new project next month",
+      "label": "start"
+    },
+    "310": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>feel</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> like taking a break from work today</prosody>",
+      "script": "I feel like taking a break from work today",
+      "label": "feel"
+    },
+    "311": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I feel like </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>taking</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> a break from work today</prosody>",
+      "script": "I feel like taking a break from work today",
+      "label": "taking"
+    },
+    "312": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We should </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>discuss</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> the plan before making any decisions</prosody>",
+      "script": "We should discuss the plan before making any decisions",
+      "label": "discuss"
+    },
+    "313": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>We should discuss the </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>plan</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> before making any decisions</prosody>",
+      "script": "We should discuss the plan before making any decisions",
+      "label": "plan"
+    },
+    "314": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>show</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> me how to solve this math problem</prosody>",
+      "script": "Can you show me how to solve this math problem",
+      "label": "show"
+    },
+    "315": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>Can you show me how to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>solve</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> this math problem</prosody>",
+      "script": "Can you show me how to solve this math problem",
+      "label": "solve"
+    },
+    "316": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>want</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to know what you think about this idea</prosody>",
+      "script": "I want to know what you think about this idea",
+      "label": "want"
+    },
+    "317": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>I want to know what you </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>think</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> about this idea</prosody>",
+      "script": "I want to know what you think about this idea",
+      "label": "think"
+    },
+    "318": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She is </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>excited</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> to start her new job next week</prosody>",
+      "script": "She is excited to start her new job next week",
+      "label": "excited"
+    },
+    "319": {
+      "voice": "",
+      "style": "<prosody rate='+20%'>She is excited to </prosody><prosody pitch='+20%' volume='x-loud' rate='-30%'>start</prosody><break time='150ms'/><prosody rate='+20%' contour='(0%, -10%) (100%, -30%)'> her new job next week</prosody>",
+      "script": "She is excited to start her new job next week",
+      "label": "start"
+    }
+  }
+}

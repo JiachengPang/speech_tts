@@ -1,0 +1,2093 @@
+{
+    "pause": {
+        "prompt": "Which word is most likely followed by a pause in the audio?",
+        "0": {
+            "voice": "",
+            "style": "I can't believe <break time='1s'/> it's already Friday",
+            "script": "I can't believe it's already Friday",
+            "label": "believe"
+        },
+        "1": {
+            "voice": "",
+            "style": "I can't believe it's already <break time='1s'/> Friday",
+            "script": "I can't believe it's already Friday",
+            "label": "already"
+        },
+        "2": {
+            "voice": "",
+            "style": "Could you please <break time='1s'/> pass me the salt",
+            "script": "Could you please pass me the salt",
+            "label": "please"
+        },
+        "3": {
+            "voice": "",
+            "style": "Could you please pass me <break time='1s'/> the salt",
+            "script": "Could you please pass me the salt",
+            "label": "me"
+        },
+        "4": {
+            "voice": "",
+            "style": "I'm thinking <break time='1s'/> about getting a new phone",
+            "script": "I'm thinking about getting a new phone",
+            "label": "thinking"
+        },
+        "5": {
+            "voice": "",
+            "style": "I'm thinking about <break time='1s'/> getting a new phone",
+            "script": "I'm thinking about getting a new phone",
+            "label": "about"
+        },
+        "6": {
+            "voice": "",
+            "style": "What do you want <break time='1s'/> to do later",
+            "script": "What do you want to do later",
+            "label": "want"
+        },
+        "7": {
+            "voice": "",
+            "style": "What do <break time='1s'/> you want to do later",
+            "script": "What do you want to do later",
+            "label": "do"
+        },
+        "8": {
+            "voice": "",
+            "style": "She loves to read <break time='1s'/> books in her free time",
+            "script": "She loves to read books in her free time",
+            "label": "read"
+        },
+        "9": {
+            "voice": "",
+            "style": "She loves to read books <break time='1s'/> in her free time",
+            "script": "She loves to read books in her free time",
+            "label": "books"
+        },
+        "10": {
+            "voice": "",
+            "style": "Let's meet <break time='1s'/> at the park around five",
+            "script": "Let's meet at the park around five",
+            "label": "meet"
+        },
+        "11": {
+            "voice": "",
+            "style": "Let's meet at the <break time='1s'/> park around five",
+            "script": "Let's meet at the park around five",
+            "label": "the"
+        },
+        "12": {
+            "voice": "",
+            "style": "I have a meeting <break time='1s'/> in the morning don't forget",
+            "script": "I have a meeting in the morning don't forget",
+            "label": "meeting"
+        },
+        "13": {
+            "voice": "",
+            "style": "I have a meeting in the morning <break time='1s'/> don't forget",
+            "script": "I have a meeting in the morning don't forget",
+            "label": "morning"
+        },
+        "14": {
+            "voice": "",
+            "style": "The concert starts <break time='1s'/> at eight let's go early",
+            "script": "The concert starts at eight let's go early",
+            "label": "starts"
+        },
+        "15": {
+            "voice": "",
+            "style": "The concert starts at <break time='1s'/> eight let's go early",
+            "script": "The concert starts at eight let's go early",
+            "label": "at"
+        },
+        "16": {
+            "voice": "",
+            "style": "I think <break time='1s'/> we should try that new restaurant",
+            "script": "I think we should try that new restaurant",
+            "label": "think"
+        },
+        "17": {
+            "voice": "",
+            "style": "I think we should try <break time='1s'/> that new restaurant",
+            "script": "I think we should try that new restaurant",
+            "label": "try"
+        },
+        "18": {
+            "voice": "",
+            "style": "How was your day <break time='1s'/> did you have fun",
+            "script": "How was your day did you have fun",
+            "label": "day"
+        },
+        "19": {
+            "voice": "",
+            "style": "How was your day did you <break time='1s'/> have fun",
+            "script": "How was your day did you have fun",
+            "label": "you"
+        },
+        "20": {
+            "voice": "",
+            "style": "I need to finish <break time='1s'/> my homework by tonight",
+            "script": "I need to finish my homework by tonight",
+            "label": "finish"
+        },
+        "21": {
+            "voice": "",
+            "style": "I need to finish my homework <break time='1s'/> by tonight",
+            "script": "I need to finish my homework by tonight",
+            "label": "homework"
+        },
+        "22": {
+            "voice": "",
+            "style": "Do you want to watch <break time='1s'/> a movie or read a book",
+            "script": "Do you want to watch a movie or read a book",
+            "label": "watch"
+        },
+        "23": {
+            "voice": "",
+            "style": "Do you want to watch a movie or <break time='1s'/> read a book",
+            "script": "Do you want to watch a movie or read a book",
+            "label": "or"
+        },
+        "24": {
+            "voice": "",
+            "style": "It's really important <break time='1s'/> to stay hydrated",
+            "script": "It's really important to stay hydrated",
+            "label": "important"
+        },
+        "25": {
+            "voice": "",
+            "style": "It's really important to stay <break time='1s'/> hydrated",
+            "script": "It's really important to stay hydrated",
+            "label": "stay"
+        },
+        "26": {
+            "voice": "",
+            "style": "Can you believe <break time='1s'/> how fast this year has gone",
+            "script": "Can you believe how fast this year has gone",
+            "label": "believe"
+        },
+        "27": {
+            "voice": "",
+            "style": "Can you believe how fast <break time='1s'/> this year has gone",
+            "script": "Can you believe how fast this year has gone",
+            "label": "fast"
+        },
+        "28": {
+            "voice": "",
+            "style": "I plan to go <break time='1s'/> for a run after work",
+            "script": "I plan to go for a run after work",
+            "label": "go"
+        },
+        "29": {
+            "voice": "",
+            "style": "I plan to go for <break time='1s'/> a run after work",
+            "script": "I plan to go for a run after work",
+            "label": "for"
+        },
+        "30": {
+            "voice": "",
+            "style": "What time <break time='1s'/> does the store close today",
+            "script": "What time does the store close today",
+            "label": "time"
+        },
+        "31": {
+            "voice": "",
+            "style": "What time does the store <break time='1s'/> close today",
+            "script": "What time does the store close today",
+            "label": "store"
+        },
+        "32": {
+            "voice": "",
+            "style": "I bought <break time='1s'/> some fresh fruit from the market",
+            "script": "I bought some fresh fruit from the market",
+            "label": "bought"
+        },
+        "33": {
+            "voice": "",
+            "style": "I bought some fresh <break time='1s'/> fruit from the market",
+            "script": "I bought some fresh fruit from the market",
+            "label": "fresh"
+        },
+        "34": {
+            "voice": "",
+            "style": "He always knows <break time='1s'/> just what to say",
+            "script": "He always knows just what to say",
+            "label": "knows"
+        },
+        "35": {
+            "voice": "",
+            "style": "He always knows just what <break time='1s'/> to say",
+            "script": "He always knows just what to say",
+            "label": "what"
+        },
+        "36": {
+            "voice": "",
+            "style": "We should <break time='1s'/> probably leave a bit early",
+            "script": "We should probably leave a bit early",
+            "label": "should"
+        },
+        "37": {
+            "voice": "",
+            "style": "We should probably leave <break time='1s'/> a bit early",
+            "script": "We should probably leave a bit early",
+            "label": "leave"
+        },
+        "38": {
+            "voice": "",
+            "style": "She enjoys painting <break time='1s'/> landscapes and portraits",
+            "script": "She enjoys painting landscapes and portraits",
+            "label": "painting"
+        },
+        "39": {
+            "voice": "",
+            "style": "She enjoys painting landscapes <break time='1s'/> and portraits",
+            "script": "She enjoys painting landscapes and portraits",
+            "label": "landscapes"
+        },
+        "40": {
+            "voice": "",
+            "style": "I'm considering <break time='1s'/> a trip to Europe this summer",
+            "script": "I'm considering a trip to Europe this summer",
+            "label": "considering"
+        },
+        "41": {
+            "voice": "",
+            "style": "I'm considering a trip <break time='1s'/> to Europe this summer",
+            "script": "I'm considering a trip to Europe this summer",
+            "label": "trip"
+        },
+        "42": {
+            "voice": "",
+            "style": "They say laughter <break time='1s'/> is the best medicine",
+            "script": "They say laughter is the best medicine",
+            "label": "laughter"
+        },
+        "43": {
+            "voice": "",
+            "style": "They say laughter is <break time='1s'/> the best medicine",
+            "script": "They say laughter is the best medicine",
+            "label": "is"
+        },
+        "44": {
+            "voice": "",
+            "style": "I need to call <break time='1s'/> my friend to check in",
+            "script": "I need to call my friend to check in",
+            "label": "call"
+        },
+        "45": {
+            "voice": "",
+            "style": "I need to call my friend <break time='1s'/> to check in",
+            "script": "I need to call my friend to check in",
+            "label": "friend"
+        },
+        "46": {
+            "voice": "",
+            "style": "Have you seen <break time='1s'/> the latest episode of that show",
+            "script": "Have you seen the latest episode of that show",
+            "label": "seen"
+        },
+        "47": {
+            "voice": "",
+            "style": "Have you seen the latest <break time='1s'/> episode of that show",
+            "script": "Have you seen the latest episode of that show",
+            "label": "latest"
+        },
+        "48": {
+            "voice": "",
+            "style": "It's such a nice <break time='1s'/> day for a picnic outside",
+            "script": "It's such a nice day for a picnic outside",
+            "label": "nice"
+        },
+        "49": {
+            "voice": "",
+            "style": "It's such a nice day <break time='1s'/> for a picnic outside",
+            "script": "It's such a nice day for a picnic outside",
+            "label": "day"
+        },
+        "50": {
+            "voice": "",
+            "style": "She has a talent <break time='1s'/> for playing the guitar",
+            "script": "She has a talent for playing the guitar",
+            "label": "talent"
+        },
+        "51": {
+            "voice": "",
+            "style": "She has a talent for <break time='1s'/> playing the guitar",
+            "script": "She has a talent for playing the guitar",
+            "label": "for"
+        },
+        "52": {
+            "voice": "",
+            "style": "Can we stop <break time='1s'/> by the grocery store first",
+            "script": "Can we stop by the grocery store first",
+            "label": "stop"
+        },
+        "53": {
+            "voice": "",
+            "style": "Can we stop by <break time='1s'/> the grocery store first",
+            "script": "Can we stop by the grocery store first",
+            "label": "by"
+        },
+        "54": {
+            "voice": "",
+            "style": "They're planning <break time='1s'/> a surprise party for Alex",
+            "script": "They're planning a surprise party for Alex",
+            "label": "planning"
+        },
+        "55": {
+            "voice": "",
+            "style": "They're planning a surprise <break time='1s'/> party for Alex",
+            "script": "They're planning a surprise party for Alex",
+            "label": "surprise"
+        },
+        "56": {
+            "voice": "",
+            "style": "What do you think <break time='1s'/> about the new policy",
+            "script": "What do you think about the new policy",
+            "label": "think"
+        },
+        "57": {
+            "voice": "",
+            "style": "What do you think about <break time='1s'/> the new policy",
+            "script": "What do you think about the new policy",
+            "label": "about"
+        },
+        "58": {
+            "voice": "",
+            "style": "I finally managed <break time='1s'/> to clean my entire room",
+            "script": "I finally managed to clean my entire room",
+            "label": "managed"
+        },
+        "59": {
+            "voice": "",
+            "style": "I finally managed to clean <break time='1s'/> my entire room",
+            "script": "I finally managed to clean my entire room",
+            "label": "clean"
+        },
+        "60": {
+            "voice": "",
+            "style": "This weather <break time='1s'/> is perfect for a hike",
+            "script": "This weather is perfect for a hike",
+            "label": "weather"
+        },
+        "61": {
+            "voice": "",
+            "style": "This weather is <break time='1s'/> perfect for a hike",
+            "script": "This weather is perfect for a hike",
+            "label": "is"
+        },
+        "62": {
+            "voice": "",
+            "style": "Did you remember <break time='1s'/> to bring your keys",
+            "script": "Did you remember to bring your keys",
+            "label": "remember"
+        },
+        "63": {
+            "voice": "",
+            "style": "Did you remember to bring <break time='1s'/> your keys",
+            "script": "Did you remember to bring your keys",
+            "label": "bring"
+        },
+        "64": {
+            "voice": "",
+            "style": "I really enjoyed <break time='1s'/> that book you lent me",
+            "script": "I really enjoyed that book you lent me",
+            "label": "enjoyed"
+        },
+        "65": {
+            "voice": "",
+            "style": "I really enjoyed that <break time='1s'/> book you lent me",
+            "script": "I really enjoyed that book you lent me",
+            "label": "that"
+        },
+        "66": {
+            "voice": "",
+            "style": "Let's make <break time='1s'/> a plan for the weekend",
+            "script": "Let's make a plan for the weekend",
+            "label": "make"
+        },
+        "67": {
+            "voice": "",
+            "style": "Let's make a plan <break time='1s'/> for the weekend",
+            "script": "Let's make a plan for the weekend",
+            "label": "plan"
+        },
+        "68": {
+            "voice": "",
+            "style": "He's been working <break time='1s'/> hard to achieve his goals",
+            "script": "He's been working hard to achieve his goals",
+            "label": "working"
+        },
+        "69": {
+            "voice": "",
+            "style": "He's been working hard <break time='1s'/> to achieve his goals",
+            "script": "He's been working hard to achieve his goals",
+            "label": "hard"
+        },
+        "70": {
+            "voice": "",
+            "style": "I need to find <break time='1s'/> my glasses before we go",
+            "script": "I need to find my glasses before we go",
+            "label": "find"
+        },
+        "71": {
+            "voice": "",
+            "style": "I need to find my glasses <break time='1s'/> before we go",
+            "script": "I need to find my glasses before we go",
+            "label": "glasses"
+        },
+        "72": {
+            "voice": "",
+            "style": "What's your favorite <break time='1s'/> thing about this city",
+            "script": "What's your favorite thing about this city",
+            "label": "favorite"
+        },
+        "73": {
+            "voice": "",
+            "style": "What's your favorite thing <break time='1s'/> about this city",
+            "script": "What's your favorite thing about this city",
+            "label": "thing"
+        },
+        "74": {
+            "voice": "",
+            "style": "I'd like to try <break time='1s'/> that new coffee shop",
+            "script": "I'd like to try that new coffee shop",
+            "label": "try"
+        },
+        "75": {
+            "voice": "",
+            "style": "I'd like to try that <break time='1s'/> new coffee shop",
+            "script": "I'd like to try that new coffee shop",
+            "label": "that"
+        },
+        "76": {
+            "voice": "",
+            "style": "Can you help <break time='1s'/> me with this project please",
+            "script": "Can you help me with this project please",
+            "label": "help"
+        },
+        "77": {
+            "voice": "",
+            "style": "Can you help me with <break time='1s'/> this project please",
+            "script": "Can you help me with this project please",
+            "label": "with"
+        },
+        "78": {
+            "voice": "",
+            "style": "It seems <break time='1s'/> like everyone is busy lately",
+            "script": "It seems like everyone is busy lately",
+            "label": "seems"
+        },
+        "79": {
+            "voice": "",
+            "style": "It seems like everyone <break time='1s'/> is busy lately",
+            "script": "It seems like everyone is busy lately",
+            "label": "everyone"
+        },
+        "80": {
+            "voice": "",
+            "style": "This movie is based <break time='1s'/> on a true story",
+            "script": "This movie is based on a true story",
+            "label": "based"
+        },
+        "81": {
+            "voice": "",
+            "style": "This movie is based on <break time='1s'/> a true story",
+            "script": "This movie is based on a true story",
+            "label": "on"
+        },
+        "82": {
+            "voice": "",
+            "style": "You have a great <break time='1s'/> sense of humor",
+            "script": "You have a great sense of humor",
+            "label": "great"
+        },
+        "83": {
+            "voice": "",
+            "style": "You have a great sense <break time='1s'/> of humor",
+            "script": "You have a great sense of humor",
+            "label": "sense"
+        },
+        "84": {
+            "voice": "",
+            "style": "We're going <break time='1s'/> to the beach this weekend",
+            "script": "We're going to the beach this weekend",
+            "label": "going"
+        },
+        "85": {
+            "voice": "",
+            "style": "We're going to <break time='1s'/> the beach this weekend",
+            "script": "We're going to the beach this weekend",
+            "label": "to"
+        },
+        "86": {
+            "voice": "",
+            "style": "I have some exciting <break time='1s'/> news to share",
+            "script": "I have some exciting news to share",
+            "label": "exciting"
+        },
+        "87": {
+            "voice": "",
+            "style": "I have some exciting news <break time='1s'/> to share",
+            "script": "I have some exciting news to share",
+            "label": "news"
+        },
+        "88": {
+            "voice": "",
+            "style": "Let's take <break time='1s'/> a moment to appreciate this view",
+            "script": "Let's take a moment to appreciate this view",
+            "label": "take"
+        },
+        "89": {
+            "voice": "",
+            "style": "Let's take a moment <break time='1s'/> to appreciate this view",
+            "script": "Let's take a moment to appreciate this view",
+            "label": "moment"
+        },
+        "90": {
+            "voice": "",
+            "style": "I think <break time='1s'/> I left my bag in the car",
+            "script": "I think I left my bag in the car",
+            "label": "think"
+        },
+        "91": {
+            "voice": "",
+            "style": "I think I left <break time='1s'/> my bag in the car",
+            "script": "I think I left my bag in the car",
+            "label": "left"
+        },
+        "92": {
+            "voice": "",
+            "style": "Do you remember <break time='1s'/> where we parked",
+            "script": "Do you remember where we parked",
+            "label": "remember"
+        },
+        "93": {
+            "voice": "",
+            "style": "Do you remember where <break time='1s'/> we parked",
+            "script": "Do you remember where we parked",
+            "label": "where"
+        },
+        "94": {
+            "voice": "",
+            "style": "The flowers <break time='1s'/> in the garden are blooming beautifully",
+            "script": "The flowers in the garden are blooming beautifully",
+            "label": "flowers"
+        },
+        "95": {
+            "voice": "",
+            "style": "The flowers in <break time='1s'/> the garden are blooming beautifully",
+            "script": "The flowers in the garden are blooming beautifully",
+            "label": "in"
+        },
+        "96": {
+            "voice": "",
+            "style": "Have a safe <break time='1s'/> trip and enjoy your vacation",
+            "script": "Have a safe trip and enjoy your vacation",
+            "label": "safe"
+        },
+        "97": {
+            "voice": "",
+            "style": "Have a safe trip <break time='1s'/> and enjoy your vacation",
+            "script": "Have a safe trip and enjoy your vacation",
+            "label": "trip"
+        },
+        "98": {
+            "voice": "",
+            "style": "I really need <break time='1s'/> to start exercising more",
+            "script": "I really need to start exercising more",
+            "label": "need"
+        },
+        "99": {
+            "voice": "",
+            "style": "I really need to <break time='1s'/> start exercising more",
+            "script": "I really need to start exercising more",
+            "label": "to"
+        },
+        "100": {
+            "voice": "",
+            "style": "What are <break time='1s'/> your plans for the holidays",
+            "script": "What are your plans for the holidays",
+            "label": "are"
+        },
+        "101": {
+            "voice": "",
+            "style": "What are your <break time='1s'/> plans for the holidays",
+            "script": "What are your plans for the holidays",
+            "label": "your"
+        },
+        "102": {
+            "voice": "",
+            "style": "She told <break time='1s'/> me a fascinating story yesterday",
+            "script": "She told me a fascinating story yesterday",
+            "label": "told"
+        },
+        "103": {
+            "voice": "",
+            "style": "She told me <break time='1s'/> a fascinating story yesterday",
+            "script": "She told me a fascinating story yesterday",
+            "label": "me"
+        },
+        "104": {
+            "voice": "",
+            "style": "I want to learn <break time='1s'/> how to cook better meals",
+            "script": "I want to learn how to cook better meals",
+            "label": "learn"
+        },
+        "105": {
+            "voice": "",
+            "style": "I want to learn how <break time='1s'/> to cook better meals",
+            "script": "I want to learn how to cook better meals",
+            "label": "how"
+        },
+        "106": {
+            "voice": "",
+            "style": "It's never <break time='1s'/> too late to start something new",
+            "script": "It's never too late to start something new",
+            "label": "never"
+        },
+        "107": {
+            "voice": "",
+            "style": "It's never too late to <break time='1s'/> start something new",
+            "script": "It's never too late to start something new",
+            "label": "to"
+        },
+        "108": {
+            "voice": "",
+            "style": "The kids are excited <break time='1s'/> for the field trip",
+            "script": "The kids are excited for the field trip",
+            "label": "excited"
+        },
+        "109": {
+            "voice": "",
+            "style": "The kids are excited for <break time='1s'/> the field trip",
+            "script": "The kids are excited for the field trip",
+            "label": "for"
+        },
+        "110": {
+            "voice": "",
+            "style": "I'm really looking <break time='1s'/> forward to the concert",
+            "script": "I'm really looking forward to the concert",
+            "label": "looking"
+        },
+        "111": {
+            "voice": "",
+            "style": "I'm really looking forward <break time='1s'/> to the concert",
+            "script": "I'm really looking forward to the concert",
+            "label": "forward"
+        },
+        "112": {
+            "voice": "",
+            "style": "She has a knack <break time='1s'/> for solving puzzles quickly",
+            "script": "She has a knack for solving puzzles quickly",
+            "label": "knack"
+        },
+        "113": {
+            "voice": "",
+            "style": "She has a knack for <break time='1s'/> solving puzzles quickly",
+            "script": "She has a knack for solving puzzles quickly",
+            "label": "for"
+        },
+        "114": {
+            "voice": "",
+            "style": "I enjoy <break time='1s'/> spending time with my family",
+            "script": "I enjoy spending time with my family",
+            "label": "enjoy"
+        },
+        "115": {
+            "voice": "",
+            "style": "I enjoy spending time <break time='1s'/> with my family",
+            "script": "I enjoy spending time with my family",
+            "label": "time"
+        },
+        "116": {
+            "voice": "",
+            "style": "Would you like <break time='1s'/> to join us for dinner",
+            "script": "Would you like to join us for dinner",
+            "label": "like"
+        },
+        "117": {
+            "voice": "",
+            "style": "Would you like to <break time='1s'/> join us for dinner",
+            "script": "Would you like to join us for dinner",
+            "label": "to"
+        },
+        "118": {
+            "voice": "",
+            "style": "He has a unique <break time='1s'/> perspective on life",
+            "script": "He has a unique perspective on life",
+            "label": "unique"
+        },
+        "119": {
+            "voice": "",
+            "style": "He has a unique perspective <break time='1s'/> on life",
+            "script": "He has a unique perspective on life",
+            "label": "perspective"
+        },
+        "120": {
+            "voice": "",
+            "style": "That sounds <break time='1s'/> like a great idea let's do it",
+            "script": "That sounds like a great idea let's do it",
+            "label": "sounds"
+        },
+        "121": {
+            "voice": "",
+            "style": "That sounds like a great <break time='1s'/> idea let's do it",
+            "script": "That sounds like a great idea let's do it",
+            "label": "great"
+        },
+        "122": {
+            "voice": "",
+            "style": "I'm grateful <break time='1s'/> for all the opportunities I have",
+            "script": "I'm grateful for all the opportunities I have",
+            "label": "grateful"
+        },
+        "123": {
+            "voice": "",
+            "style": "I'm grateful for all <break time='1s'/> the opportunities I have",
+            "script": "I'm grateful for all the opportunities I have",
+            "label": "all"
+        },
+        "124": {
+            "voice": "",
+            "style": "I need to go to the store <break time='1s'/> and buy some groceries",
+            "script": "I need to go to the store and buy some groceries",
+            "label": "store"
+        },
+        "125": {
+            "voice": "",
+            "style": "I need to go to the store and buy <break time='1s'/> some groceries",
+            "script": "I need to go to the store and buy some groceries",
+            "label": "buy"
+        },
+        "126": {
+            "voice": "",
+            "style": "Can you believe how quickly <break time='1s'/> time flies when you are having fun",
+            "script": "Can you believe how quickly time flies when you are having fun",
+            "label": "quickly"
+        },
+        "127": {
+            "voice": "",
+            "style": "Can you believe how quickly time <break time='1s'/> flies when you are having fun",
+            "script": "Can you believe how quickly time flies when you are having fun",
+            "label": "time"
+        },
+        "128": {
+            "voice": "",
+            "style": "She loves to read books <break time='1s'/> about history and science fiction",
+            "script": "She loves to read books about history and science fiction",
+            "label": "books"
+        },
+        "129": {
+            "voice": "",
+            "style": "She loves to read books about <break time='1s'/> history and science fiction",
+            "script": "She loves to read books about history and science fiction",
+            "label": "about"
+        },
+        "130": {
+            "voice": "",
+            "style": "We should probably think <break time='1s'/> about what to do next",
+            "script": "We should probably think about what to do next",
+            "label": "think"
+        },
+        "131": {
+            "voice": "",
+            "style": "We should probably think about <break time='1s'/> what to do next",
+            "script": "We should probably think about what to do next",
+            "label": "about"
+        },
+        "132": {
+            "voice": "",
+            "style": "They were excited <break time='1s'/> to see the new movie that just came out",
+            "script": "They were excited to see the new movie that just came out",
+            "label": "excited"
+        },
+        "133": {
+            "voice": "",
+            "style": "They were excited to see the new movie <break time='1s'/> that just came out",
+            "script": "They were excited to see the new movie that just came out",
+            "label": "movie"
+        },
+        "134": {
+            "voice": "",
+            "style": "I have a meeting <break time='1s'/> tomorrow morning at ten oclock",
+            "script": "I have a meeting tomorrow morning at ten oclock",
+            "label": "meeting"
+        },
+        "135": {
+            "voice": "",
+            "style": "I have a meeting tomorrow morning at ten <break time='1s'/> oclock",
+            "script": "I have a meeting tomorrow morning at ten oclock",
+            "label": "ten"
+        },
+        "136": {
+            "voice": "",
+            "style": "The weather is really nice <break time='1s'/> today for a picnic in the park",
+            "script": "The weather is really nice today for a picnic in the park",
+            "label": "nice"
+        },
+        "137": {
+            "voice": "",
+            "style": "The weather is really nice today for a picnic <break time='1s'/> in the park",
+            "script": "The weather is really nice today for a picnic in the park",
+            "label": "picnic"
+        },
+        "138": {
+            "voice": "",
+            "style": "My friend is coming <break time='1s'/> over later to help me with my project",
+            "script": "My friend is coming over later to help me with my project",
+            "label": "coming"
+        },
+        "139": {
+            "voice": "",
+            "style": "My friend is coming over later to help <break time='1s'/> me with my project",
+            "script": "My friend is coming over later to help me with my project",
+            "label": "help"
+        },
+        "140": {
+            "voice": "",
+            "style": "Have you ever tried cooking <break time='1s'/> Italian food from scratch",
+            "script": "Have you ever tried cooking Italian food from scratch",
+            "label": "cooking"
+        },
+        "141": {
+            "voice": "",
+            "style": "Have you ever tried cooking Italian food <break time='1s'/> from scratch",
+            "script": "Have you ever tried cooking Italian food from scratch",
+            "label": "food"
+        },
+        "142": {
+            "voice": "",
+            "style": "There is a great <break time='1s'/> restaurant on the corner that we should try",
+            "script": "There is a great restaurant on the corner that we should try",
+            "label": "great"
+        },
+        "143": {
+            "voice": "",
+            "style": "There is a great restaurant on the corner <break time='1s'/> that we should try",
+            "script": "There is a great restaurant on the corner that we should try",
+            "label": "corner"
+        },
+        "144": {
+            "voice": "",
+            "style": "I cannot wait for the weekend <break time='1s'/> to finally relax and unwind",
+            "script": "I cannot wait for the weekend to finally relax and unwind",
+            "label": "weekend"
+        },
+        "145": {
+            "voice": "",
+            "style": "I cannot wait for the weekend to finally relax <break time='1s'/> and unwind",
+            "script": "I cannot wait for the weekend to finally relax and unwind",
+            "label": "relax"
+        },
+        "146": {
+            "voice": "",
+            "style": "She always brings the best <break time='1s'/> snacks when she visits us",
+            "script": "She always brings the best snacks when she visits us",
+            "label": "best"
+        },
+        "147": {
+            "voice": "",
+            "style": "She always brings the best snacks <break time='1s'/> when she visits us",
+            "script": "She always brings the best snacks when she visits us",
+            "label": "snacks"
+        },
+        "148": {
+            "voice": "",
+            "style": "He asked if I wanted to join <break time='1s'/> him for the basketball game",
+            "script": "He asked if I wanted to join him for the basketball game",
+            "label": "join"
+        },
+        "149": {
+            "voice": "",
+            "style": "He asked if I wanted to join him for the basketball <break time='1s'/> game",
+            "script": "He asked if I wanted to join him for the basketball game",
+            "label": "basketball"
+        },
+        "150": {
+            "voice": "",
+            "style": "After work we can go for a walk <break time='1s'/> around the city and chat",
+            "script": "After work we can go for a walk around the city and chat",
+            "label": "walk"
+        },
+        "151": {
+            "voice": "",
+            "style": "After work we can go for a walk around <break time='1s'/> the city and chat",
+            "script": "After work we can go for a walk around the city and chat",
+            "label": "around"
+        },
+        "152": {
+            "voice": "",
+            "style": "I think I left <break time='1s'/> my keys on the kitchen counter again",
+            "script": "I think I left my keys on the kitchen counter again",
+            "label": "left"
+        },
+        "153": {
+            "voice": "",
+            "style": "I think I left my keys on the kitchen <break time='1s'/> counter again",
+            "script": "I think I left my keys on the kitchen counter again",
+            "label": "kitchen"
+        },
+        "154": {
+            "voice": "",
+            "style": "Can you please help <break time='1s'/> me find my phone it seems to be missing",
+            "script": "Can you please help me find my phone it seems to be missing",
+            "label": "help"
+        },
+        "155": {
+            "voice": "",
+            "style": "Can you please help me find my phone <break time='1s'/> it seems to be missing",
+            "script": "Can you please help me find my phone it seems to be missing",
+            "label": "phone"
+        },
+        "156": {
+            "voice": "",
+            "style": "The kids were playing <break time='1s'/> outside until it started to rain",
+            "script": "The kids were playing outside until it started to rain",
+            "label": "playing"
+        },
+        "157": {
+            "voice": "",
+            "style": "The kids were playing outside <break time='1s'/> until it started to rain",
+            "script": "The kids were playing outside until it started to rain",
+            "label": "outside"
+        },
+        "158": {
+            "voice": "",
+            "style": "She told me a funny <break time='1s'/> story that made me laugh out loud",
+            "script": "She told me a funny story that made me laugh out loud",
+            "label": "funny"
+        },
+        "159": {
+            "voice": "",
+            "style": "She told me a funny story <break time='1s'/> that made me laugh out loud",
+            "script": "She told me a funny story that made me laugh out loud",
+            "label": "story"
+        },
+        "160": {
+            "voice": "",
+            "style": "They went hiking <break time='1s'/> in the mountains over the long weekend",
+            "script": "They went hiking in the mountains over the long weekend",
+            "label": "hiking"
+        },
+        "161": {
+            "voice": "",
+            "style": "They went hiking in the mountains <break time='1s'/> over the long weekend",
+            "script": "They went hiking in the mountains over the long weekend",
+            "label": "mountains"
+        },
+        "162": {
+            "voice": "",
+            "style": "You should try <break time='1s'/> to get some rest before your big day",
+            "script": "You should try to get some rest before your big day",
+            "label": "try"
+        },
+        "163": {
+            "voice": "",
+            "style": "You should try to get some rest <break time='1s'/> before your big day",
+            "script": "You should try to get some rest before your big day",
+            "label": "rest"
+        },
+        "164": {
+            "voice": "",
+            "style": "I really enjoy <break time='1s'/> listening to music while I work at my desk",
+            "script": "I really enjoy listening to music while I work at my desk",
+            "label": "enjoy"
+        },
+        "165": {
+            "voice": "",
+            "style": "I really enjoy listening to music <break time='1s'/> while I work at my desk",
+            "script": "I really enjoy listening to music while I work at my desk",
+            "label": "music"
+        },
+        "166": {
+            "voice": "",
+            "style": "The concert was amazing <break time='1s'/> and I had such a great time",
+            "script": "The concert was amazing and I had such a great time",
+            "label": "amazing"
+        },
+        "167": {
+            "voice": "",
+            "style": "The concert was amazing and I had such a great <break time='1s'/> time",
+            "script": "The concert was amazing and I had such a great time",
+            "label": "great"
+        },
+        "168": {
+            "voice": "",
+            "style": "She likes to paint <break time='1s'/> in her spare time creating beautiful art",
+            "script": "She likes to paint in her spare time creating beautiful art",
+            "label": "paint"
+        },
+        "169": {
+            "voice": "",
+            "style": "She likes to paint in her spare <break time='1s'/> time creating beautiful art",
+            "script": "She likes to paint in her spare time creating beautiful art",
+            "label": "spare"
+        },
+        "170": {
+            "voice": "",
+            "style": "My family is planning <break time='1s'/> a trip to the beach this summer",
+            "script": "My family is planning a trip to the beach this summer",
+            "label": "planning"
+        },
+        "171": {
+            "voice": "",
+            "style": "My family is planning a trip <break time='1s'/> to the beach this summer",
+            "script": "My family is planning a trip to the beach this summer",
+            "label": "trip"
+        },
+        "172": {
+            "voice": "",
+            "style": "He started a new <break time='1s'/> job last month and he is really happy",
+            "script": "He started a new job last month and he is really happy",
+            "label": "new"
+        },
+        "173": {
+            "voice": "",
+            "style": "He started a new job last month <break time='1s'/> and he is really happy",
+            "script": "He started a new job last month and he is really happy",
+            "label": "month"
+        },
+        "174": {
+            "voice": "",
+            "style": "Have you seen that new <break time='1s'/> show everyone is talking about",
+            "script": "Have you seen that new show everyone is talking about",
+            "label": "new"
+        },
+        "175": {
+            "voice": "",
+            "style": "Have you seen that new show everyone <break time='1s'/> is talking about",
+            "script": "Have you seen that new show everyone is talking about",
+            "label": "everyone"
+        },
+        "176": {
+            "voice": "",
+            "style": "I need to finish <break time='1s'/> my homework before I can go out",
+            "script": "I need to finish my homework before I can go out",
+            "label": "finish"
+        },
+        "177": {
+            "voice": "",
+            "style": "I need to finish my homework <break time='1s'/> before I can go out",
+            "script": "I need to finish my homework before I can go out",
+            "label": "homework"
+        },
+        "178": {
+            "voice": "",
+            "style": "The cake was so delicious <break time='1s'/> that I had to have another slice",
+            "script": "The cake was so delicious that I had to have another slice",
+            "label": "delicious"
+        },
+        "179": {
+            "voice": "",
+            "style": "The cake was so delicious that I had to have another <break time='1s'/> slice",
+            "script": "The cake was so delicious that I had to have another slice",
+            "label": "another"
+        },
+        "180": {
+            "voice": "",
+            "style": "We should definitely catch <break time='1s'/> up over coffee sometime soon",
+            "script": "We should definitely catch up over coffee sometime soon",
+            "label": "catch"
+        },
+        "181": {
+            "voice": "",
+            "style": "We should definitely catch up over coffee <break time='1s'/> sometime soon",
+            "script": "We should definitely catch up over coffee sometime soon",
+            "label": "coffee"
+        },
+        "182": {
+            "voice": "",
+            "style": "I love going <break time='1s'/> for early morning runs when the air is fresh",
+            "script": "I love going for early morning runs when the air is fresh",
+            "label": "going"
+        },
+        "183": {
+            "voice": "",
+            "style": "I love going for early morning <break time='1s'/> runs when the air is fresh",
+            "script": "I love going for early morning runs when the air is fresh",
+            "label": "morning"
+        },
+        "184": {
+            "voice": "",
+            "style": "Can you pick up some milk <break time='1s'/> on your way home from work",
+            "script": "Can you pick up some milk on your way home from work",
+            "label": "milk"
+        },
+        "185": {
+            "voice": "",
+            "style": "Can you pick up some milk on your way <break time='1s'/> home from work",
+            "script": "Can you pick up some milk on your way home from work",
+            "label": "way"
+        },
+        "186": {
+            "voice": "",
+            "style": "The dog loves to play <break time='1s'/> fetch in the backyard every day",
+            "script": "The dog loves to play fetch in the backyard every day",
+            "label": "play"
+        },
+        "187": {
+            "voice": "",
+            "style": "The dog loves to play fetch in the backyard <break time='1s'/> every day",
+            "script": "The dog loves to play fetch in the backyard every day",
+            "label": "backyard"
+        },
+        "188": {
+            "voice": "",
+            "style": "He is trying <break time='1s'/> to learn how to play the guitar by himself",
+            "script": "He is trying to learn how to play the guitar by himself",
+            "label": "trying"
+        },
+        "189": {
+            "voice": "",
+            "style": "He is trying to learn how to play <break time='1s'/> the guitar by himself",
+            "script": "He is trying to learn how to play the guitar by himself",
+            "label": "play"
+        },
+        "190": {
+            "voice": "",
+            "style": "I enjoy going <break time='1s'/> to the farmer's market on Saturdays",
+            "script": "I enjoy going to the farmer's market on Saturdays",
+            "label": "going"
+        },
+        "191": {
+            "voice": "",
+            "style": "I enjoy going to the farmer's market <break time='1s'/> on Saturdays",
+            "script": "I enjoy going to the farmer's market on Saturdays",
+            "label": "market"
+        },
+        "192": {
+            "voice": "",
+            "style": "That was such a good <break time='1s'/> movie I can't wait to watch it again",
+            "script": "That was such a good movie I can't wait to watch it again",
+            "label": "good"
+        },
+        "193": {
+            "voice": "",
+            "style": "That was such a good movie I can't wait <break time='1s'/> to watch it again",
+            "script": "That was such a good movie I can't wait to watch it again",
+            "label": "wait"
+        },
+        "194": {
+            "voice": "",
+            "style": "My sister is visiting <break time='1s'/> from out of town for a few days",
+            "script": "My sister is visiting from out of town for a few days",
+            "label": "visiting"
+        },
+        "195": {
+            "voice": "",
+            "style": "My sister is visiting from out of town <break time='1s'/> for a few days",
+            "script": "My sister is visiting from out of town for a few days",
+            "label": "town"
+        },
+        "196": {
+            "voice": "",
+            "style": "Do you remember <break time='1s'/> the last time we went to that restaurant",
+            "script": "Do you remember the last time we went to that restaurant",
+            "label": "remember"
+        },
+        "197": {
+            "voice": "",
+            "style": "Do you remember the last time <break time='1s'/> we went to that restaurant",
+            "script": "Do you remember the last time we went to that restaurant",
+            "label": "time"
+        },
+        "198": {
+            "voice": "",
+            "style": "She is always so kind <break time='1s'/> and helpful to everyone around her",
+            "script": "She is always so kind and helpful to everyone around her",
+            "label": "kind"
+        },
+        "199": {
+            "voice": "",
+            "style": "She is always so kind and helpful <break time='1s'/> to everyone around her",
+            "script": "She is always so kind and helpful to everyone around her",
+            "label": "helpful"
+        },
+        "200": {
+            "voice": "",
+            "style": "We should plan <break time='1s'/> a road trip for next summer with friends",
+            "script": "We should plan a road trip for next summer with friends",
+            "label": "plan"
+        },
+        "201": {
+            "voice": "",
+            "style": "We should plan a road <break time='1s'/> trip for next summer with friends",
+            "script": "We should plan a road trip for next summer with friends",
+            "label": "road"
+        },
+        "202": {
+            "voice": "",
+            "style": "The flowers in the garden <break time='1s'/> are blooming beautifully this spring",
+            "script": "The flowers in the garden are blooming beautifully this spring",
+            "label": "garden"
+        },
+        "203": {
+            "voice": "",
+            "style": "The flowers in the garden are blooming <break time='1s'/> beautifully this spring",
+            "script": "The flowers in the garden are blooming beautifully this spring",
+            "label": "blooming"
+        },
+        "204": {
+            "voice": "",
+            "style": "I found a really cool <break time='1s'/> book at the library yesterday",
+            "script": "I found a really cool book at the library yesterday",
+            "label": "cool"
+        },
+        "205": {
+            "voice": "",
+            "style": "I found a really cool book at the library <break time='1s'/> yesterday",
+            "script": "I found a really cool book at the library yesterday",
+            "label": "library"
+        },
+        "206": {
+            "voice": "",
+            "style": "It's always nice <break time='1s'/> to take a break and relax for a moment",
+            "script": "It's always nice to take a break and relax for a moment",
+            "label": "nice"
+        },
+        "207": {
+            "voice": "",
+            "style": "It's always nice to take a break <break time='1s'/> and relax for a moment",
+            "script": "It's always nice to take a break and relax for a moment",
+            "label": "break"
+        },
+        "208": {
+            "voice": "",
+            "style": "You should see <break time='1s'/> the view from the top of that hill",
+            "script": "You should see the view from the top of that hill",
+            "label": "see"
+        },
+        "209": {
+            "voice": "",
+            "style": "You should see the view <break time='1s'/> from the top of that hill",
+            "script": "You should see the view from the top of that hill",
+            "label": "view"
+        },
+        "210": {
+            "voice": "",
+            "style": "I can't believe <break time='1s'/> how fast the time flies when you are having fun",
+            "script": "I can't believe how fast the time flies when you are having fun",
+            "label": "believe"
+        },
+        "211": {
+            "voice": "",
+            "style": "I can't believe how fast the time <break time='1s'/> flies when you are having fun",
+            "script": "I can't believe how fast the time flies when you are having fun",
+            "label": "time"
+        },
+        "212": {
+            "voice": "",
+            "style": "I can't believe how fast the time flies <break time='1s'/> when you are having fun",
+            "script": "I can't believe how fast the time flies when you are having fun",
+            "label": "flies"
+        },
+        "213": {
+            "voice": "",
+            "style": "Could you please <break time='1s'/> pass the salt and the pepper",
+            "script": "Could you please pass the salt and the pepper",
+            "label": "please"
+        },
+        "214": {
+            "voice": "",
+            "style": "Could you please pass the salt <break time='1s'/> and the pepper",
+            "script": "Could you please pass the salt and the pepper",
+            "label": "salt"
+        },
+        "215": {
+            "voice": "",
+            "style": "Could you please pass the <break time='1s'/> salt and the pepper",
+            "script": "Could you please pass the salt and the pepper",
+            "label": "the"
+        },
+        "216": {
+            "voice": "",
+            "style": "She went to the store <break time='1s'/> to buy some groceries and then came home",
+            "script": "She went to the store to buy some groceries and then came home",
+            "label": "store"
+        },
+        "217": {
+            "voice": "",
+            "style": "She went to the store to buy some groceries <break time='1s'/> and then came home",
+            "script": "She went to the store to buy some groceries and then came home",
+            "label": "groceries"
+        },
+        "218": {
+            "voice": "",
+            "style": "She went to the store to buy some groceries and then came <break time='1s'/> home",
+            "script": "She went to the store to buy some groceries and then came home",
+            "label": "came"
+        },
+        "219": {
+            "voice": "",
+            "style": "We need to discuss <break time='1s'/> the project details and the timeline",
+            "script": "We need to discuss the project details and the timeline",
+            "label": "discuss"
+        },
+        "220": {
+            "voice": "",
+            "style": "We need to discuss the project details <break time='1s'/> and the timeline",
+            "script": "We need to discuss the project details and the timeline",
+            "label": "details"
+        },
+        "221": {
+            "voice": "",
+            "style": "We need to discuss the <break time='1s'/> project details and the timeline",
+            "script": "We need to discuss the project details and the timeline",
+            "label": "the"
+        },
+        "222": {
+            "voice": "",
+            "style": "I was thinking <break time='1s'/> about going to the beach this weekend",
+            "script": "I was thinking about going to the beach this weekend",
+            "label": "thinking"
+        },
+        "223": {
+            "voice": "",
+            "style": "I was thinking about going to the beach <break time='1s'/> this weekend",
+            "script": "I was thinking about going to the beach this weekend",
+            "label": "beach"
+        },
+        "224": {
+            "voice": "",
+            "style": "I was thinking about going to the beach this <break time='1s'/> weekend",
+            "script": "I was thinking about going to the beach this weekend",
+            "label": "this"
+        },
+        "225": {
+            "voice": "",
+            "style": "It is really important <break time='1s'/> to stay hydrated during the summer months",
+            "script": "It is really important to stay hydrated during the summer months",
+            "label": "important"
+        },
+        "226": {
+            "voice": "",
+            "style": "It is really important to stay hydrated <break time='1s'/> during the summer months",
+            "script": "It is really important to stay hydrated during the summer months",
+            "label": "hydrated"
+        },
+        "227": {
+            "voice": "",
+            "style": "It is really important to stay hydrated during the <break time='1s'/> summer months",
+            "script": "It is really important to stay hydrated during the summer months",
+            "label": "the"
+        },
+        "228": {
+            "voice": "",
+            "style": "The movie we watched <break time='1s'/> last night was surprisingly good",
+            "script": "The movie we watched last night was surprisingly good",
+            "label": "watched"
+        },
+        "229": {
+            "voice": "",
+            "style": "The movie we watched last night <break time='1s'/> was surprisingly good",
+            "script": "The movie we watched last night was surprisingly good",
+            "label": "night"
+        },
+        "230": {
+            "voice": "",
+            "style": "The movie we watched last night was surprisingly <break time='1s'/> good",
+            "script": "The movie we watched last night was surprisingly good",
+            "label": "surprisingly"
+        },
+        "231": {
+            "voice": "",
+            "style": "He always brings <break time='1s'/> the best snacks to the parties we throw",
+            "script": "He always brings the best snacks to the parties we throw",
+            "label": "brings"
+        },
+        "232": {
+            "voice": "",
+            "style": "He always brings the best <break time='1s'/> snacks to the parties we throw",
+            "script": "He always brings the best snacks to the parties we throw",
+            "label": "best"
+        },
+        "233": {
+            "voice": "",
+            "style": "He always brings the <break time='1s'/> best snacks to the parties we throw",
+            "script": "He always brings the best snacks to the parties we throw",
+            "label": "the"
+        },
+        "234": {
+            "voice": "",
+            "style": "Do you want to join <break time='1s'/> us for dinner tonight at the restaurant",
+            "script": "Do you want to join us for dinner tonight at the restaurant",
+            "label": "join"
+        },
+        "235": {
+            "voice": "",
+            "style": "Do you want to join us for <break time='1s'/> dinner tonight at the restaurant",
+            "script": "Do you want to join us for dinner tonight at the restaurant",
+            "label": "for"
+        },
+        "236": {
+            "voice": "",
+            "style": "Do you want to join us for dinner tonight at the <break time='1s'/> restaurant",
+            "script": "Do you want to join us for dinner tonight at the restaurant",
+            "label": "the"
+        },
+        "237": {
+            "voice": "",
+            "style": "I think <break time='1s'/> we should start planning our next vacation soon",
+            "script": "I think we should start planning our next vacation soon",
+            "label": "think"
+        },
+        "238": {
+            "voice": "",
+            "style": "I think we should start planning <break time='1s'/> our next vacation soon",
+            "script": "I think we should start planning our next vacation soon",
+            "label": "planning"
+        },
+        "239": {
+            "voice": "",
+            "style": "I think we should start planning our next <break time='1s'/> vacation soon",
+            "script": "I think we should start planning our next vacation soon",
+            "label": "next"
+        },
+        "240": {
+            "voice": "",
+            "style": "She loves to <break time='1s'/> read books especially mysteries and thrillers",
+            "script": "She loves to read books especially mysteries and thrillers",
+            "label": "to"
+        },
+        "241": {
+            "voice": "",
+            "style": "She loves to read books especially <break time='1s'/> mysteries and thrillers",
+            "script": "She loves to read books especially mysteries and thrillers",
+            "label": "especially"
+        },
+        "242": {
+            "voice": "",
+            "style": "She loves to read books especially mysteries and <break time='1s'/> thrillers",
+            "script": "She loves to read books especially mysteries and thrillers",
+            "label": "and"
+        },
+        "243": {
+            "voice": "",
+            "style": "We have to finish <break time='1s'/> this report by the end of the week",
+            "script": "We have to finish this report by the end of the week",
+            "label": "finish"
+        },
+        "244": {
+            "voice": "",
+            "style": "We have to finish this report <break time='1s'/> by the end of the week",
+            "script": "We have to finish this report by the end of the week",
+            "label": "report"
+        },
+        "245": {
+            "voice": "",
+            "style": "We have to finish this report by the <break time='1s'/> end of the week",
+            "script": "We have to finish this report by the end of the week",
+            "label": "the"
+        },
+        "246": {
+            "voice": "",
+            "style": "After the rain <break time='1s'/> the sun came out and the sky cleared",
+            "script": "After the rain the sun came out and the sky cleared",
+            "label": "rain"
+        },
+        "247": {
+            "voice": "",
+            "style": "After the rain the sun <break time='1s'/> came out and the sky cleared",
+            "script": "After the rain the sun came out and the sky cleared",
+            "label": "sun"
+        },
+        "248": {
+            "voice": "",
+            "style": "After the <break time='1s'/> rain the sun came out and the sky cleared",
+            "script": "After the rain the sun came out and the sky cleared",
+            "label": "the"
+        },
+        "249": {
+            "voice": "",
+            "style": "I forgot <break time='1s'/> to take my keys so I had to go back home",
+            "script": "I forgot to take my keys so I had to go back home",
+            "label": "forgot"
+        },
+        "250": {
+            "voice": "",
+            "style": "I forgot to take <break time='1s'/> my keys so I had to go back home",
+            "script": "I forgot to take my keys so I had to go back home",
+            "label": "take"
+        },
+        "251": {
+            "voice": "",
+            "style": "I forgot to take my keys so I had <break time='1s'/> to go back home",
+            "script": "I forgot to take my keys so I had to go back home",
+            "label": "had"
+        },
+        "252": {
+            "voice": "",
+            "style": "If you are going <break time='1s'/> to the concert don't forget your ticket",
+            "script": "If you are going to the concert don't forget your ticket",
+            "label": "going"
+        },
+        "253": {
+            "voice": "",
+            "style": "If you are going to the <break time='1s'/> concert don't forget your ticket",
+            "script": "If you are going to the concert don't forget your ticket",
+            "label": "the"
+        },
+        "254": {
+            "voice": "",
+            "style": "If you are going to the concert don't forget <break time='1s'/> your ticket",
+            "script": "If you are going to the concert don't forget your ticket",
+            "label": "forget"
+        },
+        "255": {
+            "voice": "",
+            "style": "They say that laughter <break time='1s'/> is the best medicine for the soul",
+            "script": "They say that laughter is the best medicine for the soul",
+            "label": "laughter"
+        },
+        "256": {
+            "voice": "",
+            "style": "They say that laughter is the best <break time='1s'/> medicine for the soul",
+            "script": "They say that laughter is the best medicine for the soul",
+            "label": "best"
+        },
+        "257": {
+            "voice": "",
+            "style": "They say that laughter is the <break time='1s'/> best medicine for the soul",
+            "script": "They say that laughter is the best medicine for the soul",
+            "label": "the"
+        },
+        "258": {
+            "voice": "",
+            "style": "Can you believe <break time='1s'/> how much the world has changed in recent years",
+            "script": "Can you believe how much the world has changed in recent years",
+            "label": "believe"
+        },
+        "259": {
+            "voice": "",
+            "style": "Can you believe how much <break time='1s'/> the world has changed in recent years",
+            "script": "Can you believe how much the world has changed in recent years",
+            "label": "much"
+        },
+        "260": {
+            "voice": "",
+            "style": "Can you believe how much the world has changed <break time='1s'/> in recent years",
+            "script": "Can you believe how much the world has changed in recent years",
+            "label": "changed"
+        },
+        "261": {
+            "voice": "",
+            "style": "I enjoy cooking <break time='1s'/> new recipes especially during the holidays",
+            "script": "I enjoy cooking new recipes especially during the holidays",
+            "label": "cooking"
+        },
+        "262": {
+            "voice": "",
+            "style": "I enjoy cooking new <break time='1s'/> recipes especially during the holidays",
+            "script": "I enjoy cooking new recipes especially during the holidays",
+            "label": "new"
+        },
+        "263": {
+            "voice": "",
+            "style": "I enjoy cooking new recipes especially during the <break time='1s'/> holidays",
+            "script": "I enjoy cooking new recipes especially during the holidays",
+            "label": "the"
+        },
+        "264": {
+            "voice": "",
+            "style": "The flowers in the garden <break time='1s'/> are blooming beautifully this spring",
+            "script": "The flowers in the garden are blooming beautifully this spring",
+            "label": "garden"
+        },
+        "265": {
+            "voice": "",
+            "style": "The flowers in the garden are blooming <break time='1s'/> beautifully this spring",
+            "script": "The flowers in the garden are blooming beautifully this spring",
+            "label": "blooming"
+        },
+        "266": {
+            "voice": "",
+            "style": "The flowers in the garden are blooming beautifully this <break time='1s'/> spring",
+            "script": "The flowers in the garden are blooming beautifully this spring",
+            "label": "this"
+        },
+        "267": {
+            "voice": "",
+            "style": "We should make <break time='1s'/> a list of all the things we need to buy",
+            "script": "We should make a list of all the things we need to buy",
+            "label": "make"
+        },
+        "268": {
+            "voice": "",
+            "style": "We should make a list <break time='1s'/> of all the things we need to buy",
+            "script": "We should make a list of all the things we need to buy",
+            "label": "list"
+        },
+        "269": {
+            "voice": "",
+            "style": "We should make a list of all the things <break time='1s'/> we need to buy",
+            "script": "We should make a list of all the things we need to buy",
+            "label": "things"
+        },
+        "270": {
+            "voice": "",
+            "style": "When the snow <break time='1s'/> falls everything looks so peaceful and white",
+            "script": "When the snow falls everything looks so peaceful and white",
+            "label": "snow"
+        },
+        "271": {
+            "voice": "",
+            "style": "When the snow falls everything <break time='1s'/> looks so peaceful and white",
+            "script": "When the snow falls everything looks so peaceful and white",
+            "label": "everything"
+        },
+        "272": {
+            "voice": "",
+            "style": "When the snow falls everything looks so <break time='1s'/> peaceful and white",
+            "script": "When the snow falls everything looks so peaceful and white",
+            "label": "so"
+        },
+        "273": {
+            "voice": "",
+            "style": "He was really <break time='1s'/> excited about his new job opportunity",
+            "script": "He was really excited about his new job opportunity",
+            "label": "really"
+        },
+        "274": {
+            "voice": "",
+            "style": "He was really excited about <break time='1s'/> his new job opportunity",
+            "script": "He was really excited about his new job opportunity",
+            "label": "about"
+        },
+        "275": {
+            "voice": "",
+            "style": "He was really excited about his new <break time='1s'/> job opportunity",
+            "script": "He was really excited about his new job opportunity",
+            "label": "new"
+        },
+        "276": {
+            "voice": "",
+            "style": "I want to <break time='1s'/> learn how to play the guitar and the piano",
+            "script": "I want to learn how to play the guitar and the piano",
+            "label": "to"
+        },
+        "277": {
+            "voice": "",
+            "style": "I want to learn how to play <break time='1s'/> the guitar and the piano",
+            "script": "I want to learn how to play the guitar and the piano",
+            "label": "play"
+        },
+        "278": {
+            "voice": "",
+            "style": "I want to learn how to play the <break time='1s'/> guitar and the piano",
+            "script": "I want to learn how to play the guitar and the piano",
+            "label": "the"
+        },
+        "279": {
+            "voice": "",
+            "style": "Can you help <break time='1s'/> me find my phone I can't seem to locate it",
+            "script": "Can you help me find my phone I can't seem to locate it",
+            "label": "help"
+        },
+        "280": {
+            "voice": "",
+            "style": "Can you help me find <break time='1s'/> my phone I can't seem to locate it",
+            "script": "Can you help me find my phone I can't seem to locate it",
+            "label": "find"
+        },
+        "281": {
+            "voice": "",
+            "style": "Can you help me find my phone I can't seem <break time='1s'/> to locate it",
+            "script": "Can you help me find my phone I can't seem to locate it",
+            "label": "seem"
+        },
+        "282": {
+            "voice": "",
+            "style": "The kids are playing <break time='1s'/> outside while we prepare dinner",
+            "script": "The kids are playing outside while we prepare dinner",
+            "label": "playing"
+        },
+        "283": {
+            "voice": "",
+            "style": "The kids are playing outside <break time='1s'/> while we prepare dinner",
+            "script": "The kids are playing outside while we prepare dinner",
+            "label": "outside"
+        },
+        "284": {
+            "voice": "",
+            "style": "The kids are playing outside while we <break time='1s'/> prepare dinner",
+            "script": "The kids are playing outside while we prepare dinner",
+            "label": "we"
+        },
+        "285": {
+            "voice": "",
+            "style": "This weekend we will visit <break time='1s'/> the museum and the art gallery",
+            "script": "This weekend we will visit the museum and the art gallery",
+            "label": "visit"
+        },
+        "286": {
+            "voice": "",
+            "style": "This weekend we will visit the museum <break time='1s'/> and the art gallery",
+            "script": "This weekend we will visit the museum and the art gallery",
+            "label": "museum"
+        },
+        "287": {
+            "voice": "",
+            "style": "This weekend we will visit the <break time='1s'/> museum and the art gallery",
+            "script": "This weekend we will visit the museum and the art gallery",
+            "label": "the"
+        },
+        "288": {
+            "voice": "",
+            "style": "I really appreciate <break time='1s'/> all the support you have given me",
+            "script": "I really appreciate all the support you have given me",
+            "label": "appreciate"
+        },
+        "289": {
+            "voice": "",
+            "style": "I really appreciate all the support <break time='1s'/> you have given me",
+            "script": "I really appreciate all the support you have given me",
+            "label": "support"
+        },
+        "290": {
+            "voice": "",
+            "style": "I really appreciate all the support you <break time='1s'/> have given me",
+            "script": "I really appreciate all the support you have given me",
+            "label": "you"
+        },
+        "291": {
+            "voice": "",
+            "style": "He enjoys hiking <break time='1s'/> in the mountains and exploring new trails",
+            "script": "He enjoys hiking in the mountains and exploring new trails",
+            "label": "hiking"
+        },
+        "292": {
+            "voice": "",
+            "style": "He enjoys hiking in the mountains <break time='1s'/> and exploring new trails",
+            "script": "He enjoys hiking in the mountains and exploring new trails",
+            "label": "mountains"
+        },
+        "293": {
+            "voice": "",
+            "style": "He enjoys hiking in the mountains and exploring new <break time='1s'/> trails",
+            "script": "He enjoys hiking in the mountains and exploring new trails",
+            "label": "new"
+        },
+        "294": {
+            "voice": "",
+            "style": "Have you ever tried <break time='1s'/> making homemade pizza with fresh ingredients",
+            "script": "Have you ever tried making homemade pizza with fresh ingredients",
+            "label": "tried"
+        },
+        "295": {
+            "voice": "",
+            "style": "Have you ever tried making homemade <break time='1s'/> pizza with fresh ingredients",
+            "script": "Have you ever tried making homemade pizza with fresh ingredients",
+            "label": "homemade"
+        },
+        "296": {
+            "voice": "",
+            "style": "Have you ever tried making homemade pizza with fresh <break time='1s'/> ingredients",
+            "script": "Have you ever tried making homemade pizza with fresh ingredients",
+            "label": "fresh"
+        },
+        "297": {
+            "voice": "",
+            "style": "The children were laughing <break time='1s'/> and playing games in the yard",
+            "script": "The children were laughing and playing games in the yard",
+            "label": "laughing"
+        },
+        "298": {
+            "voice": "",
+            "style": "The children were laughing and playing <break time='1s'/> games in the yard",
+            "script": "The children were laughing and playing games in the yard",
+            "label": "playing"
+        },
+        "299": {
+            "voice": "",
+            "style": "The children were laughing and playing games <break time='1s'/> in the yard",
+            "script": "The children were laughing and playing games in the yard",
+            "label": "games"
+        },
+        "300": {
+            "voice": "",
+            "style": "I feel like going <break time='1s'/> for a long walk to clear my mind",
+            "script": "I feel like going for a long walk to clear my mind",
+            "label": "going"
+        },
+        "301": {
+            "voice": "",
+            "style": "I feel like going for <break time='1s'/> a long walk to clear my mind",
+            "script": "I feel like going for a long walk to clear my mind",
+            "label": "for"
+        },
+        "302": {
+            "voice": "",
+            "style": "I feel like going for a <break time='1s'/> long walk to clear my mind",
+            "script": "I feel like going for a long walk to clear my mind",
+            "label": "a"
+        },
+        "303": {
+            "voice": "",
+            "style": "This book has so many interesting <break time='1s'/> facts and stories to share",
+            "script": "This book has so many interesting facts and stories to share",
+            "label": "interesting"
+        },
+        "304": {
+            "voice": "",
+            "style": "This book has so many interesting facts <break time='1s'/> and stories to share",
+            "script": "This book has so many interesting facts and stories to share",
+            "label": "facts"
+        },
+        "305": {
+            "voice": "",
+            "style": "This book has so many interesting facts and stories <break time='1s'/> to share",
+            "script": "This book has so many interesting facts and stories to share",
+            "label": "stories"
+        },
+        "306": {
+            "voice": "",
+            "style": "We should definitely <break time='1s'/> catch up sometime over coffee or lunch",
+            "script": "We should definitely catch up sometime over coffee or lunch",
+            "label": "definitely"
+        },
+        "307": {
+            "voice": "",
+            "style": "We should definitely catch up <break time='1s'/> sometime over coffee or lunch",
+            "script": "We should definitely catch up sometime over coffee or lunch",
+            "label": "up"
+        },
+        "308": {
+            "voice": "",
+            "style": "We should definitely catch up sometime over <break time='1s'/> coffee or lunch",
+            "script": "We should definitely catch up sometime over coffee or lunch",
+            "label": "over"
+        },
+        "309": {
+            "voice": "",
+            "style": "I want to try <break time='1s'/> that new restaurant they opened downtown",
+            "script": "I want to try that new restaurant they opened downtown",
+            "label": "try"
+        },
+        "310": {
+            "voice": "",
+            "style": "I want to try that new restaurant <break time='1s'/> they opened downtown",
+            "script": "I want to try that new restaurant they opened downtown",
+            "label": "restaurant"
+        },
+        "311": {
+            "voice": "",
+            "style": "I want to try that new restaurant they opened <break time='1s'/> downtown",
+            "script": "I want to try that new restaurant they opened downtown",
+            "label": "opened"
+        },
+        "312": {
+            "voice": "",
+            "style": "The dog was barking <break time='1s'/> loudly at the mailman passing by",
+            "script": "The dog was barking loudly at the mailman passing by",
+            "label": "barking"
+        },
+        "313": {
+            "voice": "",
+            "style": "The dog was barking loudly <break time='1s'/> at the mailman passing by",
+            "script": "The dog was barking loudly at the mailman passing by",
+            "label": "loudly"
+        },
+        "314": {
+            "voice": "",
+            "style": "The dog was barking loudly at the mailman <break time='1s'/> passing by",
+            "script": "The dog was barking loudly at the mailman passing by",
+            "label": "mailman"
+        },
+        "315": {
+            "voice": "",
+            "style": "Let's meet <break time='1s'/> at the park around three o'clock if that works",
+            "script": "Let's meet at the park around three o'clock if that works",
+            "label": "meet"
+        },
+        "316": {
+            "voice": "",
+            "style": "Let's meet at the park <break time='1s'/> around three o'clock if that works",
+            "script": "Let's meet at the park around three o'clock if that works",
+            "label": "park"
+        },
+        "317": {
+            "voice": "",
+            "style": "Let's meet at the park around three <break time='1s'/> o'clock if that works",
+            "script": "Let's meet at the park around three o'clock if that works",
+            "label": "three"
+        },
+        "318": {
+            "voice": "",
+            "style": "I love exploring <break time='1s'/> new places and experiencing different cultures",
+            "script": "I love exploring new places and experiencing different cultures",
+            "label": "exploring"
+        },
+        "319": {
+            "voice": "",
+            "style": "I love exploring new places <break time='1s'/> and experiencing different cultures",
+            "script": "I love exploring new places and experiencing different cultures",
+            "label": "places"
+        },
+        "320": {
+            "voice": "",
+            "style": "I love exploring new places and experiencing different <break time='1s'/> cultures",
+            "script": "I love exploring new places and experiencing different cultures",
+            "label": "different"
+        },
+        "321": {
+            "voice": "",
+            "style": "She spends her mornings <break time='1s'/> doing yoga and meditation for relaxation",
+            "script": "She spends her mornings doing yoga and meditation for relaxation",
+            "label": "mornings"
+        },
+        "322": {
+            "voice": "",
+            "style": "She spends her mornings doing yoga <break time='1s'/> and meditation for relaxation",
+            "script": "She spends her mornings doing yoga and meditation for relaxation",
+            "label": "yoga"
+        },
+        "323": {
+            "voice": "",
+            "style": "She spends her mornings doing yoga and meditation <break time='1s'/> for relaxation",
+            "script": "She spends her mornings doing yoga and meditation for relaxation",
+            "label": "meditation"
+        },
+        "324": {
+            "voice": "",
+            "style": "The festival is coming <break time='1s'/> up soon and I can't wait to go",
+            "script": "The festival is coming up soon and I can't wait to go",
+            "label": "coming"
+        },
+        "325": {
+            "voice": "",
+            "style": "The festival is coming up soon <break time='1s'/> and I can't wait to go",
+            "script": "The festival is coming up soon and I can't wait to go",
+            "label": "soon"
+        },
+        "326": {
+            "voice": "",
+            "style": "The festival is coming up soon and I can't wait <break time='1s'/> to go",
+            "script": "The festival is coming up soon and I can't wait to go",
+            "label": "wait"
+        },
+        "327": {
+            "voice": "",
+            "style": "I hope you are enjoying <break time='1s'/> your day and feeling great",
+            "script": "I hope you are enjoying your day and feeling great",
+            "label": "enjoying"
+        },
+        "328": {
+            "voice": "",
+            "style": "I hope you are enjoying your day <break time='1s'/> and feeling great",
+            "script": "I hope you are enjoying your day and feeling great",
+            "label": "day"
+        },
+        "329": {
+            "voice": "",
+            "style": "I hope you are enjoying your day and feeling <break time='1s'/> great",
+            "script": "I hope you are enjoying your day and feeling great",
+            "label": "feeling"
+        },
+        "330": {
+            "voice": "",
+            "style": "He bought <break time='1s'/> a new camera to capture beautiful moments",
+            "script": "He bought a new camera to capture beautiful moments",
+            "label": "bought"
+        },
+        "331": {
+            "voice": "",
+            "style": "He bought a new camera <break time='1s'/> to capture beautiful moments",
+            "script": "He bought a new camera to capture beautiful moments",
+            "label": "camera"
+        },
+        "332": {
+            "voice": "",
+            "style": "He bought a new camera to capture <break time='1s'/> beautiful moments",
+            "script": "He bought a new camera to capture beautiful moments",
+            "label": "capture"
+        },
+        "333": {
+            "voice": "",
+            "style": "The team is working <break time='1s'/> hard to achieve their goals this year",
+            "script": "The team is working hard to achieve their goals this year",
+            "label": "working"
+        },
+        "334": {
+            "voice": "",
+            "style": "The team is working hard <break time='1s'/> to achieve their goals this year",
+            "script": "The team is working hard to achieve their goals this year",
+            "label": "hard"
+        },
+        "335": {
+            "voice": "",
+            "style": "The team is working hard to achieve <break time='1s'/> their goals this year",
+            "script": "The team is working hard to achieve their goals this year",
+            "label": "achieve"
+        },
+        "336": {
+            "voice": "",
+            "style": "I found a great <break time='1s'/> recipe for chocolate chip cookies online",
+            "script": "I found a great recipe for chocolate chip cookies online",
+            "label": "great"
+        },
+        "337": {
+            "voice": "",
+            "style": "I found a great recipe <break time='1s'/> for chocolate chip cookies online",
+            "script": "I found a great recipe for chocolate chip cookies online",
+            "label": "recipe"
+        },
+        "338": {
+            "voice": "",
+            "style": "I found a great recipe for chocolate chip cookies <break time='1s'/> online",
+            "script": "I found a great recipe for chocolate chip cookies online",
+            "label": "cookies"
+        },
+        "339": {
+            "voice": "",
+            "style": "The weather has been amazing <break time='1s'/> lately perfect for outdoor activities",
+            "script": "The weather has been amazing lately perfect for outdoor activities",
+            "label": "amazing"
+        },
+        "340": {
+            "voice": "",
+            "style": "The weather has been amazing lately <break time='1s'/> perfect for outdoor activities",
+            "script": "The weather has been amazing lately perfect for outdoor activities",
+            "label": "lately"
+        },
+        "341": {
+            "voice": "",
+            "style": "The weather has been amazing lately perfect for <break time='1s'/> outdoor activities",
+            "script": "The weather has been amazing lately perfect for outdoor activities",
+            "label": "for"
+        },
+        "342": {
+            "voice": "",
+            "style": "We should plan <break time='1s'/> a road trip sometime next month for fun",
+            "script": "We should plan a road trip sometime next month for fun",
+            "label": "plan"
+        },
+        "343": {
+            "voice": "",
+            "style": "We should plan a road <break time='1s'/> trip sometime next month for fun",
+            "script": "We should plan a road trip sometime next month for fun",
+            "label": "road"
+        },
+        "344": {
+            "voice": "",
+            "style": "We should plan a road trip <break time='1s'/> sometime next month for fun",
+            "script": "We should plan a road trip sometime next month for fun",
+            "label": "trip"
+        },
+        "345": {
+            "voice": "",
+            "style": "I was thinking <break time='1s'/> about going to the park later",
+            "script": "I was thinking about going to the park later",
+            "label": "thinking"
+        },
+        "346": {
+            "voice": "",
+            "style": "I was thinking about going <break time='1s'/> to the park later",
+            "script": "I was thinking about going to the park later",
+            "label": "going"
+        },
+        "347": {
+            "voice": "",
+            "style": "I was thinking about going to the park <break time='1s'/> later",
+            "script": "I was thinking about going to the park later",
+            "label": "park"
+        }
+    }
+}

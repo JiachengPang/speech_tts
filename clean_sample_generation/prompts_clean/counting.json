@@ -1,0 +1,801 @@
+{
+    "counting": {
+        "prompt": "How many different speakers are in the audio?",
+        "0": {
+            "dialogue": [
+                "Hello, how can I assist you today?"
+            ],
+            "label": 1
+        },
+        "1": {
+            "dialogue": [
+                "What would you like to know about our services?"
+            ],
+            "label": 1
+        },
+        "2": {
+            "dialogue": [
+                "Is there anything specific you are looking for?"
+            ],
+            "label": 1
+        },
+        "3": {
+            "dialogue": [
+                "Thank you for reaching out to us!"
+            ],
+            "label": 1
+        },
+        "4": {
+            "dialogue": [
+                "We appreciate your feedback and will get back to you shortly."
+            ],
+            "label": 1
+        },
+        "5": {
+            "dialogue": [
+                "Can you please provide your order number?"
+            ],
+            "label": 1
+        },
+        "6": {
+            "dialogue": [
+                "It\u2019s a pleasure to assist you with your inquiry."
+            ],
+            "label": 1
+        },
+        "7": {
+            "dialogue": [
+                "We offer a range of products to suit your needs."
+            ],
+            "label": 1
+        },
+        "8": {
+            "dialogue": [
+                "Would you like to speak to a representative?"
+            ],
+            "label": 1
+        },
+        "9": {
+            "dialogue": [
+                "Our customer service is available twenty-four seven."
+            ],
+            "label": 1
+        },
+        "10": {
+            "dialogue": [
+                "Please hold while I check that information for you."
+            ],
+            "label": 1
+        },
+        "11": {
+            "dialogue": [
+                "I\u2019m here to help you with any questions you might have."
+            ],
+            "label": 1
+        },
+        "12": {
+            "dialogue": [
+                "Let me guide you through the process step by step."
+            ],
+            "label": 1
+        },
+        "13": {
+            "dialogue": [
+                "Could you please confirm your email address?"
+            ],
+            "label": 1
+        },
+        "14": {
+            "dialogue": [
+                "I can send you a confirmation link shortly."
+            ],
+            "label": 1
+        },
+        "15": {
+            "dialogue": [
+                "Thank you for your patience while I gather that information."
+            ],
+            "label": 1
+        },
+        "16": {
+            "dialogue": [
+                "What is the best way to reach you for follow-up?"
+            ],
+            "label": 1
+        },
+        "17": {
+            "dialogue": [
+                "I\u2019ll be happy to assist you with your account issues."
+            ],
+            "label": 1
+        },
+        "18": {
+            "dialogue": [
+                "Please let me know if you need further assistance."
+            ],
+            "label": 1
+        },
+        "19": {
+            "dialogue": [
+                "We look forward to serving you again soon."
+            ],
+            "label": 1
+        },
+        "20": {
+            "dialogue": [
+                "Have a great day ahead!"
+            ],
+            "label": 1
+        },
+        "21": {
+            "dialogue": [
+                "Hello! How are you today?",
+                "I'm doing great, thank you!"
+            ],
+            "label": 2
+        },
+        "22": {
+            "dialogue": [
+                "What are your plans for the weekend?",
+                "I might go hiking if the weather is nice."
+            ],
+            "label": 2
+        },
+        "23": {
+            "dialogue": [
+                "Did you finish that book you were reading?",
+                "Yes, it was amazing! I couldn't put it down."
+            ],
+            "label": 2
+        },
+        "24": {
+            "dialogue": [
+                "How do you like your coffee?",
+                "I prefer it black with no sugar."
+            ],
+            "label": 2
+        },
+        "25": {
+            "dialogue": [
+                "What time is your meeting tomorrow?",
+                "It's scheduled for ten in the morning."
+            ],
+            "label": 2
+        },
+        "26": {
+            "dialogue": [
+                "Have you seen the latest movie?",
+                "Yes, I saw it last weekend. It was fantastic!"
+            ],
+            "label": 2
+        },
+        "27": {
+            "dialogue": [
+                "Are you excited about the concert?",
+                "Absolutely! I've been looking forward to it for weeks."
+            ],
+            "label": 2
+        },
+        "28": {
+            "dialogue": [
+                "What's your favorite season?",
+                "I love autumn for its beautiful colors."
+            ],
+            "label": 2
+        },
+        "29": {
+            "dialogue": [
+                "Do you have any pets?",
+                "Yes, I have a dog named Max."
+            ],
+            "label": 2
+        },
+        "30": {
+            "dialogue": [
+                "How was your trip to the beach?",
+                "It was relaxing and the weather was perfect."
+            ],
+            "label": 2
+        },
+        "31": {
+            "dialogue": [
+                "What kind of music do you enjoy?",
+                "I enjoy a mix of rock and pop music."
+            ],
+            "label": 2
+        },
+        "32": {
+            "dialogue": [
+                "Have you tried the new restaurant on Main Street?",
+                "Not yet, but I've heard great things about it."
+            ],
+            "label": 2
+        },
+        "33": {
+            "dialogue": [
+                "What's your favorite dessert?",
+                "I can't resist a good chocolate cake."
+            ],
+            "label": 2
+        },
+        "34": {
+            "dialogue": [
+                "Are you working on any interesting projects?",
+                "Yes, I'm developing a new app for fitness tracking."
+            ],
+            "label": 2
+        },
+        "35": {
+            "dialogue": [
+                "Do you like to cook?",
+                "I enjoy cooking, especially trying new recipes."
+            ],
+            "label": 2
+        },
+        "36": {
+            "dialogue": [
+                "What do you usually do in your free time?",
+                "I like reading and going for walks."
+            ],
+            "label": 2
+        },
+        "37": {
+            "dialogue": [
+                "Have you been to any good events lately?",
+                "I went to a food festival last week, it was delicious!"
+            ],
+            "label": 2
+        },
+        "38": {
+            "dialogue": [
+                "What are your thoughts on the latest technology trends?",
+                "I find them fascinating and constantly evolving."
+            ],
+            "label": 2
+        },
+        "39": {
+            "dialogue": [
+                "Do you prefer movies or TV shows?",
+                "I enjoy both, but I tend to watch more TV series."
+            ],
+            "label": 2
+        },
+        "40": {
+            "dialogue": [
+                "What was the highlight of your day?",
+                "I had a great conversation with a friend I hadn't seen in ages."
+            ],
+            "label": 2
+        },
+        "41": {
+            "dialogue": [
+                "Hello! How are you today?",
+                "I'm doing well, thank you!",
+                "What about you?"
+            ],
+            "label": 3
+        },
+        "42": {
+            "dialogue": [
+                "Can you help me with this task?",
+                "Sure! What do you need help with?",
+                "Let's get started!"
+            ],
+            "label": 3
+        },
+        "43": {
+            "dialogue": [
+                "I'm thinking about going for a walk.",
+                "That sounds refreshing!",
+                "Would you like to join me?"
+            ],
+            "label": 3
+        },
+        "44": {
+            "dialogue": [
+                "Have you seen my keys?",
+                "I haven't, where did you last have them?",
+                "Let's retrace your steps."
+            ],
+            "label": 3
+        },
+        "45": {
+            "dialogue": [
+                "The weather is nice today.",
+                "Yes, it's perfect for outdoor activities.",
+                "What do you have in mind?"
+            ],
+            "label": 3
+        },
+        "46": {
+            "dialogue": [
+                "I'm planning a dinner party this weekend.",
+                "Sounds fun! What can I bring?",
+                "Maybe some dessert would be nice."
+            ],
+            "label": 3
+        },
+        "47": {
+            "dialogue": [
+                "Did you watch the game last night?",
+                "I did! What an exciting finish!",
+                "I can't believe they won!"
+            ],
+            "label": 3
+        },
+        "48": {
+            "dialogue": [
+                "What book are you reading right now?",
+                "It's a mystery novel, very intriguing!",
+                "I love a good mystery!"
+            ],
+            "label": 3
+        },
+        "49": {
+            "dialogue": [
+                "Are you free to chat later?",
+                "Absolutely! Just let me know when.",
+                "Looking forward to it!"
+            ],
+            "label": 3
+        },
+        "50": {
+            "dialogue": [
+                "I just finished a great movie.",
+                "Oh really? What's it called?",
+                "It\u2019s called 'The Great Escape.'"
+            ],
+            "label": 3
+        },
+        "51": {
+            "dialogue": [
+                "Do you want to grab lunch together?",
+                "That sounds like a great idea!",
+                "Where should we go?"
+            ],
+            "label": 3
+        },
+        "52": {
+            "dialogue": [
+                "I need some advice on a project.",
+                "Of course! What\u2019s the project about?",
+                "Let\u2019s brainstorm some ideas."
+            ],
+            "label": 3
+        },
+        "53": {
+            "dialogue": [
+                "Have you tried that new caf\u00e9 yet?",
+                "Yes, I went there last week!",
+                "What did you think of it?"
+            ],
+            "label": 3
+        },
+        "54": {
+            "dialogue": [
+                "I'm going to the gym after work.",
+                "Nice! I need to catch up on my fitness.",
+                "Want to join me for a workout?"
+            ],
+            "label": 3
+        },
+        "55": {
+            "dialogue": [
+                "What are your plans for the holidays?",
+                "I'm visiting family out of town.",
+                "That sounds lovely!"
+            ],
+            "label": 3
+        },
+        "56": {
+            "dialogue": [
+                "Do you like to cook?",
+                "Yes, I enjoy trying new recipes!",
+                "What's your favorite dish to make?"
+            ],
+            "label": 3
+        },
+        "57": {
+            "dialogue": [
+                "I'm looking for a new hobby.",
+                "That's exciting! What interests you?",
+                "Maybe painting or gardening?"
+            ],
+            "label": 3
+        },
+        "58": {
+            "dialogue": [
+                "Have you heard about the new exhibit downtown?",
+                "I have! It sounds fascinating.",
+                "We should check it out this weekend."
+            ],
+            "label": 3
+        },
+        "59": {
+            "dialogue": [
+                "I'm feeling a bit under the weather.",
+                "I'm sorry to hear that. Take care of yourself!",
+                "Do you need anything?"
+            ],
+            "label": 3
+        },
+        "60": {
+            "dialogue": [
+                "Are you watching the new series on TV?",
+                "Yes, I'm hooked on it!",
+                "What's your favorite part so far?"
+            ],
+            "label": 3
+        },
+        "61": {
+            "dialogue": [
+                "Hello! How are you today?",
+                "I'm doing well, thank you.",
+                "What are your plans for the weekend?",
+                "I might go hiking if the weather is nice."
+            ],
+            "label": 4
+        },
+        "62": {
+            "dialogue": [
+                "Good morning! Did you sleep well?",
+                "Yes, I slept like a baby.",
+                "What do you want for breakfast?",
+                "I'm thinking about pancakes."
+            ],
+            "label": 4
+        },
+        "63": {
+            "dialogue": [
+                "Hey there! Have you seen the latest movie?",
+                "Not yet, but I've heard great things.",
+                "What\u2019s it about?",
+                "It's a thrilling adventure with lots of twists."
+            ],
+            "label": 4
+        },
+        "64": {
+            "dialogue": [
+                "Hi! How was your day at work?",
+                "It was busy, but productive.",
+                "Did you have any meetings?",
+                "Yes, a few important ones."
+            ],
+            "label": 4
+        },
+        "65": {
+            "dialogue": [
+                "Hello! Are you ready for the party?",
+                "Absolutely! I've been looking forward to it.",
+                "What should I bring?",
+                "Maybe some snacks or drinks would be great."
+            ],
+            "label": 4
+        },
+        "66": {
+            "dialogue": [
+                "Hi! What do you think about the new cafe?",
+                "I really like it! The atmosphere is cozy.",
+                "Have you tried their coffee?",
+                "Yes, it's amazing!"
+            ],
+            "label": 4
+        },
+        "67": {
+            "dialogue": [
+                "Greetings! Are you excited for the concert?",
+                "Very much so! I can't wait to see my favorite band.",
+                "Have you got your tickets?",
+                "Yes, I bought them last month."
+            ],
+            "label": 4
+        },
+        "68": {
+            "dialogue": [
+                "Hey! Are you joining us for lunch?",
+                "I would love to! Where are we going?",
+                "How about that new Italian place?",
+                "Sounds perfect to me."
+            ],
+            "label": 4
+        },
+        "69": {
+            "dialogue": [
+                "Hi there! Do you have any weekend plans?",
+                "Not much, just relaxing at home.",
+                "Want to watch a movie together?",
+                "I\u2019d love that! What do you have in mind?"
+            ],
+            "label": 4
+        },
+        "70": {
+            "dialogue": [
+                "Hello! How do you feel about the weather today?",
+                "It's quite nice, isn't it?",
+                "I hope it stays like this for a while.",
+                "Me too, perfect for a picnic."
+            ],
+            "label": 4
+        },
+        "71": {
+            "dialogue": [
+                "Good evening! What are you reading?",
+                "I'm diving into a mystery novel.",
+                "Is it any good?",
+                "Yes, it's full of suspense!"
+            ],
+            "label": 4
+        },
+        "72": {
+            "dialogue": [
+                "Hey! Have you finished your project?",
+                "Almost, just need to wrap up a few details.",
+                "When is the deadline?",
+                "It's due by the end of the week."
+            ],
+            "label": 4
+        },
+        "73": {
+            "dialogue": [
+                "Hi! Can you help me with something?",
+                "Sure, what do you need?",
+                "I\u2019m struggling with this math problem.",
+                "Let\u2019s take a look at it together."
+            ],
+            "label": 4
+        },
+        "74": {
+            "dialogue": [
+                "Hello! Do you want to go for a walk?",
+                "That sounds lovely! Where to?",
+                "Maybe the park by the lake?",
+                "Great idea, I love that place."
+            ],
+            "label": 4
+        },
+        "75": {
+            "dialogue": [
+                "Good morning! Have you heard the news?",
+                "No, what's happened?",
+                "There's a new exhibit at the museum.",
+                "That's exciting! We should check it out."
+            ],
+            "label": 4
+        },
+        "76": {
+            "dialogue": [
+                "Hi! How do you like your new job?",
+                "I'm really enjoying it so far.",
+                "What do you like most about it?",
+                "The team is amazing, and the projects are interesting."
+            ],
+            "label": 4
+        },
+        "77": {
+            "dialogue": [
+                "Hey! What do you want to do tonight?",
+                "How about a game night?",
+                "That sounds fun! Do you have any games in mind?",
+                "Yes, let\u2019s play some board games!"
+            ],
+            "label": 4
+        },
+        "78": {
+            "dialogue": [
+                "Hello! Are you going to the gym later?",
+                "Yes, I have a class scheduled.",
+                "What type of class?",
+                "It's a spin class, should be intense."
+            ],
+            "label": 4
+        },
+        "79": {
+            "dialogue": [
+                "Hi! Did you receive my email?",
+                "Yes, I just read it!",
+                "What do you think?",
+                "It looks great, I\u2019ll respond shortly."
+            ],
+            "label": 4
+        },
+        "80": {
+            "dialogue": [
+                "Good afternoon! Are you feeling alright?",
+                "I\u2019m feeling a bit under the weather.",
+                "Oh no! Do you need anything?",
+                "Just some soup would be nice, thanks!"
+            ],
+            "label": 4
+        },
+        "81": {
+            "dialogue": [
+                "Hello! How are you today?",
+                "I'm doing well, thank you.",
+                "What have you been up to?",
+                "Just the usual work and relaxation.",
+                "Sounds great!"
+            ],
+            "label": 5
+        },
+        "82": {
+            "dialogue": [
+                "Good morning! Did you sleep well?",
+                "Yes, I had a great night's sleep.",
+                "What about you?",
+                "I tossed and turned a bit.",
+                "Hopefully, tonight will be better."
+            ],
+            "label": 5
+        },
+        "83": {
+            "dialogue": [
+                "Hey! Have you seen the new movie?",
+                "Yes, I watched it last weekend.",
+                "What did you think?",
+                "It was amazing! I loved the plot.",
+                "I need to see it soon!"
+            ],
+            "label": 5
+        },
+        "84": {
+            "dialogue": [
+                "Hi there! What's your favorite book?",
+                "I really enjoy fantasy novels.",
+                "Do you have a favorite author?",
+                "J.K. Rowling is definitely one of them.",
+                "I love her work too!"
+            ],
+            "label": 5
+        },
+        "85": {
+            "dialogue": [
+                "Hello! What do you like to do in your free time?",
+                "I enjoy hiking and reading.",
+                "That sounds nice. Where do you hike?",
+                "There are some beautiful trails nearby.",
+                "I should join you sometime!"
+            ],
+            "label": 5
+        },
+        "86": {
+            "dialogue": [
+                "Hey! How's the weather today?",
+                "It's sunny and warm.",
+                "Perfect day for a picnic!",
+                "Absolutely! Do you want to go?",
+                "I'd love that!"
+            ],
+            "label": 5
+        },
+        "87": {
+            "dialogue": [
+                "Good afternoon! Are you busy?",
+                "Not really, just finishing some work.",
+                "Want to grab coffee later?",
+                "Sure, that sounds great!",
+                "Let's meet at three o'clock."
+            ],
+            "label": 5
+        },
+        "88": {
+            "dialogue": [
+                "Hi! Have you heard the latest news?",
+                "Yes, it's quite surprising!",
+                "What do you think about it?",
+                "I think it's going to change a lot.",
+                "Agreed, it's a big deal."
+            ],
+            "label": 5
+        },
+        "89": {
+            "dialogue": [
+                "Hello! What did you think of the concert?",
+                "It was fantastic! The band was on fire.",
+                "I wish I could have gone.",
+                "You should definitely come next time.",
+                "I'll make sure to get tickets!"
+            ],
+            "label": 5
+        },
+        "90": {
+            "dialogue": [
+                "Hey there! What's your favorite season?",
+                "I love autumn with the falling leaves.",
+                "It's beautiful, isn't it?",
+                "Yes, and the weather is perfect too.",
+                "I enjoy the cozy vibe."
+            ],
+            "label": 5
+        },
+        "91": {
+            "dialogue": [
+                "Good evening! Are you cooking tonight?",
+                "Yes, I'm trying a new recipe.",
+                "What are you making?",
+                "Pasta with homemade sauce.",
+                "That sounds delicious!"
+            ],
+            "label": 5
+        },
+        "92": {
+            "dialogue": [
+                "Hi! How was your weekend?",
+                "It was relaxing. I spent time with family.",
+                "That's nice! Any highlights?",
+                "We went to the beach.",
+                "Sounds like a fun time!"
+            ],
+            "label": 5
+        },
+        "93": {
+            "dialogue": [
+                "Hello! Do you like to travel?",
+                "Absolutely, I love exploring new places.",
+                "What's your dream destination?",
+                "I'd love to visit Japan.",
+                "That would be an amazing experience!"
+            ],
+            "label": 5
+        },
+        "94": {
+            "dialogue": [
+                "Hey! Have you tried that new restaurant?",
+                "Not yet, but I've heard good things.",
+                "We should go together!",
+                "I\u2019d love to! Let\u2019s plan it.",
+                "How about this weekend?"
+            ],
+            "label": 5
+        },
+        "95": {
+            "dialogue": [
+                "Good morning! What's on your agenda today?",
+                "I have a meeting and some errands to run.",
+                "Hope it goes smoothly!",
+                "Thanks! I'll need it.",
+                "Let\u2019s catch up later."
+            ],
+            "label": 5
+        },
+        "96": {
+            "dialogue": [
+                "Hi! What\u2019s your favorite type of music?",
+                "I enjoy rock and indie.",
+                "Nice! Any favorite bands?",
+                "I love Coldplay and The Killers.",
+                "Great choices!"
+            ],
+            "label": 5
+        },
+        "97": {
+            "dialogue": [
+                "Hello! Do you have any pets?",
+                "Yes, I have a dog named Max.",
+                "What breed is he?",
+                "He's a golden retriever.",
+                "How adorable!"
+            ],
+            "label": 5
+        },
+        "98": {
+            "dialogue": [
+                "Hey! What are you currently binge-watching?",
+                "I'm hooked on a new thriller series.",
+                "Oh, which one?",
+                "It's called 'The Night Manager.'",
+                "I've heard it's really good!"
+            ],
+            "label": 5
+        },
+        "99": {
+            "dialogue": [
+                "Good afternoon! How's your project going?",
+                "It's progressing well, thank you.",
+                "That\u2019s good to hear! Need any help?",
+                "Not at the moment, but I appreciate it.",
+                "Any deadlines coming up?"
+            ],
+            "label": 5
+        }
+    }
+}
